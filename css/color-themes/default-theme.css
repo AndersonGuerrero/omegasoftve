@@ -1,0 +1,134 @@
+/* Color */
+
+.btn-style-one:hover,
+.btn-style-three:hover,
+.btn-style-four,
+.main-header .header-top .info li a,
+.header-style-two .options-box .search-box .search-box-btn,
+.header-style-two .options-box .lang-box .lang-btn,
+.main-header .options-box .lang-box .dropdown-menu > li > a,
+.sec-title h1,
+.sec-title-two h1,
+.about-section .left-column h2,
+.about-section .left-column .info,
+.about-section .right-column .link-box a,
+.service-block-one h3,
+.service-block-one h3 a,
+.why-we .text-column h2,
+.list-style-one li,
+.news-block-one h3,
+.news-block-one h3 a,
+.news-block-one .post-info,
+.main-footer .footer-upper h3,
+.service-block-two h3,
+.service-block-two h3 a,
+.service-block-three h3,
+.service-block-three h3 a,
+.team-block h3,
+.team-block h3 a,
+.accordion-box .block .acc-btn,
+.news-block-two h3,
+.news-block-two h3 a,
+.default-section .fun-facts .count-outer,
+.page-title h1,
+.about-three .title-column h2,
+.history-block-one h3,
+.history-block-one h3 a,
+.funfacts-section .fun-facts .count-outer,
+.testimonials-three .load-more a,
+.sidebar .search-box .form-group button,
+.latest-posts .post h4,
+.latest-posts .post h4 a,
+.blog-detail .inner-box h2,
+.author-box .author-comment .inner-box h3,
+.sidebar-page-container .group-title h2,
+.comments-area .comment-box strong,
+.faq-tabs .tab .faq-block h3,
+.mixitup-gallery .filters li.active,
+.mixitup-gallery .filters li:hover,
+.case-block-three .inner-box h3,
+.case-block-three .inner-box h3 a,
+.case-block-three .inner-box .link-box a,
+.gallery-section .load-more a,
+.styled-pagination li a,
+.service-block-four h3,
+.service-block-four h3 a,
+.service-block-four .post-info,
+.service-single h2,
+.careers-page .left-side h3,
+.careers-page .left-side .jobs-widget ul li:hover a,
+.careers-page .left-side .jobs-widget ul li.current a,
+.careers-page .career-block h2,
+.careers-page .load-more a{
+	color:#00325d;
+}
+
+.sticky-header .main-menu .navigation > li > a{
+	color:#00325d !important;	
+}
+
+
+/*Background Color*/
+
+.btn-style-three,
+.main-header .main-box,
+.main-header .header-upper,
+.main-menu .navigation > li > ul > li:hover > a,
+.main-menu .navigation > li > ul > li > ul > li:hover > a,
+.main-header .options-box .lang-box .dropdown-menu > li > a:hover,
+.main-header .options-box .lang-box .dropdown-menu > li > a:focus,
+.testimonials-section:before,
+.cases-section .cases-carousel .owl-dots .owl-dot.active span,
+.sponsors-section,
+.footer-style-two,
+.footer-style-two .footer-bottom,
+.call-to-action,
+.fullwidth-section:before,
+.fullwidth-section .content-column,
+.callback-box .callback-header,
+.about-four,
+.faq-tabs .tab-buttons .tab-btn:hover,
+.faq-tabs .tab-buttons .tab-btn.active-btn,
+.comming-soon:before,
+.subscribe-section .subscribe-form .form-group input[type="submit"],
+.subscribe-section .subscribe-form button,
+.service-single .nav-side ul li:hover a,
+.service-single .nav-side ul li.current a,
+.careers-page .search-form .form-group input[type="submit"],
+.careers-page .search-form button,
+.info-section{
+	background-color:#00325d;
+}
+
+/*RGBA Color*/
+
+.main-header .header-lower{
+	background:rgba(0,50,93,1.00);	
+}
+
+.default-case-block .inner-box .overlay-content,
+.case-block-two .hover-box .hover-content,
+.case-block-two .title-box .title-content{
+	background:rgba(0,50,93,0.80);	
+}
+
+.statistics-section .content-column:before,
+.why-us .content-column:before{
+	background:rgba(0,50,93,0.90);	
+}
+
+/*Border Color*/
+
+.btn-style-three,
+.btn-style-three:hover,
+.main-header .info-box:before,
+.cases-section .cases-carousel .owl-dots .owl-dot span,
+.faq-tabs .tab-buttons .tab-btn:hover,
+.faq-tabs .tab-buttons .tab-btn.active-btn,
+.subscribe-section .subscribe-form .form-group input[type="text"],
+.subscribe-section .subscribe-form .form-group input[type="tel"],
+.subscribe-section .subscribe-form .form-group input[type="email"],
+.subscribe-section .subscribe-form .form-group textarea,
+.styled-pagination li a{
+	border-color:#00325d;
+}

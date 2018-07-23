@@ -1,0 +1,329 @@
+/* Initialize Variables */
+body {
+  background-color: #111111;
+  color: #ffffff; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #eeeeee !important; }
+  h1 small,
+  h1 .small, h2 small,
+  h2 .small, h3 small,
+  h3 .small, h4 small,
+  h4 .small, h5 small,
+  h5 .small, h6 small,
+  h6 .small,
+  .h1 small,
+  .h1 .small, .h2 small,
+  .h2 .small, .h3 small,
+  .h3 .small, .h4 small,
+  .h4 .small, .h5 small,
+  .h5 .small, .h6 small,
+  .h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #eeeeee !important; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+  .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
+    color: #eeeeee !important; }
+
+a {
+  color: #eeeeee !important; }
+
+.dropdown-content {
+  background-color: gray; }
+
+.header-middle,
+.our-shop,
+.ulockd-testimonial,
+.ulockd-blog,
+.ulockd-ffact-one {
+  background-color: transparent !important; }
+
+.header-nav .main-header-nav.navbar-scrolltofixed {
+  background-color: #111111; }
+
+.ulockd-ffact-one {
+  border: 1px solid #bbbbbb; }
+
+.dropbtn,
+.ulockd-ffact-one p,
+.list-style-circle li,
+.timer {
+  color: #ffffff !important; }
+
+nav.navbar.bootsnav.menu-style1 ul.nav li a.active,
+nav.navbar.bootsnav.menu-style1 ul.nav li a:hover,
+nav.navbar.bootsnav.menu-style1 ul.nav li a:focus,
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu li a:focus {
+  color: #ffffff !important; }
+
+nav.navbar.bootsnav ul.nav li a.active,
+nav.navbar.bootsnav ul.nav li a:hover,
+nav.navbar.bootsnav ul.nav li a:focus {
+  color: #bbbbbb !important; }
+
+.fixedup .navbar-scrolltofixed.scroll-to-fixed-fixed,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background-color: #111111; }
+
+nav.navbar.bootsnav,
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
+  background-color: #111111; }
+
+nav.navbar.bootsnav.menu-style1 ul.nav li a {
+  color: #bbbbbb !important; }
+
+nav.singlepage-dark,
+.multipage-dark,
+.header-top,
+.bgc-whitef3,
+.bgc-whitef8,
+.bgc-whitef0 {
+  background-color: #111111 !important; }
+
+.bgc-white,
+.team-grid .details,
+.ulockd-testimonials {
+  background-color: #555555 !important; }
+
+.ulockd-divider-thumb {
+  background-color: #DCDCDC !important; }
+
+form.ulockd-login-form, form.ulockd-reg-form {
+  background-color: gray; }
+
+@media only screen and (max-width: 992px) {
+  .ulockd-main-logo2 > img {
+    margin-top: 10px; }
+
+  .bgc-rdark {
+    background-color: #111111 !important; } }
+@media only screen and (max-width: 992px) {
+  nav.menu-style1,
+  nav.navbar.bootsnav .navbar-toggle {
+    background-color: transparent !important; } }
+.our-service {
+  background-color: darkgreen; }
+
+.modal-content,
+.blog-post,
+.bgc-snowshade2,
+.signup_form {
+  background-color: #111111; }
+
+.bgc-snowshade {
+  background-color: #000; }
+
+.img-box,
+.team_member,
+.blog_post,
+.search-box {
+  background-color: darkcyan; }
+
+.service-two,
+.ficon-box,
+.team-one {
+  background-color: transparent; }
+
+.bp-details {
+  background-color: transparent !important;
+  border: 1px solid #bbbbbb; }
+
+.color-black33 {
+  color: #ffffff !important; }
+
+form.appointment_form,
+.footer-fst-col p,
+.twitter.style2 ul li,
+.ftr-phone,
+.ftr-fax,
+.ftr-mail,
+.footer-contact p {
+  color: gray; }
+
+/* BackGround Color White Overlay */
+.bgc-overlay-white5:before {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white55:before {
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white6:before {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white65:before {
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white7:before {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white75:before {
+  background-color: rgba(0, 0, 0, 0.75);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white8:before {
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white85:before {
+  background-color: rgba(0, 0, 0, 0.85);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white9:before {
+  background-color: rgba(0, 0, 0, 0.9);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-white95:before {
+  background-color: rgba(0, 0, 0, 0.95);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* BackGround Color Black Overlay */
+.bgc-overlay-black5:before {
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black55:before {
+  background-color: rgba(255, 255, 255, 0.55);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black6:before {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black65:before {
+  background-color: rgba(255, 255, 255, 0.65);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black7:before {
+  background-color: rgba(255, 255, 255, 0.7);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black75:before {
+  background-color: rgba(255, 255, 255, 0.75);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black8:before {
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black85:before {
+  background-color: rgba(255, 255, 255, 0.85);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black9:before {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgc-overlay-black95:before {
+  background-color: rgba(255, 255, 255, 0.95);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/*# sourceMappingURL=dark.css.map */
