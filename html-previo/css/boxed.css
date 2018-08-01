@@ -1,0 +1,51 @@
+/* Initialize Variables */
+body {
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  width: 1200px; }
+
+section,
+.header-middle,
+.ulockd-feature-box,
+.ulockd-fservice,
+.ulockd-service,
+.ulockd-team,
+.ulockd-about,
+.ulockd-team-two,
+.ulockd-about2,
+.our-team,
+.ulockd-contact {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.main-slider2 .caption {
+  padding: 12% 18%; }
+
+.main-slider2 .mslider-caption {
+  padding: 13% 15% !important; }
+
+.ulockd-divider,
+.ulockd-footer2 {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.team-one {
+  background-color: transparent; }
+
+.box-bg1 {
+  background-image: url("../images/pattern/1.html"); }
+
+.box-bg2 {
+  background-image: url("../images/pattern/2.html"); }
+
+.box-bg3 {
+  background-image: url("../images/pattern/3.png"); }
+
+.box-bg4 {
+  background-image: url("../images/pattern/4.png"); }
+
+.box-bg4a {
+  background-image: url("../images/pattern/4.html"); }
+
+.box-bg5 {
+  background-image: url("../images/pattern/5.html"); }
+
+/*# sourceMappingURL=boxed.css.map */
