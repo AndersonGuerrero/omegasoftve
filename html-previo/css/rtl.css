@@ -1,0 +1,88 @@
+/* Initialize Variables */
+/* (min-width:992px) (max-width:1199px) */
+/* (min-width:768px) (max-width:991px) */
+@media only screen and (max-width: 991px) {
+  /* Home slider rtl */ }
+/* (min-width:480px) (max-width:767px) */
+@media only screen and (max-width: 767px) {
+  .htc-info .ulockd-icon {
+    float: none !important; }
+
+  .ulockd-ohour-info .ulockd-icon {
+    float: none !important; }
+
+  /* home slider start */
+  /* Service icon */
+  .service-col .srvc-icon {
+    left: 0 !important; } }
+/* (min-width:361px) (max-width:479px) */
+@media only screen and (max-width: 479px) {
+  /* Main Slider Start*/ }
+@media only screen and (max-width: 400px) {
+  /* Main Slider Start*/ }
+nav.navbar.bootsnav.menu-style1 ul.dropdown-menu.megamenu-content .content ul.menu-col li a {
+  text-align: right; }
+
+/* Home Slider One Start */
+/* Home Slider One End */
+.ulockd-ohour-info .ulockd-icon {
+  margin-left: 16px;
+  margin-right: 0; }
+
+.ulockd-faq-content .panel .panel-title a i, .ulockd-faq-box .panel .panel-title a i {
+  margin-left: 15px;
+  margin-right: -15px; }
+
+.subscribe button {
+  margin-right: -5px; }
+
+.title-bottom:before {
+  right: 0; }
+
+.icon_box {
+  padding: 30px 0 0; }
+
+.icon_box .ib_details {
+  margin-left: auto;
+  margin-right: 75px; }
+
+.icon_box .ib_details.left {
+  margin-left: 75px;
+  margin-right: auto; }
+
+.icon-box.icon-left .icon {
+  float: right; }
+
+/* Footer navigation */
+.ulockd-footer-qlink .list-unstyled li span {
+  padding-left: 10px; }
+
+.ulockd-footer-qlink .list-unstyled li a:hover {
+  padding-left: 0;
+  padding-right: 10px; }
+
+.list-style-circle li {
+  margin-right: 18px; }
+
+.whychoose-slider .mc-image {
+  right: 0 !important; }
+
+.list-style-square li {
+  margin-left: inherit;
+  margin-right: 14px;
+  padding-right: 10px; }
+
+.bg_abpng4:before {
+  left: -80% !important;
+  right: inherit; }
+
+.title-bottom2:before {
+  right: 0; }
+
+/* Graph */
+.legend-of-0 .rect-of-0,
+text.legend-of-0,
+.legend-of-1 {
+  display: none; }
+
+/*# sourceMappingURL=rtl.css.map */
