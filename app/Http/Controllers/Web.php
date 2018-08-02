@@ -11,4 +11,19 @@ class Web extends Controller
         //return view('welcome',array('name' => $name));
         return view('web/index');
     }
+
+    public function soport()
+    {
+        return view('web/soport');
+    }
+
+    public function clients()
+    {
+        return view('web/clients');
+    }
+
+    public function success_stories()
+    {
+        return view('web/success_stories');
+    }
 }

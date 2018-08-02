@@ -36,7 +36,7 @@
                       <div class="clearfix">
                           
                           <div class="logo-box">
-                              <div class="logo"><a href="index-3.html"><img src="images/logo.png" alt="" title=""></a></div>
+                              <div class="logo"><a href="{{ URL::to('/') }}/"><img src="{{ URL::to('/') }}/images/logo.png" alt="" title=""></a></div>
                           </div>
                           
                           <div class="nav-outer clearfix">
@@ -59,35 +59,35 @@
                                               </ul>
                                           </li>
                                           </li>
-                                          <li class=""><a href="soporte.html">Soporte</a>
+                                          <li class=""><a href="{{ URL::to('/') }}/soporte/">Soporte</a>
                                           </li>
                                           <li class="dropdown"><a href="#">Clientes</a>
                                               <ul>
-                                                  <li><a href="nuestrosClientes.html">Nuestros Clientes</a></li>
-                                                  <li><a href="financial-planning.html">Casos de Éxito</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/nuestros-clientes/">Nuestros Clientes</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>
                                               </ul>
                                           </li>
                                           <li class="dropdown"><a href="#">Partner</a>
                                               <ul>
-                                                  <li><a href="partners.html">Nuestros Partner</a></li>
-                                                  <li><a href="projects-2.html">Programa Partner</a></li>
-                                                  <li><a href="projects-2.html">Portal Partner</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/programa-partner/">Programa Partner</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/portal-partner/">Portal Partner</a></li>
                                               </ul>
                                           </li>
                                           <li class="dropdown"><a href="#">Comunidad</a>
                                               <ul>
-                                                  <li><a href="careers.html">blog</a></li>
-                                                  <li><a href="webcast.html">Webcast</a></li>
-                                                  <li><a href="Newsletter.html">Newsletter</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/blog/">blog</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>
                                                  <!-- <li><a href="faqs.html">FAQs</a></li>
                                                   <li><a href="coming-soon.html">Comming Soon</a></li>-->
                                               </ul>
                                           </li>
                                           <li class="dropdown"><a href="#">Nosotros</a>
                                               <ul>
-                                                  <li><a href="QuienesSomos.html">Quines somos</a></li>
-                                                  <li><a href="nuestroEquipo.html">Nuestro Equipo</a></li>
-                                                  <li><a href="contact.html">Contáctanos</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/quienes-somos/">Quines somos</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/nuestro-equipo/">Nuestro Equipo</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/contacto/">Contáctanos</a></li>
                                               </ul>
                                           </li>
                                           <!--<li><a href="contact.html">Contact Us</a></li>-->
@@ -107,7 +107,7 @@
                   <div class="auto-container clearfix">
                       <!--Logo-->
                       <div class="logo pull-left">
-                          <a href="index-3.html" class="img-responsive"><img src="images/logo-small.png" alt="" title=""></a>
+                          <a href="{{ URL::to('/') }}/" class="img-responsive"><img src="{{ URL::to('/') }}/images/logo-small.png" alt="" title=""></a>
                       </div>
                       
                       <!--Right Col-->
@@ -130,33 +130,33 @@
                                               <li><a href="">OmegaITSM</a></li>
                                           </ul>
                                       </li>
-                                      <li class=""><a href="soporte.html">Soporte</a>
+                                      <li class=""><a href="{{ URL::to('/') }}/soporte/">Soporte</a>
                                       </li>
                                       <li class="dropdown"><a href="#">Clientes</a>
                                           <ul>
-                                              <li><a href="nuestrosClientes.html">Nuestros Clientes</a></li>
-                                              <li><a href="financial-planning.html">Casos de Éxito</a></li>
+                                              <li><a href="{{ URL::to('/') }}/nuestros-clientes/">Nuestros Clientes</a></li>
+                                              <li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Partner</a>
                                           <ul>
-                                              <li><a href="partners.html">Nuestros Partner</a></li>
-                                              <li><a href="projects-2.html">Programa de Partner</a></li>
-                                              <li><a href="projects-2.html">Portal Partner</a></li>
+                                              <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>
+                                              <li><a href="{{ URL::to('/') }}/programa-de-partner/">Programa de Partner</a></li>
+                                              <li><a href="{{ URL::to('/') }}/portal-partner/">Portal Partner</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Comunidad</a>
                                           <ul>
-                                              <li><a href="careers.html">Blog</a></li>
-                                              <li><a href="webcast.html">Webcast</a></li>
-                                              <li><a href="Newsletter.html">Newsletter</a></li>
+                                              <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>
+                                              <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
+                                              <li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Nosotros</a>
                                           <ul>
-                                              <li><a href="QuienesSomos.html">Quines somos</a></li>
-                                              <li><a href="nuestroEquipo.html">Nuestro Equipo</a></li>
-                                              <li><a href="contact.html">Contáctanos</a></li>
+                                              <li><a href="{{ URL::to('/') }}/quienes-somos/">Quines somos</a></li>
+                                              <li><a href="{{ URL::to('/') }}/nuestro-equipo/">Nuestro Equipo</a></li>
+                                              <li><a href="{{ URL::to('/') }}/contact/">Contáctanos</a></li>
                                           </ul>
                                       </li>
                                   </ul>

@@ -6,32 +6,32 @@
 <meta charset="utf-8">
 <title>@yield('title')</title>
 <!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
-<link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
-<link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
+<link href="{{ URL::to('/') }}/css/bootstrap.css" rel="stylesheet">
+<link href="{{ URL::to('/') }}/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+<link href="{{ URL::to('/') }}/plugins/revolution/css/layers.css" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+<link href="{{ URL::to('/') }}/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
+<link href="{{ URL::to('/') }}/css/style.css" rel="stylesheet">
+<link href="{{ URL::to('/') }}/css/responsive.css" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
 <!--Color Switcher Mockup-->
-<link href="css/color-switcher-design.css" rel="stylesheet">
+<link href="{{ URL::to('/') }}/css/color-switcher-design.css" rel="stylesheet">
 
 <!--Color Themes-->
-<link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+<link id="theme-color-file" href="{{ URL::to('/') }}/css/color-themes/default-theme.css" rel="stylesheet">
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{ URL::to('/') }}/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="{{ URL::to('/') }}/images/favicon.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="{{ URL::to('/') }}/js/respond.js"></script><![endif]-->
 </head>
 
 <body>
@@ -55,10 +55,10 @@
     </div>
     <div class="various-color clearfix">
         <div class="colors-list">
-            <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
-            <span class="palate navy-color" data-theme-file="css/color-themes/navy-theme.css"></span>
-            <span class="palate maroon-color" data-theme-file="css/color-themes/maroon-theme.css"></span>
-            <span class="palate black-color" data-theme-file="css/color-themes/black-theme.css"></span>
+            <span class="palate default-color active" data-theme-file="{{ URL::to('/') }}/css/color-themes/default-theme.css"></span>
+            <span class="palate navy-color" data-theme-file="{{ URL::to('/') }}/css/color-themes/navy-theme.css"></span>
+            <span class="palate maroon-color" data-theme-file="{{ URL::to('/') }}/css/color-themes/maroon-theme.css"></span>
+            <span class="palate black-color" data-theme-file="{{ URL::to('/') }}/css/color-themes/black-theme.css"></span>
         </div>
     </div>
 
@@ -68,30 +68,30 @@
 
 </div>
 <!-- /.End Of Color Palate -->
-<script src="js/jquery.js"></script> 
+<script src="{{ URL::to('/') }}/js/jquery.js"></script> 
 <!--Revolution Slider-->
-<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="js/main-slider-script.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="{{ URL::to('/') }}/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="{{ URL::to('/') }}/js/main-slider-script.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/script.js"></script>
+<script src="{{ URL::to('/') }}/js/bootstrap.min.js"></script>
+<script src="{{ URL::to('/') }}/js/jquery.fancybox.js"></script>
+<script src="{{ URL::to('/') }}/js/owl.js"></script>
+<script src="{{ URL::to('/') }}/js/jquery-ui.js"></script>
+<script src="{{ URL::to('/') }}/js/appear.js"></script>
+<script src="{{ URL::to('/') }}/js/wow.js"></script>
+<script src="{{ URL::to('/') }}/js/script.js"></script>
 
 <!--Color Switcher-->
-<script src="js/color-settings.js"></script>
+<script src="{{ URL::to('/') }}/js/color-settings.js"></script>
 </body>
 </html>

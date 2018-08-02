@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'Web@index');
+Route::get('/soporte/', 'Web@soport');
+Route::get('/nuestros-clientes/', 'Web@clients');
+Route::get('/casos-de-exito/', 'Web@success_stories');

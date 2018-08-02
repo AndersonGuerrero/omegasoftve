@@ -11,7 +11,7 @@
                             <div class="footer-column col-md-7 col-sm-6 col-xs-12">
                                 <div class="footer-widget about-widget">
                                     <div class="widget-inner">
-                                        <div class="logo"><img src="images/logo.png" alt=""></div>
+                                        <div class="logo"><img src="{{ URL::to('/') }}/images/logo.png" alt=""></div>
                                         <div class="text">Nuestro   principales  objetivos   son 
                                                           combinar la facilidad,la accesibilidad
                                                           y  la  practicidad   al   proporcionar 
@@ -78,11 +78,11 @@
                                             <div>
                                                 <div class="social-links">
                                                         <ul class="clearfix">
-                                                            <li><a href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
-                                                            <li><a href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
-                                                            <li><a href="https://join.skype.com/invite/MHGMd5TGZRR9"><span class="fa fa-skype"></span></a></li>
-                                                            <li><a href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
-                                                            <li><a href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
+                                                            <li><a target="_black" href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
+                                                            <li><a target="_black" href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
+                                                            <li><a target="_black" href="https://join.skype.com/invite/MHGMd5TGZRR9"><span class="fa fa-skype"></span></a></li>
+                                                            <li><a target="_black" href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
+                                                            <li><a target="_black" href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
                                                         </ul>
                                                 </div>
                                             </div>
