@@ -26,4 +26,34 @@ class Web extends Controller
     {
         return view('web/success_stories');
     }
+
+    public function blog()
+    {
+        return view('web/blog');
+    }
+
+    public function webcast()
+    {
+        return view('web/webcast');
+    }
+    public function newsletter()
+    {
+        return view('web/newsletter');
+    }
+
+    public function about()
+    {
+        return view('web/about');
+    }
+
+    public function team()
+    {
+        return view('web/team');
+    }
+
+    public function contact()
+    {
+        return view('web/contact');
+    }
+
 }
