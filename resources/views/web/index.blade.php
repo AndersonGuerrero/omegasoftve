@@ -2,6 +2,7 @@
 @section('title', 'OmegaSoft')
 
 @section('content')
+
     <!--Main Slider-->
     <section class="main-slider">
     	
@@ -10,7 +11,7 @@
                 <ul>
                 
                 	<li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-2.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/background/imgpsh_fullsize.jpeg"> 
                     
                     <div class="tp-caption tp-resizeme" 
                     data-paddingbottom="[0,0,0,0]"
@@ -28,7 +29,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><h1>Consistency Is A Big Deal <br>For Small Business </h1></div>
+                    	<div class="text-center"><h1>Simplifica la gestión de servicios IT</h1></div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -47,7 +48,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><div class="text">Duis pellentesque congue nisi sed vehicula. Proin consequat est diam, vitae tempor mauris ultrices non. Fusce at ullamcorper odio.</div></div>
+                    	<div class="text-center"><div class="text">Omega ITSM, permite a las organizaciones mejorar la eficiencia en la gestión de servicios IT, reducir costos y maximizar la experiencia de usuario..</div></div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -72,7 +73,7 @@
                     </li>
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-4.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-4.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/main-slider/image-4.jpg"> 
                     
                     <div class="tp-caption tp-resizeme" 
                     data-paddingbottom="[0,0,0,0]"
@@ -152,7 +153,7 @@
             	<!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="icon-box"><img src="images/icons/s-icon-1.png" alt=""></figure>
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-1.png" alt=""></figure>
                     	<h3><a href="service-single.html">Give Business Knowledge</a></h3>
                         <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                     </div>
@@ -160,7 +161,7 @@
                 <!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="icon-box"><img src="images/icons/s-icon-2.png" alt=""></figure>
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt=""></figure>
                     	<h3><a href="service-single.html">Professional Advice</a></h3>
                         <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                     </div>
@@ -168,7 +169,7 @@
                 <!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="icon-box"><img src="images/icons/s-icon-3.png" alt=""></figure>
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-3.png" alt=""></figure>
                     	<h3><a href="service-single.html">Poject Based Work</a></h3>
                         <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                     </div>
@@ -215,7 +216,7 @@
                 	<!--Service Block-->
                     <div class="service-block-three">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="images/icons/s-icon-4.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-4.png" alt=""></figure>
                             <h3><a href="service-single.html">Financial Planning</a></h3>
                             <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
                         </div>
@@ -226,7 +227,7 @@
                 	<!--Service Block-->
                     <div class="service-block-three">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="images/icons/s-icon-5.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-5.png" alt=""></figure>
                             <h3><a href="service-single.html">Savings & Investments</a></h3>
                             <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
                         </div>
@@ -237,7 +238,7 @@
                 	<!--Service Block-->
                     <div class="service-block-three">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="images/icons/s-icon-6.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-6.png" alt=""></figure>
                             <h3><a href="service-single.html">Private Banking</a></h3>
                             <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
                         </div>
@@ -248,7 +249,7 @@
                 	<!--Service Block-->
                     <div class="service-block-three">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="images/icons/s-icon-7.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-7.png" alt=""></figure>
                             <h3><a href="service-single.html">Consumer Leasing</a></h3>
                             <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
                         </div>
@@ -259,7 +260,7 @@
                 	<!--Service Block-->
                     <div class="service-block-three">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="images/icons/s-icon-8.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-8.png" alt=""></figure>
                             <h3><a href="service-single.html">Secured Transactions</a></h3>
                             <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
                         </div>
@@ -270,7 +271,7 @@
                 	<!--Service Block-->
                     <div class="service-block-three">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="images/icons/s-icon-9.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-9.png" alt=""></figure>
                             <h3><a href="service-single.html">Strategic Planning</a></h3>
                             <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
                         </div>
@@ -281,7 +282,7 @@
                 	<!--Service Block-->
                     <div class="service-block-three">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="images/icons/s-icon-10.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-10.png" alt=""></figure>
                             <h3><a href="service-single.html">Trade & Stock</a></h3>
                             <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
                         </div>
@@ -316,7 +317,7 @@
             	<!--Case Block-->
             	<div class="case-block-two col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="projects.html"><img src="images/resource/image-8.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="projects.html"><img src="{{ URL::to('/') }}/images/resource/image-8.jpg" alt=""></a></figure>
                         <div class="title-box"><div class="title-content"><h3><a href="projects.html">Crispent ethiopie philippe</a></h3></div></div>
                         <div class="hover-box">
                             <div class="hover-content">
@@ -330,7 +331,7 @@
                 <!--Case Block-->
             	<div class="case-block-two col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="projects.html"><img src="images/resource/image-9.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="projects.html"><img src="{{ URL::to('/') }}/images/resource/image-9.jpg" alt=""></a></figure>
                         <div class="title-box"><div class="title-content"><h3><a href="projects.html">Nouvelle trouvait supplice</a></h3></div></div>
                         <div class="hover-box">
                             <div class="hover-content">
@@ -344,7 +345,7 @@
                 <!--Case Block-->
             	<div class="case-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="projects.html"><img src="images/resource/image-10.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="projects.html"><img src="{{ URL::to('/') }}/images/resource/image-10.jpg" alt=""></a></figure>
                         <div class="title-box"><div class="title-content"><h3><a href="projects.html">Nouvelle trouvait supplice</a></h3></div></div>
                         <div class="hover-box">
                             <div class="hover-content">
@@ -358,7 +359,7 @@
                 <!--Case Block-->
             	<div class="case-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="projects.html"><img src="images/resource/image-11.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="projects.html"><img src="{{ URL::to('/') }}/images/resource/image-11.jpg" alt=""></a></figure>
                         <div class="title-box"><div class="title-content"><h3><a href="projects.html">Jikan Financial Statement</a></h3></div></div>
                         <div class="hover-box">
                             <div class="hover-content">
@@ -372,7 +373,7 @@
                 <!--Case Block-->
             	<div class="case-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="projects.html"><img src="images/resource/image-12.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="projects.html"><img src="{{ URL::to('/') }}/images/resource/image-12.jpg" alt=""></a></figure>
                         <div class="title-box"><div class="title-content"><h3><a href="projects.html">Crispent ethiopie philippe</a></h3></div></div>
                         <div class="hover-box">
                             <div class="hover-content">
@@ -403,7 +404,7 @@
             	<!--Team Block-->
             	<div class="team-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="#"><img src="images/resource/team-1.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="#"><img src="{{ URL::to('/') }}/images/resource/team-1.jpg" alt=""></a></figure>
                         <div class="lower-box">
                         	<h3><a href="#">Jonathon Smith</a></h3>
                             <div class="designation">Financial Advisor</div>
@@ -420,7 +421,7 @@
                 <!--Team Block-->
             	<div class="team-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="#"><img src="images/resource/team-2.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="#"><img src="{{ URL::to('/') }}/images/resource/team-2.jpg" alt=""></a></figure>
                         <div class="lower-box">
                         	<h3><a href="#">Kalama Jithan</a></h3>
                             <div class="designation">Chief Operating</div>
@@ -437,7 +438,7 @@
                 <!--Team Block-->
             	<div class="team-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="#"><img src="images/resource/team-3.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="#"><img src="{{ URL::to('/') }}/images/resource/team-3.jpg" alt=""></a></figure>
                         <div class="lower-box">
                         	<h3><a href="#">Fuliaton Koo</a></h3>
                             <div class="designation">CEO of Company</div>
@@ -454,7 +455,7 @@
                 <!--Team Block-->
             	<div class="team-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="#"><img src="images/resource/team-4.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="#"><img src="{{ URL::to('/') }}/images/resource/team-4.jpg" alt=""></a></figure>
                         <div class="lower-box">
                         	<h3><a href="#">Helium Disu</a></h3>
                             <div class="designation">Marketing Advisor</div>
@@ -523,7 +524,7 @@
                         <div class="inner">
                             <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida erat quis libero iaculis, quis hendrerit enim dignissim. Pellentesque pharetra euismod metus, nec efficitur risus.</div>
                             <div class="info">
-                                <figure class="image img-circle"><img class="img-circle" src="images/resource/author-2.jpg" alt=""></figure>
+                                <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-2.jpg" alt=""></figure>
                                 <h4>Jk. Shaif Ali</h4>
                                 <div class="designation">CEO, LLP Group</div>
                             </div>
@@ -534,7 +535,7 @@
                         <div class="inner">
                             <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida erat quis libero iaculis, quis hendrerit enim dignissim. Pellentesque pharetra euismod metus, nec efficitur risus.</div>
                             <div class="info">
-                                <figure class="image img-circle"><img class="img-circle" src="images/resource/author-3.jpg" alt=""></figure>
+                                <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-3.jpg" alt=""></figure>
                                 <h4>Jk. Shaif Ali</h4>
                                 <div class="designation">Manager of EOF Group</div>
                             </div>
@@ -545,7 +546,7 @@
                         <div class="inner">
                             <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida erat quis libero iaculis, quis hendrerit enim dignissim. Pellentesque pharetra euismod metus, nec efficitur risus.</div>
                             <div class="info">
-                                <figure class="image img-circle"><img class="img-circle" src="images/resource/author-2.jpg" alt=""></figure>
+                                <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-2.jpg" alt=""></figure>
                                 <h4>Jk. Shaif Ali</h4>
                                 <div class="designation">CEO, LLP Group</div>
                             </div>
@@ -556,7 +557,7 @@
                         <div class="inner">
                             <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida erat quis libero iaculis, quis hendrerit enim dignissim. Pellentesque pharetra euismod metus, nec efficitur risus.</div>
                             <div class="info">
-                                <figure class="image img-circle"><img class="img-circle" src="images/resource/author-3.jpg" alt=""></figure>
+                                <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-3.jpg" alt=""></figure>
                                 <h4>Jk. Shaif Ali</h4>
                                 <div class="designation">Manager of EOF Group</div>
                             </div>
@@ -567,7 +568,7 @@
                         <div class="inner">
                             <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida erat quis libero iaculis, quis hendrerit enim dignissim. Pellentesque pharetra euismod metus, nec efficitur risus.</div>
                             <div class="info">
-                                <figure class="image img-circle"><img class="img-circle" src="images/resource/author-2.jpg" alt=""></figure>
+                                <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-2.jpg" alt=""></figure>
                                 <h4>Jk. Shaif Ali</h4>
                                 <div class="designation">CEO, LLP Group</div>
                             </div>
@@ -578,7 +579,7 @@
                         <div class="inner">
                             <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida erat quis libero iaculis, quis hendrerit enim dignissim. Pellentesque pharetra euismod metus, nec efficitur risus.</div>
                             <div class="info">
-                                <figure class="image img-circle"><img class="img-circle" src="images/resource/author-3.jpg" alt=""></figure>
+                                <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-3.jpg" alt=""></figure>
                                 <h4>Jk. Shaif Ali</h4>
                                 <div class="designation">Manager of EOF Group</div>
                             </div>
@@ -752,22 +753,22 @@
                         <div class="logos">
                         	<div class="row clearfix">
                             	<div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                	<figure class="image"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
+                                	<figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/1.png" alt=""></a></figure>
                                 </div>
                                 <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                	<figure class="image"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
+                                	<figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/2.png" alt=""></a></figure>
                                 </div>
                                 <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                	<figure class="image"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
+                                	<figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/3.png" alt=""></a></figure>
                                 </div>
                                 <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                	<figure class="image"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
+                                	<figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/4.png" alt=""></a></figure>
                                 </div>
                                 <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                	<figure class="image"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
+                                	<figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/5.png" alt=""></a></figure>
                                 </div>
                                 <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                	<figure class="image"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
+                                	<figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/1.png" alt=""></a></figure>
                                 </div>
                             </div>
                         </div>
@@ -791,7 +792,7 @@
             	<!--News Block-->
                 <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="blog-detail.html"><img src="images/resource/image-13.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/image-13.jpg" alt=""></a></figure>
                         <div class="lower-box">
                             <div class="post-info">Post: 15 April 2018</div>
                             <h3><a href="blog-detail.html">Explain quarterly forecasting...</a></h3>
@@ -803,7 +804,7 @@
                 <!--News Block-->
                 <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="blog-detail.html"><img src="images/resource/image-14.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/image-14.jpg" alt=""></a></figure>
                         <div class="lower-box">
                             <div class="post-info">Post: 18 April 2018</div>
                             <h3><a href="blog-detail.html">Explor new plan for business</a></h3>
@@ -815,7 +816,7 @@
                 <!--News Block-->
                 <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="image-box"><a href="blog-detail.html"><img src="images/resource/image-15.jpg" alt=""></a></figure>
+                    	<figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/image-15.jpg" alt=""></a></figure>
                         <div class="lower-box">
                             <div class="post-info">Post: 19 April 2018</div>
                             <h3><a href="blog-detail.html">How select a good advisor</a></h3>
