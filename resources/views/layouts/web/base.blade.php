@@ -92,6 +92,7 @@
 <script src="{{ URL::to('/') }}/js/validate.js"></script>
 <script src="{{ URL::to('/') }}/js/script.js"></script>
 
+@yield('javascrip')
 <!--Color Switcher-->
 <script src="{{ URL::to('/') }}/js/color-settings.js"></script>
 </body>

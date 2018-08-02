@@ -49,11 +49,19 @@
                             <div class="jobs-widget side-widget">
                                 <h3>Oportunidades Actuales</h3>
                                 <div class="widget-inner">
-                                    <ul>
-                                        <li class="current"><a class="clearfix" href=""><span class="pull-left">tecnología</span> <span class="pull-right"></span></a></li>
-                                        <li><a class="clearfix" href=""><span class="pull-left">Comercial</span> <span class="pull-right"></span></a></li>
-                                        <li><a class="clearfix" href=""><span class="pull-left">Marketing</span> <span class="pull-right"></span></a></li>
-                                        <li><a class="clearfix" href=""><span class="pull-left">Administración</span> <span class="pull-right"></span></a></li>
+                                    <ul id="categorys-vacancies-content">
+                                        <li class="current"><a data-id="select-Tecnología" class="clearfix categorys-vacancies" href="#">
+                                            <span class="pull-left">Tecnología</span> <span class="pull-right"></span></a>
+                                        </li>
+                                        <li><a data-id="select-Comercial" class="clearfix categorys-vacancies" href="#">
+                                            <span class="pull-left">Comercial</span> <span class="pull-right"></span></a>
+                                        </li>
+                                        <li><a data-id="select-Marketing" class="clearfix categorys-vacancies" href="#">
+                                            <span class="pull-left">Marketing</span> <span class="pull-right"></span></a>
+                                        </li>
+                                        <li><a data-id="select-Administración" class="clearfix categorys-vacancies" href="#">
+                                            <span class="pull-left">Administración</span> <span class="pull-right"></span></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>                            
@@ -65,7 +73,7 @@
                         <div class="inner">
                             <div class="career-posts">
                                 <!--Career Block-->
-                                <div class="career-block">
+                                <div class="career-block select-Tecnología">
                                     <h2>Senior Innovation Manager</h2>
                                     <p>Praesent ultricies ligula et pellentesque pretium. In sagittis libero vel ante pellentesque pulvinar. Nullam at elit nunc. In nec quam a dui consequat tristique at quis sem. Pellentesque luctus justo et convallis mollis senectus et netus.</p>
                                     <p>Vivamus vitae quam tempus, mattis mi ac, placerat mauris. Pellentesque porta enim non ultricies sagittis. Pellentesque habitant morbi tristique.</p>
@@ -77,7 +85,7 @@
                                     <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
                                 </div>
                                 <!--Career Block-->
-                                <div class="career-block">
+                                <div class="career-block select-Comercial">
                                     <h2>Real World Evidence Research Consultant</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
                                     <ul>
@@ -87,7 +95,7 @@
                                     <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
                                 </div>
                                 <!--Career Block-->
-                                <div class="career-block">
+                                <div class="career-block select-Administración">
                                     <h2>Junior Innovation Manager</h2>
                                     <p>Pellentesque luctus justo et convallis mollis. Vivamus vitae quam tempus, mattis mi ac, placerat mauris. Pellentesque porta enim non ultricies sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sed nunc tortor. Aliquam lobortis viverra leo.</p>
                                     <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
@@ -100,4 +108,8 @@
             </div>
         
     </section>
+@endsection
+
+@section('javascrip')
+<script src="{{ URL::to('/') }}/js/team.js"></script>
 @endsection
