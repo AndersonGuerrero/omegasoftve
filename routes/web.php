@@ -21,3 +21,4 @@ Route::get('/newsletter/', 'Web@newsletter');
 Route::get('/quienes-somos/', 'Web@about');
 Route::get('/nuestro-equipo/', 'Web@team');
 Route::get('/contacto/', 'Web@contact');
+Route::get('/partners/', 'Web@partners');

@@ -56,4 +56,9 @@ class Web extends Controller
         return view('web/contact');
     }
 
+    public function partners()
+    {
+        return view('web/partners');
+    }
+
 }
