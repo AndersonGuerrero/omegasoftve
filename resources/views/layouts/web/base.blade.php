@@ -89,6 +89,7 @@
 <script src="{{ URL::to('/') }}/js/jquery-ui.js"></script>
 <script src="{{ URL::to('/') }}/js/appear.js"></script>
 <script src="{{ URL::to('/') }}/js/wow.js"></script>
+<script src="{{ URL::to('/') }}/js/validate.js"></script>
 <script src="{{ URL::to('/') }}/js/script.js"></script>
 
 <!--Color Switcher-->

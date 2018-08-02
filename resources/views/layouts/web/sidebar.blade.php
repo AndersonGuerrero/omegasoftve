@@ -15,7 +15,9 @@
                                   <div class="options-box clearfix">
                                       <div class="lang-box">
                                           <div class="dropdown">
-                                              <button style="color: #fff; margin-top: 3px;" class="lang-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img style="height: 15px;width:15px;margin-right:5px;margin-top: -5px;" src="images/icons/imgpsh_fullsize.png" alt="">Español<span class=""></span></button>
+                                              <button style="color: #fff; margin-top: 3px;" class="lang-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  <img style="height: 15px;width:15px;margin-right:5px;margin-top: -5px;" 
+                                                  src="{{ URL::to('/') }}/images/icons/imgpsh_fullsize.png" alt="">Español<span class=""></span></button>
                                               <ul class="dropdown-menu search-panel" aria-labelledby="dropdownMenu2">
                                                   <li><a style="font-size: 15px;" href="construccion.html">English</a></li>
                                               </ul>
