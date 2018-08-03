@@ -397,7 +397,8 @@
                             <div class="text">
                                 Te ofrecemos soluciones para el manejo de tu infraestructura
                                 Tecnologíca a través del sofware que cumple con los mas altos
-                                estándares a un óptimo precio                                                                                                                                flexibles  y asequibles para empresas de todos los tamaños..</div>
+                                estándares a un óptimo precio
+                            </div>                                                                                                                               flexibles  y asequibles para empresas de todos los tamaños..</div>
                         </div>
                     </div>
                 </div>
