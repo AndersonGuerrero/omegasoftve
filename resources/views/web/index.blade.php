@@ -340,7 +340,7 @@
     	<div class="auto-container">
             <div class="row clearfix">
                 <div class="sec-title centered" style="margin-bottom: 0px" >
-                        <h1 style="color:#3838ff; font-size: 25px">
+                        <h1 style="color:#007aff; font-size: 25px">
                             Conoce, comparte y déjanos tun impreciones sobre nuestras soluciones.
                         </h1>
                         <div class="sec-title centered" style="margin-bottom: 0px">
@@ -386,6 +386,23 @@
             </div>
         </div>
     </section>
+
+
+    <section class="">
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
+                        <div class="sec-title centered">
+                            <h1>Tus usuarios y clientes merecen una mejor <br> experiencia</h1>
+                            <div class="text">
+                                Te ofrecemos soluciones para el manejo de tu infraestructura
+                                Tecnologíca a través del sofware que cumple con los mas altos
+                                estándares a un óptimo precio                                                                                                                                flexibles  y asequibles para empresas de todos los tamaños..</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     
     
     <!--Cases Section-->
