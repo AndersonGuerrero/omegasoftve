@@ -7,7 +7,7 @@
         </div>
     </section>
 
-    <section class="" style="background: #5ebbf74d">
+    <section>
             <div class="auto-container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">

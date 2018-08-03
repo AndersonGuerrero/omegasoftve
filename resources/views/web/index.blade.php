@@ -143,10 +143,25 @@
         
     </section>
     <!--End Main Slider-->
-    
-    
+
+    <!-- seccion 2-->
+    <section class="services-two"  style="padding: 0px; margin-top: 50px;"> 
+    	<div class="auto-container">
+            <div class="sec-title-two centered" style="margin-bottom: 40px;">
+                <h1>Omega ITSM, Provee todo lo necesario para la gestión de servicios IT</h1>
+                <div class="sec-title centered" style="margin-bottom: 0px">
+                    <div class="text" style="font-size: 25px;margin-bottom: 30px;" >
+                    Omega IT Service Management, integra soluciones que permiten a las organizaciones gestionar los
+                    servicios IT de manera efectiva.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--end seccion 2-->
+
     <!--Services Section-->
-    <section class="services-two">
+    <section class="services-two" style="padding: 0px">
     	<div class="auto-container">
             
             <div class="row clearfix">
@@ -175,6 +190,32 @@
                     </div>
                 </div>
             </div>
+            <div class="row clearfix">
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-1.png" alt=""></figure>
+                            <h3><a href="service-single.html">Give Business Knowledge</a></h3>
+                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                        </div>
+                    </div>
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt=""></figure>
+                            <h3><a href="service-single.html">Professional Advice</a></h3>
+                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                        </div>
+                    </div>
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-3.png" alt=""></figure>
+                            <h3><a href="service-single.html">Poject Based Work</a></h3>
+                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
     
@@ -188,118 +229,160 @@
             	<div class="clearfix">
                     <div class="inner">
                     	<!--Heading-->
-                        <div class="sec-title-two">
-                        	<h1>Who We Are</h1>
-                        </div>
-                        <div class="text">
-                        	<p>Conflicted advice can substantially compromise the outcomes consumers depend on and we believe a financial green zone is necessary to provide outcomes that ensure clients really are safe, valued and cared for.</p>
-                            <p>The green zone is where professional advisers the difference for their clients by living the future they helping to create. The ecosystem in which they exist is completely transparent and free of conflicts and is personally and professionally rewarding.</p>
-                        </div>
-                        <div class="link-box"><a href="about.html" class="theme-btn btn-style-two">Read More</a></div>
+                        <div class="sec-title-two centered" >
+                                <h1 style="font-size: 35px">
+                                        InvGate Service Desk está
+                                        alineado con ITIL
+                                </h1>
+                                <div class="sec-title centered">
+                                    <div class="text" style="font-size: 25px;text-align: justify;" >
+                                            InvGate Service Desk es una
+                                            solución ITSM de gestión de
+                                            servicios de TI alineada con ITIL,
+                                            tanto por vía de los modelos
+                                            on-premises o SaaS, que emplea
+                                            las mejores prácticas de la
+                                            industria para ayudar a tu
+                                            empresa a aumentar la eficiencia
+                                            operacional de soporte de TI,
+                                            reducir los costos y mejorar la
+                                            experiencia del usuario final.
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <!--Services Section-->
-    <section class="services-three">
+    <section class="services-two" style="padding: 0px; margin-top: 50px;"> 
     	<div class="auto-container">
-        	<!--Heading-->
-            <div class="sec-title-two centered">
-                <h1>How We Help to Grow Your Business</h1>
+            <div class="sec-title-two centered" style="margin-bottom: 10px">
+                <div class="sec-title centered" style="margin-bottom: 0px">
+                    <h1>
+                        Omega ITSM, Provee todo lo necesario para la gestión de servicios IT.
+                    </h1>
+                </div>
+            </div>
+            <div class="sec-title centered">
+                <div class="text" style="font-size: 27px;">
+                    Omega IT Service Management, integra soluciones que permiten a las
+                    organizaciones gestionar los servicios IT de manera efectiva.
+                </div>
             </div>
             
-            <div class="services-outer">
+        </div>
+    </section>
+
+    <section class="services-two" style="padding: 0px">
+    	<div class="auto-container">
+            
+            <div class="row clearfix">
             	<!--Service Block-->
-                <div class="service-block-outer clearfix">
-                	<!--Service Block-->
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-4.png" alt=""></figure>
-                            <h3><a href="service-single.html">Financial Planning</a></h3>
-                            <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
-                        </div>
+                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                	<div class="inner-box">
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-1.png" alt=""></figure>
+                    	<h3><a href="service-single.html">Give Business Knowledge</a></h3>
+                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                     </div>
                 </div>
                 <!--Service Block-->
-                <div class="service-block-outer clearfix">
-                	<!--Service Block-->
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-5.png" alt=""></figure>
-                            <h3><a href="service-single.html">Savings & Investments</a></h3>
-                            <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
-                        </div>
+                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                	<div class="inner-box">
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt=""></figure>
+                    	<h3><a href="service-single.html">Professional Advice</a></h3>
+                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                     </div>
                 </div>
                 <!--Service Block-->
-                <div class="service-block-outer clearfix">
-                	<!--Service Block-->
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-6.png" alt=""></figure>
-                            <h3><a href="service-single.html">Private Banking</a></h3>
-                            <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
-                        </div>
-                    </div>
-                </div>
-                <!--Service Block-->
-                <div class="service-block-outer clearfix">
-                	<!--Service Block-->
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-7.png" alt=""></figure>
-                            <h3><a href="service-single.html">Consumer Leasing</a></h3>
-                            <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
-                        </div>
-                    </div>
-                </div>
-                <!--Service Block-->
-                <div class="service-block-outer clearfix">
-                	<!--Service Block-->
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-8.png" alt=""></figure>
-                            <h3><a href="service-single.html">Secured Transactions</a></h3>
-                            <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
-                        </div>
-                    </div>
-                </div>
-                <!--Service Block-->
-                <div class="service-block-outer clearfix">
-                	<!--Service Block-->
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-9.png" alt=""></figure>
-                            <h3><a href="service-single.html">Strategic Planning</a></h3>
-                            <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
-                        </div>
-                    </div>
-                </div>
-                <!--Service Block-->
-                <div class="service-block-outer clearfix">
-                	<!--Service Block-->
-                    <div class="service-block-three">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-10.png" alt=""></figure>
-                            <h3><a href="service-single.html">Trade & Stock</a></h3>
-                            <div class="text">This text generator strays away from the usage of faux languages. Here developer decided to use passages from various famous stories.</div>
-                        </div>
+                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                	<div class="inner-box">
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-3.png" alt=""></figure>
+                    	<h3><a href="service-single.html">Poject Based Work</a></h3>
+                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                     </div>
                 </div>
             </div>
-            
+            <div class="row clearfix">
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-1.png" alt=""></figure>
+                            <h3><a href="service-single.html">Give Business Knowledge</a></h3>
+                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                        </div>
+                    </div>
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt=""></figure>
+                            <h3><a href="service-single.html">Professional Advice</a></h3>
+                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                        </div>
+                    </div>
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-3.png" alt=""></figure>
+                            <h3><a href="service-single.html">Poject Based Work</a></h3>
+                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
-    
-    
+
+    <!--Services Section-->
+ 
     <!--Call |To Acion Section-->
-    <section class="call-to-action">
+    <section class="services-two" style="background:#000000; padding: 30px">
     	<div class="auto-container">
-        	<div class="clearfix">
-            	<h2>Are you looking a professional advisor for your business?</h2>
-                <div class="link-box"><a href="contact.html" class="theme-btn btn-style-four">Get a quote</a></div>
+            <div class="row clearfix">
+                <div class="sec-title centered" style="margin-bottom: 0px" >
+                        <h1 style="color:#3838ff; font-size: 25px">
+                            Conoce, comparte y déjanos tun impreciones sobre nuestras soluciones.
+                        </h1>
+                        <div class="sec-title centered" style="margin-bottom: 0px">
+                            <div class="text" style="color:#fff;font-size: 15px">
+                                Los Comentarios de nuestros clientes son muy importante para nosotros,
+                                Desarrollamos soluciones para satisfacer sus necesidades, conocerlas nos
+                                ayuda a crecer juntos.
+                            </div>
+                        </div>
+                        <div style="margin-top: 35px">
+                            <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 20px">
+                                    <a href="">
+                                        <figure class="icon-box">
+                                                <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                        </figure>
+                                        <span style="font-family: inherit; color: #fff; font-size: 15px;">
+                                            Omega Knowledge
+                                        </span>
+                                    </a>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 20px">
+                                <a href="">
+                                    <figure class="icon-box">
+                                            <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                    </figure>
+                                    <span style="font-family: inherit; color:#fff; font-size: 15px;">
+                                        Blog
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 20px">
+                                <a href="">
+                                    <figure class="icon-box">
+                                            <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                    </figure>
+                                    <span style="font-family: inherit; color: #fff; font-size: 15px;">
+                                        Webcast
+                                    </span>
+                                </a>
+                            </div>
+                       </div>     
+                </div>
             </div>
         </div>
     </section>
