@@ -148,7 +148,7 @@
     <section class="services-two"  style="padding: 0px; margin-top: 50px;"> 
     	<div class="auto-container">
             <div class="sec-title-two centered" style="margin-bottom: 40px;">
-                <h1>1Omega ITSM, Provee todo lo necesario para la gestión de servicios IT</h1>
+                <h1>Omega ITSM, Provee todo lo necesario para la gestión de servicios IT</h1>
                 <div class="sec-title centered" style="margin-bottom: 0px">
                     <div class="text" style="font-size: 25px;margin-bottom: 30px;" >
                     Omega IT Service Management, integra soluciones que permiten a las organizaciones gestionar los
