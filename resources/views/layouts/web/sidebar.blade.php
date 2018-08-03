@@ -158,7 +158,7 @@
                                           <ul>
                                               <li><a href="{{ URL::to('/') }}/quienes-somos/">Quines somos</a></li>
                                               <li><a href="{{ URL::to('/') }}/nuestro-equipo/">Nuestro Equipo</a></li>
-                                              <li><a href="{{ URL::to('/') }}/contact/">Contáctanos</a></li>
+                                              <li><a href="{{ URL::to('/') }}/contacto/">Contáctanos</a></li>
                                           </ul>
                                       </li>
                                   </ul>
