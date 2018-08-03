@@ -46,26 +46,8 @@
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
 
 <!-- Color Palate / Color Switcher -->
-<div class="color-palate">
-    <div class="color-trigger">
-        <i class="fa fa-gear"></i>
-    </div>
-    <div class="color-palate-head">
-        <h6>Choose Your Color</h6>
-    </div>
-    <div class="various-color clearfix">
-        <div class="colors-list">
-            <span class="palate default-color active" data-theme-file="{{ URL::to('/') }}/css/color-themes/default-theme.css"></span>
-            <span class="palate navy-color" data-theme-file="{{ URL::to('/') }}/css/color-themes/navy-theme.css"></span>
-            <span class="palate maroon-color" data-theme-file="{{ URL::to('/') }}/css/color-themes/maroon-theme.css"></span>
-            <span class="palate black-color" data-theme-file="{{ URL::to('/') }}/css/color-themes/black-theme.css"></span>
-        </div>
-    </div>
-
-    <div class="palate-foo">
-        <span>You can easily change and switch the colors.</span>
-    </div>
-
+<div class="color-trigger">
+Demo en linea
 </div>
 <!-- /.End Of Color Palate -->
 <script src="{{ URL::to('/') }}/js/jquery.js"></script> 
