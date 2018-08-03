@@ -46,9 +46,11 @@
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
 
 <!-- Color Palate / Color Switcher -->
-<div class="color-trigger">
-Demo en linea
+<a href="{{ URL::to('/') }}/demo/" target="_black">
+    <div class="color-trigger">
+    Demo en linea
 </div>
+</a>
 <!-- /.End Of Color Palate -->
 <script src="{{ URL::to('/') }}/js/jquery.js"></script> 
 <!--Revolution Slider-->
