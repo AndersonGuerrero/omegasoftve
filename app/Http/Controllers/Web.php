@@ -61,4 +61,8 @@ class Web extends Controller
         return view('web/demo');
     }
 
+    public function english()
+    {
+        return view('web/english');
+    }
 }

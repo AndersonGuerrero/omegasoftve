@@ -19,7 +19,7 @@
                                                   <img style="height: 15px;width:15px;margin-right:5px;margin-top: -5px;" 
                                                   src="{{ URL::to('/') }}/images/icons/imgpsh_fullsize.png" alt="">Español<span class=""></span></button>
                                               <ul class="dropdown-menu search-panel" aria-labelledby="dropdownMenu2">
-                                                  <li><a style="font-size: 15px;" href="construccion.html">English</a></li>
+                                                  <li><a style="font-size: 15px;" href="{{ URL::to('/') }}/english/">English</a></li>
                                               </ul>
                                           </div>
                                       </div>

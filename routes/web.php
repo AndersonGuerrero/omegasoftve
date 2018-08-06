@@ -24,3 +24,4 @@ Route::get('/contacto/', 'ContactController@contact');
 Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
 Route::get('/partners/', 'Web@partners');
 Route::get('/demo/', 'Web@demo');
+Route::get('/english/', 'Web@english');
