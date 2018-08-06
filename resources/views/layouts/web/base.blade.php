@@ -32,6 +32,7 @@
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="{{ URL::to('/') }}/js/respond.js"></script><![endif]-->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 @yield('css')
 </head>
 
@@ -77,6 +78,15 @@
 <script src="{{ URL::to('/') }}/js/validate.js"></script>
 <script src="{{ URL::to('/') }}/js/script.js"></script>
 
+<script>
+    function send_newsletter(){
+        if($('#form-newsletter input[name="email"]').val()){
+            $('#form-newsletter').submit()
+        }else{
+            alert('Debe ingresar su correo!')
+        }
+    }
+</script>
 @yield('javascript')
 <!--Color Switcher-->
 <script src="{{ URL::to('/') }}/js/color-settings.js"></script>

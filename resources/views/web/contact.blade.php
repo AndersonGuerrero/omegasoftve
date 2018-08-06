@@ -1,8 +1,5 @@
 @extends('layouts.web.base')
 @section('title', 'Contacto')
-@section('css')
-<script src='https://www.google.com/recaptcha/api.js'></script>
-@endsection
 @section('content')
     <section class="page-title" style="height:530px;">
         <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/img-contactenos.jpg); opacity: 10.0;">

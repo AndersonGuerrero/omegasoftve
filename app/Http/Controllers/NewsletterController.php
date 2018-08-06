@@ -5,15 +5,13 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Mail;
 
-class ContactController extends Controller{
+class NewsletterController extends Controller{
 
-    public function contact()
-    {
-        return view('web/contact');
+    public function newsletter(){
+        return view('web/newsletter');
     }
 
-    public function contactPost(Request $request)
-    {
+    public function newsletterPost(Request $request){
         if ($request->isMethod('post')) {
             if($request->input('g-recaptcha-response')){         
                 $url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -35,31 +33,27 @@ class ContactController extends Controller{
                 $array = json_decode($result, true);
                 if($array['success']){
                     $this->validate($request, [
-                        'username' => 'required',
-                        'email' => 'required|email',
-                        'message' => 'required'
+                        'email' => 'required|email'
                     ]);
-                    $name = $request->username;
                     $message = [
-                        'title' => 'Contacto Omegasoftve',
-                        'content' => $request->message
+                        'title' => 'Newsletter Omegasoftve',
+                        'content' => $request->email
                     ];
                     $email = $request->email;
                     
-                    Mail::send('layouts.email', $message, function ($message) use ($email, $name) {
-                        $message->from($email, $name);
-                        $message->subject('Contacto Omegasoftve');
-                        $message->to('contacto@omegasoftve.com')->cc($email);
+                    Mail::send('layouts.email', $message, function ($message) use ($email) {
+                        $message->from($email, 'newsletter');
+                        $message->subject('Newsletter Omegasoftve');
+                        $message->to('newsletter@omegasoftve.com')->cc($email);
                     });
-                    flash('Gracias por contactarnos!')->success();
+                    flash('Gracias por Suscribirte!')->success();
                 }else{
-                    flash('Validacion de Captcha!')->error();
+                    flash('Validacion de Captcha...!')->error();
                 }
             }else{
-                flash('Validacion de Captcha!')->error();
+                flash('Validacion de Captcha...!')->error();
             }
         }
         return back();
     }
-
 }

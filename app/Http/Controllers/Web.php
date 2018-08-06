@@ -36,10 +36,6 @@ class Web extends Controller
     {
         return view('web/webcast');
     }
-    public function newsletter()
-    {
-        return view('web/newsletter');
-    }
 
     public function about()
     {

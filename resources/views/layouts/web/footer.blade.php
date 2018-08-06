@@ -86,20 +86,32 @@
                                                         </ul>
                                                 </div>
                                             </div>
+                                            {{ Form::open(array('route' => 'newsletter.send', 'id' => 'form-newsletter')) }}
                                             <div style="width: 203px;">
                                                     <h4 style="text-align: center; color: white; font-size: 16px;padding: 7px; margin-top: 14px !important;">Suscribete a nuestros boletin mensual</h4>
-                                                <div class="input-group mb-3">
-                                                    <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                                    <div class="input-group-append">
-                                                        <button style="background:#2387e4; color: white; font-size: 15px;" class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+                                                        <div class="input-group mb-3">
+                                                            <input type="text" class="form-control" 
+                                                                name="email"
+                                                                required
+                                                                placeholder="Email" 
+                                                                aria-label="Recipient's username" 
+                                                                aria-describedby="button-addon2">
+                                                            <div class="input-group-append">
+                                                                <button 
+                                                                data-callback="send_newsletter"
+                                                                data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                                                style="background:#2387e4; color: white; font-size: 15px;" 
+                                                                class="btn btn-outline-secondary g-recaptcha" 
+                                                                type="button" id="button-addon2">Enviar</button>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div style=""> 
-                                                <label style="color: white; font-size: 9px;">
-                                                    <input type="checkbox" checked autocomplete="off"> Acepto Politicas de tratamiento de datos.
-                                                </label>
-                                            </div>
+                                                    <div style=""> 
+                                                        <label style="color: white; font-size: 9px;">
+                                                            <input type="checkbox" name="acepta" required checked autocomplete="off"> Acepto Politicas de tratamiento de datos.
+                                                        </label>
+                                                    </div>
+                                                    {{ Form::close() }}    
                                         </div>
                                     </div>
                                 </div>

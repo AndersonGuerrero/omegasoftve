@@ -330,6 +330,7 @@
 			}
 		});
 	}
+
 	
 	// Scroll to a Specific Div
 	if($('.scroll-to-target').length){
