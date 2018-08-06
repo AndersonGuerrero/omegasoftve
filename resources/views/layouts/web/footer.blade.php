@@ -111,6 +111,7 @@
                                                             <input type="checkbox" name="acepta" required checked autocomplete="off"> Acepto Politicas de tratamiento de datos.
                                                         </label>
                                                     </div>
+                                                    @include('flash::message')
                                                     {{ Form::close() }}    
                                         </div>
                                     </div>
