@@ -1,6 +1,6 @@
 <html>
 <head></head>
-<body style="background: black; color: white">
+<body>
 <h1>{{$title}}</h1>
 <p>{{$content}}</p>
 </body>
