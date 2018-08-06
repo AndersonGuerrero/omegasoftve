@@ -1,5 +1,8 @@
 @extends('layouts.web.base')
 @section('title', 'Contacto')
+@section('css')
+<script src='https://www.google.com/recaptcha/api.js'></script>
+@endsection
 @section('content')
     <section class="page-title" style="height:530px;">
         <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/img-contactenos.jpg); opacity: 10.0;">
@@ -26,7 +29,7 @@
                        <div class="text">@include('flash::message')</div>
                    </div>
                    <div class="form-style-one quote-form">
-                   {{ Form::open(array('route' => 'contact.send')) }}
+                   {{ Form::open(array('route' => 'contact.send', 'id' => 'form-contact')) }}
                        <form method="post" action="" id="contact-form">
                            <div class="row clearfix">
                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
@@ -40,7 +43,11 @@
                                </div>
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                    <div class="text-center">
-                                       <button type="submit" class="theme-btn btn-style-two">Enviar</button>
+                                       <button 
+                                       data-callback="send_form"
+                                       data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                       class="theme-btn btn-style-two g-recaptcha">Enviar
+                                       </button>
                                     </div>
                                </div>
                            </div>
@@ -80,4 +87,14 @@
                 </div>
                 
         </section>
+@endsection
+
+@section('javascript')
+<script>
+    function send_form(){
+        if($('#form-contact').valid()){
+            $('#form-contact').submit()
+        }
+    }
+</script>
 @endsection
