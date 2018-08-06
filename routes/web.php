@@ -20,6 +20,7 @@ Route::get('/webcast/', 'Web@webcast');
 Route::get('/newsletter/', 'Web@newsletter');
 Route::get('/quienes-somos/', 'Web@about');
 Route::get('/nuestro-equipo/', 'Web@team');
-Route::get('/contacto/', 'Web@contact');
+Route::get('/contacto/', 'ContactController@contact');
+Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
 Route::get('/partners/', 'Web@partners');
 Route::get('/demo/', 'Web@demo');

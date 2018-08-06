@@ -51,28 +51,6 @@ class Web extends Controller
         return view('web/team');
     }
 
-    public function contact(Request $request)
-    {
-        if ($request->isMethod('post')) {
-            $name = $request->username;
-            $email = $request->email;
-            $message = $request->message;
-            
-            $para      = $name;
-            $titulo    = 'Contacto';
-            $mensaje   = $message;
-            $cabeceras = 'From: contacto@omegasoftve.com' . "\r\n" .
-                'Reply-To: contacto@omegasoftve.com' . "\r\n" .
-                'X-Mailer: PHP/' . phpversion();
-            if(mail($para, $titulo, $mensaje, $cabeceras)){
-                flash('Mensaje enviado!')->success();
-            }else{
-                flash('Error en el envio!')->error();
-            }
-        }
-        return view('web/contact');
-    }
-
     public function partners()
     {
         return view('web/partners');

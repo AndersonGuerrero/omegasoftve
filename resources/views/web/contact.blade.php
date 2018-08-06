@@ -23,8 +23,10 @@
                    <div class="sec-title centered">
                        <h1 style="margin-top: 50px">Envianos un mensaje</h1>
                        <div class="text">Contacto directo con rápida respuesta.</div>
+                       <div class="text">@include('flash::message')</div>
                    </div>
                    <div class="form-style-one quote-form">
+                   {{ Form::open(array('route' => 'contact.send')) }}
                        <form method="post" action="" id="contact-form">
                            <div class="row clearfix">
                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
@@ -42,7 +44,7 @@
                                     </div>
                                </div>
                            </div>
-                       </form>
+                           {{ Form::close() }}
                    </div>
                 </div>
                 
