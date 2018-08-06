@@ -28,8 +28,8 @@ class ContactController extends Controller{
             ];
             $email = $request->email;
             
-            Mail::send('layouts.email', $message, function ($message) use ($email) {
-                $message->from($email, 'Omegasoftve');
+            Mail::send('layouts.email', $message, function ($message) use ($email, $name) {
+                $message->from($email, $name);
                 $message->subject('Contacto Omegasoftve');
                 $message->to('contacto@omegasoftve.com')->cc($email);
             });
