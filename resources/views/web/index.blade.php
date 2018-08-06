@@ -73,7 +73,7 @@
                     </li>
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-4.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/main-slider/image-4.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/main-slider/comunidad-banner-index.jpg"> 
                     
                     <div class="tp-caption tp-resizeme" 
                     data-paddingbottom="[0,0,0,0]"
@@ -149,10 +149,9 @@
     	<div class="auto-container">
             <div class="sec-title-two centered" style="margin-bottom: 0px;">
                 <h1 style="font-size:30px" >Omega ITSM, Provee todo lo necesario  para la gestión de servicios IT</h1>
-                
             </div>
             <div class="sec-title centered" style="margin-bottom: 0px">
-                    <div class="text" style="font-size: 25px;margin-bottom: 30px;" >
+                    <div class="text" style="font-size: 18px;margin-bottom: 30px;" >
                     Omega IT Service Management, integra soluciones que permiten a las organizaciones <br> gestionar los
                     servicios IT de manera efectiva.
                     </div>
@@ -170,24 +169,24 @@
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
                     	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-1.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Give Business Knowledge</a></h3>
-                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                    	<h3><a href="service-single.html">Simplifica la gestión de servicios IT</a></h3>
+                        <div style="font-size: 15px;" class="text">Omega ITSM, permite a las organizaciones mejorar la eficiencia en la gestión de servicios IT, reducir costos y maximizar la experiencia de usuario.</div>
                     </div>
                 </div>
                 <!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
                     	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Professional Advice</a></h3>
-                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                    	<h3><a href="service-single.html">Gestione los activos de su organización y sus relaciones desde un único sitio</a></h3>
+                        <div style="font-size: 15px;" class="text">Centralice la información de sus activos, relaciones y afectaciones, así como los contratos que los soportas</div>
                     </div>
                 </div>
                 <!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                 	<div class="inner-box">
                     	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-3.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Poject Based Work</a></h3>
-                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                    	<h3><a href="service-single.html">Forma parte de nuestra comunidad</a></h3>
+                        <div style="font-size: 15px;" class="text">Conoce la información de nuestros productos e interactúa con nuestros expertos, eventos en línea, blog y boletines mensuales.</div>
                     </div>
                 </div>
             </div>
@@ -197,7 +196,7 @@
                         <div class="inner-box">
                             <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-1.png" alt=""></figure>
                             <h3><a href="service-single.html">Give Business Knowledge</a></h3>
-                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                            <div  style="font-size: 15px;" class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                         </div>
                     </div>
                     <!--Service Block-->
@@ -205,7 +204,7 @@
                         <div class="inner-box">
                             <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt=""></figure>
                             <h3><a href="service-single.html">Professional Advice</a></h3>
-                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                            <div style="font-size: 15px;" class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                         </div>
                     </div>
                     <!--Service Block-->
@@ -213,12 +212,13 @@
                         <div class="inner-box">
                             <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-3.png" alt=""></figure>
                             <h3><a href="service-single.html">Poject Based Work</a></h3>
-                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                            <div style="font-size: 15px;" class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
                         </div>
                     </div>
                 </div>
         </div>
     </section>
+    
     
     <!--About Two Section-->
     <section class="about-two">
@@ -232,23 +232,16 @@
                     	<!--Heading-->
                         <div class="sec-title-two centered" style="margin-bottom: 10px" >
                                 <h1 style="font-size: 30px">
-                                        InvGate Service Desk está
-                                        alineado con ITIL
+                                        La solución-SoftExpert ITSM
                                 </h1>
                         </div>
                             <div class="sec-title centered">
                                 <div class="text" style="text-align: justify;" >
-                                        InvGate Service Desk es una
-                                        solución ITSM de gestión de
-                                        servicios de TI alineada con ITIL,
-                                        tanto por vía de los modelos
-                                        on-premises o SaaS, que emplea
-                                        las mejores prácticas de la
-                                        industria para ayudar a tu
-                                        empresa a aumentar la eficiencia
-                                        operacional de soporte de TI,
-                                        reducir los costos y mejorar la
-                                        experiencia del usuario final.
+                                     <p><b>SoftExpert ITSM</b> Soporta ITIL® y otros Frameworks
+                                     de mejores plácticas ampliamente, adaptados integrando solicitudes
+                                     de <b>servicios,</b> 
+                                    </p>
+                                   
                                 </div>
                             </div>
                     </div>
@@ -256,6 +249,9 @@
             </div>
         </div>
     </section>
+
+
+
     
     <section class="services-two" style="padding: 0px; margin-top: 50px;"> 
     	<div class="auto-container">
