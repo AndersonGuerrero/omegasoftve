@@ -28,12 +28,23 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-12 col-xs-12" style="margin-top: 23px;">
+                            {{ Form::open(array('route' => 'newsletter.send', 'id' => 'form-newsletter-form')) }}
                                 <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Email ID" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <input
+                                    name="email" 
+                                    type="email" class="form-control" 
+                                    placeholder="Email ID" aria-label="Email" 
+                                    aria-describedby="button-addon2">
                                     <div class="input-group-append">
-                                        <button style="background: green; color: white; font-size: 15px;" class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+                                        <button 
+                                        data-callback="send_newsletterForm"
+                                        data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                        style="background: green; color: white; font-size: 15px;" 
+                                        class="btn btn-outline-secondary g-recaptcha" type="button">Enviar</button>
                                     </div>
                                 </div>
+                            @include('flash::message')
+                            {{ Form::close() }}
                             </div>
                             <div class="col-md-6 col-sm-12 col-xs-12">
                                 <div class="sec-title centered">

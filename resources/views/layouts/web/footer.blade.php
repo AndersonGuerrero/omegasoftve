@@ -86,6 +86,7 @@
                                                         </ul>
                                                 </div>
                                             </div>
+                                            
                                             {{ Form::open(array('route' => 'newsletter.send', 'id' => 'form-newsletter')) }}
                                             <div style="width: 203px;">
                                                     <h4 style="text-align: center; color: white; font-size: 16px;padding: 7px; margin-top: 14px !important;">Suscribete a nuestros boletin mensual</h4>

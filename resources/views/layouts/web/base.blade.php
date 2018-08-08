@@ -86,6 +86,14 @@
             alert('Debe ingresar su correo!')
         }
     }
+
+    function send_newsletterForm(){
+        if($('#form-newsletter-form input[name="email"]').val()){
+            $('#form-newsletter-form').submit()
+        }else{
+            alert('Debe ingresar su correo!')
+        }
+    }
 </script>
 @yield('javascript')
 <!--Color Switcher-->
