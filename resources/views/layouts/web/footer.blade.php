@@ -62,7 +62,7 @@
                                         <div class="info">
                                             <ul>
                                                 <li class="clearfix"><strong>Telefono: </strong> <span class="txt">(58) 244 386 8448</span></li>
-                                                <li class="clearfix"><strong>Email: </strong> <span class="txt"><a href="">info@omegasoftve.com</a></span></li>
+                                                <li class="clearfix"><strong>Email: </strong> <span class="txt"><a href="email:info@omegasoftve.com">info@omegasoftve.com</a></span></li>
                                                 <li class="clearfix"><strong>Direccion: </strong> <span class="txt">Calle páez #24 entre calle carabaño y leopoldo tosta sector centro. villa de cura, venezuela.</span></li>
                                             </ul>
                                         </div>
@@ -86,7 +86,7 @@
                                                         </ul>
                                                 </div>
                                             </div>
-                                            
+
                                             {{ Form::open(array('route' => 'newsletter.send', 'id' => 'form-newsletter')) }}
                                             <div style="width: 203px;">
                                                     <h4 style="text-align: center; color: white; font-size: 16px;padding: 7px; margin-top: 14px !important;">Suscribete a nuestros boletin mensual</h4>
@@ -129,7 +129,7 @@
         	<div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="copyright">&copy; 2018 todos los derechos reservados <!--<a href="https://themeforest.net/user/yogsthemes/portfolio">YogsThemes--></a></div>
+                        <div class="copyright">&copy; 2018. OMEGASOFT TODOS LOS DERECHOS RESERVADOS <!--<a href="https://themeforest.net/user/yogsthemes/portfolio">YogsThemes--></a></div>
                     </div>
                    <!-- <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="footer-nav clearfix">
