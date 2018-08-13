@@ -11,16 +11,19 @@
         <div class="auto-container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
-                    <div class="sec-title centered">
+                    <div class="sec-title-two centered sec-title" style="margin-bottom: 0px">
                         <h1>Algunas de las empresas que han confiado en nosotros</h1>
                         <div class="text">Para nosotros nuestros clientes son la gran apuesta de valor,
                             el verdadero aval de la compañía y la mayor garantía de continuidad.
                             les agradecemos la confianza que nos han brindado durante toda nuestra
                             trayectoria, un apoyo que ha permitido que seamos una empresa con gran
                             proyección de futuro, son nuestra mejor razón para despertarnos cada dia.
-                            Le invitamos a que conozca algunos de las organizaciones que han confiado 
-                            en Omegasoft para la optimización de la gestión IT y sus historias.
                         </div>
+                    </div>
+                    <div class="sec-title centered">
+                            <div class="text">Le invitamos a que conozca algunos de las organizaciones que han confiado 
+                                en Omegasoft para la optimización de la gestión IT y sus historias.
+                            </div>
                     </div>
                 </div>
             </div>
