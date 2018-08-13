@@ -15,7 +15,7 @@
                                         <div class="text">Nuestro   principales  objetivos   son 
                                                           combinar la facilidad,la accesibilidad
                                                           y  la  practicidad   al   proporcionar 
-                                                          soluciones  flexibles  y  asequi  para 
+                                                          soluciones  flexibles  y  asequible  para 
                                                           empresas  de  todos  los tamaños.</div>
                                         <!--<div class="social-links">
                                             <ul class="clearfix">
@@ -36,12 +36,12 @@
                                         <h3>Link de Acceso rapido</h3>
                                         <div class="links">
                                             <ul>
-                                                <li><a href="#">Acceso de Soporte</a></li>
-                                                <li><a href="#">Registre un ticket</a></li>
-                                                <li><a href="#">Portal autoservicio</a></li>
                                                 <li><a href="#">Omega ITSM</a></li>
-                                                <li><a href="#">Omega CMDB</a></li>
-                                                <li><a href="#">Omega Knowledge</a></li>
+                                                <li><a href="{{ URL::to('/') }}/soporte/">Acceso de Soporte</a></li>
+                                                <li><a href="#">Programa de Partner</a></li>
+                                                <li><a href="#">Portal de Partner</a></li>
+                                                <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>
+                                                <li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>
                                             </ul>
                                         </div>
                                     </div>
