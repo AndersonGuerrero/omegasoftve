@@ -32,18 +32,18 @@
     <section>
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                    <div class="sec-title centered" style="margin-bottom: 30px;border-style: solid;">
-                        <div class="text" style="font-size: 30px;">
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 55px">
+                    <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
+                        <div class="text" style="font-size: 23px;">
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
                         </div>
                         <div class="inner-box" style="background: #212165; height: 250px;">
                             <figure  class="image-box"><a href=""><img src="http://localhost:8000/images/resource/" alt=""></a></figure>
                         </div>
-                        <div class="inner-box" style="background: #212165;height: 60px; margin-top: 15px">
+                        <div class="inner-box" style="background: #212165;height: 50px; margin-top: 15px">
                             <figure  class="image-box"><a href=""><img src="http://localhost:8000/images/resource/" alt=""></a></figure>
                         </div>
-                        <div class="text" style="font-size: 17px; text-align: initial;color: black; margin-bottom: 70px;padding: 15px;">
+                        <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
                         </div>
                         <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
@@ -61,18 +61,18 @@
                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                        <div class="sec-title centered" style="margin-bottom: 30px;border-style: solid;">
-                            <div class="text" style="font-size: 30px;">
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right:55px">
+                        <div class="sec-title centered" style="margin-bottom: 30px;border: 1px solid #c2d1df;">
+                            <div class="text" style="font-size: 23px;">
                                 OmegaITSM, Potencia y simplicidad en una misma herramienta.
                             </div>
                             <div class="inner-box" style="background: #212165; height: 250px;">
                                 <figure  class="image-box"><a href=""><img src="http://localhost:8000/images/resource/" alt=""></a></figure>
                             </div>
-                            <div class="inner-box" style="background: #212165;height: 60px; margin-top: 15px">
+                            <div class="inner-box" style="background: #212165;height: 50px; margin-top: 15px">
                                 <figure  class="image-box"><a href=""><img src="http://localhost:8000/images/resource/" alt=""></a></figure>
                             </div>
-                            <div class="text" style="font-size: 17px; text-align: initial;color: black; margin-bottom: 70px;padding: 15px;">
+                            <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
                             </div>
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
