@@ -11,7 +11,7 @@
                 <ul>
                 
                 	<li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/background/imgpsh_fullsize.jpeg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/main-slider/imgpsh_fullsize.jpeg"> 
                     
                     <div class="tp-caption tp-resizeme" 
                     data-paddingbottom="[0,0,0,0]"
@@ -67,7 +67,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><a href="contact.html" class="theme-btn btn-style-three">Contact Us</a></div>
+                    	<div class="text-center"><a href="" class="theme-btn btn-style-three">Contacnos</a></div>
                     </div>
                     
                     </li>
@@ -91,7 +91,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><h1>Consistency Is A Big Deal <br>For Small Business </h1></div>
+                    	<div class="text-center"><h1>Gestione los activos de su organización y sus relaciones desde un único sitio</h1></div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -110,7 +110,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><div class="text">Duis pellentesque congue nisi sed vehicula. Proin consequat est diam, vitae tempor mauris ultrices non. Fusce at ullamcorper odio.</div></div>
+                    	<div class="text-center"><div class="text">Centralice la información de sus activos, relaciones y afectaciones, así como los contratos que los soportas</div></div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -129,7 +129,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><a href="contact.html" class="theme-btn btn-style-three">Contact Us</a></div>
+                    	<div class="text-center"><a href="" class="theme-btn btn-style-three">Contactanos</a></div>
                     </div>
                     
                     </li>
@@ -148,11 +148,11 @@
     <section class="services-two"  style="padding: 0px; margin-top: 50px;"> 
     	<div class="auto-container">
             <div class="sec-title-two centered" style="margin-bottom: 0px;">
-                <h1 style="font-size:30px" >Omega ITSM, Provee todo lo necesario  para la gestión de servicios IT</h1>
+                <h1 style="font-size:30px" >Omega ITSM, Provee todo lo necesario para la gestión de servicios IT</h1>
             </div>
             <div class="sec-title centered" style="margin-bottom: 0px">
                     <div class="text" style="font-size: 18px;margin-bottom: 30px;" >
-                    Omega IT Service Management, integra soluciones que permiten a las organizaciones <br> gestionar los
+                    Omega IT Service Management, integra soluciones que permiten a las organizaciones gestionar los
                     servicios IT de manera efectiva.
                     </div>
                 </div>
@@ -168,25 +168,33 @@
             	<!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-1.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Simplifica la gestión de servicios IT</a></h3>
-                        <div style="font-size: 15px;" class="text">Omega ITSM, permite a las organizaciones mejorar la eficiencia en la gestión de servicios IT, reducir costos y maximizar la experiencia de usuario.</div>
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/control.png" alt=""></figure>
+                    	<h3><a href="service-single.html">Obtenga el control de su mesa de ayuda</a></h3>
+                        <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
+                        mejore la productividad de los agentes, cumpla con los SLA y administre 
+                        el ciclo de vida completo de sus tickets de TI.</div>
                     </div>
                 </div>
                 <!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Gestione los activos de su organización y sus relaciones desde un único sitio</a></h3>
-                        <div style="font-size: 15px;" class="text">Centralice la información de sus activos, relaciones y afectaciones, así como los contratos que los soportas</div>
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/unico-punto.png" alt=""></figure>
+                    	<h3><a href="service-single.html">Único punto de contacto</a></h3>
+                        <div style="font-size: 15px;" class="text">Establezca un único punto 
+                        de contacto para el registro y seguimiento de ticket, permitiéndole 
+                        al usuario final acceder por distintas vías como Teléfono, Correo o 
+                        Portal de Autoservicio</div>
                     </div>
                 </div>
                 <!--Service Block-->
                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                 	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-3.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Forma parte de nuestra comunidad</a></h3>
-                        <div style="font-size: 15px;" class="text">Conoce la información de nuestros productos e interactúa con nuestros expertos, eventos en línea, blog y boletines mensuales.</div>
+                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/usuarios.png" alt=""></figure>
+                    	<h3><a href="service-single.html">Portal de usuarios</a></h3>
+                        <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
+                        al centro de soporte, poniendo a disposición de los usuarios 
+                        finales un portal con capacidades de autoservicios para el 
+                        registro y seguimiento de ticket.</div>
                     </div>
                 </div>
             </div>
@@ -194,25 +202,35 @@
                     <!--Service Block-->
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-1.png" alt=""></figure>
-                            <h3><a href="service-single.html">Give Business Knowledge</a></h3>
-                            <div  style="font-size: 15px;" class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/cambios.png" alt=""></figure>
+                            <h3><a href="service-single.html">Controle los cambios IT</a></h3>
+                            <div  style="font-size: 15px;" class="text">Agilice la planificación, 
+                            aprobación e implementación con flujos de trabajo
+                            automatizados. Asegúrese de que no haya más cambios 
+                            no autorizados o fallidos.</div>
                         </div>
                     </div>
                     <!--Service Block-->
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt=""></figure>
-                            <h3><a href="service-single.html">Professional Advice</a></h3>
-                            <div style="font-size: 15px;" class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/proyectos.png" alt=""></figure>
+                            <h3><a href="service-single.html">Entregar proyectos de TI a tiempo</a></h3>
+                            <div style="font-size: 15px;" class="text">Crea proyectos, gestiona recursos 
+                            y realiza un seguimiento del progreso. Integre proyectos de TI 
+                            con solicitudes y cambios para optimizar la entrega general de 
+                            servicios de TI.</div>
                         </div>
                     </div>
                     <!--Service Block-->
                     <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-3.png" alt=""></figure>
-                            <h3><a href="service-single.html">Poject Based Work</a></h3>
-                            <div style="font-size: 15px;" class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
+                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/impulsa-decisiones.png" alt=""></figure>
+                            <h3><a href="service-single.html">Impulsa las decisiones con los datos correctos</a></h3>
+                            <div style="font-size: 15px;" class="text">Use informes enlatados y personalizados 
+                            para obtener los conocimientos adecuados. 
+                            Supervise el rendimiento de su mesa de 
+                            ayuda de TI mediante paneles de control 
+                            personalizables y en tiempo real</div>
                         </div>
                     </div>
                 </div>
@@ -224,7 +242,7 @@
     <section class="about-two">
     	<div class="outer-container clearfix">
         	<!--Image Column-->
-            <div class="image-column"><div class="image-layer" style="background-image:url(images/background/4.jpg)"></div></div>
+            <div class="image-column"><div class="image-layer" style="background-image:url(images/background/omega-ITSM.12.png)"></div></div>
             <!--Content Column-->
             <div class="content-column">
             	<div class="clearfix">
@@ -252,7 +270,111 @@
 
 
 
-    
+    <section style="margin-top: 70px; margin-bottom: 30px;" >
+    	<div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center; margin-bottom: 50px">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="">
+                            <figure class="icon-box">
+                                    <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                            </figure>
+                            <span style="font-family: inherit; font-size: 15px;">
+                                Omega Knowledge
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                            <a href="">
+                                <figure class="icon-box">
+                                        <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                                </figure>
+                                <span style="font-family: inherit; font-size: 15px;">
+                                    Omega Knowledge
+                                </span>
+                            </a>
+                    </div>
+                </div> 
+                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <a href="">
+                                <figure class="icon-box">
+                                        <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                                </figure>
+                                <span style="font-family: inherit; font-size: 15px;">
+                                    Omega Knowledge
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                <a href="">
+                                    <figure class="icon-box">
+                                            <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                                    </figure>
+                                    <span style="font-family: inherit; font-size: 15px;">
+                                        Omega Knowledge
+                                    </span>
+                                </a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="sec-title-two centered" style="margin-bottom: 10px" >
+                        <h1 style="font-size: 30px">
+                            Principales Beneficios
+                        </h1>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Aumenta la Productividad.</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Reduce los Gastos Operacionales</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Aunmenta la visilidad en toda la Organizacion</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Reduce el tiempo del ciclo del proyecto</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Integra Solucitudes de servicios con recuersos, portafolios y getión de Proyectos.</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Automatiza el ciclo completo de  gestión de Incidentes y problemas.</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Mejora la Gestion y uso de la infraestructura de TI.</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Controla y protege la implemantación de recursos IT.</span>
+                    </span>
+                </div>
+                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
+                    <span class="text">
+                        <span><i class="fa fa-check check"></i>Define e implemeta procesos estandarizados de cambio con facilidad.</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <section class="services-two" style="padding: 0px; margin-top: 50px;"> 
     	<div class="auto-container">
             <div class="sec-title-two centered" style="margin-bottom: 10px">
