@@ -9,7 +9,7 @@
                   <div class="auto-container clearfix">
                       <div class="top-right clearfix">
                           <ul class="info clearfix" style="margin-bottom: 0rem;">
-                              <li><a href="#" style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@Omegasoftve.com</a></li>
+                              <li><a href="email:info@omegasoftve.com" style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@Omegasoftve.com</a></li>
                               <li><a href="#" style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</a></li>                                  
                               <div class="top-right clearfix">
                                   <div class="options-box clearfix">
@@ -19,7 +19,7 @@
                                                   <img style="height: 15px;width:15px;margin-right:5px;margin-top: -5px;" 
                                                   src="{{ URL::to('/') }}/images/icons/imgpsh_fullsize.png" alt="">Español<span class=""></span></button>
                                               <ul class="dropdown-menu search-panel" aria-labelledby="dropdownMenu2">
-                                                  <li><a style="font-size: 15px;" href="construccion.html">English</a></li>
+                                                  <li><a style="font-size: 15px;" href="{{ URL::to('/') }}/english/">English</a></li>
                                               </ul>
                                           </div>
                                       </div>

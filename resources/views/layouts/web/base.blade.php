@@ -32,6 +32,8 @@
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="{{ URL::to('/') }}/js/respond.js"></script><![endif]-->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+@yield('css')
 </head>
 
 <body>
@@ -70,13 +72,30 @@
 <script src="{{ URL::to('/') }}/js/bootstrap.min.js"></script>
 <script src="{{ URL::to('/') }}/js/jquery.fancybox.js"></script>
 <script src="{{ URL::to('/') }}/js/owl.js"></script>
-<script src="{{ URL::to('/') }}/js/jquery-ui.js"></script>
+<script src="{{ URL::to('/') }}/js/jquery-ui.min.js"></script>
 <script src="{{ URL::to('/') }}/js/appear.js"></script>
 <script src="{{ URL::to('/') }}/js/wow.js"></script>
 <script src="{{ URL::to('/') }}/js/validate.js"></script>
 <script src="{{ URL::to('/') }}/js/script.js"></script>
 
-@yield('javascrip')
+<script>
+    function send_newsletter(){
+        if($('#form-newsletter input[name="email"]').val()){
+            $('#form-newsletter').submit()
+        }else{
+            alert('Debe ingresar su correo!')
+        }
+    }
+
+    function send_newsletterForm(){
+        if($('#form-newsletter-form input[name="email"]').val()){
+            $('#form-newsletter-form').submit()
+        }else{
+            alert('Debe ingresar su correo!')
+        }
+    }
+</script>
+@yield('javascript')
 <!--Color Switcher-->
 <script src="{{ URL::to('/') }}/js/color-settings.js"></script>
 </body>
