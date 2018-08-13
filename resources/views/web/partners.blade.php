@@ -11,13 +11,13 @@
     
     
     <!--Partners Section-->
-    <section class="partners-section">
+    <section class="partners-section" style="padding: 35px" >
     	<div class="auto-container">
             <div class="sec-title centered" style="margin-bottom: 30px">
             	<h1>Conoce a nuestros Socios de negocios en LATAM</h1>
                 <!--<div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit</div>-->
             </div>
-            <h1 style="color: #00325d; margin-left: 18px; font-size: 39px;">Venezuela</h1>
+            <h1 style="color: #00325d; margin-left: 18px; font-size: 27px;">Venezuela</h1>
             <div class="row clearfix" style="margin-bottom: 0px">
             	<!--Partner Block-->
                 <div class="partner-block col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -45,7 +45,7 @@
                                         <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                 </div>
                                 <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                        <img style="height: 32px;width:32px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner-oro.jpg" alt="">
+                                        <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/oro.png" alt="">
                                         <span>Partner Soluciones Oro</span> 
                                 </div>
                         </div>
@@ -77,7 +77,7 @@
                                             <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                     </div>
                                     <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                            <img style="height: 32px;width:32px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner-plata.jpg" alt="">
+                                            <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/plata.png" alt="">
                                             <span>Partner Soluciones Plata</span> 
                                     </div>
                             </div>
@@ -109,7 +109,7 @@
                                             <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                     </div>
                                     <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                            <img style="height: 32px;width:32px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner--distribuidor.jpg" alt="">
+                                            <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/distribuidor.png" alt="">
                                             <span>Partner Distribuidor</span> 
                                     </div>
                             </div>
@@ -141,7 +141,7 @@
                                             <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                     </div>
                                     <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                            <img style="height: 32px;width:32px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner-de-servicio.jpg" alt="">
+                                            <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/servicio.png" alt="">
                                             <span>Partner Servicios</span> 
                                     </div>
                             </div>
@@ -149,7 +149,7 @@
                 </div>
             </div>
                 <!--Partner Block-->
-            <h1 style="color: #00325d; margin-left: 18px; font-size: 39px;">Argentina</h1>
+            <h1 style="color: #00325d; margin-left: 18px; font-size: 27px;">Argentina</h1>
             <div class="row clearfix">
                 <div class="partner-block col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">
@@ -176,7 +176,7 @@
                                             <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                     </div>
                                     <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                            <img style="height: 32px;width:32px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner--distribuidor.jpg" alt="">
+                                            <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/distribuidor.png" alt="">
                                             <span>Partner Distribuidor</span> 
                                     </div>
                             </div>
@@ -208,7 +208,7 @@
                                             <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                     </div>
                                     <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                            <img style="height: 32px;width:32px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner-de-servicio.jpg" alt="">
+                                            <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/servicio.png" alt="">
                                             <span>Partner Servicios</span> 
                                     </div>
                             </div>
@@ -240,7 +240,7 @@
                                         <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                 </div>
                                 <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                        <img style="height: 32px;width:32px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner-plata.jpg" alt="">
+                                        <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/plata.png" alt="">
                                         <span>Partner Servicios Plata</span> 
                                 </div>
                         </div>
@@ -272,7 +272,7 @@
                                             <span class="link-box"><a href="#">www.datco.com<span class="fa fa-long-arrow-right"></span></a></span> 
                                     </div>
                                     <div class="text" style="font-size: 15px; margin-top: 10px;">
-                                            <img style="height: 25px;width:25px;margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/partner-oro.jpg" alt="">
+                                            <img style="margin-right:5px;margin-top: 10px;" src="{{ URL::to('/') }}/images/icons/oro.png" alt="">
                                             <span style="font-size: 12px">Partner Servicios Oro</span> 
                                     </div>
                             </div>
