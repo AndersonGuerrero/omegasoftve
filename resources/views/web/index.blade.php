@@ -48,7 +48,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><div class="text">Omega ITSM, permite a las organizaciones mejorar la eficiencia en la gestión de servicios IT, reducir costos y maximizar la experiencia de usuario..</div></div>
+                    	<div class="text-center"><div class="text">Omega ITSM, permite a las organizaciones mejorar la eficiencia en la gestión de servicios IT, reducir costos y maximizar la experiencia de usuario.</div></div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -72,7 +72,11 @@
                     
                     </li>
                     
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-4.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                    <li data-description="Slide Description" 
+                        data-easein="default" data-easeout="default" data-fsmasterspeed="1500" 
+                        data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" 
+                        data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" 
+                        data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-4.jpg" data-title="Slide Title" data-transition="parallaxvertical">
                     <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/main-slider/comunidad-banner-index.jpg"> 
                     
                     <div class="tp-caption tp-resizeme" 
@@ -132,6 +136,74 @@
                     	<div class="text-center"><a href="" class="theme-btn btn-style-three">Contactanos</a></div>
                     </div>
                     
+                    </li>
+                    <li 
+                        data-description="Slide Description" 
+                        data-easein="default" data-easeout="default" 
+                        data-fsmasterspeed="1500" data-fsslotamount="7" 
+                        data-fstransition="fade" data-hideafterloop="0" 
+                        data-hideslideonmobile="off" data-index="rs-1689" 
+                        data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ URL::to('/') }}/images/main-slider/cmdb.jpg"> 
+                        
+                        <div class="tp-caption tp-resizeme" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['750','750','750','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['0','0','0','0']"
+                        data-voffset="['-90','-90','-90','-70']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <div class="text-center"><h1>Forma parte de nuestra comunidad</h1></div>
+                        </div>
+                        
+                        <div class="tp-caption tp-resizeme" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['750','750','750','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['0','0','0','0']"
+                        data-voffset="['30','30','30','30']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <div class="text-center"><div class="text">Conoce la información de nuestros productos e interactúa con nuestros expertos, eventos en
+                                    línea, blog y boletines mensuales.</div></div>
+                        </div>
+                        
+                        <div class="tp-caption tp-resizeme" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['750','750','750','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['0','0','0','0']"
+                        data-voffset="['120','120','120','120']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <div class="text-center"><a href="" class="theme-btn btn-style-three">Contacnos</a></div>
+                        </div>
+                        
                     </li>
                     
                 </ul>
@@ -202,7 +274,7 @@
                     <!--Service Block-->
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/cambios.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/cambios.png" alt=""></figure>
                             <h3><a href="service-single.html">Controle los cambios IT</a></h3>
                             <div  style="font-size: 15px;" class="text">Agilice la planificación, 
                             aprobación e implementación con flujos de trabajo
@@ -213,7 +285,7 @@
                     <!--Service Block-->
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/proyectos.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proyectos.png" alt=""></figure>
                             <h3><a href="service-single.html">Entregar proyectos de TI a tiempo</a></h3>
                             <div style="font-size: 15px;" class="text">Crea proyectos, gestiona recursos 
                             y realiza un seguimiento del progreso. Integre proyectos de TI 
@@ -224,7 +296,7 @@
                     <!--Service Block-->
                     <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/impulsa-decisiones.png" alt=""></figure>
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/impulsa-decisiones.png" alt=""></figure>
                             <h3><a href="service-single.html">Impulsa las decisiones con los datos correctos</a></h3>
                             <div style="font-size: 15px;" class="text">Use informes enlatados y personalizados 
                             para obtener los conocimientos adecuados. 
@@ -377,18 +449,18 @@
     <!--Services Section-->
  
     <!--Call |To Acion Section-->
-    <section class="services-two" style="background:#8b8787; padding: 30px">
+    <section class="services-two" style="padding: 30px">
     	<div class="auto-container">
             <div class="row clearfix">
                 <div class="sec-title centered" style="margin-bottom: 0px" >
-                        <h1 style="color:#007aff; font-size: 25px">
-                            Conoce, comparte y déjanos tun impreciones sobre nuestras soluciones.
+                        <h1>
+                            Comó satisfacer las nece de una empresa moderna
                         </h1>
                         <div class="sec-title centered" style="margin-bottom: 0px">
-                            <div class="text" style="color:#fff;font-size: 15px">
-                                Los Comentarios de nuestros clientes son muy importante para nosotros,
-                                Desarrollamos soluciones para satisfacer sus necesidades, conocerlas nos
-                                ayuda a crecer juntos.
+                            <div class="text">
+                                La gestión de la Tecnología de megocios no está 
+                                exenta de desafíos.invGate está <br> diseñado para 
+                                ayudarte a hacerle frente.
                             </div>
                         </div>
                         <div style="margin-top: 35px">
