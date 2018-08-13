@@ -374,88 +374,10 @@
     </section>
 
 
-
-    <section class="services-two" style="padding: 0px; margin-top: 50px;"> 
-    	<div class="auto-container">
-            <div class="sec-title-two centered" style="margin-bottom: 10px">
-                <div class="sec-title centered" style="margin-bottom: 0px">
-                    <h1 style="font-size: 30px">
-                        Omega ITSM, Provee todo lo necesario para la gestión de servicios IT.
-                    </h1>
-                </div>
-            </div>
-            <div class="sec-title centered">
-                <div class="text" style="font-size: 25px;">
-                    Omega IT Service Management, integra soluciones que permiten a las
-                    organizaciones gestionar los servicios IT de manera efectiva.
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    <section class="services-two" style="padding: 0px">
-    	<div class="auto-container">
-            
-            <div class="row clearfix">
-            	<!--Service Block-->
-                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-1.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Give Business Knowledge</a></h3>
-                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
-                    </div>
-                </div>
-                <!--Service Block-->
-                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Professional Advice</a></h3>
-                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
-                    </div>
-                </div>
-                <!--Service Block-->
-                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
-                	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/s-icon-3.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Poject Based Work</a></h3>
-                        <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row clearfix">
-                    <!--Service Block-->
-                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-1.png" alt=""></figure>
-                            <h3><a href="service-single.html">Give Business Knowledge</a></h3>
-                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt=""></figure>
-                            <h3><a href="service-single.html">Professional Advice</a></h3>
-                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
-                        <div class="inner-box">
-                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/s-icon-3.png" alt=""></figure>
-                            <h3><a href="service-single.html">Poject Based Work</a></h3>
-                            <div class="text">Inspired by the name for the international zone in Bagdad during the Iraq War, a green zone is a conflict free zone. </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </section>
-
     <!--Services Section-->
  
     <!--Call |To Acion Section-->
-    <section class="services-two" style="background:#000000; padding: 30px">
+    <section class="services-two" style="background:#8b8787; padding: 30px">
     	<div class="auto-container">
             <div class="row clearfix">
                 <div class="sec-title centered" style="margin-bottom: 0px" >
@@ -470,17 +392,17 @@
                             </div>
                         </div>
                         <div style="margin-top: 35px">
-                            <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 20px">
+                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
                                     <a href="">
                                         <figure class="icon-box">
                                                 <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
                                         </figure>
-                                        <span style="font-family: inherit; color: #fff; font-size: 15px;">
+                                        <span style="font-family: inherit; font-size: 15px;">
                                             Omega Knowledge
                                         </span>
                                     </a>
                             </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 20px">
+                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
                                 <a href="">
                                     <figure class="icon-box">
                                             <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
@@ -490,7 +412,17 @@
                                     </span>
                                 </a>
                             </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 20px">
+                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
+                                <a href="">
+                                    <figure class="icon-box">
+                                            <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                    </figure>
+                                    <span style="font-family: inherit; color: #fff; font-size: 15px;">
+                                        Webcast
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
                                 <a href="">
                                     <figure class="icon-box">
                                             <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
