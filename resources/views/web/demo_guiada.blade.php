@@ -17,20 +17,20 @@
                         <h1>Consulte a nuestros especialistas</h1>
                     </div>
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 25px">
+                    <div class="col-md-5 col-sm-5 col-xs-12" style="margin-top: 50px">
                             <div class="sec-title centered">
-                                <p class="text" style="text-align: initial;margin-top: 20px;">
+                                <p class="text" style="text-align: initial;margin-top: 20px;font-size: 16px;">
                                     Ponemos a su disposición nuestro equipo de 
                                     profesionales totalmente capacitados con años 
                                     de experiencia que le guiarán de forma didáctica 
                                     e intercativa. 
                                 </p>
-                                <p class="text" style="text-align: initial;margin-top: 20px">
+                                <p class="text" style="text-align: initial;margin-top: 20px;font-size: 16px;">
                                     Para conocer las principales funcionalidades 
                                     de nuestro software Omega ITSM, enmarcado en 
                                     las mejores práctica ITIL. 
                                 </p>
-                                <p class="text" style="text-align: initial;margin-top: 20px">
+                                <p class="text" style="text-align: initial;margin-top: 20px;font-size: 16px;">
                                     Solo debes completar el registro y solicitar 
                                     una demo guiada y descubrir nuevas funcionalidades 
                                     y soluciones.. 
@@ -38,7 +38,7 @@
                             </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 60px;">
+                    <div class="col-md-7 col-sm-7 col-xs-12" style="margin-top: 60px;">
                        <div class="form-style-one quote-form">
                        <form method="POST" action="http://localhost:8000/contacto" accept-charset="UTF-8" id="form-contact"><input name="_token" type="hidden" value="Rn2aO0vRxHmfxT7c4A1eWS6AE8KGVlq4Sve2FSbf">
                            
