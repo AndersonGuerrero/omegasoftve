@@ -50,7 +50,7 @@
 <!-- Color Palate / Color Switcher -->
 <a href="{{ URL::to('/') }}/demo/" target="_black">
     <div class="color-trigger">
-    Demo en linea
+    <i class="fa fa-desktop"></i> DEMO EN LINEA
 </div>
 </a>
 <!-- /.End Of Color Palate -->

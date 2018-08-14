@@ -131,12 +131,12 @@
     background: #007aff none repeat scroll 0 0;
     cursor: pointer;
     height: 44px;
-    right: -42px;
+    right: -59px;
     position: fixed;
     /* position: absolute; */
     top: 50%;
-    width: 128px;
-    padding-top: 13px;
+    width: 159px;
+    padding-top: 5px;
     transform: rotate(270deg);
     font-size: 14px;
     text-align: center;
