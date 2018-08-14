@@ -57,7 +57,7 @@
                                       <ul class="navigation clearfix">
                                           <li class="dropdown"><a href="">Soluciones</a>
                                               <ul>
-                                                  <li><a href="">OmegaITSM</a></li>
+                                                  <li><a href="{{ URL::to('/') }}/soluciones/itsm/">OmegaITSM</a></li>
                                               </ul>
                                           </li>
                                           </li>

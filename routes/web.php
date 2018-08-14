@@ -27,3 +27,9 @@ Route::get('/partners/', 'Web@partners');
 Route::get('/portal-partner/', 'Web@portal_partner');
 Route::get('/demo/', 'Web@demo');
 Route::get('/english/', 'Web@english');
+Route::get('/soluciones/itsm/', 'Web@itsm_solution');
+Route::get('/demo-guiada/', 'Web@demo_guiada');
+Route::get('/solicitud/serial/', 'Web@request_serial');
+Route::get('/programa-partner/', 'Web@program_partner');
+
+

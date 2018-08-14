@@ -30,7 +30,7 @@
             <div class="col- md-4 col-sm-4 col-xs-12">
                 <figure style="text-align: center" class="image-box"><a href=""><img style="height: 70px;" src="{{ URL::to('/') }}/images/resource/solicitud-de-seriales.png" alt=""></a></figure>
                 <div class="sec-title centered">
-                    <h3><a href=""  style="color: #fff; font-size: 24px"><b>Seriales</b></a></h3>
+                    <h3><a href="{{ URL::to('/') }}/solicitud/serial/" target="_back"  style="color: #fff; font-size: 24px"><b>Seriales</b></a></h3>
                     <p class="text" style="color: #fff; font-size: 15px;">
                         Solicite seriales para nuestras soluciones según las licencias adquiridas. 
                     </p>

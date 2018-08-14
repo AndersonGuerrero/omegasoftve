@@ -54,4 +54,20 @@ class Web extends Controller{
     public function portal_partner(){
         return view('web/portal_partners', array('hide_footer' => true));
     }
+    
+    public function itsm_solution(){
+        return view('web/itsm_solution');
+    }
+
+    public function demo_guiada(){
+        return view('web/demo_guiada');
+    }
+    public function request_serial(){
+        return view('web/request_serial');
+    }
+    
+    public function program_partner(){
+        return view('web/program_partner');
+    }
+    
 }
