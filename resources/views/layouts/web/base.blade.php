@@ -40,7 +40,9 @@
 <div class="page-wrapper">
     @include('layouts.web.sidebar')
     @yield('content')
-    @include('layouts.web.footer')
+    <?php if (!isset($hide_footer)): ?>
+        @include('layouts.web.footer')
+    <?php endif ?>
 </div>
 <!--End pagewrapper-->
 

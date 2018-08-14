@@ -52,6 +52,6 @@ class Web extends Controller{
     }
 
     public function portal_partner(){
-        return view('web/portal_partners');
+        return view('web/portal_partners', array('hide_footer' => true));
     }
 }
