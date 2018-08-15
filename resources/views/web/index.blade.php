@@ -67,7 +67,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><a href="" class="theme-btn btn-style-three">Contacnos</a></div>
+                    	<div class="text-center"><a href="http://162.252.57.52/demo/" class="theme-btn btn-style-three">Prueba gratis </a></div>
                     </div>
                     
                     </li>
@@ -95,7 +95,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><h1>Gestione los activos de su organización y sus relaciones desde un único sitio</h1></div>
+                    	<div class="text-center"><h1>Gestión de Activos (CDMB) </h1></div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -286,7 +286,7 @@
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
                             <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proyectos.png" alt=""></figure>
-                            <h3><a href="service-single.html">Entregar proyectos de TI a tiempo</a></h3>
+                            <h3><a href="service-single.html">Entrega proyectos de IT a tiempo</a></h3>
                             <div style="font-size: 15px;" class="text">Crea proyectos, gestiona recursos 
                             y realiza un seguimiento del progreso. Integre proyectos de TI 
                             con solicitudes y cambios para optimizar la entrega general de 
@@ -297,7 +297,7 @@
                     <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/impulsa-decisiones.png" alt=""></figure>
-                            <h3><a href="service-single.html">Impulsa las decisiones con los datos correctos</a></h3>
+                            <h3><a href="service-single.html">Impulsa Las decisiones con los datos correctos</a></h3>
                             <div style="font-size: 15px;" class="text">Use informes enlatados y personalizados 
                             para obtener los conocimientos adecuados. 
                             Supervise el rendimiento de su mesa de 
@@ -342,7 +342,7 @@
 
 
 
-    <section style="margin-top: 70px; margin-bottom: 30px;" >
+    <section style="margin-top: 130px; margin-bottom: 30px;" >
     	<div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center; margin-bottom: 50px">

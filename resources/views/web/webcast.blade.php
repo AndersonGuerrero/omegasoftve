@@ -56,9 +56,11 @@
                                 solicitudes de soporte y garantiza la
                                 disponibilidad en las operaciones del negocio,
                         </div>
-                       <div style="height: 70px;background: #2976f5;">
-                           <h1 style="color:#fff; padding-top: 20px; font-size: 30px">Registrate</h1>
-                       </div>
+                        <a href="" href=""data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
+                            <div style="height: 70px;background: #2976f5;">
+                                <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right:55px">
@@ -85,61 +87,15 @@
                                     solicitudes de soporte y garantiza la
                                     disponibilidad en las operaciones del negocio,
                             </div>
-                           <div style="height: 70px;background: #2976f5;">
-                               <h1 style="color:#fff; padding-top: 20px; font-size: 30px">Registrate</h1>
-                           </div>
+                            <a href="" href=""data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
+                                <div style="height: 70px;background: #2976f5;">
+                                    <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
+                                </div>
+                            </a>
                         </div>
                     </div>
             </div>   
         </div>
     </section>
-
-    <section style="background: #c2d1df">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-3 col-sm-3 col-xs-3"></div>
-                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right:55px">
-                        <div class="form-column">
-                                <div class="inner">
-                                    <!--Call Back-->	
-                                    <div class="callback-box">
-                                        <div class="callback-header">
-                                            <h2>Request A Free Call Back</h2>
-                                            <div class="text">The green zone is available to everyone, The first step into the green zone is the step.</div>
-                                        </div>
-                                        <div class="form-box">
-                                            <!--Callback Form-->
-                                            <div class="form-style-two callback-form">
-                                                <form method="post" action="http://themebunch.com/html/fico/contact.html">
-                                                    <div class="form-group">
-                                                        <input type="text" name="username" value="" placeholder="Name" required="">
-                                                    </div>
-                                                    
-                                                    <div class="form-group">
-                                                        <input type="text" name="email" value="" placeholder="Email" required="">
-                                                    </div>
-                                                    
-                                                    <div class="form-group">
-                                                        <select name="select">
-                                                            <option>Select discourse category</option>
-                                                            <option>discourse category 01</option>
-                                                            <option>discourse category 02</option>
-                                                        </select>
-                                                    </div>
-                                                    
-                                                    <div class="form-group">
-                                                        <div class="text-center"><button type="submit" class="theme-btn btn-style-two">Submit</button></div>
-                                                    </div>
-                                                    
-                                                </form>
-                                            </div><!--End Callback Form-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-3"></div>
-            </div>   
-        </div>
-    </section>
+    @include('web.modals.webcast')
 @endsection
