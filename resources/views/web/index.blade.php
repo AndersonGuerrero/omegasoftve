@@ -72,7 +72,7 @@
                     
                     </li>
                     
-                    <li data-description="Slide Description" 
+                <li data-description="Slide Description" 
                         data-easein="default" data-easeout="default" data-fsmasterspeed="1500" 
                         data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" 
                         data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" 
