@@ -349,7 +349,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-6">
                         <a href="">
                             <figure class="icon-box">
-                                    <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                                    <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
                             </figure>
                             <span style="font-family: inherit; font-size: 15px;">
                                 Omega Knowledge
@@ -359,7 +359,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-6">
                             <a href="">
                                 <figure class="icon-box">
-                                        <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                                        <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
                                 </figure>
                                 <span style="font-family: inherit; font-size: 15px;">
                                     Omega Knowledge
@@ -371,7 +371,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <a href="">
                                 <figure class="icon-box">
-                                        <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                                        <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
                                 </figure>
                                 <span style="font-family: inherit; font-size: 15px;">
                                     Omega Knowledge
@@ -381,7 +381,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-6">
                                 <a href="">
                                     <figure class="icon-box">
-                                            <img style="height: 160px;" src="http://127.0.0.1:8000/images/icons/cap.png" alt="">
+                                            <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
                                     </figure>
                                     <span style="font-family: inherit; font-size: 15px;">
                                         Omega Knowledge
@@ -467,7 +467,7 @@
                             <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
                                     <a href="">
                                         <figure class="icon-box">
-                                                <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                                <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
                                         </figure>
                                         <span style="font-family: inherit; font-size: 15px;">
                                             Omega Knowledge
@@ -477,7 +477,7 @@
                             <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
                                 <a href="">
                                     <figure class="icon-box">
-                                            <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                            <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
                                     </figure>
                                     <span style="font-family: inherit; color:#fff; font-size: 15px;">
                                         Blog
@@ -487,7 +487,7 @@
                             <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
                                 <a href="">
                                     <figure class="icon-box">
-                                            <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                            <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
                                     </figure>
                                     <span style="font-family: inherit; color: #fff; font-size: 15px;">
                                         Webcast
@@ -497,7 +497,7 @@
                             <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
                                 <a href="">
                                     <figure class="icon-box">
-                                            <img style="height: 100px;" src="http://127.0.0.1:8000/images/icons/s-icon-2.png" alt="">
+                                            <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
                                     </figure>
                                     <span style="font-family: inherit; color: #fff; font-size: 15px;">
                                         Webcast
