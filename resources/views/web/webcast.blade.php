@@ -39,7 +39,7 @@
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
                         </div>
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="http://localhost:8000/images/resource/webcast-OITSM.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="http://127.0.0.1:8000/images/resource/webcast-OITSM.jpg" alt=""></a></figure>
                         </div>
                         <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
