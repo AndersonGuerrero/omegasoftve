@@ -311,10 +311,10 @@
     
     
     <!--About Two Section-->
-    <section class="about-two">
+    <section class="about-two" style="padding: 65px 0px; background: #0c93fb0d">
     	<div class="outer-container clearfix">
         	<!--Image Column-->
-            <div class="image-column"><div class="image-layer" style="background-image:url(images/background/omega-ITSM.12.png)"></div></div>
+            <div class="image-column"><div class="image-layer" style="background-image:url(images/background/omega-ITSM.png)"></div></div>
             <!--Content Column-->
             <div class="content-column">
             	<div class="clearfix">
