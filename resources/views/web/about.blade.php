@@ -11,13 +11,27 @@
         <div class="auto-container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
-                    <div class="sec-title centered">
+                    <div class="sec-title centered" style="margin-bottom: 15px;">
                         <h1>Acerca de Nosotros</h1>
-                        <div class="text">Omegasoft, nace en el 2010 como una empresa de servicios IT,
-                        integrada por un grupo de profesionales experimentados y preparados en el área 
-                        de  gestión servicios IT, ofreciendo a las organizaciones, servicios profesionales
-                        para mejorar sus capacidades organizativas,Nuestros principales objetivos son combinar
-                        la facilidad, la accesibilidad y la practicidad al proporcionar soluciones                                                                                                                                        flexibles  y asequibles para empresas de todos los tamaños..</div>
+                        <div class="text">
+                            Omegasoft, nace en el 2010 como una empresa 
+                            de servicios IT, integrada por un grupo de 
+                            profesionales experimentados y altamente 
+                            calificados en el área de gestión servicios IT, 
+                            ofreciendo a las organizaciones, soluciones para 
+                            mejorar sus capacidades organizativas, enfocándonos 
+                            en la simplificación de la gestión de servicios IT.                                                                                                                                       flexibles  y asequibles para empresas de todos los tamaños..</div>
+                    </div>
+                    <div class="sec-title centered">
+                        <div class="text">
+                            Nuestros principales objetivos son combinar la facilidad, 
+                            la accesibilidad y la practicidad al proporcionar soluciones 
+                            flexibles y asequibles para empresas de todos los tamaños, 
+                            permitiéndoles obtener control en la entrega de servicios, 
+                            simplificar los procesos de gestión de servicios, adquirir 
+                            visibilidad en tiempo real en todos sus servicios e infraestructura 
+                            y orquestar las interacciones de personas, procesos y tecnologías para 
+                            un rendimiento óptimo de los servicios.                                                                                                                                        flexibles  y asequibles para empresas de todos los tamaños..</div>
                     </div>
                 </div>
             </div>
