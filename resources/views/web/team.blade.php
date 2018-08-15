@@ -103,13 +103,11 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
-        
     </section>
 @endsection
 
-@section('javascrip')
+@section('javascript')
 <script src="{{ URL::to('/') }}/js/team.js"></script>
 @endsection
