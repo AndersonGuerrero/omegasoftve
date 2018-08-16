@@ -39,7 +39,7 @@
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
                         </div>
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-OITSM.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-proyectos-con-OITSM.jpg" alt=""></a></figure>
                         </div>
                         <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
@@ -61,16 +61,13 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right:55px">
-                        <div class="sec-title centered" style="margin-bottom: 30px;border: 1px solid #c2d1df;">
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 55px">
+                        <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
                             <div class="text" style="font-size: 23px;">
                                 OmegaITSM, Potencia y simplicidad en una misma herramienta.
                             </div>
-                            <div class="inner-box" style="background: #212165; height: 250px;">
-                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/" alt=""></a></figure>
-                            </div>
-                            <div class="inner-box" style="background: #212165;height: 50px; margin-top: 15px">
-                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/" alt=""></a></figure>
+                            <div class="inner-box">
+                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-OITSM-pontencia-y-simplicidad-1.jpg" alt=""></a></figure>
                             </div>
                             <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
@@ -93,6 +90,64 @@
                         </div>
                     </div>
             </div>   
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 55px">
+                    <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
+                        <div class="text" style="font-size: 23px;">
+                            OmegaITSM, Potencia y simplicidad en una misma herramienta.
+                        </div>
+                        <div class="inner-box">
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-integracion-OSDK-CMDb.jpg" alt=""></a></figure>
+                        </div>
+                        <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                                Duración: 45 min Aprox - Español
+                        </div>
+                        <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
+                                <b>Contenido</b>
+                        </div>
+                        <div class="text" style="text-align: justify; padding: 15px;">
+                                Para brindar una atención efectiva y en los
+                                tiempos establecidos, Omega ITSM ofrece a su
+                                organización un control centralizado de las
+                                solicitudes de soporte y garantiza la
+                                disponibilidad en las operaciones del negocio,
+                        </div>
+                        <a href="" href=""data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
+                            <div style="height: 70px;background: #2976f5;">
+                                <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 55px">
+                        <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
+                            <div class="text" style="font-size: 23px;">
+                                OmegaITSM, Potencia y simplicidad en una misma herramienta.
+                            </div>
+                            <div class="inner-box">
+                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-de-OSDK-con-KB-webcast-2.jpg" alt=""></a></figure>
+                            </div>
+                            <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                                    Duración: 45 min Aprox - Español
+                            </div>
+                            <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
+                                    <b>Contenido</b>
+                            </div>
+                            <div class="text" style="text-align: justify; padding: 15px;">
+                                    Para brindar una atención efectiva y en los
+                                    tiempos establecidos, Omega ITSM ofrece a su
+                                    organización un control centralizado de las
+                                    solicitudes de soporte y garantiza la
+                                    disponibilidad en las operaciones del negocio,
+                            </div>
+                            <a href="" href=""data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
+                                <div style="height: 70px;background: #2976f5;">
+                                    <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </div> 
         </div>
     </section>
     @include('web.modals.webcast')
