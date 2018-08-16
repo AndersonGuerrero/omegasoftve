@@ -241,7 +241,7 @@
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
                     	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/control.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Obtenga el control de su mesa de ayuda</a></h3>
+                    	<h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
                         <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
                         mejore la productividad de los agentes, cumpla con los SLA y administre 
                         el ciclo de vida completo de sus tickets de TI.</div>
@@ -251,7 +251,7 @@
                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
                     	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/unico-punto.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Único punto de contacto</a></h3>
+                    	<h3><a href="">Único punto de contacto</a></h3>
                         <div style="font-size: 15px;" class="text">Establezca un único punto 
                         de contacto para el registro y seguimiento de ticket, permitiéndole 
                         al usuario final acceder por distintas vías como Teléfono, Correo o 
@@ -262,7 +262,7 @@
                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                 	<div class="inner-box">
                     	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/usuarios.png" alt=""></figure>
-                    	<h3><a href="service-single.html">Portal de usuarios</a></h3>
+                    	<h3><a href="">Portal de usuarios</a></h3>
                         <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
                         al centro de soporte, poniendo a disposición de los usuarios 
                         finales un portal con capacidades de autoservicios para el 
@@ -275,7 +275,7 @@
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
                             <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/cambios.png" alt=""></figure>
-                            <h3><a href="service-single.html">Controle los cambios IT</a></h3>
+                            <h3><a href="">Controle los cambios TI</a></h3>
                             <div  style="font-size: 15px;" class="text">Agilice la planificación, 
                             aprobación e implementación con flujos de trabajo
                             automatizados. Asegúrese de que no haya más cambios 
@@ -286,7 +286,7 @@
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
                             <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proyectos.png" alt=""></figure>
-                            <h3><a href="service-single.html">Entrega proyectos de IT a tiempo</a></h3>
+                            <h3><a href="">Entrega proyectos de TI a tiempo</a></h3>
                             <div style="font-size: 15px;" class="text">Crea proyectos, gestiona recursos 
                             y realiza un seguimiento del progreso. Integre proyectos de TI 
                             con solicitudes y cambios para optimizar la entrega general de 
@@ -297,7 +297,7 @@
                     <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/impulsa-decisiones.png" alt=""></figure>
-                            <h3><a href="service-single.html">Impulsa Las decisiones con los datos correctos</a></h3>
+                            <h3><a href="">Impulsa las decisiones con los datos correctos</a></h3>
                             <div style="font-size: 15px;" class="text">Use informes enlatados y personalizados 
                             para obtener los conocimientos adecuados. 
                             Supervise el rendimiento de su mesa de 
@@ -321,9 +321,9 @@
                     <div class="inner">
                     	<!--Heading-->
                         <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                <h1 style="font-size: 30px">
-                                        La solución-SoftExpert ITSM
-                                </h1>
+                            <h1 style="font-size: 30px">
+                                    La solución-SoftExpert ITSM
+                            </h1>
                         </div>
                             <div class="sec-title centered">
                                 <div class="text" style="text-align: justify;" >
@@ -343,7 +343,7 @@
 
 
     <section style="margin-top: 130px; margin-bottom: 30px;" >
-    	<div class="row">
+    	<div class="row" style="display: unset;">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center; margin-bottom: 50px">
                     <div class="col-md-6 col-sm-6 col-xs-6">
@@ -449,84 +449,161 @@
     <!--Services Section-->
  
     <!--Call |To Acion Section-->
-    <section class="services-two" style="padding: 30px">
-    	<div class="auto-container">
-            <div class="row clearfix">
-                <div class="sec-title centered" style="margin-bottom: 0px" >
-                        <h1>
-                            Comó satisfacer las nece de una empresa moderna
-                        </h1>
-                        <div class="sec-title centered" style="margin-bottom: 0px">
-                            <div class="text">
+    <section class="services-two imgback" style="padding: 0px;">
+    	<div class="row">
+            <div style="margin-bottom: 0px">
+                <div style="margin-top: 35px">
+                    <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                    <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                        <div class="sec-title centered">
+                            <p class="text">
                                 La gestión de la Tecnología de megocios no está 
-                                exenta de desafíos.invGate está <br> diseñado para 
-                                ayudarte a hacerle frente.
-                            </div>
+                                exenta de desafíos.invGate está 
+                            </p>
+                            <figure class="icon-box">
+                                <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
+                            </figure>
                         </div>
-                        <div style="margin-top: 35px">
-                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
-                                    <a href="">
-                                        <figure class="icon-box">
-                                                <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
-                                        </figure>
-                                        <span style="font-family: inherit; font-size: 15px;">
-                                            Omega Knowledge
-                                        </span>
-                                    </a>
+
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                            <div class="sec-title centered">
+                                <p class="text">
+                                    La gestión de la Tecnología de megocios no está 
+                                    exenta de desafíos.invGate está 
+                                </p>
+                                <figure class="icon-box">
+                                    <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
+                                </figure>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
-                                <a href="">
-                                    <figure class="icon-box">
-                                            <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
-                                    </figure>
-                                    <span style="font-family: inherit; color:#fff; font-size: 15px;">
-                                        Blog
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
-                                <a href="">
-                                    <figure class="icon-box">
-                                            <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
-                                    </figure>
-                                    <span style="font-family: inherit; color: #fff; font-size: 15px;">
-                                        Webcast
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-12" style="padding: 20px">
-                                <a href="">
-                                    <figure class="icon-box">
-                                            <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
-                                    </figure>
-                                    <span style="font-family: inherit; color: #fff; font-size: 15px;">
-                                        Webcast
-                                    </span>
-                                </a>
-                            </div>
-                       </div>     
-                </div>
+    
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                </div>     
             </div>
         </div>
     </section>
+    
+    <section class="services-two" style="padding: 0px; margin-top: 50px;"> 
+    	<div class="auto-container">
+            <div class="sec-title centered" style="margin-bottom: 0px;">
+                <h1 style="font-size:40px">Algunas de las empresas que han confiado en nosotros</h1>
+            </div>
+            <div class="sec-title centered" style="margin-bottom: 0px">
+                    <div class="text" style="font-size: 18px;margin-bottom: 30px;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae 
+                    itaque, numquam architecto et laborum ipsum consectetur voluptatem nihil 
+                    id. Dolorum, sint rerum. Quo non nihil rerum, sit repellendus nam sapiente?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia neque facilis 
+                    deleniti eligendi, cumque nesciunt, odio itaque, voluptatem corrupti quisquam 
+                    numquam iure laudantium mollitia dolorum eos atque esse consequuntur. Sed!
+                    </div>
+                </div>
+        </div>
+    </section>
 
+    <section class="page-title" style="height: 530px;background: #5aceff5c;">
+        <div class="image-layer" style="background-image:url(http://127.0.0.1:8000/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
+        <div class="auto-container">
+        </div>
+    </section>
 
-    <section class="">
+        <!--Testimonials Two Section-->
+    <section class="testimonials-two">
             <div class="auto-container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
-                        <div class="sec-title centered">
-                            <h1 style="font-size: 35px">Tus usuarios y clientes merecen una mejor  experiencia</h1>
-                            <div class="text" style="font-size: 25px">
-                                Te ofrecemos soluciones para el manejo de tu infraestructura
-                                Tecnologíca a través del <br> sofware que cumple con los mas altos 
-                                estándares a un óptimo precio
+                <!--Heading-->                    
+                <div class="carousel-box">
+                    <div class="testimonial-carousel-two owl-theme owl-carousel">
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Omega ITSM nos ha ayudado totalmente
+                                    a mejorar nuestra gestión de servicios. La gerencia
+                                    de Tecnología ahora es mucho más eficiente, mejorando
+                                    nuestros Tiempos de respuesta teniendo un unico punto de
+                                    contacto con los distintos departamentos de la gerencia. 
+                                </div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente1.png" alt=""></figure>
+                                    <h4>Arnoldo Rodriguez</h4>
+                                    <div class="designation">Gerente de Tecnología, Grupos de Ultimas Noticias.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Con las soluciones de Omegasoft, hemos podido
+                                    gestiona de manera eficiente las necesidades
+                                    de nuestros usuarios, ha permitido mayor 
+                                    contro en el tiempo de atención loque ha sido 
+                                    una oportunidad para el mejoramiento continuo
+                                    de nuestros procesos, en particular se ha
+                                    mejorando notablemente la comunicación entre
+                                    los usuarios y nuestros departamnto, los
+                                    cuales ahora conocen en todo momento el 
+                                    estado en el que se encuentra su solucitud.</div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente2.png" alt=""></figure>
+                                    <h4>Jesús Reyes</h4>
+                                    <div class="designation">Gerente de Tecnología, Technip Velam</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Con Omega ITSM tenemos gestión
+                                    controlada y alineada aTIL, una comunicacion
+                                    efectiva con los usuarios, una distribución
+                                    más eficiente de las cargas de trabajo, un
+                                    seguimiento continuo mediante reportes e
+                                    informes y una medición de niveles de 
+                                    servicios para mejora del servicios.</div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente3.png" alt=""></figure>
+                                    <h4>José Flores</h4>
+                                    <div class="designation">Gerente de Tecnología, Ron Santa Teresa</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Omegasoft nosha permitido la
+                                    implementacion de una solución intergra
+                                    par la gestión de los servicios TI, alineando
+                                    los procesos del área con las buenas prácticas
+                                    que ofrece ITIL lo cual hoy nos facilita
+                                    el brindar servicios de mayor calidad.</div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente4.png" alt=""></figure>
+                                    <h4>Juan Carlos Duque</h4>
+                                    <div class="designation">Gerente de Tecnología,Mapre la Seuridad</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
-        </section>
-    
-    
+    </section>
+
+    <section class="services-two" style="margin-bottom:70px;background: #d4d4d4;padding:33px;height:150px;"> 
+    	<div class="auto-container">
+            <div class="sec-title centered">
+                <h1 style="font-size:40px">No te pierdas ninguno de nuestros eventos en Línea</h1>
+                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;">Programación Eventos En Línea</a></div>
+            </div>
+            
+        </div>
+    </section>
 @endsection
