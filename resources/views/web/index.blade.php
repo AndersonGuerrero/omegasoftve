@@ -507,7 +507,7 @@
     </section>
 
     <section class="page-title" style="height: 530px;background: #5aceff5c;">
-        <div class="image-layer" style="background-image:url(http://127.0.0.1:8000/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
+        <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
         <div class="auto-container">
         </div>
     </section>
