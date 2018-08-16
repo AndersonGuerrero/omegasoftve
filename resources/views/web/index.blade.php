@@ -449,7 +449,7 @@
     <!--Services Section-->
  
     <!--Call |To Acion Section-->
-    <section class="services-two imgback" style="padding: 0px;">
+    <section class="services-two" style="padding:0px;width:100%;height: 215px; background-image:{{ URL::to('/') }}/images/background/fondo.jpg); background-repeat: no-repeat;">
     	<div class="">
             <div style="margin-bottom: 0px">
                 <div style="margin-top: 35px">
@@ -506,7 +506,7 @@
         </div>
     </section>
 
-    <section class="page-title" style="height: 530px;background: #5aceff5c;">
+    <section class="page-title" style="height: 530px;background: #0c93fb0d;">
         <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
         <div class="auto-container">
         </div>
