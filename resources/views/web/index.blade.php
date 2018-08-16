@@ -449,7 +449,7 @@
     <!--Services Section-->
  
     <!--Call |To Acion Section-->
-    <section class="services-two" style="padding:0px;width:100%;height: 215px; background-image:{{ URL::to('/') }}/images/background/fondo.jpg); background-repeat: no-repeat;">
+    <section class="services-two imgback" style="padding: 0px; ">
     	<div class="">
             <div style="margin-bottom: 0px">
                 <div style="margin-top: 35px">
