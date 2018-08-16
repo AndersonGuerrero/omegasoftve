@@ -450,35 +450,39 @@
  
     <!--Call |To Acion Section-->
     <section class="services-two imgback" style="padding: 0px;">
-    	<div class="row">
+    	<div class="">
             <div style="margin-bottom: 0px">
                 <div style="margin-top: 35px">
-                    <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                    <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                        <div class="sec-title centered">
-                            <p class="text">
-                                La gestión de la Tecnología de megocios no está 
-                                exenta de desafíos.invGate está 
-                            </p>
-                            <figure class="icon-box">
-                                <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
-                            </figure>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                             <div class="sec-title centered">
-                                <p class="text">
-                                    La gestión de la Tecnología de megocios no está 
-                                    exenta de desafíos.invGate está 
+                                <p class="text" style="font-weight: 600;color: #fff;">
+                                    Conozca nuestro calendariode webcast (presentaciones en línea) 
                                 </p>
-                                <figure class="icon-box">
-                                    <img style="height: 100px;" src="{{ URL::to('/') }}/images/icons/s-icon-2.png" alt="">
-                                </figure>
+                                <a href="{{ URL::to('/') }}/webcast/">
+                                    <figure class="icon-box">
+                                            <img src="{{ URL::to('/') }}/images/icons/calendario.png" alt="">
+                                    </figure>
+                                </a>
                             </div>
     
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                                <div class="sec-title centered">
+                                    <p class="text" style="font-weight: 600;color: #fff;">
+                                        Solicite una demostración guiada por uno de nuestros expertos 
+                                    </p>
+                                    <a href="{{ URL::to('/') }}/demo-guiada/">
+                                        <figure class="icon-box">
+                                            <img src="{{ URL::to('/') }}/images/icons/computadora.png" alt="">
+                                        </figure>
+                                    </a>
+                                </div>
+        
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2"></div>
                     </div>
-                    <div class="col-md-2 col-sm-2 col-xs-2"></div>
                 </div>     
             </div>
         </div>
@@ -597,10 +601,10 @@
             </div>
     </section>
 
-    <section class="services-two" style="margin-bottom:70px;background: #d4d4d4;padding:33px;height:150px;"> 
+    <section class="services-two" style="margin-bottom:70px;background: #d4d4d4;padding:22px;height:150px;"> 
     	<div class="auto-container">
             <div class="sec-title centered">
-                <h1 style="font-size:40px">No te pierdas ninguno de nuestros eventos en Línea</h1>
+                <h1 style="font-size:25px; margin-bottom: 15px">Participe en nuestros eventos en línea </h1>
                 <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;">Programación Eventos En Línea</a></div>
             </div>
             
