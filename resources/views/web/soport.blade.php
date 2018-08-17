@@ -187,7 +187,7 @@
                         </div>
                             <div class="sec-title centered" style="text-align: center; margin-bottom: 5px;margin-left: 60px;">
                                 <div class="text">
-                                    Lunes – viernes de 8:00 a 18:00 (GMT – 5).
+                                    Lunes – viernes de 8:00 a 17:00 (GMT – 4).
                                 </div>
                                 <div class="text">
                                     En días dominicales y festivos no se brinda este servicio.
