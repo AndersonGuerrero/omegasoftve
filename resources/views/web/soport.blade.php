@@ -202,7 +202,7 @@
         <div class="auto-container">
             <div class="row">
                 <div class="col-md-12 col-ms-12 col-xs-12">
-                        <div class="sec-title centered" style="margin-bottom: 0px;">
+                        <div class="sec-title-two centered" style="margin-bottom: 0px;">
                                 <h1 style="font-size:30px;margin-top: 30px" >Alcance de soporte</h1>
                             </div>
                     <div class="col-md-6 col-ms-6 col-xs-6">

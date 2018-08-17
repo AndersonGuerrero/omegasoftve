@@ -14,7 +14,7 @@
                         <div class="sec-title centered">
                             <h1>Únete a esta gran familia</h1>
                             <h2 style="font-size: 28px; margin-top: 20px;" >En Omegasoft más que un empleo, formarás parte de una familia</h2>
-                            <div class="text" style="text-align: justify;">
+                        <div class="text" style="text-align: justify;">
                             Si te apasiona  la tecnología y estás interesado  en  desarrollar  
                             soluciones  de  vanguardia  Omegasoft  es  el  lugar  perfecto  para  
                             ti,  aplica  en  nuestras  vacantes  y forma  parte  del  equipo. El
@@ -23,13 +23,18 @@
                             es por  esta razón que  estamos  abiertos a  captar  talento  humano  que
                             nos  lleve  al  crecimiento  como  organización  y  nos  permita  ofrecer
                             una atención  eficaz,  eficiente  y  de  calidad  a  nuestros  clientes  
-                            con  un  armónico  ambiente  de  trabajo.  Te invitamos  a  formar   parte
+                            con  un  armónico  ambiente  de  trabajo. 
+                        </div>
+                        <div class="text" style="text-align: justify; margin-top: 20px">
+                             Te invitamos  a  formar   parte
                             de  nuestro  equipo  y emprender  juntos  nuevos  desafíos,  que  nos  permitan
                             demostrar  nuestra  actitud,  pasión  por  lo  que  hacemos,  creatividad,
                             capacidad de  colaboración  y  energía frente a los retos que se nos presenten
                             y hacer la diferencia. Nuestras  prioridades  es  ofrecer  al  nuevo  talento
                             una  propuesta  en  la  que   puedan  desafiar  su potencial y lograr resultados
-                            extraordinarios.                                                                                                                                        flexibles  y asequibles para empresas de todos los tamaños..</div>
+                            extraordinarios.                                                                                                                                        
+                            flexibles  y asequibles para empresas de todos los tamaños.
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -74,7 +79,7 @@
                             <div class="career-posts">
                                 <!--Career Block-->
                                 <div class="career-block select-Tecnología">
-                                    <h2>Senior Innovation Manager</h2>
+                                    <h2> Director de Tecnología</h2>
                                     <p>Praesent ultricies ligula et pellentesque pretium. In sagittis libero vel ante pellentesque pulvinar. Nullam at elit nunc. In nec quam a dui consequat tristique at quis sem. Pellentesque luctus justo et convallis mollis senectus et netus.</p>
                                     <p>Vivamus vitae quam tempus, mattis mi ac, placerat mauris. Pellentesque porta enim non ultricies sagittis. Pellentesque habitant morbi tristique.</p>
                                     <ul>
