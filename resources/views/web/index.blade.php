@@ -224,8 +224,9 @@
             </div>
             <div class="sec-title centered" style="margin-bottom: 0px">
                 <div class="text" style="font-size: 18px;margin-bottom: 30px;" >
-                    Omega IT Service Management, integra soluciones que permiten a las organizaciones gestionar los
-                    servicios IT de manera efectiva.
+                        Omega ITSM, integra módulos y funcionalidades que le permitirán 
+                        estandarizar sus procesos y la gestión de servicio, alineándolos 
+                        con las mejores prácticas de ITIL, de forma fácil y eficaz.
                 </div>
             </div>
         </div>
@@ -350,7 +351,7 @@
 
 
 
-    <section style="margin-top: 130px; margin-bottom: 30px;" >
+    <section style="margin-bottom: 30px;" >
     	<div class="row" style="display: unset;">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center; margin-bottom: 50px">
@@ -469,7 +470,7 @@
                                     <p class="text" style="margin-top: -10px;color: #fff;">
                                             Prueba nuestra solución sin limitaciones y de forma gratuita 
                                     </p>
-                                <a href="{{ URL::to('/') }}/webcast/">
+                                <a href="{{ URL::to('/') }}/demo/">
                                     <figure class="icon-box">
                                             <img src="{{ URL::to('/') }}/images/icons/calendario.png" alt="">
                                     </figure>
@@ -505,16 +506,17 @@
             </div>
             <div class="sec-title centered" style="margin-bottom: 0px">
                     <div class="text" style="font-size: 18px;margin-bottom: 30px;">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae 
-                    itaque, numquam architecto et laborum ipsum consectetur voluptatem nihil 
-                    id. Dolorum, sint rerum. Quo non nihil rerum, sit repellendus nam sapiente?
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia neque facilis 
-                    deleniti eligendi, cumque nesciunt, odio itaque, voluptatem corrupti quisquam 
-                    numquam iure laudantium mollitia dolorum eos atque esse consequuntur. Sed!
+                            Para nosotros nuestros clientes son la gran apuesta de valor, 
+                            el verdadero aval de la compañía y la mayor garantía de continuidad. 
+                            les agradecemos la confianza que nos han brindado durante toda nuestra 
+                            trayectoria, un apoyo que ha permitido que seamos una empresa con gran 
+                            proyección de futuro, son nuestra mejor razón para despertarnos cada día
                     </div>
                 </div>
         </div>
     </section>
+
+
 
     <section class="page-title" style="height: 530px;background: #5aceff5c;">
         <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
@@ -524,6 +526,9 @@
 
         <!--Testimonials Two Section-->
     <section class="testimonials-two" style="padding: 40px 0px;">
+            <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
+                    <h1 style="font-size: 30px">Que dicen nuestros clientes</h1>
+                </div>
             <div class="auto-container">
                 <!--Heading-->                    
                 <div class="carousel-box">
@@ -615,7 +620,7 @@
     	<div class="auto-container">
             <div class="sec-title centered">
                 <h1 style="font-size:25px; margin-bottom: 15px">Participe en nuestros eventos en línea </h1>
-                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
+                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="{{ URL::to('/') }}/webcast/" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
             </div>
             
         </div>
