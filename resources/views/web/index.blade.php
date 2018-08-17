@@ -67,7 +67,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text-center"><a href="http://162.252.57.52/demo/" class="theme-btn btn-style-three">Prueba gratis </a></div>
+                    	<div class="text-center"><a href="http://162.252.57.52/demo/" class="theme-btn btn-style-three" style="border-color: #3ccc00; background: #3ccc00">Prueba gratis </a></div>
                     </div>
                     
                     </li>
@@ -311,7 +311,7 @@
     
     
     <!--About Two Section-->
-    <section class="about-two" style="padding: 65px 0px; background: #0c93fb0d">
+    <section class="about-two" style="padding: 0px 0px; background: #5aceff5c;height: 577px;">
     	<div class="outer-container clearfix">
         	<!--Image Column-->
             <div class="image-column"><div class="image-layer" style="background-image:url(images/background/omega-ITSM.png)"></div></div>
@@ -320,18 +320,26 @@
             	<div class="clearfix">
                     <div class="inner">
                     	<!--Heading-->
-                        <div class="sec-title-two centered" style="margin-bottom: 10px" >
+                        <div class="sec-title-two centered" style="margin-bottom: 10px;margin-top: -50px;" >
                             <h1 style="font-size: 30px">
                                     La solución-SoftExpert ITSM
                             </h1>
                         </div>
                             <div class="sec-title centered">
                                 <div class="text" style="text-align: justify;" >
-                                     <p><b>SoftExpert ITSM</b> Soporta ITIL® y otros Frameworks
-                                     de mejores plácticas ampliamente, adaptados integrando solicitudes
-                                     de <b>servicios,</b> 
-                                    </p>
-                                   
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                   Optio ab repudiandae quidem modi officia accusamus. 
+                                   Fugiat assumenda quia aliquam harum modi est mollitia 
+                                   sequi sint? Eum perferendis iste nostrum quasi.
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                   Optio ab repudiandae quidem modi officia accusamus. 
+                                   Fugiat assumenda quia aliquam harum modi est mollitia 
+                                   sequi sint? Eum perferendis iste nostrum quasi.
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                   Optio ab repudiandae quidem modi officia accusamus. 
+                                   Fugiat assumenda quia aliquam harum modi est mollitia 
+                                   sequi sint? Eum perferendis iste nostrum quasi.
+                                </div>
                                 </div>
                             </div>
                     </div>
@@ -456,10 +464,11 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="col-md-2 col-sm-2 col-xs-2"></div>
                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                            <div class="sec-title centered">
-                                <p class="text" style="font-weight: 600;color: #fff;">
-                                    Conozca nuestro calendariode webcast (presentaciones en línea) 
-                                </p>
+                            <div class="sec-title centered"  style="margin-bottom: 0px">
+                                    <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
+                                    <p class="text" style="margin-top: -10px;color: #fff;">
+                                            Prueba nuestra solución sin limitaciones y de forma gratuita 
+                                    </p>
                                 <a href="{{ URL::to('/') }}/webcast/">
                                     <figure class="icon-box">
                                             <img src="{{ URL::to('/') }}/images/icons/calendario.png" alt="">
@@ -469,9 +478,10 @@
     
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                                <div class="sec-title centered">
-                                    <p class="text" style="font-weight: 600;color: #fff;">
-                                        Solicite una demostración guiada por uno de nuestros expertos 
+                                <div class="sec-title centered" style="margin-bottom: 0px">
+                                    <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
+                                    <p class="text" style="margin-top: -10px;color: #fff;">
+                                         Solicite que uno de nuestros expertos le muestren nuestros productos 
                                     </p>
                                     <a href="{{ URL::to('/') }}/demo-guiada/">
                                         <figure class="icon-box">
@@ -506,14 +516,14 @@
         </div>
     </section>
 
-    <section class="page-title" style="height: 530px;background: #0c93fb0d;">
+    <section class="page-title" style="height: 530px;background: #5aceff5c;">
         <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
         <div class="auto-container">
         </div>
     </section>
 
         <!--Testimonials Two Section-->
-    <section class="testimonials-two">
+    <section class="testimonials-two" style="padding: 40px 0px;">
             <div class="auto-container">
                 <!--Heading-->                    
                 <div class="carousel-box">
@@ -601,11 +611,11 @@
             </div>
     </section>
 
-    <section class="services-two" style="margin-bottom:70px;background: #d4d4d4;padding:22px;height:150px;"> 
+    <section class="services-two" style="background: #5aceff5c;padding:22px;height:150px;"> 
     	<div class="auto-container">
             <div class="sec-title centered">
                 <h1 style="font-size:25px; margin-bottom: 15px">Participe en nuestros eventos en línea </h1>
-                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;">Programación Eventos En Línea</a></div>
+                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
             </div>
             
         </div>
