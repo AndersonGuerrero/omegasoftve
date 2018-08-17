@@ -223,11 +223,11 @@
                 <h1 style="font-size:30px" >Omega ITSM, Provee todo lo necesario para la gestión de servicios IT</h1>
             </div>
             <div class="sec-title centered" style="margin-bottom: 0px">
-                    <div class="text" style="font-size: 18px;margin-bottom: 30px;" >
+                <div class="text" style="font-size: 18px;margin-bottom: 30px;" >
                     Omega IT Service Management, integra soluciones que permiten a las organizaciones gestionar los
                     servicios IT de manera efectiva.
-                    </div>
                 </div>
+            </div>
         </div>
     </section>
      <!--end seccion 2-->
