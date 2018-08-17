@@ -182,24 +182,130 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center; margin-bottom: 50px">
-                            <div class="sec-title-two centered" style="margin-bottom: 10px">
-                                    <h1 style="font-size: 30px">
-                                            Horarios de Atención
-                                    </h1>
-                                </div>
-                                <figure class="icon-box">
-                                        <img src="http://127.0.0.1:8000/images/icons/bandera.png" alt="">
-                                </figure>
-                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;margin-left: 60px;">
-                                    <span class="text">
-                                        <span></span>
-                                    </span>
-                                </div>
-                          
-
+                        <div class="sec-title-two centered" style="margin-bottom: 10px">
+                            <h1 style="font-size: 30px">Horarios de Atención</h1>
+                        </div>
+                            <figure class="icon-box">
+                                    <img src="{{ URL::to('/') }}/images/icons/bandera.png" alt="">
+                            </figure>
+                            <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;margin-left: 60px;">
+                                <span class="text">
+                                    <span></span>
+                                </span>
+                            </div>
                     </div> 
                 </div>
             </div>
-        </section>
+    </section>
+
+    <section class="services-two"  style="padding: 0px; margin-top: 50px;"> 
+            <div class="auto-container">
+                <div class="sec-title centered" style="margin-bottom: 30px;">
+                    <h1 style="font-size:30px" >Alcance de soporte</h1>
+                </div>
+            </div>
+    </section>
+
+    <section style=" margin-bottom: 70px;background: #5aceff12;">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-md-12 col-ms-12 col-xs-12">
+                    <div class="col-md-6 col-ms-6 col-xs-6">
+                        <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
+                            <div class="col-md-2 col-ms-2 col-xs-2" style="text-align: center;padding-right: 0px;padding-left: 0px;">
+                                <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/soporte-telefonico.jpg" alt=""></figure>
+                            </div>
+                            <div class="col-md-10 col-ms-10 col-xs-10">
+                                <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
+                                    <h1 style="font-size:20px;text-align: initial;" >Tipo de soporte</h1>
+                                </div>
+                                <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
+                                    <div class="text" style="text-align:initial; font-size:15px;">
+                                        <ul>
+                                            <li>• Asesoría Telefónica</li>
+                                            <li>• Remoto</li>
+                                            <li>• Oficinas del Cliente</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-ms-6 col-xs-6">
+                    <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 28px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
+                        <div class="col-md-2 col-ms-2 col-xs-2" style="text-align: center;padding-right: 0px;padding-left: 0px;">
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/niveles-de-servicio.jpg" alt=""></figure>
+                        </div>
+                        <div class="col-md-10 col-ms-10 col-xs-10" style="margin-bottom: -30px;">
+                            <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
+                                <h1 style="font-size:20px;text-align: initial;" >Niveles de servcios</h1>
+                            </div>
+                            <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
+                                <div class="text" style="text-align:initial; font-size:15px;">
+                                    <ul>
+                                        <li>• Solución de dudas y asesoría en el uso de software.</li>
+                                        <li>• Incidente complejos en la operación de la herramienta</li>
+                                        <li>• Mejora a la plataforma y desarrollos de nuevas funcionalidades.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-ms-12 col-xs-12">
+                    <div class="col-md-6 col-ms-6 col-xs-6" style="margin-top: -31px">
+                        <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 16px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
+                            <div class="col-md-2 col-ms-2 col-xs-2" style="text-align: center;padding-right: 0px;padding-left: 0px;">
+                                <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/tiempos-de-respuesta-y-solucion.jpg" alt=""></figure>
+                            </div>
+                            <div class="col-md-10 col-ms-10 col-xs-10">
+                                <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
+                                    <h1 style="font-size:20px;text-align: initial;" >Tiempo de Respuesta y Solucion</h1>
+                                </div>
+                                <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
+                                    <div class="text" style="text-align:initial; font-size:15px;">
+                                            Para la atención de las solicitudes de nuestros clientes,
+                                            OmegaSoft dispone de acuerdos de servicios definidos por
+                                            tiempos de respuestas y solución según el servicio afectado.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-ms-6 col-xs-6" style="margin-top: -31px">
+                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 16px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
+                                <div class="col-md-2 col-ms-2 col-xs-2" style="text-align: center;padding-right: 0px;padding-left: 0px;">
+                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/niveles-de-prioridad.jpg" alt=""></figure>
+                                </div>
+                                <div class="col-md-10 col-ms-10 col-xs-10">
+                                    <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
+                                        <h1 style="font-size:20px;text-align: initial;">Niveles de Prioridad</h1>
+                                    </div>
+                                        <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
+                                                <div class="text" style="text-align:initial; font-size:15px;">
+                                                        Priorizamos las solicitudes en 4 niveles:<br>
+                                                        •Critica&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; •Alta<br>
+                                                        •Media&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; •Baja
+                                                </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-two"  style="padding: 0px;"> 
+            <div class="auto-container">
+                <div class="sec-title centered">
+                    <h1 style="font-size:30px" >Limitaciones de soporte</h1>
+                </div>
+            </div>
+    </section>
 
 @endsection
