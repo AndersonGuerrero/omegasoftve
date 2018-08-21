@@ -9,34 +9,38 @@
         </div>
     </section>
 
-    <section style="height: 50px;background:#000000;">
+    <section style="height: 50px;background:#00325d;">
         <div class="row">
             <div class="col-md-12 col-ms-12 col-xs-12">
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a style="color: #fff;text-decoration:none;" href="">Inicio de centro desoporte</a>
+                            <a style="color: #fff;text-decoration:none;" href="">
+                                <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/inicio-centro-de-soporte.png" alt="">Centro de Soporte</a>
                         </h2>
                     </div>
                 </div>
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a style="color: #fff;text-decoration:none;" href="http://omegasoftve.com/omega-kwoledgebase/">Base de conocimiento</a>
+                            <a style="color: #fff;text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">
+                                <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/abrir-un-ticket.png" alt="">Aperturar Ticket</a>
                         </h2>
                     </div>
                 </div>
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a style="color: #fff;text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">Abrir un nuevo ticket</a>
+                            <a style="color: #fff;text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">
+                                <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/estado-de-un-ticket.png" alt="">Seguimiento de ticket</a>
                         </h2>
                     </div>
                 </div>
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a style="color: #fff;text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">Ver estado de un ticket</a>
+                            <a style="color: #fff;text-decoration:none;" href="http://omegasoftve.com/omega-kwoledgebase/">
+                                <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/base-de-conocimiento.png" alt="">Base de conocimiento</a>
                         </h2>
                     </div>
                 </div>
@@ -47,12 +51,12 @@
     <section class="services-two"  style="padding: 0px; margin-top: 50px;"> 
             <div class="auto-container">
                 <div class="sec-title-two centered" style="margin-bottom: 0px;">
-                    <h1 style="font-size:30px" >¿Comó podriamos ayudarte?</h1>
+                    <h1 style="font-size:30px" >¿Cómo podriamos ayudarte?</h1>
                 </div>
                 <div class="sec-title centered" style="margin-bottom: 0px">
                     <div class="text" style="font-size: 20px;margin-bottom: 30px;" >
-                            Nuestro canales estan estan disponibles para facilitarte 
-                            e acceso a nuestro centro de soporte.
+                            Nuestro canales están estan disponibles para facilitarle 
+                            el acceso a nuestro centro de soporte.
                     </div>
                 </div>
             </div>
@@ -73,7 +77,7 @@
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
-                                        Para obtener ayuda o soporte técnico, contactenos a travéz del (58) 244 3868448 ext 602.
+                                        Para obtener ayuda o soporte técnico, contactenos a través del (58) 244 3868448 ext 602.
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +114,7 @@
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
-                                        A travéz de nuestra página web interactúe con nosotros en nuestro chat en linea.
+                                        A través de nuestra página web interactúe con nosotros en nuestro chat en linea.
                                     </div>
                                 </div>
                             </div>
@@ -127,8 +131,8 @@
                                     </div>
                                     <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                         <div class="text" style="text-align:initial; font-size:15px;">
-                                            Ingrasa a nuestra base de conocimiento y si eres usuario registrado, 
-                                            realiza tus solicitudes y da seguiento <a style="text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">aqui</a>
+                                            Ingresa a nuestra base de conocimiento y si eres usuario registrado, 
+                                            realiza tus solicitudes y da seguimiento <a style="text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">aqui</a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +212,7 @@
                     <div class="col-md-6 col-ms-6 col-xs-6">
                         <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
                             <div class="col-md-2 col-ms-2 col-xs-2" style="text-align: center;padding-right: 0px;padding-left: 0px;">
-                                <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/soporte-telefonico.jpg" alt=""></figure>
+                                <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/tipos-de-soporte.png" alt=""></figure>
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
@@ -256,12 +260,12 @@
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                    <h1 style="font-size:20px;text-align: initial;" >Tiempo de Respuesta y Solucion</h1>
+                                    <h1 style="font-size:20px;text-align: initial;" >Tiempo de Respuesta y Solución</h1>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
                                             Para la atención de las solicitudes de nuestros clientes,
-                                            OmegaSoft dispone de acuerdos de servicios definidos por
+                                            Omegasoft dispone de acuerdos de servicios definidos por
                                             tiempos de respuestas y solución según el servicio afectado.
                                     </div>
                                 </div>
@@ -280,7 +284,7 @@
                                         <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
                                                 <div class="text" style="text-align:initial; font-size:15px;">
                                                         Priorizamos las solicitudes en 4 niveles:<br>
-                                                        •Critica&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; •Alta<br>
+                                                        •Crítica&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; •Alta<br>
                                                         •Media&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; •Baja
                                                 </div>
                                         </div>
@@ -295,10 +299,28 @@
         </div>
     </section>
 
-    <section class="services-two"  style="padding: 0px;"> 
+    <section class="services-two"  style="padding: 0px 0px 90px;"> 
             <div class="auto-container">
                 <div class="sec-title centered">
-                    <h1 style="font-size:30px" >Limitaciones de soporte</h1>
+                    <h1 style="font-size:30px;margin-bottom: 25px;" >limitaciones del servicio</h1>
+                    <div class="col-md-6 col-ms-6 col-xs-6">
+                        <div class="sec-title centered"> 
+                            <div class="text" style="text-align: center">
+                                    Nuestro servicio de soporte técnico se brindará única 
+                                    y exclusivamente a clientes que tengan el servicio de 
+                                    soporte activo al momento de ser solicitado.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-ms-6 col-xs-6">
+                            <div class="sec-title centered"> 
+                                <div class="text" style="text-align: center">
+                                    El servicio de soporte estándar se brindará a través 
+                                    de comunicación telefónica, chat, vía Internet, correo 
+                                    electrónico ó acceso remoto. No incluye soporte en sitio.
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
     </section>

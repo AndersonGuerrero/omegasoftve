@@ -13,7 +13,7 @@
                                     <div class="widget-inner">
                                         <div class="logo"><img src="{{ URL::to('/') }}/images/logo.png" alt=""></div>
                                         <div class="text">Nuestro   principales  objetivos   son 
-                                                          combinar la facilidad,la accesibilidad
+                                                          combinar la facilidad, la accesibilidad
                                                           y  la  practicidad   al   proporcionar 
                                                           soluciones  flexibles  y  asequible  para 
                                                           empresas  de  todos  los tamaños.</div>

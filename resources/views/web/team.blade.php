@@ -14,7 +14,7 @@
                         <div class="sec-title centered">
                             <h1>Únete a esta gran familia</h1>
                             <h2 style="font-size: 28px; margin-top: 20px;" >En Omegasoft más que un empleo, formarás parte de una familia</h2>
-                        <div class="text" style="text-align: justify;">
+                        <div class="text" style="text-align: center;">
                             Si te apasiona  la tecnología y estás interesado  en  desarrollar  
                             soluciones  de  vanguardia  Omegasoft  es  el  lugar  perfecto  para  
                             ti,  aplica  en  nuestras  vacantes  y forma  parte  del  equipo. El
@@ -25,7 +25,7 @@
                             una atención  eficaz,  eficiente  y  de  calidad  a  nuestros  clientes  
                             con  un  armónico  ambiente  de  trabajo. 
                         </div>
-                        <div class="text" style="text-align: justify; margin-top: 20px">
+                        <div class="text" style="text-align: center; margin-top: 20px">
                              Te invitamos  a  formar   parte
                             de  nuestro  equipo  y emprender  juntos  nuevos  desafíos,  que  nos  permitan
                             demostrar  nuestra  actitud,  pasión  por  lo  que  hacemos,  creatividad,
@@ -91,7 +91,7 @@
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Comercial">
-                                    <h2>Real World Evidence Research Consultant</h2>
+                                    <h2>Director Comercial</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
                                     <ul>
                                         <li>I must explain to you how all this mistaken idea</li>
