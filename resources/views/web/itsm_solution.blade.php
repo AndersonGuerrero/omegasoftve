@@ -228,7 +228,7 @@
                                 </div> 
                                 <!--Career Block-->
                                 <div class="career-block select-ITSM-ITIL">
-                                    <section class="services-two" style="padding: 0px; margin-top: 50px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;">
                                                     <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
@@ -384,7 +384,7 @@
                                     <section>
                                             <div class="auto-container">
                                                 <div class="row">
-                                                    <div class="col-md-12 col-ms-12 col-xs-12">
+                                                    <div class="col-md-12 col-ms-12 col-xs-12" style="margin-top: -50px">
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
                                                             <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
                                                                 <div class="row">
