@@ -47,7 +47,7 @@
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 15px;">
                                                     <a data-id="select-Benefcios" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
-                                                        <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Benefcios</a>
+                                                        <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Beneficios</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -764,15 +764,67 @@
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Benefcios">
-                                    <h2>Junior Innovation Manager</h2>
-                                    <p>Pellentesque luctus justo et convallis mollis. Vivamus vitae quam tempus, mattis mi ac, placerat mauris. Pellentesque porta enim non ultricies sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sed nunc tortor. Aliquam lobortis viverra leo.</p>
-                                    <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <div class="auto-container">
+                                        <div class="sec-title centered" style="margin-bottom: 0px;">
+                                            <h1 style="font-size:30px;">Todo lo que necesita para el soporte de TI</h1>
+                                        </div>
+                                    </div>
+                                </section>
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Verciones-y-precios">
-                                    <h2>Junior Innovation Manager</h2>
-                                    <p>Pellentesque luctus justo et convallis mollis. Vivamus vitae quam tempus, mattis mi ac, placerat mauris. Pellentesque porta enim non ultricies sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sed nunc tortor. Aliquam lobortis viverra leo.</p>
-                                    <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <div class="auto-container">
+                                        <div class="sec-title centered" style="margin-bottom: 0px;">
+                                            <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+                                        </div>
+                                    </div>
+
+                                    <section class="services-two " style="padding: 0px;">
+                                        <div>
+                                            <div style="margin-bottom: 0px">
+                                                <div style="margin-top: 35px">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12" style=" background: #5aceff5c">
+                                                        <div class="sec-title centered" style="margin-bottom: 0px;">
+                                                            <h1 style="font-size:30px;margin-top: 30px;">Tipo de licenciamiento para Omegasoft</h1>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                                                            <div class="sec-title centered" style="margin-bottom: 0px">
+                                                                <p class="text" style="margin-top: -10px; text-align: justify">
+                                                                    <b>Lorem ipsum:</b> dolor sit amet consectetur adipisicing elit. 
+                                                                    Aperiam quae libero labore dolorem incidunt qui nobis! 
+                                                                    Accusantium quos perferendis vel impedit distinctio modi, 
+                                                                    nemo porro quidem ipsum deserunt, assumenda illo! 
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                                                            <div class="sec-title centered" style="margin-bottom: 0px">
+                                                                <p class="text" style="margin-top: -10px; text-align: justify">
+                                                                    <b>Lorem ipsum:</b> dolor sit amet consectetur adipisicing elit. 
+                                                                    Aperiam quae libero labore dolorem incidunt qui nobis! 
+                                                                    Accusantium quos perferendis vel impedit distinctio modi, 
+                                                                    nemo porro quidem ipsum deserunt, assumenda illo! 
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                                                            <div class="sec-title centered" style="margin-bottom: 0px">
+                                                                <p class="text" style="margin-top: -10px; text-align: justify">
+                                                                    <b>Lorem ipsum:</b> dolor sit amet consectetur adipisicing elit. 
+                                                                    Aperiam quae libero labore dolorem incidunt qui nobis! 
+                                                                    Accusantium quos perferendis vel impedit distinctio modi, 
+                                                                    nemo porro quidem ipsum deserunt, assumenda illo! 
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>     
+                                            </div>
+                                        </div>
+                                    </section>
+                                </section>
                                 </div>
                             </div>
                         </div>
@@ -781,6 +833,151 @@
             </div>
 
     </section>
+
+
+    <section class="services-two imgback" style="padding: 0px; ">
+    	<div class="">
+            <div style="margin-bottom: 0px">
+                <div style="margin-top: 35px">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                            <div class="sec-title centered" style="margin-bottom: 0px">
+                                    <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
+                                    <p class="text" style="margin-top: -10px;color: #fff;">
+                                            Prueba nuestra solución sin limitaciones y de forma gratuita 
+                                    </p>
+                                <a href="http://localhost:8000/demo/">
+                                    <figure class="icon-box">
+                                            <img src="http://localhost:8000/images/icons/calendario.png" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+    
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                            <div class="sec-title centered" style="margin-bottom: 0px">
+                                <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
+                                <p class="text" style="margin-top: -10px;color: #fff;">
+                                        Solicite que uno de nuestros expertos le muestren nuestros productos 
+                                </p>
+                                <a href="http://localhost:8000/demo-guiada/">
+                                    <figure class="icon-box">
+                                        <img src="http://localhost:8000/images/icons/computadora.png" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    
+        <!--Testimonials Two Section-->
+     <section class="testimonials-two" style="padding: 40px 0px;">
+            <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
+                    <h1 style="font-size: 30px">Que dicen nuestros clientes</h1>
+                </div>
+            <div class="auto-container">
+                <!--Heading-->                    
+                <div class="carousel-box">
+                    <div class="testimonial-carousel-two owl-theme owl-carousel">
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Omega ITSM nos ha ayudado totalmente
+                                    a mejorar nuestra gestión de servicios. La gerencia
+                                    de Tecnología ahora es mucho más eficiente, mejorando
+                                    nuestros Tiempos de respuesta teniendo un unico punto de
+                                    contacto con los distintos departamentos de la gerencia. 
+                                </div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente1.png" alt=""></figure>
+                                    <h4>Arnoldo Rodriguez</h4>
+                                    <div class="designation">Gerente de Tecnología, Grupos de Ultimas Noticias.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Con las soluciones de Omegasoft, hemos podido
+                                    gestiona de manera eficiente las necesidades
+                                    de nuestros usuarios, ha permitido mayor 
+                                    contro en el tiempo de atención loque ha sido 
+                                    una oportunidad para el mejoramiento continuo
+                                    de nuestros procesos, en particular se ha
+                                    mejorando notablemente la comunicación entre
+                                    los usuarios y nuestros departamnto, los
+                                    cuales ahora conocen en todo momento el 
+                                    estado en el que se encuentra su solucitud.</div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente2.png" alt=""></figure>
+                                    <h4>Jesús Reyes</h4>
+                                    <div class="designation">Gerente de Tecnología, Technip Velam</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Con Omega ITSM tenemos gestión
+                                    controlada y alineada aTIL, una comunicacion
+                                    efectiva con los usuarios, una distribución
+                                    más eficiente de las cargas de trabajo, un
+                                    seguimiento continuo mediante reportes e
+                                    informes y una medición de niveles de 
+                                    servicios para mejora del servicios.</div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente3.png" alt=""></figure>
+                                    <h4>José Flores</h4>
+                                    <div class="designation">Gerente de Tecnología, Ron Santa Teresa</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="testimonial-block">
+                            <div class="inner">
+                                <div style="text-align: justify;" class="text">
+                                    Omegasoft nosha permitido la
+                                    implementacion de una solución intergra
+                                    par la gestión de los servicios TI, alineando
+                                    los procesos del área con las buenas prácticas
+                                    que ofrece ITIL lo cual hoy nos facilita
+                                    el brindar servicios de mayor calidad.</div>
+                                <div class="info">
+                                    <figure class="image img-circle">
+                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente4.png" alt=""></figure>
+                                    <h4>Juan Carlos Duque</h4>
+                                    <div class="designation">Gerente de Tecnología,Mapre la Seuridad</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+
+    <section class="services-two" style="background: #5aceff5c;padding:22px;height:150px;"> 
+    	<div class="auto-container">
+            <div class="sec-title centered">
+                <h1 style="font-size:25px; margin-bottom: 15px">Participe en nuestros eventos en línea </h1>
+                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="http://localhost:8000/webcast/" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
+            </div>
+            
+        </div>
+    </section>
+
 @endsection
 
 @section('javascript')
