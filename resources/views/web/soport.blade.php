@@ -9,7 +9,7 @@
         </div>
     </section>
 
-    <section style="height: 50px;background:#00325d;">
+    <section style="background:#00325d;">
         <div class="row">
             <div class="col-md-12 col-ms-12 col-xs-12">
                 <div class="col-md-3 col-ms-3 col-xs-3">
@@ -48,9 +48,9 @@
         </div>
     </section>
 
-    <section class="services-two"  style="padding: 0px; margin-top: 50px;"> 
+    <section class="services-two"  style="padding: 0px; margin-top: -50px;"> 
             <div class="auto-container">
-                <div class="sec-title-two centered" style="margin-bottom: 0px;">
+                <div class="sec-title-two centered" style="margin-bottom: 0px;padding: 20px;">
                     <h1 style="font-size:30px" >¿Cómo podriamos ayudarte?</h1>
                 </div>
                 <div class="sec-title centered" style="margin-bottom: 0px">
