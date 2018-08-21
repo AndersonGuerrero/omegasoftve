@@ -302,7 +302,7 @@
     <section class="services-two"  style="padding: 0px 0px 90px;"> 
             <div class="auto-container">
                 <div class="sec-title centered">
-                    <h1 style="font-size:30px;margin-bottom: 25px;" >limitaciones del servicio</h1>
+                    <h1 style="font-size:30px;margin-bottom: 25px;" >Limitaciones del servicio</h1>
                     <div class="col-md-6 col-ms-6 col-xs-6">
                         <div class="sec-title centered"> 
                             <div class="text" style="text-align: center">
