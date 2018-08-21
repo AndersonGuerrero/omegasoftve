@@ -55,7 +55,7 @@
                 </div>
                 <div class="sec-title centered" style="margin-bottom: 0px">
                     <div class="text" style="font-size: 20px;margin-bottom: 30px;" >
-                            Nuestro canales están estan disponibles para facilitarle 
+                            Nuestro canales están disponibles para facilitarle 
                             el acceso a nuestro centro de soporte.
                     </div>
                 </div>
