@@ -172,7 +172,130 @@
                                             </div>
                                     </section>
                                     
-                                    
+                                    <section>
+                                        <div class="auto-container">
+                                            <div class="sec-title-two centered " style="margin-bottom: 30px;">
+                                                <h1 style="font-size:30px;">Beneficios</h1>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section class="services-two" style="padding: 0px">
+                                        <div class="auto-container">     
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/flexibilidad.png" alt=""></figure>
+                                                        <h3>Flexibilidad</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Restablezca los servicios afectados, gestione 
+                                                            los incidentes notificados por los usuarios
+                                                            resolviendo con eficiencia y eficacia las interrupciones 
+                                                            con el menor impacto</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/toma_de_decisiones.png" alt=""></figure>
+                                                        <h3>Toma de decisiones</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Proporcione una gestión adecuada a las solicitudes 
+                                                            de los usuarios ante las peticiones orientadas a mejoras 
+                                                            de los servicios.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/satisfaccion-del-cliente.png" alt=""></figure>
+                                                        <h3>Satisfaccion del cliente</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Defina un catálogo de servicio de fácil 
+                                                            comprensión para usuarios y solucionadores, 
+                                                            donde detalle los servicios ofrecidos por el 
+                                                            negocio, grupos solucionadores encargados de la
+                                                            atención.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/reduccion_de_costos.png" alt=""></figure>
+                                                        <h3>Reduccion de costos</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Establezca contratos de tiempos para la resolución 
+                                                            de las solicitudes entre el usuario y TI, los SLA 
+                                                            implementados garantizarán el cumplimiento del soporte.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/prestacion-de-servicio.png" alt=""></figure>
+                                                        <h3>Prestacion de servicio</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Disponga de un espacio para el almacenamiento 
+                                                            de artículos y soluciones que sirva de canal 
+                                                            colaborativo para usuarios y solucionadores 
+                                                            en la resolución de inquietudes 24*7.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/gobernabilidad-control.png" alt=""></figure>
+                                                        <h3>Gobernabilidad control</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Determine las causas raíz de los incidentes 
+                                                            recurrentes sobre los activos de su organización, 
+                                                            identifique errores conocidos y proporcione 
+                                                            soluciones efectivas a problemas.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/eficiencia.png" alt=""></figure>
+                                                        <h3>Eficiencia</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Registre, controle y evalúe los cambios sugeridos 
+                                                            sobre su infraestructura IT, mejore el servicio e 
+                                                            incremente la productividad del usuario.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/disponibilidad.png" alt=""></figure>
+                                                        <h3>Disponibilidad</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Planifique el desarrollo de nuevos proyectos para 
+                                                            su organización, orientados a la implementación de 
+                                                            nuevas tecnologías, programaciones, mejoras de servicio, etc</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/automatizacion.png" alt=""></figure>
+                                                        <h3>Automatizacion</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Rastrea y administra todos los elementos de 
+                                                            configuración y asigna sus relaciones y dependencias.&nbsp;
+                                                            Analice visualmente el impacto de los cambios y las
+                                                            interrupciones en la toma de decisiones</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
 
                                 </div> 
                                 <!--Career Block-->
@@ -802,6 +925,9 @@
             </div>
 
     </section>
+    
+
+
 
 
     <section class="services-two imgback" style="padding: 0px; ">
@@ -844,6 +970,12 @@
         </div>
     </section>
 
+
+    <section class="page-title" style="height: 530px;background: #5aceff5c;">
+            <div class="image-layer" style="background-image:url(http://127.0.0.1:8000/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
+            <div class="auto-container">
+            </div>
+    </section>
     
         <!--Testimonials Two Section-->
      <section class="testimonials-two" style="padding: 40px 0px;">
