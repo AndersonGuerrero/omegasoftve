@@ -71,7 +71,7 @@
                             <div class="career-posts">
                                 <!--Career Block-->
                                 <div class="career-block select-Información-General">
-                                    <section class="services-two" style="padding: 0px; margin-top: -40px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title-two centered" style="margin-bottom: 0px;">
                                                     <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
@@ -228,7 +228,7 @@
                                 </div> 
                                 <!--Career Block-->
                                 <div class="career-block select-ITSM-ITIL">
-                                    <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;">
                                                     <h1 style="font-size:30px;">
@@ -774,7 +774,7 @@
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Benefcios">
-                                    <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
                                         <div class="auto-container">
                                             <div class="sec-title centered" style="margin-bottom: 0px;">
                                                 <h1 style="font-size:30px;">Todo lo que necesita para el soporte de TI</h1>
@@ -784,7 +784,7 @@
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Verciones-y-precios">
-                                    <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
                                         <div class="auto-container">
                                             <div class="sec-title centered" style="margin-bottom: 0px;">
                                                 <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
