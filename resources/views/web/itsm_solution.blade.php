@@ -13,7 +13,7 @@
             <div class="">
                 <div class="row clearfix">
                     <!--Left Side-->
-                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12" style="background:#00325d">
                         <div class="inner">
                             <!--Jobs Widget-->
                             <div class="jobs-widget side-widget">
@@ -21,7 +21,7 @@
                                     <ul id="categorys-vacancies-content">
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Información-General" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Información General</a>
                                                 </h2>
@@ -29,7 +29,7 @@
                                         </div>
                                         <div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-ITSM-ITIL" style=";text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">ITSM-ITIL</a>
                                                 </h2>
@@ -37,7 +37,7 @@
                                         </div>
                                         <div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Caractristicas" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Caracteristicas</a>
                                                 </h2>
@@ -45,7 +45,7 @@
                                         </div>
                                         <div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Benefcios" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Beneficios</a>
                                                 </h2>
@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Verciones-y-precios" style=";text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Verciones y precios</a>
                                                 </h2>
@@ -66,18 +66,18 @@
                     </div>
                     
                     <!--Content Side-->
-                    <div class="content-side col-md-12 col-sm-12 col-xs-12">
+                    <div class="content-side col-md-12 col-sm-12 col-xs-12" style="margin-bottom: -70px">
                         <div class="inner" style="padding-left:0px; ">
                             <div class="career-posts">
                                 <!--Career Block-->
                                 <div class="career-block select-Información-General">
-                                    <section class="services-two" style="padding: 0px; margin-top: -40px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title-two centered" style="margin-bottom: 0px;">
-                                                    <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+                                                    <h1 style="font-size:30px;padding-top: 65px">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px">
-                                                    <div class="text" style="font-size: 20px;margin-bottom: 30px; text-align: center">
+                                                    <div class="text" style="font-size: 20px;margin-bottom: 85px; text-align: center">
                                                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                                             Doloribus maxime maiores quibusdam aut dolorum, totam magni 
                                                             vero amet repellat aliquam ipsam et deleniti doloremque vitae 
@@ -90,24 +90,24 @@
                                             </div>
                                     </section>
 
-                                        <!--About Two Section-->
-                                    <section>
+                                    <!--About Two Section-->    
+                                    <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
                                                 <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: end">
                                                         <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
+                                                                <img  style="height: 260px;margin-top: 26px;" src="{{ URL::to('/') }}/images/icons/gestione-diferentes-procesos.png" alt="">
                                                         </figure>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                            <h1 style="font-size: 30px;margin-top: 20px;">
+                                                    <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;" >
+                                                            <h1 style="font-size: 35px;margin-top: 20px;">
                                                                 Gestiona diferentes procesos
                                                             </h1>
                                                     </div>
-                                                    <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 30px;padding-right: 30px;">
+                                                    <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
+                                                        <div class="text" style="padding-left: 0px;padding-right: 150px;font-size: 22px;">
                                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
                                                                 consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
                                                                 nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
@@ -118,16 +118,16 @@
                                             </div>
                                     </section>
                                     <!--About Two Section-->
-                                    <section>
+                                    <section style="margin-bottom: 60px">
                                         <div class="row" style="display: unset;">
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                        <h1 style="font-size: 30px;margin-top: 20px;">
-                                                            Portar de autoservicio
+                                                <div class="sec-title-two centered3" style="margin-bottom:10px;text-align: initial;padding-left:100px;"  >
+                                                        <h1 style="font-size: 35px;margin-top: 20px;">
+                                                            Portar de usuarios
                                                         </h1>
                                                 </div>
-                                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                    <div class="text" style="padding-left: 30px;padding-right: 30px;">
+                                                <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
+                                                    <div class="text" style="padding-left:100px;padding-right: 0px;font-size: 22px;">
                                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
                                                             consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
                                                             nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
@@ -136,32 +136,32 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
+                                                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: initial">
                                                     <figure class="icon-box">
-                                                            <img src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
+                                                            <img style="height: 260px;margin-top: 26px;" src="{{ URL::to('/') }}/images/icons/portal-de-usuarios.png" alt="">
                                                     </figure>
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
                                     <!--About Two Section-->
-                                    <section>
+                                    <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
                                                 <div class="col-md-6 col-sm-6 col-xs-6"> 
                                                     <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
                                                         <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
+                                                                <img style="height: 260px;margin-top: 26px;" src="{{ URL::to('/') }}/images/icons/gestion-de-cambios.png" alt="">
                                                         </figure>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                            <h1 style="font-size: 30px;margin-top: 20px;">
-                                                                Cambios
+                                                    <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;">
+                                                            <h1 style="font-size: 35px;margin-top: 20px;">
+                                                                Gestion de cambios
                                                             </h1>
                                                     </div>
-                                                    <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 30px;padding-right: 30px;">
+                                                    <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
+                                                        <div class="text" style="padding-left: 0px;padding-right: 150px;font-size: 22px;">
                                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
                                                                 consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
                                                                 nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
@@ -171,67 +171,142 @@
                                                 </div>
                                             </div>
                                     </section>
-                                    <!--About Two Section-->
+                                    
                                     <section>
-                                        <div class="row" style="display: unset;">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                        <h1 style="font-size: 30px;margin-top: 20px;">
-                                                            Toma de deciciones - kpi
-                                                        </h1>
+                                        <div class="auto-container">
+                                            <div class="sec-title-two centered " style="margin-bottom: 30px;">
+                                                <h1 style="font-size:30px;">Beneficios</h1>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section class="services-two" style="padding: 0px">
+                                        <div class="auto-container">     
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/flexibilidad.png" alt=""></figure>
+                                                        <h3>Flexibilidad</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Restablezca los servicios afectados, gestione 
+                                                            los incidentes notificados por los usuarios
+                                                            resolviendo con eficiencia y eficacia las interrupciones 
+                                                            con el menor impacto</div>
+                                                    </div>
                                                 </div>
-                                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                    <div class="text" style="padding-left: 30px;padding-right: 30px;">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
-                                                            consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
-                                                            nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
-                                                            adipisci dolores.
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/toma_de_decisiones.png" alt=""></figure>
+                                                        <h3>Toma de decisiones</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Proporcione una gestión adecuada a las solicitudes 
+                                                            de los usuarios ante las peticiones orientadas a mejoras 
+                                                            de los servicios.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/satisfaccion-del-cliente.png" alt=""></figure>
+                                                        <h3>Satisfaccion del cliente</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Defina un catálogo de servicio de fácil 
+                                                            comprensión para usuarios y solucionadores, 
+                                                            donde detalle los servicios ofrecidos por el 
+                                                            negocio, grupos solucionadores encargados de la
+                                                            atención.</div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
-                                                    <figure class="icon-box">
-                                                            <img src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
-                                                    </figure>
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/reduccion_de_costos.png" alt=""></figure>
+                                                        <h3>Reduccion de costos</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Establezca contratos de tiempos para la resolución 
+                                                            de las solicitudes entre el usuario y TI, los SLA 
+                                                            implementados garantizarán el cumplimiento del soporte.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/prestacion-de-servicio.png" alt=""></figure>
+                                                        <h3>Prestacion de servicio</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Disponga de un espacio para el almacenamiento 
+                                                            de artículos y soluciones que sirva de canal 
+                                                            colaborativo para usuarios y solucionadores 
+                                                            en la resolución de inquietudes 24*7.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/gobernabilidad-control.png" alt=""></figure>
+                                                        <h3>Gobernabilidad control</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Determine las causas raíz de los incidentes 
+                                                            recurrentes sobre los activos de su organización, 
+                                                            identifique errores conocidos y proporcione 
+                                                            soluciones efectivas a problemas.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/eficiencia.png" alt=""></figure>
+                                                        <h3>Eficiencia</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Registre, controle y evalúe los cambios sugeridos 
+                                                            sobre su infraestructura IT, mejore el servicio e 
+                                                            incremente la productividad del usuario.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/disponibilidad.png" alt=""></figure>
+                                                        <h3>Disponibilidad</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Planifique el desarrollo de nuevos proyectos para 
+                                                            su organización, orientados a la implementación de 
+                                                            nuevas tecnologías, programaciones, mejoras de servicio, etc</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/automatizacion.png" alt=""></figure>
+                                                        <h3>Automatizacion</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Rastrea y administra todos los elementos de 
+                                                            configuración y asigna sus relaciones y dependencias.&nbsp;
+                                                            Analice visualmente el impacto de los cambios y las
+                                                            interrupciones en la toma de decisiones</div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
-                                    <!--About Two Section-->
-                                    <section>
-                                            <div class="row" style="display: unset;">
-                                                <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
-                                                        <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                            <h1 style="font-size: 30px;margin-top: 20px;">
-                                                                Base de conocimiento
-                                                            </h1>
-                                                    </div>
-                                                    <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 30px;padding-right: 30px;">
-                                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
-                                                                consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
-                                                                nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
-                                                                adipisci dolores.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </section>
+
+
                                 </div> 
                                 <!--Career Block-->
                                 <div class="career-block select-ITSM-ITIL">
-                                    <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
                                             <div class="auto-container">
-                                                <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                    <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+                                                <div class="sec-title centered" style="margin-bottom: 40px;">
+                                                    <h1 style="font-size:30px; padding-top: 65px">
+                                                        Omega ITSM, ha sido desarrollado para soportar 
+                                                        y facilitar la automatización de los procesos,
+                                                        basados en las mejores prácticas de ITIL.</h1>
                                                 </div>
                                             </div>
                                     </section>
@@ -242,103 +317,37 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/control.png" alt=""></figure>
-                                                        <h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
-                                                        mejore la productividad de los agentes, cumpla con los SLA y administre 
-                                                        el ciclo de vida completo de sus tickets de TI.</div>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/incidentes.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Incidentes</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Restablezca los servicios afectados, gestione 
+                                                            los incidentes notificados por los usuarios
+                                                            resolviendo con eficiencia y eficacia las interrupciones 
+                                                            con el menor impacto</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/unico-punto.png" alt=""></figure>
-                                                        <h3><a href="">Único punto de contacto</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Establezca un único punto 
-                                                        de contacto para el registro y seguimiento de ticket, permitiéndole 
-                                                        al usuario final acceder por distintas vías como Teléfono, Correo o 
-                                                        Portal de Autoservicio</div>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/requerimientos.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Requerimientos</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Proporcione una gestión adecuada a las solicitudes 
+                                                            de los usuarios ante las peticiones orientadas a mejoras 
+                                                            de los servicios.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/usuarios.png" alt=""></figure>
-                                                        <h3><a href="">Portal de usuarios</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
-                                                        al centro de soporte, poniendo a disposición de los usuarios 
-                                                        finales un portal con capacidades de autoservicios para el 
-                                                        registro y seguimiento de ticket.</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row clearfix">
-                                                    <!--Service Block-->
-                                                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                                                        <div class="inner-box">
-                                                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/cambios.png" alt=""></figure>
-                                                            <h3><a href="">Controle los cambios TI</a></h3>
-                                                            <div style="font-size: 15px;" class="text">Agilice la planificación, 
-                                                            aprobación e implementación con flujos de trabajo
-                                                            automatizados.&nbsp;Asegúrese de que no haya más cambios 
-                                                            no autorizados o fallidos.</div>
-                                                        </div>
-                                                    </div>
-                                                    <!--Service Block-->
-                                                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                                                        <div class="inner-box">
-                                                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/proyectos.png" alt=""></figure>
-                                                            <h3><a href="">Entrega proyectos de TI a tiempo</a></h3>
-                                                            <div style="font-size: 15px;" class="text">Crea proyectos, gestiona recursos 
-                                                            y realiza un seguimiento del progreso.&nbsp;Integre proyectos de TI 
-                                                            con solicitudes y cambios para optimizar la entrega general de 
-                                                            servicios de TI.</div>
-                                                        </div>
-                                                    </div>
-                                                    <!--Service Block-->
-                                                    <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
-                                                        <div class="inner-box">
-                                                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/impulsa-decisiones.png" alt=""></figure>
-                                                            <h3><a href="">Impulsa las decisiones con los datos correctos</a></h3>
-                                                            <div style="font-size: 15px;" class="text">Use informes enlatados y personalizados 
-                                                            para obtener los conocimientos adecuados.&nbsp;
-                                                            Supervise el rendimiento de su mesa de 
-                                                            ayuda de TI mediante paneles de control 
-                                                            personalizables y en tiempo real</div>
-                                                        </div>
-                                                    </div>
-                                            </div>
-                                            <div class="row clearfix">
-                                                <!--Service Block-->
-                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                                                    <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/control.png" alt=""></figure>
-                                                        <h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
-                                                        mejore la productividad de los agentes, cumpla con los SLA y administre 
-                                                        el ciclo de vida completo de sus tickets de TI.</div>
-                                                    </div>
-                                                </div>
-                                                <!--Service Block-->
-                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                                                    <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/unico-punto.png" alt=""></figure>
-                                                        <h3><a href="">Único punto de contacto</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Establezca un único punto 
-                                                        de contacto para el registro y seguimiento de ticket, permitiéndole 
-                                                        al usuario final acceder por distintas vías como Teléfono, Correo o 
-                                                        Portal de Autoservicio</div>
-                                                    </div>
-                                                </div>
-                                                <!--Service Block-->
-                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
-                                                    <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/usuarios.png" alt=""></figure>
-                                                        <h3><a href="">Portal de usuarios</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
-                                                        al centro de soporte, poniendo a disposición de los usuarios 
-                                                        finales un portal con capacidades de autoservicios para el 
-                                                        registro y seguimiento de ticket.</div>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/catalogo-de-servicio.png" alt=""></figure>
+                                                        <h3><a href="">Catálogo de Servicio</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Defina un catálogo de servicio de fácil 
+                                                            comprensión para usuarios y solucionadores, 
+                                                            donde detalle los servicios ofrecidos por el 
+                                                            negocio, grupos solucionadores encargados de la
+                                                            atención.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -346,33 +355,110 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/control.png" alt=""></figure>
-                                                        <h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
-                                                        mejore la productividad de los agentes, cumpla con los SLA y administre 
-                                                        el ciclo de vida completo de sus tickets de TI.</div>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/SLA.png" alt=""></figure>
+                                                        <h3><a href="">Acuerdo de Niveles de Servicio</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Establezca contratos de tiempos para la resolución 
+                                                            de las solicitudes entre el usuario y TI, los SLA 
+                                                            implementados garantizarán el cumplimiento del soporte.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/unico-punto.png" alt=""></figure>
-                                                        <h3><a href="">Único punto de contacto</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Establezca un único punto 
-                                                        de contacto para el registro y seguimiento de ticket, permitiéndole 
-                                                        al usuario final acceder por distintas vías como Teléfono, Correo o 
-                                                        Portal de Autoservicio</div>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/bd-conocimiento.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Conocimiento</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Disponga de un espacio para el almacenamiento 
+                                                            de artículos y soluciones que sirva de canal 
+                                                            colaborativo para usuarios y solucionadores 
+                                                            en la resolución de inquietudes 24*7.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/usuarios.png" alt=""></figure>
-                                                        <h3><a href="">Portal de usuarios</a></h3>
-                                                        <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
-                                                        al centro de soporte, poniendo a disposición de los usuarios 
-                                                        finales un portal con capacidades de autoservicios para el 
-                                                        registro y seguimiento de ticket.</div>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/problemas.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Problemas</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Determine las causas raíz de los incidentes 
+                                                            recurrentes sobre los activos de su organización, 
+                                                            identifique errores conocidos y proporcione 
+                                                            soluciones efectivas a problemas.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                            <!--Service Block-->
+                                            <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                <div class="inner-box">
+                                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/cambios.png" alt=""></figure>
+                                                    <h3><a href="">Gestión de Cambios</a></h3>
+                                                    <div style="font-size: 15px;" class="text">
+                                                        Registre, controle y evalúe los cambios sugeridos 
+                                                        sobre su infraestructura IT, mejore el servicio e 
+                                                        incremente la productividad del usuario.</div>
+                                                </div>
+                                            </div>
+                                            <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proyectos.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Proyectos</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Planifique el desarrollo de nuevos proyectos para 
+                                                            su organización, orientados a la implementación de 
+                                                            nuevas tecnologías, programaciones, mejoras de servicio, etc</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/CMDB.png" alt=""></figure>
+                                                        <h3><a href="">CMDB</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Rastrea y administra todos los elementos de 
+                                                            configuración y asigna sus relaciones y dependencias. 
+                                                            Analice visualmente el impacto de los cambios y las
+                                                            interrupciones en la toma de decisiones</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/activos.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Activos</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Lleve el control de todos los elementos de 
+                                                            configuración de la infraestructura TI, como
+                                                            hardware y software, entre otros. Optimice la 
+                                                            utilización de activos, evitando la vulnerabilidad.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/contratos.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Contratos</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Lleve el control de todos contratos relacionados 
+                                                            con los activos, generando alarmas por vencimiento, 
+                                                            permitiendo conocer y distribuir el costo total de los 
+                                                            recursos en las áreas de la organización</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proveedores.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Proveedores</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Gestione la relación con los proveedores de servicios 
+                                                            de los que depende su organización.Con la finalidad de 
+                                                            alcanzar la mayor calidad y velar por el cumplimiento de 
+                                                            los contratos próximos a vencer.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -381,15 +467,24 @@
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Caractristicas">
+
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
+                                        <div class="auto-container">
+                                            <div class="sec-title centered" style="margin-bottom: 85px;">
+                                                <h1 style="font-size:30px;padding-top: 65px;">Conozca algunas de las características de Omega ITSM</h1>
+                                            </div>
+                                        </div>
+                                    </section>
+
                                     <section>
                                             <div class="auto-container">
                                                 <div class="row">
                                                     <div class="col-md-12 col-ms-12 col-xs-12" style="margin-top: -50px">
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
-                                                                        <div class="col-md-12 col-ms-12 col-xs-12" style="padding-right: 10px;padding-left: 10px;">
+                                                                        <div class="col-md-12 col-ms-12 col-xs-12 " style="padding-right: 10px;padding-left: 10px;">
                                                                             <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                     <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                         <span class="text">
@@ -405,10 +500,9 @@
                                                                    <div class="col-md-12 col-ms-12 col-xs-12">
                                                                        <div class="sec-title centered">
                                                                          <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                             Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                             debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                             laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                Omega Service Desk permite la gestión de múltiples áreas del negocio desde una
+                                                                                misma consolas y base de datos, para dar atención especializada a las solicitudes
+                                                                                de los usuarios de la organización.
                                                                          </div>
                                                                        </div>
                                                                    </div>
@@ -416,7 +510,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
@@ -435,10 +529,9 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                    Defina reglas basadas en los parámetros de configuración para ejecutar de forma
+                                                                                    automática el envío de notificaciones vía mail y la generación de alertas a usuarios
+                                                                                    y solucionadores.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -446,14 +539,14 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
                                                                             <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                 <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                     <span class="text">
-                                                                                        <h1 style="font-size: 19px;"><img style="padding-right: 0px;padding-left: 0px;" src="{{ URL::to('/') }}/images/icons/encuestas-de-satisfaccion.png" alt="">Encuestas de Satisfaccion</h1>
+                                                                                        <h1 style="font-size: 19px;"><img style="padding-right: 0px;padding-left: 10px;" src="{{ URL::to('/') }}/images/icons/encuestas-de-satisfaccion.png" alt="">Encuestas de Satisfacción</h1>
                                                                                     </span>
                                                                                 </div>     
                                                                             </div>
@@ -465,10 +558,9 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                Conozca el nivel de satisfacción de sus usuarios finales mediante encuestas de
+                                                                                satisfacción y evalué el resultado de las mismas, permitiéndole así elevar los
+                                                                                niveles de servicios.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -480,14 +572,14 @@
                                                 <div class="row">
                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12" style="padding-right: 10px;padding-left: 10px;">
                                                                             <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                     <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                         <span class="text">
-                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/" alt="">Criterios de asignación</h1>
+                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/asignacion_automatica.png" alt="">Asignaciones Automáticas</h1>
                                                                                         </span>
                                                                                     </div>     
                                                                             </div>
@@ -499,10 +591,9 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                Configure el tipo de asignación para las solicitudes registradas y garantice una
+                                                                                distribución automática de las peticiones por especialista con el fin de dar atención
+                                                                                inmediata a sus usuarios.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -510,14 +601,14 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
                                                                             <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                 <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                     <span class="text">
-                                                                                        <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/" alt="">Reasignaciones</h1>
+                                                                                        <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/notificaciones.png" alt="">Notificaciones</h1>
                                                                                     </span>
                                                                                 </div>     
                                                                             </div>
@@ -529,10 +620,9 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                Alerte a los técnicos de TI cuando se creen o se asignen tickets y mantenga
+                                                                                informados a sus usuarios finales en cada paso del proceso de atención con
+                                                                                notificaciones por correo electrónico.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -540,14 +630,14 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                                <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                                <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                     <div class="row">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12">
                                                                             <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
                                                                                 <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                     <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                         <span class="text">
-                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/integracion-ldap.png" alt="">Integracion LDAP</h1>
+                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/integracion-ldap.png" alt="">Integración LDAP</h1>
                                                                                         </span>
                                                                                     </div>     
                                                                                 </div>
@@ -559,10 +649,9 @@
                                                                         <div class="col-md-12 col-ms-12 col-xs-12">
                                                                             <div class="sec-title centered">
                                                                                 <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                    Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                    debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                    laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                    Realice la Importación de los usuarios desde el directorio activo, mantenga
+                                                                                    actualizada la información realizando la sincronización con Omega ITSM y
+                                                                                    agregue detalles sin alterar la estructura original del directorio.
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -574,14 +663,14 @@
                                                 <div class="row">
                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12" style="padding-right: 10px;padding-left: 10px;">
                                                                             <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                     <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                         <span class="text">
-                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/" alt="">Anuncios</h1>
+                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/indicadores-de-gestion.png" alt="">Indicadores de Gestión</h1>
                                                                                         </span>
                                                                                     </div>     
                                                                             </div>
@@ -593,10 +682,8 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                Genere de informes con los resultados de las diferentes gestiones, orientados a
+                                                                                mejorar los procesos para alcanzar los objetivos de la organización.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -604,14 +691,14 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
                                                                             <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                 <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                     <span class="text">
-                                                                                        <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/" alt="">Matriz de prioridadess</h1>
+                                                                                        <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/dashboard.png" alt="">Dashboard</h1>
                                                                                     </span>
                                                                                 </div>     
                                                                             </div>
@@ -623,10 +710,8 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                    Obtenga información en tiempo real del estado del centro de soporte, detectando
+                                                                                    posibles desviaciones y mejore la toma de decisiones.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -634,14 +719,14 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                                <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                                <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                     <div class="row">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12">
                                                                             <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
                                                                                 <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                     <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                         <span class="text">
-                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/procesos-de-aprobaciones.png" alt="">Procesos de aprovaciones</h1>
+                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/procesos-de-aprobaciones.png" alt="">Gestión de Aprobaciones</h1>
                                                                                         </span>
                                                                                     </div>     
                                                                                 </div>
@@ -653,10 +738,9 @@
                                                                         <div class="col-md-12 col-ms-12 col-xs-12">
                                                                             <div class="sec-title centered">
                                                                                 <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                    Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                    debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                    laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                    Proceso de aprobaciones o desaprobaciones requeridas por el centro de soporte
+                                                                                    que necesitan la autorización previa de un grupo aprobatorio para dar continuidad
+                                                                                    a la solicitud realizada por el usuario.
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -668,7 +752,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12" style="padding-right: 10px;padding-left: 10px;">
@@ -687,10 +771,9 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                Reduzca la cantidad de llamadas al centro de soporte, poniendo a disposición de
+                                                                                los usuarios finales un portal con capacidades de autoservicios para el registro y
+                                                                                seguimiento de ticket.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -698,14 +781,14 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                            <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                            <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                 <div class="row">
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
                                                                             <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                 <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                     <span class="text">
-                                                                                        <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/calendarios-de-trabajo.png" alt="">Calendarios de Trabajos</h1>
+                                                                                        <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/calendarios-de-trabajo.png" alt="">Calendarios de Servicios</h1>
                                                                                     </span>
                                                                                 </div>     
                                                                             </div>
@@ -717,10 +800,9 @@
                                                                     <div class="col-md-12 col-ms-12 col-xs-12">
                                                                         <div class="sec-title centered">
                                                                             <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                Permite la configuración de la jornada laboral, utilizada en la organización,
+                                                                                facilitando el registro de información relevante asociadas a los días de la semana,
+                                                                                días festivos, enfocados en la atención de las solicitudes.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -728,14 +810,14 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-ms-4 col-xs-4">
-                                                                <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952;background:#fff;margin-top: 30px; margin-bottom: 30px;min-height: 250px;padding-left: 0px;padding-right:0px;">
+                                                                <div class="col-md-12 col-ms-12 col-xs-12 caract-cart">
                                                                     <div class="row">
                                                                         <div class="col-md-12 col-ms-12 col-xs-12">
                                                                             <div class="col-md-12 col-ms-12 col-xs-12"  style="padding-right: 10px;padding-left: 10px;">
                                                                                 <div class="sec-title centered" style="margin-bottom: 0px; text-align: initial;">
                                                                                     <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-top: 20px;">
                                                                                         <span class="text">
-                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 15px;padding-left: 15px;" src="{{ URL::to('/') }}/images/icons/tickets-por-correo.png" alt="">Tickets por correo</h1>
+                                                                                            <h1 style="font-size: 20px;"><img style="padding-right: 5px;padding-left:7px;" src="{{ URL::to('/') }}/images/icons/tickets-por-correo.png" alt="">Creación de Ticket por Correo</h1>
                                                                                         </span>
                                                                                     </div>     
                                                                                 </div>
@@ -747,10 +829,9 @@
                                                                         <div class="col-md-12 col-ms-12 col-xs-12">
                                                                             <div class="sec-title centered">
                                                                                 <div class="text" style="padding-left: 20px;font-size: 15px;padding-right: 20px;text-align: justify;">
-                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                                                    Repudiandae velit quasi excepturi quidem? Totam quaerat 
-                                                                                    debitis maxime assumenda minus dignissimos mollitia necessitatibus 
-                                                                                    laborum, hic unde nihil dolor? Nemo, tenetur rerum!
+                                                                                    Permita la creación de tickets de forma automática a través de correos
+                                                                                    electrónicos, garantizando a los usuarios el registro y seguimiento de las
+                                                                                    solicitudes en tiempo real y gestionado por la mesa de servicios.
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -761,31 +842,404 @@
                                                 </div>
                                             </div>
                                     </section>
+
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Benefcios">
-                                <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
-                                    <div class="auto-container">
-                                        <div class="sec-title centered" style="margin-bottom: 0px;">
-                                            <h1 style="font-size:30px;">Todo lo que necesita para el soporte de TI</h1>
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
+                                        <div class="auto-container">
+                                            <div class="sec-title centered" style="margin-bottom: 85px;">
+                                                <h1 style="font-size:30px;padding-top: 65px;">Todo lo que necesita para el soporte de TI</h1>
+                                            </div>
                                         </div>
-                                    </div>
-                                </section>
+                                    </section>
+
+                                    <section class="services-two" style="padding: 0px">
+                                        <div class="auto-container">     
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/flexibilidad.png" alt=""></figure>
+                                                        <h3>Flexibilidad</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Restablezca los servicios afectados, gestione 
+                                                            los incidentes notificados por los usuarios
+                                                            resolviendo con eficiencia y eficacia las interrupciones 
+                                                            con el menor impacto</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/toma_de_decisiones.png" alt=""></figure>
+                                                        <h3>Toma de decisiones</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Proporcione una gestión adecuada a las solicitudes 
+                                                            de los usuarios ante las peticiones orientadas a mejoras 
+                                                            de los servicios.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/satisfaccion-del-cliente.png" alt=""></figure>
+                                                        <h3>Satisfaccion del cliente</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Defina un catálogo de servicio de fácil 
+                                                            comprensión para usuarios y solucionadores, 
+                                                            donde detalle los servicios ofrecidos por el 
+                                                            negocio, grupos solucionadores encargados de la
+                                                            atención.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/reduccion_de_costos.png" alt=""></figure>
+                                                        <h3>Reduccion de costos</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Establezca contratos de tiempos para la resolución 
+                                                            de las solicitudes entre el usuario y TI, los SLA 
+                                                            implementados garantizarán el cumplimiento del soporte.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/prestacion-de-servicio.png" alt=""></figure>
+                                                        <h3>Prestacion de servicio</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Disponga de un espacio para el almacenamiento 
+                                                            de artículos y soluciones que sirva de canal 
+                                                            colaborativo para usuarios y solucionadores 
+                                                            en la resolución de inquietudes 24*7.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/gobernabilidad-control.png" alt=""></figure>
+                                                        <h3>Gobernabilidad control</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Determine las causas raíz de los incidentes 
+                                                            recurrentes sobre los activos de su organización, 
+                                                            identifique errores conocidos y proporcione 
+                                                            soluciones efectivas a problemas.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/eficiencia.png" alt=""></figure>
+                                                        <h3>Eficiencia</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Registre, controle y evalúe los cambios sugeridos 
+                                                            sobre su infraestructura IT, mejore el servicio e 
+                                                            incremente la productividad del usuario.</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/disponibilidad.png" alt=""></figure>
+                                                        <h3>Disponibilidad</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Planifique el desarrollo de nuevos proyectos para 
+                                                            su organización, orientados a la implementación de 
+                                                            nuevas tecnologías, programaciones, mejoras de servicio, etc</div>
+                                                    </div>
+                                                </div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/automatizacion.png" alt=""></figure>
+                                                        <h3>Automatizacion</h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Rastrea y administra todos los elementos de 
+                                                            configuración y asigna sus relaciones y dependencias.&nbsp;
+                                                            Analice visualmente el impacto de los cambios y las
+                                                            interrupciones en la toma de decisiones</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Verciones-y-precios">
-                                <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
-                                    <div class="auto-container">
-                                        <div class="sec-title centered" style="margin-bottom: 0px;">
-                                            <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
+                                        <div class="auto-container">
+                                            <div class="sec-title centered" style="margin-bottom: 85px;">
+                                                <h1 style="font-size:30px;padding-top: 65px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </section>
+
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
+                                                    <div style="min-height:170px;max-height:170px;">
+                                                        <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                    </div>
+                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                            <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
+                                                                    Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
+                                                    <div style="min-height:170px;max-height:170px;">
+                                                        <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                    </div>
+                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                            <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
+                                                                    Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
+                                                    <div style="min-height:170px;max-height:170px;">
+                                                        <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                    </div>
+                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                            <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
+                                                                    Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
+                                                    <div style="min-height:170px;max-height:170px;">
+                                                        <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                    </div>
+                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                            <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
+                                                                    Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                            <span class="text">
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </section>
 
                                     <section class="services-two " style="padding: 0px;">
                                         <div>
                                             <div style="margin-bottom: 0px">
                                                 <div style="margin-top: 35px">
-                                                    <div class="col-md-12 col-sm-12 col-xs-12" style=" background: #5aceff5c">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 60px">
                                                         <div class="sec-title centered" style="margin-bottom: 0px;">
                                                             <h1 style="font-size:30px;margin-top: 60px;">Tipo de licenciamiento para Omegasoft</h1>
                                                         </div>
@@ -824,7 +1278,6 @@
                                             </div>
                                         </div>
                                     </section>
-                                </section>
                                 </div>
                             </div>
                         </div>
@@ -833,6 +1286,9 @@
             </div>
 
     </section>
+    
+
+
 
 
     <section class="services-two imgback" style="padding: 0px; ">
@@ -849,7 +1305,7 @@
                                     </p>
                                 <a href="http://localhost:8000/demo/">
                                     <figure class="icon-box">
-                                            <img src="http://localhost:8000/images/icons/calendario.png" alt="">
+                                            <img src="{{ URL::to('/') }}/images/icons/calendario.png" alt="">
                                     </figure>
                                 </a>
                             </div>
@@ -863,7 +1319,7 @@
                                 </p>
                                 <a href="http://localhost:8000/demo-guiada/">
                                     <figure class="icon-box">
-                                        <img src="http://localhost:8000/images/icons/computadora.png" alt="">
+                                        <img src="{{ URL::to('/') }}/images/icons/computadora.png" alt="">
                                     </figure>
                                 </a>
                             </div>
@@ -875,6 +1331,12 @@
         </div>
     </section>
 
+
+    <!--<section class="page-title" style="height: 530px;background: #5aceff5c;">
+            <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
+            <div class="auto-container">
+            </div>
+    </section> -->
     
         <!--Testimonials Two Section-->
      <section class="testimonials-two" style="padding: 40px 0px;">
