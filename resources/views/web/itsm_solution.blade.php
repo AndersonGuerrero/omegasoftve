@@ -13,7 +13,7 @@
             <div class="">
                 <div class="row clearfix">
                     <!--Left Side-->
-                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12" style="background:#00325d">
                         <div class="inner">
                             <!--Jobs Widget-->
                             <div class="jobs-widget side-widget">
@@ -21,7 +21,7 @@
                                     <ul id="categorys-vacancies-content">
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Información-General" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Información General</a>
                                                 </h2>
@@ -29,7 +29,7 @@
                                         </div>
                                         <div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-ITSM-ITIL" style=";text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">ITSM-ITIL</a>
                                                 </h2>
@@ -37,7 +37,7 @@
                                         </div>
                                         <div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Caractristicas" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Caracteristicas</a>
                                                 </h2>
@@ -45,7 +45,7 @@
                                         </div>
                                         <div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Benefcios" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Beneficios</a>
                                                 </h2>
@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
-                                                <h2 style="padding-top: 15px;">
+                                                <h2>
                                                     <a data-id="select-Verciones-y-precios" style=";text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Verciones y precios</a>
                                                 </h2>
@@ -66,18 +66,18 @@
                     </div>
                     
                     <!--Content Side-->
-                    <div class="content-side col-md-12 col-sm-12 col-xs-12" style="margin-bottom: -100px">
+                    <div class="content-side col-md-12 col-sm-12 col-xs-12" style="margin-bottom: -70px">
                         <div class="inner" style="padding-left:0px; ">
                             <div class="career-posts">
                                 <!--Career Block-->
                                 <div class="career-block select-Información-General">
-                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title-two centered" style="margin-bottom: 0px;">
-                                                    <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+                                                    <h1 style="font-size:30px;padding-top: 65px">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px">
-                                                    <div class="text" style="font-size: 20px;margin-bottom: 30px; text-align: center">
+                                                    <div class="text" style="font-size: 20px;margin-bottom: 85px; text-align: center">
                                                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                                             Doloribus maxime maiores quibusdam aut dolorum, totam magni 
                                                             vero amet repellat aliquam ipsam et deleniti doloremque vitae 
@@ -90,24 +90,24 @@
                                             </div>
                                     </section>
 
-                                        <!--About Two Section-->
-                                    <section>
+                                    <!--About Two Section-->    
+                                    <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
                                                 <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: end">
                                                         <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/gestione-diferentes-procesos.png" alt="">
+                                                                <img  style="height: 260px;margin-top: 26px;" src="{{ URL::to('/') }}/images/icons/gestione-diferentes-procesos.png" alt="">
                                                         </figure>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                            <h1 style="font-size: 30px;margin-top: 20px;">
+                                                    <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;" >
+                                                            <h1 style="font-size: 35px;margin-top: 20px;">
                                                                 Gestiona diferentes procesos
                                                             </h1>
                                                     </div>
-                                                    <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 30px;padding-right: 30px;">
+                                                    <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
+                                                        <div class="text" style="padding-left: 0px;padding-right: 150px;font-size: 22px;">
                                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
                                                                 consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
                                                                 nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
@@ -118,16 +118,16 @@
                                             </div>
                                     </section>
                                     <!--About Two Section-->
-                                    <section>
+                                    <section style="margin-bottom: 60px">
                                         <div class="row" style="display: unset;">
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                        <h1 style="font-size: 30px;margin-top: 20px;">
+                                                <div class="sec-title-two centered3" style="margin-bottom:10px;text-align: initial;padding-left:100px;"  >
+                                                        <h1 style="font-size: 35px;margin-top: 20px;">
                                                             Portar de usuarios
                                                         </h1>
                                                 </div>
-                                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                    <div class="text" style="padding-left: 30px;padding-right: 30px;">
+                                                <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
+                                                    <div class="text" style="padding-left:100px;padding-right: 0px;font-size: 22px;">
                                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
                                                             consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
                                                             nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
@@ -136,32 +136,32 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
+                                                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: initial">
                                                     <figure class="icon-box">
-                                                            <img src="{{ URL::to('/') }}/images/icons/portal-de-usuarios.png" alt="">
+                                                            <img style="height: 260px;margin-top: 26px;" src="{{ URL::to('/') }}/images/icons/portal-de-usuarios.png" alt="">
                                                     </figure>
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
                                     <!--About Two Section-->
-                                    <section>
+                                    <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
                                                 <div class="col-md-6 col-sm-6 col-xs-6"> 
                                                     <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
                                                         <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/gestion-de-cambios.png" alt="">
+                                                                <img style="height: 260px;margin-top: 26px;" src="{{ URL::to('/') }}/images/icons/gestion-de-cambios.png" alt="">
                                                         </figure>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                            <h1 style="font-size: 30px;margin-top: 20px;">
+                                                    <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;">
+                                                            <h1 style="font-size: 35px;margin-top: 20px;">
                                                                 Gestion de cambios
                                                             </h1>
                                                     </div>
-                                                    <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 30px;padding-right: 30px;">
+                                                    <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
+                                                        <div class="text" style="padding-left: 0px;padding-right: 150px;font-size: 22px;">
                                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
                                                                 consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
                                                                 nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
@@ -171,67 +171,16 @@
                                                 </div>
                                             </div>
                                     </section>
-                                    <!--About Two Section-->
-                                    <section>
-                                        <div class="row" style="display: unset;">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                        <h1 style="font-size: 30px;margin-top: 20px;">
-                                                            Toma de deciciones
-                                                        </h1>
-                                                </div>
-                                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                    <div class="text" style="padding-left: 30px;padding-right: 30px;">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
-                                                            consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
-                                                            nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
-                                                            adipisci dolores.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
-                                                    <figure class="icon-box">
-                                                            <img src="{{ URL::to('/') }}/images/icons/toma-de-decisiones.png" alt="">
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <!--About Two Section-->
-                                    <section>
-                                            <div class="row" style="display: unset;">
-                                                <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
-                                                        <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/base-de-conocimientos.png" alt="">
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <div class="sec-title-two centered" style="margin-bottom: 10px" >
-                                                            <h1 style="font-size: 30px;margin-top: 20px;">
-                                                                Base de conocimientos
-                                                            </h1>
-                                                    </div>
-                                                    <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 30px;padding-right: 30px;">
-                                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
-                                                                consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
-                                                                nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
-                                                                adipisci dolores.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </section>
+                                    
+                                    
+
                                 </div> 
                                 <!--Career Block-->
                                 <div class="career-block select-ITSM-ITIL">
-                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
                                             <div class="auto-container">
-                                                <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                    <h1 style="font-size:30px;">
+                                                <div class="sec-title centered" style="margin-bottom: 40px;">
+                                                    <h1 style="font-size:30px; padding-top: 65px">
                                                         Omega ITSM, ha sido desarrollado para soportar 
                                                         y facilitar la automatización de los procesos,
                                                         basados en las mejores prácticas de ITIL.</h1>
@@ -342,7 +291,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/CMDB.png" alt=""></figure>
                                                         <h3><a href="">CMDB</a></h3>
                                                         <div style="font-size: 15px;" class="text">
                                                             Rastrea y administra todos los elementos de 
@@ -396,10 +345,10 @@
                                 <!--Career Block-->
                                 <div class="career-block select-Caractristicas">
 
-                                    <section class="services-two" style="padding: 50px;margin-top: -70px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
                                         <div class="auto-container">
-                                            <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                <h1 style="font-size:30px;">Conozca algunas de las características de Omega ITSM</h1>
+                                            <div class="sec-title centered" style="margin-bottom: 85px;">
+                                                <h1 style="font-size:30px;padding-top: 65px;">Conozca algunas de las características de Omega ITSM</h1>
                                             </div>
                                         </div>
                                     </section>
@@ -774,26 +723,32 @@
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Benefcios">
-                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
                                         <div class="auto-container">
-                                            <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                <h1 style="font-size:30px;">Todo lo que necesita para el soporte de TI</h1>
+                                            <div class="sec-title centered" style="margin-bottom: 85px;">
+                                                <h1 style="font-size:30px;padding-top: 65px;">Todo lo que necesita para el soporte de TI</h1>
                                             </div>
                                         </div>
                                     </section>
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Verciones-y-precios">
-                                    <section class="services-two" style="padding: 0px; margin-top: -20px;"> 
+
+                                    <section class="services-two" style="padding: 0px; margin-top: -60px;"> 
                                         <div class="auto-container">
-                                            <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                <h1 style="font-size:30px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+                                            <div class="sec-title centered" style="margin-bottom: 85px;">
+                                                <h1 style="font-size:30px;padding-top: 65px;">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
                                             </div>
                                         </div>
                                     </section>
 
                                     <section>
+                                        <div class="row">
+                                            <div class="col-md-4 col-ms-4 col-xs-4" style="max-height:400px;min-height:400px; background: black">
 
+                                            </div>
+                                        </div>
+                                        
                                     </section>
 
                                     <section class="services-two " style="padding: 0px;">
