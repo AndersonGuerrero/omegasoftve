@@ -849,7 +849,7 @@
                                     </p>
                                 <a href="http://localhost:8000/demo/">
                                     <figure class="icon-box">
-                                            <img src="http://localhost:8000/images/icons/calendario.png" alt="">
+                                            <img src="{{ URL::to('/') }}/images/icons/calendario.png" alt="">
                                     </figure>
                                 </a>
                             </div>
@@ -863,7 +863,7 @@
                                 </p>
                                 <a href="http://localhost:8000/demo-guiada/">
                                     <figure class="icon-box">
-                                        <img src="http://localhost:8000/images/icons/computadora.png" alt="">
+                                        <img src="{{ URL::to('/') }}/images/icons/computadora.png" alt="">
                                     </figure>
                                 </a>
                             </div>
