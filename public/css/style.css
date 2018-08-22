@@ -83,6 +83,16 @@ font-family: 'Raleway', sans-serif;*/
 ====================================================================
 
  ***/
+ .caract-cart{
+	border: 1px solid #75777952;
+	background:#fff;
+	margin-top: 30px; 
+	margin-bottom: 30px !important;
+	min-height: 303px !important;
+	max-height: 303px !important;
+	padding-left: 0px !important;
+	padding-right:0px !important;
+ }
 
 body {
 	font-family: 'Hind Guntur', sans-serif;
