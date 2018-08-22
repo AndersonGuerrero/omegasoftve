@@ -969,7 +969,7 @@
                                             </div>
                                         </div>
                                     </section>
-                                    
+
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Verciones-y-precios">
@@ -1088,11 +1088,11 @@
     </section>
 
 
-    <section class="page-title" style="height: 530px;background: #5aceff5c;">
-            <div class="image-layer" style="background-image:url(http://127.0.0.1:8000/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
+    <!--<section class="page-title" style="height: 530px;background: #5aceff5c;">
+            <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
             <div class="auto-container">
             </div>
-    </section>
+    </section> -->
     
         <!--Testimonials Two Section-->
      <section class="testimonials-two" style="padding: 40px 0px;">
