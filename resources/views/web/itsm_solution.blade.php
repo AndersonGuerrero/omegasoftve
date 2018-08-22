@@ -242,7 +242,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/control.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/control.png" alt=""></figure>
                                                         <h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
                                                         <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
                                                         mejore la productividad de los agentes, cumpla con los SLA y administre 
@@ -252,7 +252,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/unico-punto.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/unico-punto.png" alt=""></figure>
                                                         <h3><a href="">Único punto de contacto</a></h3>
                                                         <div style="font-size: 15px;" class="text">Establezca un único punto 
                                                         de contacto para el registro y seguimiento de ticket, permitiéndole 
@@ -263,7 +263,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/usuarios.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/usuarios.png" alt=""></figure>
                                                         <h3><a href="">Portal de usuarios</a></h3>
                                                         <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
                                                         al centro de soporte, poniendo a disposición de los usuarios 
@@ -276,7 +276,7 @@
                                                     <!--Service Block-->
                                                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                         <div class="inner-box">
-                                                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/cambios.png" alt=""></figure>
+                                                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/cambios.png" alt=""></figure>
                                                             <h3><a href="">Controle los cambios TI</a></h3>
                                                             <div style="font-size: 15px;" class="text">Agilice la planificación, 
                                                             aprobación e implementación con flujos de trabajo
@@ -287,7 +287,7 @@
                                                     <!--Service Block-->
                                                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                         <div class="inner-box">
-                                                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/proyectos.png" alt=""></figure>
+                                                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proyectos.png" alt=""></figure>
                                                             <h3><a href="">Entrega proyectos de TI a tiempo</a></h3>
                                                             <div style="font-size: 15px;" class="text">Crea proyectos, gestiona recursos 
                                                             y realiza un seguimiento del progreso.&nbsp;Integre proyectos de TI 
@@ -298,7 +298,7 @@
                                                     <!--Service Block-->
                                                     <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                         <div class="inner-box">
-                                                            <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/impulsa-decisiones.png" alt=""></figure>
+                                                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/impulsa-decisiones.png" alt=""></figure>
                                                             <h3><a href="">Impulsa las decisiones con los datos correctos</a></h3>
                                                             <div style="font-size: 15px;" class="text">Use informes enlatados y personalizados 
                                                             para obtener los conocimientos adecuados.&nbsp;
@@ -312,7 +312,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/control.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/control.png" alt=""></figure>
                                                         <h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
                                                         <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
                                                         mejore la productividad de los agentes, cumpla con los SLA y administre 
@@ -322,7 +322,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/unico-punto.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/unico-punto.png" alt=""></figure>
                                                         <h3><a href="">Único punto de contacto</a></h3>
                                                         <div style="font-size: 15px;" class="text">Establezca un único punto 
                                                         de contacto para el registro y seguimiento de ticket, permitiéndole 
@@ -333,7 +333,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/usuarios.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/usuarios.png" alt=""></figure>
                                                         <h3><a href="">Portal de usuarios</a></h3>
                                                         <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
                                                         al centro de soporte, poniendo a disposición de los usuarios 
@@ -346,7 +346,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/control.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/control.png" alt=""></figure>
                                                         <h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
                                                         <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
                                                         mejore la productividad de los agentes, cumpla con los SLA y administre 
@@ -356,7 +356,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/unico-punto.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/unico-punto.png" alt=""></figure>
                                                         <h3><a href="">Único punto de contacto</a></h3>
                                                         <div style="font-size: 15px;" class="text">Establezca un único punto 
                                                         de contacto para el registro y seguimiento de ticket, permitiéndole 
@@ -367,7 +367,7 @@
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
-                                                        <figure class="icon-box"><img src="http://127.0.0.1:8000/images/icons/usuarios.png" alt=""></figure>
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/usuarios.png" alt=""></figure>
                                                         <h3><a href="">Portal de usuarios</a></h3>
                                                         <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
                                                         al centro de soporte, poniendo a disposición de los usuarios 
