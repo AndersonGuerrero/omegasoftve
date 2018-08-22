@@ -787,7 +787,7 @@
                                                 <div style="margin-top: 35px">
                                                     <div class="col-md-12 col-sm-12 col-xs-12" style=" background: #5aceff5c">
                                                         <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                            <h1 style="font-size:30px;margin-top: 30px;">Tipo de licenciamiento para Omegasoft</h1>
+                                                            <h1 style="font-size:30px;margin-top: 60px;">Tipo de licenciamiento para Omegasoft</h1>
                                                         </div>
                                                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                                                             <div class="sec-title centered" style="margin-bottom: 0px">
