@@ -465,32 +465,31 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="col-md-2 col-sm-2 col-xs-2"></div>
                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                            <div class="sec-title centered"  style="margin-bottom: 0px">
+                            <div class="sec-title centered" style="margin-bottom: 0px">
                                     <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
                                     <p class="text" style="margin-top: -10px;color: #fff;">
                                             Prueba nuestra solución sin limitaciones y de forma gratuita 
                                     </p>
-                                <a href="{{ URL::to('/') }}/demo/">
+                                <a href="http://localhost:8000/demo/">
                                     <figure class="icon-box">
-                                            <img src="{{ URL::to('/') }}/images/icons/calendario.png" alt="">
+                                            <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
                                     </figure>
                                 </a>
                             </div>
     
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                                <div class="sec-title centered" style="margin-bottom: 0px">
-                                    <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
-                                    <p class="text" style="margin-top: -10px;color: #fff;">
-                                         Solicite que uno de nuestros expertos le muestren nuestros productos 
-                                    </p>
-                                    <a href="{{ URL::to('/') }}/demo-guiada/">
-                                        <figure class="icon-box">
-                                            <img src="{{ URL::to('/') }}/images/icons/computadora.png" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-        
+                            <div class="sec-title centered" style="margin-bottom: 0px">
+                                <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
+                                <p class="text" style="margin-top: -10px;color: #fff;">
+                                        Solicite que uno de nuestros expertos le muestren nuestros productos 
+                                </p>
+                                <a href="http://localhost:8000/demo-guiada/">
+                                    <figure class="icon-box">
+                                        <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
+                                    </figure>
+                                </a>
+                            </div>
                         </div>
                         <div class="col-md-2 col-sm-2 col-xs-2"></div>
                     </div>
@@ -498,6 +497,7 @@
             </div>
         </div>
     </section>
+
     
     <section class="services-two" style="padding: 0px; margin-top: 50px;"> 
     	<div class="auto-container">
