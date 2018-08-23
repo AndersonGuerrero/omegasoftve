@@ -1405,7 +1405,7 @@
             </div>
     </section>
 
-    <section class="services-two" style="background: #5aceff5c;padding:22px;height:150px;"> 
+    <section class="services-two" style="background: #007affb8;padding:22px;height:150px;"> 
     	<div class="auto-container">
             <div class="sec-title centered">
                 <h1 style="font-size:25px; margin-bottom: 15px">Participe en nuestros eventos en línea </h1>
