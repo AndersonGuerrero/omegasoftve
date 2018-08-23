@@ -83,9 +83,21 @@ font-family: 'Raleway', sans-serif;*/
 ====================================================================
 
  ***/
- div > h2 > a active{
-	background-color: red;
- }
+ a:hover, a:focus {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+ a:hover, a:focus, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+}
+a:focus, a:active {
+    color:#007aff;
+    text-decoration: none;
+    outline: none;
+}
  .caract-cart{
 	border: 1px solid #75777952;
 	background:#fff;

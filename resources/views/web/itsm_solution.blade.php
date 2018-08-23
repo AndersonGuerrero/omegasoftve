@@ -22,7 +22,7 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-Información-General" style="text-decoration:none;color: #ffffff;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-Información-General" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/informacion-general.png" alt="">Información General</a>
                                                 </h2>
                                             </div>
@@ -30,7 +30,7 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-ITSM-ITIL" style="text-decoration:none;color: #ffffff;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-ITSM-ITIL" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/itil-itsm.png" alt="">ITSM Alineada con ITIL</a>
                                                 </h2>
                                             </div>
@@ -38,7 +38,7 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-Caractristicas" style="text-decoration:none;color: #ffffff;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-Caractristicas" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/caracteristicas.png" alt="">Caracteristicas</a>
                                                 </h2>
                                             </div>
@@ -54,7 +54,7 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-Verciones-y-precios" style="text-decoration:none;color: #ffffff;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-Verciones-y-precios" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/versiones-y-precios.png" alt="">Versiones y Precios</a>
                                                 </h2>
                                             </div>
