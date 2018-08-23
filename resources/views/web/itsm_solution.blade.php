@@ -989,58 +989,53 @@
                                                     <div style="min-height:170px;max-height:170px;">
                                                         <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
                                                     </div>
-                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                    <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
-                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">INITIAL</h1>
                                                                 <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
                                                                     Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                    <div style="min-height:400px;max-height:400px;background:#5cbdde54">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de incidentes</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de solicitudes (preticket)</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>POrtal de autoservicios</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Catálogos de servicios</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Acuerdos de niveles de servisios</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Reglas de negocios (standard)</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>calendario de servicios (único)</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
-                                                            </span>
-                                                        </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
-                                                            <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Reportes standard</span>
                                                             </span>
                                                         </div>
                                                     </div>  
@@ -1049,60 +1044,60 @@
                                             <div class="col-md-3 col-ms-3 col-xs-3">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
-                                                        <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                        <img src="{{ URL::to('/') }}/images/icons/standard.jpg" alt="">
                                                     </div>
-                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                    <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
-                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">STANDARD</h1>
                                                                 <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
-                                                                    Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
+                                                                    Gestiones necesarias para el manejo completo de su mesa de servicio e integracion con base de datos de Conocimiento
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                    <div style="min-height:400px;max-height:400px;background:#5cbdde54">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye las caracteristicas de <div style="margin-top: -7px;margin-left: 25px;">la versión initial</div></div>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de tareas</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de requerimiento de <div style="margin-top: -7px;margin-left: 25px;">servicios</div></div>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Encuesta de satisfacción</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Base de datos de conocimientos</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Creación de tickets por correo <div style="margin-top: -7px;margin-left: 25px;">(cuenta unica)</div></div>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Reglas de negocios personalizadas</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Calendario de servicios múltiples</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Reportes personalizados</span>
                                                             </span>
                                                         </div>
                                                     </div>  
@@ -1111,60 +1106,50 @@
                                             <div class="col-md-3 col-ms-3 col-xs-3">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
-                                                        <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                        <img src="{{ URL::to('/') }}/images/icons/professional.jpg" alt="">
                                                     </div>
-                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                    <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
-                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">PROFECIONAL</h1>
                                                                 <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
-                                                                    Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
+                                                                    servicie Desk + CMDB, ideal para compañias que quieren integrar la gestión de activos a la mesa de servicios
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                    <div style="min-height:400px;max-height:400px;background:#5cbdde54">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye caracteristicas de la <div style="margin-top: -7px;margin-left: 25px;">vercion standard</div></div>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de problemas</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de tickets por correo <div style="margin-top: -7px;margin-left: 25px;">(multiples cuentas)</div></div>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de configuraciones <div style="margin-top: -7px;margin-left: 25px;">(CMDB)</div></div>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de activos (CI´s)</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de cambios</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
-                                                            </span>
-                                                        </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
-                                                            <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
-                                                            </span>
-                                                        </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
-                                                            <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Dashboard standard</span>
                                                             </span>
                                                         </div>
                                                     </div>  
@@ -1173,60 +1158,50 @@
                                             <div class="col-md-3 col-ms-3 col-xs-3">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
-                                                        <img src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                        <img src="{{ URL::to('/') }}/images/icons/enterprise.jpg" alt="">
                                                     </div>
-                                                    <div style="min-height:125px;max-height:125px;margin-top: -5px;background:#007aff">
+                                                    <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
-                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">Multi mesa de servicio</h1>
+                                                                <h1 style="font-size: 23px; color: #fff; padding-top: 4px">ENTERPRISE</h1>
                                                                 <div class="text" style="font-size: 15px; color: #fff;padding-left: 7px; padding-right: 7px;padding-top: 0px;">
-                                                                    Ideal para pequeas compañias que empiesan a centralizar el registro de idependencia.
+                                                                    Suete compretla de ITSM + Administacion de proyecto, necesaria para la implementación de mejores placticas ITIL
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:300px;max-height:300px;background:#5cbdde54">
+                                                    <div style="min-height:400px;max-height:400px;background:#5cbdde54">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye caracteristicas de la <div style="margin-top: -7px;margin-left: 25px;">vercion professional</div></div>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de proveedores</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de proyectos</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de contratos</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de mantenimiento</span>
                                                             </span>
                                                         </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
+                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
-                                                            </span>
-                                                        </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
-                                                            <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
-                                                            </span>
-                                                        </div>
-                                                        <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 0px;">
-                                                            <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Dashboard personalizados</span>
                                                             </span>
                                                         </div>
                                                     </div>  
