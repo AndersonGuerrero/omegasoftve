@@ -54,8 +54,8 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2>
-                                                    <a data-id="select-Verciones-y-precios" style=";text-decoration:none;" class="clearfix categorys-vacancies" href="">
-                                                        <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Verciones y precios</a>
+                                                    <a data-id="select-Verciones-y-precios" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
+                                                        <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Versiones y precios</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -1010,7 +1010,7 @@
                                                         </div>
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>POrtal de autoservicios</span>
+                                                                <span style="font-size: 15px"><i class="fa fa-check check"></i>Portal de autoservicios</span>
                                                             </span>
                                                         </div>
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
@@ -1119,7 +1119,7 @@
                                                     <div style="min-height:400px;max-height:400px;background:#5cbdde54">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
-                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye caracteristicas de la <div style="margin-top: -7px;margin-left: 25px;">vercion standard</div></div>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye caracteristicas de la <div style="margin-top: -7px;margin-left: 25px;">versión standard</div></div>
                                                             </span>
                                                         </div>
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
@@ -1176,7 +1176,7 @@
                                                         </div>
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
                                                             <span class="text">
-                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye caracteristicas de la <div style="margin-top: -7px;margin-left: 25px;">vercion professional</div></div>
+                                                                <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye caracteristicas de la <div style="margin-top: -7px;margin-left: 25px;">versión professional</div></div>
                                                             </span>
                                                         </div>
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 6px;">
