@@ -7,7 +7,7 @@
         </div>
     </section>
 
-    <section style="padding-bottom: 70px">
+    <section style="padding-bottom: 40px">
             <div class="auto-container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
@@ -20,47 +20,53 @@
                             </div>
                         </div>
                     </div>
-                    <div style="height: 100px;"> 
-                        <div style="height: 70px; background: #fff">
-                            <div class="col-md-6 col-sm-12 col-xs-12">
-                                <div class="sec-title centered">
-                                    <div class="text" style="text-align: center;">
-                                        <h1 style="font-size: 30px;padding-top: 12px;">Suscríbase a nuestros boletines</h1>
+                </div>
+            </div>
+    </section>
+    
+    <section>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 50px;">
+                    <div class="sec-title centered">
+                        <div class="text" style="text-align: center;">
+                            <h1 style="font-size: 30px;padding-top: 12px;">Suscríbase a nuestros boletines</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="sec-title centered" style="margin-bottom: 0px">
+                        <div class="" style="margin-top: 23px;">
+                            {{ Form::open(array('route' => 'newsletter.send', 'id' => 'form-newsletter-form')) }}
+                                <div class="input-group mb-3">
+                                    <input
+                                    name="email" 
+                                    type="email" class="form-control" 
+                                    placeholder="Email ID" aria-label="Email" 
+                                    aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                        <button 
+                                        data-callback="send_newsletterForm"
+                                        data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                        style="background: green; color: white; font-size: 15px;" 
+                                        class="btn btn-outline-secondary g-recaptcha" type="button">Enviar</button>
                                     </div>
                                 </div>
-                            </div>
-                           
-                            <div class="col-md-6 col-sm-12 col-xs-12">
-                                <div class="sec-title centered">
-                                        <div class="" style="margin-top: 23px;">
-                                                {{ Form::open(array('route' => 'newsletter.send', 'id' => 'form-newsletter-form')) }}
-                                                    <div class="input-group mb-3">
-                                                        <input
-                                                        name="email" 
-                                                        type="email" class="form-control" 
-                                                        placeholder="Email ID" aria-label="Email" 
-                                                        aria-describedby="button-addon2">
-                                                        <div class="input-group-append">
-                                                            <button 
-                                                            data-callback="send_newsletterForm"
-                                                            data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
-                                                            style="background: green; color: white; font-size: 15px;" 
-                                                            class="btn btn-outline-secondary g-recaptcha" type="button">Enviar</button>
-                                                        </div>
-                                                    </div>
-                                                @include('flash::message')
-                                                {{ Form::close() }}
-                                                </div>
-                                    <div class="text" style="text-align: initial;">Nota:Nunca venderemos o compatiremos su direccion de correo electronico</div>
-                                </div>
-                            </div>
+                            @include('flash::message')
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    <div class="sec-title centered">
+                        <div class="text" style="text-align: initial; font-size: 15px;">
+                            <div>Nota: Nunca venderemos o compatiremos su direccion de correo electronico</div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <!--<section class="news-section-two">
+    <section class="news-section-two">
             <div class="auto-container">
                 
                 <div class="row clearfix">
@@ -102,5 +108,5 @@
                     </div>
                 </div>
             </div>
-    </section>-->
+    </section>
 @endsection
