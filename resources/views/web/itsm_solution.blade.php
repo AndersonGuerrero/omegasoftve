@@ -997,7 +997,7 @@
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:500px;max-height:500px;background:#5cbdde54">
+                                                    <div style="min-height:520px;max-height:520px;background:#5cbdde54">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Gestión de incidentes</span>
@@ -1038,14 +1038,14 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Reportes standard</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;margin-top: 140px;" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;color: #fff;margin-top: 140px;" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-ms-3 col-xs-3">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
-                                                        <img src="{{ URL::to('/') }}/images/icons/standard.jpg" alt="">
+                                                        <img style="border-top-right-radius: 14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/standard.jpg" alt="">
                                                     </div>
                                                     <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
@@ -1055,7 +1055,7 @@
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:500px;max-height:500px;background:#5cbdde54">
+                                                    <div style="min-height:510px;max-height:510px;background:#5cbdde54;border-bottom-left-radius: 14px;border-bottom-right-radius: 14px;">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
                                                                 <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye las caracteristicas de <div style="margin-top: -7px;margin-left: 25px;">la versión initial</div></div>
@@ -1101,7 +1101,7 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Reportes personalizados</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;margin-top: 45px;" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;margin-top: 45px;color: #fff" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
@@ -1118,7 +1118,7 @@
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:500px;max-height:500px;background:#5cbdde54">
+                                                    <div style="min-height:520px;max-height:520px;background:#5cbdde54">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
                                                                 <div style="font-size: 15px"><i class="fa fa-check check"></i>Incluye caracteristicas de la <div style="margin-top: -7px;margin-left: 25px;">versión standard</div></div>
@@ -1154,7 +1154,7 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Dashboard standard</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;margin-top: 115px;" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;margin-top:115px;color: #fff" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
@@ -1171,7 +1171,7 @@
                                                                 </div>
                                                             </div>
                                                     </div>
-                                                    <div style="min-height:500px;max-height:500px;background:#5cbdde54">
+                                                    <div style="min-height:520px;max-height:520px;background:#5cbdde54;">
                                                         <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 20px;padding-top: 15px;">
                                                             <span class="text">
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Resolución de incidencias</span>
@@ -1207,7 +1207,7 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Dashboard personalizados</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;margin-top: 155px;" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 10px;border-color: #3ccc00;background: #3ccc00;margin-top: 155px;color: #fff" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="padding-left: 10px;padding-right: 10px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
