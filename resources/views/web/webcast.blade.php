@@ -82,7 +82,7 @@
                                     solicitudes de soporte y garantiza la
                                     disponibilidad en las operaciones del negocio,
                             </div>
-                            <a href="" href=""data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
+                            <a href=""data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
                                 <div style="height: 70px;background: #2976f5;">
                                     <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
                                 </div>
