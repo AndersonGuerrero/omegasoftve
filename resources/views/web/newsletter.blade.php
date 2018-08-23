@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div class="sec-title centered">
-                        <div class="text" style="text-align: initial; font-size: 15px;">
+                        <div class="text" style="text-align: initial; font-size: 13px;">
                             <div>Nota: Nunca venderemos o compatiremos su direccion de correo electronico</div>
                         </div>
                     </div>
