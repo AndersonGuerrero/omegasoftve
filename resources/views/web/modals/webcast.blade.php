@@ -5,17 +5,18 @@
             <div class="callback-box">
                     <div class="callback-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff;position: absolute;height: 30px;width: 30px;top: 5px;right: 6px;z-index: 9;"><i class="fa fa-times"></i></button>
-                        <h2>Registrate para el seminario web</h2>
+                        <h2 id="title-webcast">--</h2>
                     </div>
                     <div class="form-box">
                         <div class="form-style-two callback-form">
-                            <form method="post" action="http://themebunch.com/html/fico/contact.html" id="form_webcast">
+                        {{ Form::open(array('route' => 'webcast.register', 'id' => 'form_webcast')) }}    
                                 <div class="form-group">
                                     <input type="text" name="name" value="" placeholder="Nombre" required="">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" name="email" value="" placeholder="Email" required="">
-                                </div>   
+                                </div>  
+                                <input type="hidden" name="webcast_title" id="input-webcast-title"> 
                                 <div class="form-group">
                                     <select name="country" required>
                                         <option value="" selected  disabled>Elegir opción</option>
@@ -273,7 +274,7 @@
                                         >Enviar</button>
                                     </div>
                                 </div>  
-                            </form>
+                                {{ Form::close() }}
                         </div>
                     </div>
                 </div>
@@ -287,5 +288,10 @@
     function callbackWebcast(data){
         $('#form_webcast').submit()
     }
+    $('#myModal').on('show.bs.modal', function(event) {
+        var title = $(event.relatedTarget).data('title')
+        $('#input-webcast-title').val(title)
+        $('#title-webcast').html(title)
+    })
 </script>
 @endsection

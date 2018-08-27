@@ -83,22 +83,27 @@
 <script src="{{ URL::to('/') }}/js/script.js"></script>
 
 <script>
-    function send_newsletter(){
+    function send_newsletter_footer(){
         $('#form-newsletter').submit()
     }
 
-    // function send_newsletterForm(){
-    //     if($('#form-newsletter-form input[name="email"]').val()){
-    //         $('#form-newsletter-form').submit()
-    //     }else{
-    //         alert('Debe ingresar su correo!')
-    //     }
-    // }
+    function send_newsletter(){
+        $('#form-newsletter-form').submit()
+    }
 
     var CaptchaLoad = function() {
         window.id_captcha_footer = grecaptcha.render($('#g-recaptcha-footer')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+        
         if($('#g-recaptcha-webcast')[0]){
             window.id_captcha_webcast = grecaptcha.render($('#g-recaptcha-webcast')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+        }
+
+        if($('#g-recaptcha-newsletter')[0]){
+            window.id_captcha_newsletter = grecaptcha.render($('#g-recaptcha-newsletter')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+        }
+
+        if($('#g-recaptcha-contact')[0]){
+            window.id_captcha_contact = grecaptcha.render($('#g-recaptcha-contact')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
         }
     };
 
@@ -110,6 +115,10 @@
                 grecaptcha.execute(window.id_captcha_footer);
             }else if(idcaptcha === 'g-recaptcha-webcast'){
                 grecaptcha.execute(window.id_captcha_webcast);
+            }else if(idcaptcha === 'g-recaptcha-newsletter'){
+                grecaptcha.execute(window.id_captcha_newsletter);
+            }else if(idcaptcha === 'g-recaptcha-contact'){
+                grecaptcha.execute(window.id_captcha_contact);
             }
         }else{
             $(event.currentTarget).closest('form')[0].reportValidity()
