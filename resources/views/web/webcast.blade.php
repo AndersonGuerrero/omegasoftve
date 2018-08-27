@@ -36,7 +36,7 @@
     <section>
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-6 col-sm-6 col-xs-6" >
+                <div class="col-md-6 col-sm-12 col-xs-6" >
                     <div class="sec-title centered" style="margin-bottom:30px;border:1px solid #c2d1df;">
                         <div class="text" style="font-size: 23px;min-height: 82px;">
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
@@ -76,7 +76,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="col-md-6 col-sm-12 col-xs-6">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
                             <div class="text" style="font-size: 23px;min-height: 82px;">
                             Integración de Omega Service Desk con Knowledgebase.
@@ -114,7 +114,7 @@
                     </div>
             </div>   
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-6 col-sm-6 col-xs-6" >
+                <div class="col-md-6 col-sm-12 col-xs-6" >
                     <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
                         <div class="text" style="font-size: 23px;">
                         Integración de Omega Service Desk con la Gestión de Activos.
@@ -150,7 +150,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="col-md-6 col-sm-12 col-xs-6">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
                             <div class="text" style="font-size:23px;min-height:82px;">
                             Gestionando Proyectos con Omega ITSM.
@@ -193,8 +193,3 @@
     </section>
     @include('web.modals.webcast')
     @endsection
-@section('javascript')
-<script>
-    //alert()
-</script>
-@endsection

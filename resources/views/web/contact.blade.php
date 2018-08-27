@@ -41,8 +41,7 @@
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                    <div class="text-center">
                                        <button 
-                                       data-callback="send_form"
-                                       data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                       type="submit"
                                        class="theme-btn btn-style-two g-recaptcha">Enviar
                                        </button>
                                     </div>

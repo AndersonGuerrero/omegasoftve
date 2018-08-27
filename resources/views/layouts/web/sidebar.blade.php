@@ -143,7 +143,7 @@
                                       <li class="dropdown"><a href="#">Partner</a>
                                           <ul>
                                               <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>
-                                              <li><a href="{{ URL::to('/') }}/programa-de-partner/">Programa de Partner</a></li>
+                                              <li><a href="{{ URL::to('/') }}/programa-partner/">Programa de Partner</a></li>
                                               <li><a href="{{ URL::to('/') }}/portal-partner/">Portal Partner</a></li>
                                           </ul>
                                       </li>

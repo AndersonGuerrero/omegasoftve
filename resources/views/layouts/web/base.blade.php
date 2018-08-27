@@ -32,7 +32,7 @@
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="{{ URL::to('/') }}/js/respond.js"></script><![endif]-->
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaLoad" async defer></script>
 @yield('css')
 </head>
 
@@ -84,20 +84,37 @@
 
 <script>
     function send_newsletter(){
-        if($('#form-newsletter input[name="email"]').val()){
-            $('#form-newsletter').submit()
-        }else{
-            alert('Debe ingresar su correo!')
-        }
+        $('#form-newsletter').submit()
     }
 
-    function send_newsletterForm(){
-        if($('#form-newsletter-form input[name="email"]').val()){
-            $('#form-newsletter-form').submit()
-        }else{
-            alert('Debe ingresar su correo!')
+    // function send_newsletterForm(){
+    //     if($('#form-newsletter-form input[name="email"]').val()){
+    //         $('#form-newsletter-form').submit()
+    //     }else{
+    //         alert('Debe ingresar su correo!')
+    //     }
+    // }
+
+    var CaptchaLoad = function() {
+        window.id_captcha_footer = grecaptcha.render($('#g-recaptcha-footer')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+        if($('#g-recaptcha-webcast')[0]){
+            window.id_captcha_webcast = grecaptcha.render($('#g-recaptcha-webcast')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
         }
-    }
+    };
+
+    $('.btn-send').on('click', function (event) {
+        event.preventDefault()
+        if($(event.currentTarget).closest('form')[0].checkValidity()){
+            var idcaptcha = $(event.currentTarget).closest('form').find('.recaptcha-hide')[0].id
+            if(idcaptcha === 'g-recaptcha-footer'){
+                grecaptcha.execute(window.id_captcha_footer);
+            }else if(idcaptcha === 'g-recaptcha-webcast'){
+                grecaptcha.execute(window.id_captcha_webcast);
+            }
+        }else{
+            $(event.currentTarget).closest('form')[0].reportValidity()
+        }
+    });
 </script>
 @yield('javascript')
 <!--Color Switcher-->
