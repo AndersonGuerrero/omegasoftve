@@ -61,7 +61,7 @@
 <section class="services-two" style="padding: 0px; margin-top:0px;"> 
     <div class="auto-container">
         <div class="sec-title centered" style="margin-bottom: 20px;">
-            <h1 style="font-size:30px;padding-top: 65px;">Beneficios del programa de Partner</h1>
+            <h1 style="font-size:30px;padding-top: 65px;">Beneficios para nuestros aliados</h1>
         </div>
     </div>
 </section>
@@ -253,10 +253,10 @@
             </div>
             <div class="sec-title centered" style="margin-bottom: 30px;">
                 <div class="text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Doloremque, quaerat asperiores odit quas ut, non neque aperiam 
-                    voluptatibus rem ratione maiores dolorum deserunt iusto possimus 
-                    amet reprehenderit? Atque, quia aliquam!
+                        Buscamos apoyar a los asociados para que puedan 
+                        expandir su portafolio con el fin de llegar a más 
+                        clientes con soluciones de valor agregado, productos 
+                        y servicios de forma simple y efectiva.
                 </div>
             </div>
         </div>
