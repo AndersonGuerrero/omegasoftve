@@ -27,9 +27,6 @@ class Web extends Controller{
         return view('web/blog');
     }
 
-    public function webcast(){
-        return view('web/webcast');
-    }
 
     public function about(){
         return view('web/about');

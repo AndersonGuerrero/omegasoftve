@@ -16,7 +16,6 @@ Route::get('/soporte/', 'Web@soport');
 Route::get('/nuestros-clientes/', 'Web@clients');
 Route::get('/casos-de-exito/', 'Web@success_stories');
 Route::get('/blog/', 'Web@blog');
-Route::get('/webcast/', 'Web@webcast');
 Route::get('/newsletter/', 'NewsletterController@newsletter');
 Route::post('/newsletter/', ['as'=>'newsletter.send', 'uses'=>'NewsletterController@newsletterPost']);
 Route::get('/quienes-somos/', 'Web@about');
@@ -31,5 +30,7 @@ Route::get('/soluciones/itsm/', 'Web@itsm_solution');
 Route::get('/demo-guiada/', 'Web@demo_guiada');
 Route::get('/solicitud/serial/', 'Web@request_serial');
 Route::get('/programa-partner/', 'Web@program_partner');
+Route::get('/webcast/', 'WebcastController@index');
+Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);
 
 

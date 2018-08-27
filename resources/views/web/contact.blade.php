@@ -38,11 +38,18 @@
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                    <textarea name="message" placeholder="Mensaje"></textarea>
                                </div>
+                               <div
+                                    class="recaptcha-hide" 
+                                    id="g-recaptcha-contact"
+                                    data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                    data-callback="send_contact"
+                                    data-size="invisible">
+                                </div>
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                    <div class="text-center">
                                        <button 
                                        type="submit"
-                                       class="theme-btn btn-style-two g-recaptcha">Enviar
+                                       class="theme-btn btn-style-two btn-send">Enviar
                                        </button>
                                     </div>
                                </div>
@@ -88,10 +95,8 @@
 
 @section('javascript')
 <script>
-    function send_form(){
-        if($('#form-contact').valid()){
-            $('#form-contact').submit()
-        }
+    function send_contact(){
+        $('#form-contact').submit()
     }
 </script>
 @endsection
