@@ -260,7 +260,7 @@
 </section>
 
 
-<section class="services-two" style="background: #5aceff5c;padding:22px;height:100px;"> 
+<section class="services-two" style="margin-top: -30px;padding:22px;height:100px;"> 
     <div class="auto-container">
         <div class="sec-title centered">
             <div class="text-center"  style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="" data-id="1" data-toggle="modal" data-target="#myPartner" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Registrate</a></div>
