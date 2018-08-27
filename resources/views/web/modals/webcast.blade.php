@@ -9,7 +9,7 @@
                     </div>
                     <div class="form-box">
                         <div class="form-style-two callback-form">
-                            <form method="post" action="http://themebunch.com/html/fico/contact.html">
+                            <form method="post" action="http://themebunch.com/html/fico/contact.html" id="form_webcast">
                                 <div class="form-group">
                                     <input type="text" name="name" value="" placeholder="Nombre" required="">
                                 </div>
@@ -258,9 +258,19 @@
                                         <option value="Zimbabue" id="ZW">Zimbabue</option>
                                     </select>
                                 </div>
+                                <div
+                                    class="recaptcha-hide" 
+                                    id="g-recaptcha-webcast"
+                                    data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                    data-callback="callbackWebcast"
+                                    data-size="invisible">
+                                </div>
                                 <div class="form-group">
                                     <div class="text-center">
-                                        <button type="submit" class="theme-btn btn-style-two">Enviar</button>
+                                        <button
+                                        type="submit"
+                                        class="theme-btn btn-style-two btn-send" 
+                                        >Enviar</button>
                                     </div>
                                 </div>  
                             </form>
@@ -271,3 +281,11 @@
         </div><!-- modal dialog -->
     </div><!-- modal fade -->
 <!-- Cierra Modal -->
+
+@section('javascript')
+<script>
+    function callbackWebcast(data){
+        $('#form_webcast').submit()
+    }
+</script>
+@endsection
