@@ -5,13 +5,13 @@
             <div class="callback-box">
                     <div class="callback-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff;position: absolute;height: 30px;width: 30px;top: 5px;right: 6px;z-index: 9;"><i class="fa fa-times"></i></button>
-                        <h2>Registres y forme parte de nuestros aliados comerciales</h2>
+                        <h2>Registrate  y conviértete en nuestro socio</h2>
                     </div>
                     <div class="form-box" style="padding-left:15px;padding-right:15px;padding-top:25px">
                         <div class="form-style-two callback-form">
                             <form method="post" action="http://themebunch.com/html/fico/contact.html">
                                <div class="col-md-12 col-md-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
-                                    <div class="col-md-6 col-md-6 col-xs-6 form-group" >
+                                    <div class="col-md-6 col-md-6 col-xs-6 form-group" style="padding-left: 0px">
                                         <div style="margin-bottom: 10px">
                                             <input type="text" name="Company" value="" placeholder="Empresa" required>
                                         </div>
@@ -25,7 +25,7 @@
                                             <input type="text" name="Phone" value="" placeholder="Telefono" required>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-md-6 col-xs-6">
+                                    <div class="col-md-6 col-md-6 col-xs-6" style="padding-right: 0px">
                                         <div  style="margin-bottom: 10px">
                                             <input type="text" name="Cel" value="" placeholder="Celular" required>
                                         </div>
