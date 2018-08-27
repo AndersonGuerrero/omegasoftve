@@ -157,7 +157,7 @@
                                                         <li>Herramientas de Gestión de Ticket</li>
                                                     </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
                                             
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
@@ -237,8 +237,8 @@
                                                                 Alta capacidad de relación y negociación.
                                                             </li>
                                                         </ul>
-                                                    </div>  
-                                                <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                                </div>  
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
                                         <!--End Secion Vacantes-->
@@ -302,7 +302,7 @@
                                                         </li>
                                                     </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
                                         <!--End Secion Vacantes-->
@@ -339,7 +339,7 @@
                                                         <li>Participación Activa en Eventos donde participe la empresa.</li>
                                                     </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
                                             </div> 
                                                 <hr style="height:0px;width: 110%;background-color:#d8cece;">
                                         <!--End Secion Vacantes-->

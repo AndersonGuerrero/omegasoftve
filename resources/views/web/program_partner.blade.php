@@ -148,27 +148,21 @@
 </section>
 
 
-<section class="services-two" style="padding: 0px;margin-bottom: 20px"> 
-        <div class="auto-container">
-            <div class="sec-title centered" style="margin-bottom: 30px;">
-                <h1 style="font-size:30px;">Niveles de Membresía</h1>
-            </div>
-            <div class="sec-title centered" style="margin-bottom: 30px;">
-                <div class="text">
-                        La red de socios de Omegasoft está estructurada en cuatro categorías de socios
-                        basadas en las ventas y los servicios que los socios proporcionan. Estas cuatro
-                        categorías de socios son: Partner Distribuidor, Partner de Servicios, Partner de
-                        Soluciones Plata y Partner de Soluciones Oro
-                </div>
-            </div>
-        </div>
-</section>
-
-
 <section style=" margin-bottom: 40px;background: #5aceff12;">
         <div class="auto-container">
             <div class="row">
                 <div class="col-md-12 col-ms-12 col-xs-12">
+                        <div class="sec-title centered" style="margin-bottom: 30px;padding-top: 40px;">
+                                <h1 style="font-size:30px;">Niveles de Membresía</h1>
+                            </div>
+                            <div class="sec-title centered" style="margin-bottom: 30px;">
+                                <div class="text">
+                                        La red de socios de Omegasoft está estructurada en cuatro categorías de socios
+                                        basadas en las ventas y los servicios que los socios proporcionan. Estas cuatro
+                                        categorías de socios son: Partner Distribuidor, Partner de Servicios, Partner de
+                                        Soluciones Plata y Partner de Soluciones Oro
+                                </div>
+                            </div>
                     <div class="col-md-6 col-ms-6 col-xs-6">
                         <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
                             <div style="padding: 0px; margin-bottom: 0px;">
