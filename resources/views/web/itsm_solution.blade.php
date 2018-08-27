@@ -2,8 +2,11 @@
 @section('title', 'Solucion ITSM')
 @section('content')
 
-    <section class="page-title" style="height: 530px;">
-        <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/itsm.jpg); opacity: 10.0;"></div>
+    <section class="page-title">
+        <div class="image-layer" 
+             style="opacity:10.0;">
+                <img src="{{ URL::to('/') }}/images/background/itsm.jpg" alt="">
+        </div>
         <div class="auto-container">
         </div>
     </section>

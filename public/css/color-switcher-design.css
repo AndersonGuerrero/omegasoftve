@@ -6,6 +6,7 @@
 
 ***/
 
+
 .color-palate {
     background: #fff none repeat scroll 0 0;
 	-webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
@@ -143,6 +144,16 @@
     color: #ffffff;
     font-weight: 600;
     border-radius: 12px 12px 0px 0px;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 567px){
+    .color-trigger {
+        height: 41px;
+        right: -32px;
+        width: 94px;
+        padding-top: 0px;
+    }
 }
 
 /* .color-trigger:before{

@@ -2,8 +2,11 @@
 @section('title', 'Partners')
 @section('content')
     <!--Page Title-->
-    <section class="page-title" style="height:530px;">
-            <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/nuestros-partners.jpg); opacity: 10.0;"></div>
+    <section class="page-title">
+            <div class="image-layer" 
+                 style="opacity:10.0;">
+                        <img src="{{ URL::to('/') }}/images/background/nuestros-partners.jpg" alt="">
+                 </div>
             <div class="auto-container">
 
             </div>
