@@ -57,7 +57,7 @@
                                       <ul class="navigation clearfix">
                                           <li class="dropdown"><a href="">Soluciones</a>
                                               <ul>
-                                                  <li><a href="{{ URL::to('/') }}/soluciones/itsm/">Gestión de Servicios IT (ITSM)</a></li>
+                                                  <li><a style="text-transform: none " href="{{ URL::to('/') }}/soluciones/itsm/">Gestión de Servicios IT (ITSM)</a></li>
                                               </ul>
                                           </li>
                                           </li>
@@ -66,12 +66,12 @@
                                           <li class="dropdown"><a href="#">Clientes</a>
                                               <ul>
                                                   <li><a href="{{ URL::to('/') }}/nuestros-clientes/">Nuestros Clientes</a></li>
-                                                  <li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>
+                                                  <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
                                               </ul>
                                           </li>
                                           <li class="dropdown"><a href="#">Partner</a>
                                               <ul>
-                                                  <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>
+                                                  <!--<li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
                                                   <li><a href="{{ URL::to('/') }}/programa-partner/">Programa Partner</a></li>
                                                   <li><a href="{{ URL::to('/') }}/portal-partner/">Portal Partner</a></li>
                                               </ul>
@@ -80,7 +80,7 @@
                                               <ul>
                                                   <li><a href="{{ URL::to('/') }}/blog/">blog</a></li>
                                                   <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
-                                                  <li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>
+                                                  <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
                                                  <!-- <li><a href="faqs.html">FAQs</a></li>
                                                   <li><a href="coming-soon.html">Comming Soon</a></li>-->
                                               </ul>
@@ -137,12 +137,12 @@
                                       <li class="dropdown"><a href="#">Clientes</a>
                                           <ul>
                                               <li><a href="{{ URL::to('/') }}/nuestros-clientes/">Nuestros Clientes</a></li>
-                                              <li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>
+                                              <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Partner</a>
                                           <ul>
-                                              <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>
+                                             <!-- <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
                                               <li><a href="{{ URL::to('/') }}/programa-partner/">Programa de Partner</a></li>
                                               <li><a href="{{ URL::to('/') }}/portal-partner/">Portal Partner</a></li>
                                           </ul>
@@ -151,7 +151,7 @@
                                           <ul>
                                               <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>
                                               <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
-                                              <li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>
+                                              <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Nosotros</a>

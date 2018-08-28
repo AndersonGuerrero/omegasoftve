@@ -14,31 +14,37 @@
 <section class="services-two" style="padding-top: 50px; margin-bottom: -40px"> 
         <div class="auto-container">
             <div class="sec-title-two centered" style="margin-bottom: 30px;">
-                <h1 style="font-size:30px">Programa de Partner</h1>
+                <h1 style="font-size:30px">Acompáñanos a expandir nuestros horizontes, ofreciendo soluciones de calidad.</h1>
             </div>
             <div class="sec-title centered" style="margin-bottom: 30px;">
-                    <h1 style="font-size:20px;color:#5a6d92">
-                        Las grandes asociaciones se basan en 
-                        objetivos comunes, compromisos compartidos, y <br> recompensas mutuas.</h1>
+                    <div class="text">
+                        Nuestro Programa de Parten tiene un claro enfoque en la rentabilidad. Nuestro objetivo es
+                        proporcionar a nuestros socios todas las herramientas y recursos que necesitan para tener
+                        éxito en la venta, implementación y soporte de nuestras soluciones para ITSM
+                    </div>
                 </div>
             <div class="sec-title centered" style="margin-bottom: 10px;">
                 <div class="text">
-                        En Omegasoft creemos que las alianzas deben tener un beneficio mutuo. Por eso, nuestro
-                        modelo de colaboración ha sido diseñado para que su negocio crezca con facilidad ofreciendo
-                        nuestros productos y servicios como parte de sus soluciones  
+                    Conviértase en Partner de Omegasoft y pasará a formar parte de
+                    nuestro equipo. Tendrá acceso al portal de Partner, para estar al día en
+                    las últimas noticias relacionadas con muestras soluciones y accederá al
+                    variado contenido de marketing disponible que puede necesitar para
+                    acercarse a sus clientes: casos de éxito, nuevas alianzas, integraciones,
+                    etc. Le guiaremos en su viaje para conseguir nuevos clientes e
+                    implementaciones exitosas con nuestras soluciones  
                 </div>
             </div>
-            <div class="sec-title centered" style="margin-bottom: 30px;">
+            <!--<div class="sec-title centered" style="margin-bottom: 30px;">
                 <div class="text">
                         Nuestro Programa de Partner lo ayudará a mejorar sus ventas, ampliar su portafolio de
                         soluciones, conocer nuestros productos y facilitar a sus clientes la gestión de servicio dentro de sus
                         organizaciones
                 </div>
-            </div>
+            </div> -->
         </div>
 </section>
 
-<section class="services-two" style="padding-top: 0px;margin-bottom: -100px;" > 
+<!--<section class="services-two" style="padding-top: 0px;margin-bottom: -100px;" > 
         <div class="auto-container">
             <div class="sec-title centered" style="margin-bottom: 30px;">
                 <h1 style="font-size:20px; color: #5a6d92;">Por qué asociarse con Omegasoft</h1>
@@ -56,12 +62,16 @@
                 </div>
             </div>
         </div>
-</section>
+</section> -->
 
 <section class="services-two" style="padding: 0px; margin-top:0px;"> 
     <div class="auto-container">
         <div class="sec-title centered" style="margin-bottom: 20px;">
-            <h1 style="font-size:30px;padding-top: 65px;">Beneficios para nuestros aliados</h1>
+            <h1 style="font-size:30px;padding-top: 65px;">Alguno de los beneficios de forma parte de nuestro equipo</h1>
+            <div class="text" style="font-size: 25px;">
+                Nuestro programa de partner le proporciona los recursos esenciales
+                para acelerar su ciclo de venta y ayudar a hacer crecer su negocio
+            </div>
         </div>
     </div>
 </section>
@@ -72,34 +82,32 @@
             <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                 <div class="inner-box">
                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/amplie-su-portafolio-de-soluciones.png" alt=""></figure>
-                    <h3>Amplie su portafolio de soluciones</h3>
+                    <h3>Portafolio de Soluciones</h3>
                     <div style="font-size: 15px;" class="text">
-                        Determine las causas raíz de los incidentes 
-                        recurrentes sobre los activos de su organización, 
-                        identifique errores conocidos y proporcione 
-                        soluciones efectivas a problemas.</div>
+                        Amplié su portafolio con nuestras soluciones y maximicé 
+                        las posibilidades de captar clientes ofreciendo soluciones 
+                        de calidad comprobada.
+                    </div>
                 </div>
             </div>
             <!--Service Block-->
             <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 <div class="inner-box">
                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/impulse-su-marca.png" alt=""></figure>
-                    <h3>Impulse su marca</h3>
+                    <h3>Impulsa tu marca</h3>
                     <div style="font-size: 15px;" class="text">
-                        Establezca contratos de tiempos para la resolución 
-                        de las solicitudes entre el usuario y TI, los SLA 
-                        implementados garantizarán el cumplimiento del soporte.</div>
+                        Llegar a nuevos mercados e industrias ayudando a que los 
+                        clientes mejoren su eficiencia en soporte de TI.</div>
                 </div>
             </div>
             <!--Service Block-->
             <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 <div class="inner-box">
                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/oportunidades-de-negocio2.png" alt=""></figure>
-                    <h3>Gestione oportunidades de negocio</h3>
+                    <h3>Generación de demanda</h3>
                     <div style="font-size: 15px;" class="text">
-                        Proporcione una gestión adecuada a las solicitudes 
-                        de los usuarios ante las peticiones orientadas a mejoras 
-                        de los servicios.</div>
+                        Para impulsar las demandas de nuestras soluciones y generar oportunidades de negocio, llevamos a
+                        cabo frecuentemente programas de marketing y ventas, en conjunto con nuestros partner.</div>
                 </div>
             </div>
             <!--Service Block-->
@@ -111,11 +119,8 @@
                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/maximice-sus-ingresos.png" alt=""></figure>
                     <h3>Maximice sus ingresos</h3>
                     <div style="font-size: 15px;" class="text">
-                        Defina un catálogo de servicio de fácil 
-                        comprensión para usuarios y solucionadores, 
-                        donde detalle los servicios ofrecidos por el 
-                        negocio, grupos solucionadores encargados de la
-                        atención.</div>
+                        Nuestra atractiva relación costo beneficios, le permitirá captar nuevos clientes,
+                        obteniendo importantes márgenes en nuevas ventas y renovaciones.</div>
                 </div>
             </div>
             <!--Service Block-->
@@ -124,22 +129,18 @@
                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/formacion-tecnica1.png" alt=""></figure>
                     <h3>Formación técnica</h3>
                     <div style="font-size: 15px;" class="text">
-                        Disponga de un espacio para el almacenamiento 
-                        de artículos y soluciones que sirva de canal 
-                        colaborativo para usuarios y solucionadores 
-                        en la resolución de inquietudes 24*7.</div>
+                        Para nosotros, es de vital importancia la formación de nuestros Partner, para lo cual contamos con
+                        varios programas de formación según el nivel del partner.</div>
                 </div>
             </div>
             <!--Service Block-->
             <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                 <div class="inner-box">
                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/soporte_directo.png" alt=""></figure>
-                    <h3>Soporte directo</h3>
+                    <h3>Soporte Directo</h3>
                     <div style="font-size: 15px;" class="text">
-                        Restablezca los servicios afectados, gestione 
-                        los incidentes notificados por los usuarios
-                        resolviendo con eficiencia y eficacia las interrupciones 
-                        con el menor impacto</div>
+                        Como partner, recibirás servicios de soporte comercial y técnico dedicado para que
+                        puedas brindar la ayuda que tú y tus clientes necesitan.</div>
                 </div>
             </div>
             <!--Service Block-->
