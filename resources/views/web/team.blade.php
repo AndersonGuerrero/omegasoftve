@@ -82,38 +82,289 @@
                             <div class="career-posts">
                                 <!--Career Block-->
                                 <div class="career-block select-Tecnología">
-                                    <h2> Director de Tecnología</h2>
-                                    <p>Praesent ultricies ligula et pellentesque pretium. In sagittis libero vel ante pellentesque pulvinar. Nullam at elit nunc. In nec quam a dui consequat tristique at quis sem. Pellentesque luctus justo et convallis mollis senectus et netus.</p>
-                                    <p>Vivamus vitae quam tempus, mattis mi ac, placerat mauris. Pellentesque porta enim non ultricies sagittis. Pellentesque habitant morbi tristique.</p>
-                                    <ul>
-                                        <li>I must explain to you how all this mistaken idea</li>
-                                        <li>How all this mistaken idea of denouncing pleasure</li>
-                                        <li>Expound the actual teachings of the great explorer of the truth</li>
-                                    </ul>
-                                    <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                    <div>
+                                        <!--Secion Vacantes-->
+                                        <div style="margin-bottom: 30px;">
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="margin-bottom: 0px;">Coordinador de Soporte Técnico</h2>
+                                                    <p class="text" style="text-align: initial;">
+                                                        Dirigir las actividades del departamento de soporte, seguimiento a las solicitudes realizadas
+                                                        por nuestros clientes.
+                                                    </p>
+                                                </div>
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Funciones:</h2>
+                                                    <ul>
+                                                        <li>Supervisión de Personal.</li>
+                                                        <li>Visitas a Oficinas de Clientes.</li>
+                                                        <li>Realización de Informe e indicadores de gestión.</li>
+                                                        <li>Implementación de Software desarrollados por el negocio.</li>
+                                                        <li>Definir planes de implementación de aplicaciones.</li>
+                                                        <li>Capacitaciones de personal y clientes.</li>
+                                                        <li>Resolución de Incidencias y errores de productos.</li>
+                                                        <li>Desarrollo de Manuales y guías de usuarios.</li>
+                                                        <li>Testing de desarrollos del negocio.</li>
+                                                        <li>Nuevas Funcionalidades.</li>
+                                                        <li>Corrección de Errores.</li>
+                                                        <li>Presentaciones de Software a nuevos clientes.</li>
+                                                        <li>Apoyo a otras áreas del negocio.</li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Capacidades:</h2>
+                                                    <ul>
+                                                        <li>Liderazgo.</li>
+                                                        <li>Resolución de problemas.</li>
+                                                        <li>Capacidad de respuesta bajo presión.</li>
+                                                        <li>Orientación al servicio.</li>
+                                                        <li>Comunicación efectiva.</li>
+                                                        <li>Toma decisiones.</li>
+                                                        <li>Orientado a resultados.</li>
+                                                        <li>Buena dicción y escritura.</li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="link-box"><a href="" data-id="1" data-toggle="modal" data-target="#myTeam" class="theme-btn btn-style-two">Postularse</a></div>
+                                            </div> 
+                                            <hr style="height:0px;width: 110%;background-color:#d8cece;">
+                                        <!--End Secion Vacantes-->
+                                        <!--Secion Vacantes-->
+                                            <div style="margin-bottom: 30px;margin-top: 30px;">
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="margin-bottom: 0px;">Analista de Soporte Técnico</h2>
+                                                    <p class="text" style="text-align: initial;">
+                                                        Profesional con amplios conocimientos técnico, orientado a la prestación de servicios
+                                                    </p>
+                                                </div>
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Capacidades:</h2>
+                                                    <ul>
+                                                        <li>Trabajar bajo presión y entregar resultados según cronogramas y tiempos acordados.</li>
+                                                        <li>Disposición para aprender y adaptarse a cambios del entorno.</li>
+                                                        <li>Proactivo.</li>
+                                                        <li>Trabajo en equipo.</li>
+                                                        <li>Disponibilidad para trasladarse por soporte en sitio.</li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Conocimientos</h2>
+                                                    <ul>
+                                                        <li>Plataforma sistema operativo Windows /Linux. Avanzado o intermedio.</li>
+                                                        <li>Administración y gestión de bases de datos SQL. Intermedio.</li>
+                                                        <li>Aplicaciones de Escritorio Office.</li>
+                                                        <li>ITIL Intermedio o Básico.</li>
+                                                        <li>Herramientas de Control Remoto</li>
+                                                        <li>Manejo de atención a clientes</li>
+                                                        <li>Herramientas de Gestión de Ticket</li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                            
+                                            </div> 
+                                            <hr style="height:0px;width: 110%;background-color:#d8cece;">
+                                        <!--End Secion Vacantes-->
+                                    </div>
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Comercial">
-                                    <h2>Director Comercial</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                    <ul>
-                                        <li>I must explain to you how all this mistaken idea</li>
-                                        <li>How all this mistaken idea of denouncing pleasure</li>
-                                    </ul>
-                                    <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+                                    <div>
+                                        <!--Secion Vacantes-->
+                                            <div style="margin-bottom: 30px;">
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="margin-bottom: 0px;">Director Comercial</h2>
+                                                    <p class="text" style="text-align: initial;">
+                                                        Se requiere de un líder dinámico, 
+                                                        estratega, buen negociador, espíritu 
+                                                        comercial y competitivo con capacidad de afrontar retos.
+                                                    </p>
+                                                </div>
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 0px;">Perfil Requerido</h2>                                        
+                                                    <p class="text" style="text-align: initial;">
+                                                        Formación Universitaria Superior en Administración 
+                                                        y Dirección de Empresas, Económicas,Derecho, Marketing 
+                                                        u otras relacionadas con Empresa.
+                                                    </p>
+                                                </div>
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Funciones:</h2>
+                                                    <ul>
+                                                        <li>Definir e implementar estrategias, políticas 
+                                                            comerciales y objetivos con los colaboradores
+                                                            de las distintas áreas, asumiendo la responsabilidad 
+                                                            del resultado.
+                                                        </li>
+                                                        <li>
+                                                            Planificar, dirigir y coordinar el funcionamiento del área comercial.
+                                                        </li>
+                                                        <li>
+                                                            Diseño, desarrollo y ejecución del plan de negocio para la captación de nuevos clientes.
+                                                        </li>
+                                                        <li>
+                                                            Prospección de mercados, buscando nuevas oportunidades de negocio, nichos de mercado
+                                                            y clientes potenciales.
+                                                        </li>
+                                                        <li>
+                                                            Establecer las estrategias de marketing necesarias.
+                                                        </li>
+                                                        <li>
+                                                            Análisis de la Competencia.
+                                                        </li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;">
+                                                        <h2 style="font-size: 20px;margin-bottom: 10px;">Capacidades:</h2>
+                                                        <ul>
+                                                            <li>
+                                                                Conocimiento en Planificación estratégica.
+                                                            </li>
+                                                            <li>
+                                                                Experiencia en el área de ventas en la red (Network Marketing).
+                                                            </li>
+                                                            <li>
+                                                                Dominio en el manejo de los canales Ventas y Distribución.
+                                                            </li>
+                                                            <li>
+                                                                Manejo y dominio de los Indicadores de Gestión.
+                                                            </li>
+                                                            <li>
+                                                                Capacidad de Negociación e Interpretación de las Estratégicas de Mercado dirigidas al
+                                                                crecimiento y mejora del Departamento de Ventas.
+                                                            </li>
+                                                            <li>
+                                                                Facilidad para la toma de decisiones.
+                                                            </li>
+                                                            <li>
+                                                                Alta capacidad de relación y negociación.
+                                                            </li>
+                                                        </ul>
+                                                </div>  
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                            </div> 
+                                            <hr style="height:0px;width: 110%;background-color:#d8cece;">
+                                        <!--End Secion Vacantes-->
+                                        <!--Secion Vacantes-->
+                                            <div style="margin-top: 50px; margin-bottom: 30px;">
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="margin-bottom: 0px;">Ejecutivo de Ventas</h2>
+                                                    <p class="text" style="text-align: initial;">
+                                                        profesional responsable, ordenado, dinámico y proactivo.
+                                                    </p>
+                                                </div>
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Competencias:</h2>
+                                                    <ul>
+                                                        <li>
+                                                            Atención a Cartera Existente.
+                                                        </li>
+                                                        <li>
+                                                            Captación de Nueva Cartera.
+                                                        </li>
+                                                        <li>
+                                                            Capacidad de aportar a la estructura de ventas.
+                                                        </li>
+                                                        <li>
+                                                            Orientación al servicio.
+                                                        </li>
+                                                        <li>
+                                                            Comunicación efectiva.
+                                                        </li>
+                                                        <li>
+                                                            Toma decisiones.
+                                                        </li>
+                                                        <li>
+                                                            Orientado a resultados.
+                                                        </li>
+                                                        <li>
+                                                            Buena dicción y escritura.
+                                                        </li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Funciones inherente al Cargo:</h2>
+                                                    <ul>
+                                                        <li>
+                                                            Atención personalizada de cartera.
+                                                        </li>
+                                                        <li>
+                                                            Enlace Directo entre clientes y empresa.
+                                                        </li>
+                                                        <li>
+                                                            Canalización de requerimientos.
+                                                        </li>
+                                                        <li>
+                                                            Mantener solvencia efectiva de sus clientes.
+                                                        </li>
+                                                        <li>
+                                                            Ofertar todas las oportunidades de negocio que ofrece la empresa.
+                                                        </li>
+                                                        <li>
+                                                            Participación Activa en Eventos donde participe la empresa.
+                                                        </li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                            </div> 
+                                            <hr style="height:0px;width: 110%;background-color:#d8cece;">
+                                        <!--End Secion Vacantes-->
+                                            <!--Secion Vacantes-->
+                                            <div style="margin-top: 50px;margin-bottom: 30px;">
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="margin-bottom: 0px;">Gerente de Canales de Distribución</h2>
+                                                    <p class="text" style="text-align: initial;">
+                                                        Profesional con experiencia en el establecimiento de alianzas comerciales
+                                                    </p>
+                                                </div>
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Competencias:</h2>
+                                                    <ul>
+                                                        <li>Segmentación de Canales de venta.</li>
+                                                        <li>Atención a los distintos canales de venta.</li>
+                                                        <li>Análisis de competencia.</li>
+                                                        <li>Desarrollo de Negocios a corto y mediano plazo.</li>
+                                                        <li>Orientación al servicio.</li>
+                                                        <li>Comunicación efectiva.</li>
+                                                        <li>Toma decisiones.</li>
+                                                        <li>Orientado a resultados.</li>
+                                                        <li>Buena dicción y escritura.</li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;">
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Funciones inherentes al Cargo:</h2>
+                                                    <ul>
+                                                        <li>Determinar necesidades de cada canal de ventas.</li>
+                                                        <li>Direccionar la venta de los productos de la empresa.</li>
+                                                        <li>Canalización de requerimientos.</li>
+                                                        <li>Mantener solvencia efectiva de sus clientes.</li>
+                                                        <li>Supervisión efectiva del uso del producto: Debilidades y Fortalezas.</li>
+                                                        <li>Participación Activa en Eventos donde participe la empresa.</li>
+                                                    </ul>
+                                                </div>  
+                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                            </div> 
+                                                <hr style="height:0px;width: 110%;background-color:#d8cece;">
+                                        <!--End Secion Vacantes-->
+                                    </div>
                                 </div>
                                 <!--Career Block-->
-                                <div class="career-block select-Administración">
-                                    <h2>Junior Innovation Manager</h2>
-                                    <p>Pellentesque luctus justo et convallis mollis. Vivamus vitae quam tempus, mattis mi ac, placerat mauris. Pellentesque porta enim non ultricies sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sed nunc tortor. Aliquam lobortis viverra leo.</p>
-                                    <div class="link-box"><a href="#" class="theme-btn btn-style-two">Postularse</a></div>
+
+                                <!--Career Block-->
+                                <div class="career-block select-Marketing">
+                                    
                                 </div>
+                                <!--Career Block-->
+
+                                <!--Career Block-->
+                                <div class="career-block select-Administración">
+                                    
+                                </div>
+                                <!--Career Block-->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
     </section>
+@include('web.modals.team')
 @endsection
 
 @section('javascript')
