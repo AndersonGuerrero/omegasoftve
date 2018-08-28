@@ -116,7 +116,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="col-md-6 col-sm-12 col-xs-6" >
                     <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                        <div class="text" style="font-size: 23px;">
+                        <div class="text" style="font-size: 23px; min-height: 82px;">
                         Integración de Omega Service Desk con la Gestión de Activos.
                         </div>
                         <div class="inner-box">
