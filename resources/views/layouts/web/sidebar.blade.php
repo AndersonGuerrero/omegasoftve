@@ -129,7 +129,7 @@
                                   <ul class="navigation clearfix">
                                       <li class="dropdown"><a href="">Soluciones</a>
                                           <ul>
-                                              <li><a href="{{ URL::to('/') }}/soluciones/itsm/">Gestión de Servicios IT (ITSM)</a></li>
+                                              <li><a style="text-transform: none" href="{{ URL::to('/') }}/soluciones/itsm/">Gestión de Servicios IT (ITSM)</a></li>
                                           </ul>
                                       </li>
                                       <li class=""><a href="{{ URL::to('/') }}/soporte/">Soporte</a>
