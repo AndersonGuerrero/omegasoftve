@@ -452,45 +452,36 @@
     <!--Services Section-->
  
     <!--Call |To Acion Section-->
-    <section class="services-two imgback" style="padding: 0px; ">
-    	<div class="">
-            <div style="margin-bottom: 0px">
-                <div style="margin-top: 35px">
-                    <div class="col-sm-12 col-xs-12">
-                        <div class="col-md-2 col-sm-2 col-xs-0"></div>
-                        <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 20px">
-                            <div class="sec-title centered" style="margin-bottom: 0px">
-                                    <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
-                                    <p class="text" style="margin-top: -10px;color: #fff;">
-                                            Prueba nuestra solución sin limitaciones y de forma gratuita 
-                                    </p>
-                                <a href="http://localhost:8000/demo/">
-                                    <figure class="icon-box">
-                                            <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
+    <div class="imgback"> 
+        <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+            <div class="sec-title centered" style="margin-bottom: 0px">
+                    <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
+                    <p class="text" style="margin-top: -10px;color: #fff;">
+                            Prueba nuestra solución sin limitaciones y de forma gratuita 
+                    </p>
+                <a href="http://localhost:8000/demo/">
+                    <figure class="icon-box">
+                            <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
+                    </figure>
+                </a>
+            </div>
     
-                        </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 20px">
-                            <div class="sec-title centered" style="margin-bottom: 0px">
-                                <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
-                                <p class="text" style="margin-top: -10px;color: #fff;">
-                                        Solicite que uno de nuestros expertos le muestren nuestros productos 
-                                </p>
-                                <a href="http://localhost:8000/demo-guiada/">
-                                    <figure class="icon-box">
-                                        <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-2 col-xs-0"></div>
-                    </div>
-                </div>     
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+            <div class="sec-title centered" style="margin-bottom: 0px">
+                <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
+                <p class="text" style="margin-top: -10px;color: #fff;">
+                        Solicite que uno de nuestros expertos le muestren nuestros productos 
+                </p>
+                <a href="http://localhost:8000/demo-guiada/">
+                    <figure class="icon-box">
+                        <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
+                    </figure>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+
 
     
     <section class="services-two" style="padding: 0px; margin-top: 50px;"> 

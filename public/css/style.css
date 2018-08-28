@@ -6159,6 +6159,33 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	height: 215px;
 	background-image: url(../images/background/fondo.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (max-width: 767px){
+	.imgback{
+		height: 320px !important;
+	}
+	
+	.imgback .col-xs-12{
+		padding: 15px !important;
+	}
+}
+
+@media (max-width: 604px){
+	.imgback{
+		height: 350px !important;
+	}
+}
+
+@media (max-width: 522px){
+	.imgback{
+		height: 375px !important;
+	}
+}
+@media (max-width: 346px){
+	.imgback{
+		height: 405px !important;
+	}
 }
 
 @keyframes movimiento{
