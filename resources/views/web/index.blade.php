@@ -238,40 +238,41 @@
     	<div class="auto-container">
             
             <div class="row clearfix">
-            	<!--Service Block-->
-                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/control.png" alt=""></figure>
-                    	<h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
-                        <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
-                        mejore la productividad de los agentes, cumpla con los SLA y administre 
-                        el ciclo de vida completo de sus tickets de TI.</div>
+                <div class="row">
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/control.png" alt=""></figure>
+                            <h3><a href="">Obtenga el control de su mesa de ayuda</a></h3>
+                            <div style="font-size: 15px;" class="text">Reduzca las interrupciones, 
+                            mejore la productividad de los agentes, cumpla con los SLA y administre 
+                            el ciclo de vida completo de sus tickets de TI.</div>
+                        </div>
+                    </div>
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/unico-punto.png" alt=""></figure>
+                            <h3><a href="">Único punto de contacto</a></h3>
+                            <div style="font-size: 15px;" class="text">Establezca un único punto 
+                            de contacto para el registro y seguimiento de ticket, permitiéndole 
+                            al usuario final acceder por distintas vías como Teléfono, Correo o 
+                            Portal de Autoservicio</div>
+                        </div>
+                    </div>
+                    <!--Service Block-->
+                    <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner-box">
+                            <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/usuarios.png" alt=""></figure>
+                            <h3><a href="">Portal de usuarios</a></h3>
+                            <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
+                            al centro de soporte, poniendo a disposición de los usuarios 
+                            finales un portal con capacidades de autoservicios para el 
+                            registro y seguimiento de ticket.</div>
+                        </div>
                     </div>
                 </div>
-                <!--Service Block-->
-                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/unico-punto.png" alt=""></figure>
-                    	<h3><a href="">Único punto de contacto</a></h3>
-                        <div style="font-size: 15px;" class="text">Establezca un único punto 
-                        de contacto para el registro y seguimiento de ticket, permitiéndole 
-                        al usuario final acceder por distintas vías como Teléfono, Correo o 
-                        Portal de Autoservicio</div>
-                    </div>
-                </div>
-                <!--Service Block-->
-                <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
-                	<div class="inner-box">
-                    	<figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/usuarios.png" alt=""></figure>
-                    	<h3><a href="">Portal de usuarios</a></h3>
-                        <div style="font-size: 15px;" class="text">Reduzca la cantidad de llamadas 
-                        al centro de soporte, poniendo a disposición de los usuarios 
-                        finales un portal con capacidades de autoservicios para el 
-                        registro y seguimiento de ticket.</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row clearfix">
+                <div class="row">
                     <!--Service Block-->
                     <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                         <div class="inner-box">
@@ -307,149 +308,142 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
     
-    
-    <!--About Two Section-->
-    <section class="about-two" style="padding: 0px 0px; background: #5aceff5c;height: 577px;">
-    	<div class="outer-container clearfix">
-        	<!--Image Column-->
-            <div class="image-column"><div class="image-layer" style="background-image:url(images/background/omega-ITSM.png)"></div></div>
-            <!--Content Column-->
-            <div class="content-column">
-            	<div class="clearfix">
-                    <div class="inner">
-                    	<!--Heading-->
-                        <div class="sec-title-two centered" style="margin-bottom: 10px;margin-top: -50px;" >
-                            <h1 style="font-size: 30px">
-                                    La solución-SoftExpert ITSM
-                            </h1>
-                        </div>
-                            <div class="sec-title centered">
-                                <div class="text" style="text-align: justify;" >
-                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                   Optio ab repudiandae quidem modi officia accusamus. 
-                                   Fugiat assumenda quia aliquam harum modi est mollitia 
-                                   sequi sint? Eum perferendis iste nostrum quasi.
-                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                   Optio ab repudiandae quidem modi officia accusamus. 
-                                   Fugiat assumenda quia aliquam harum modi est mollitia 
-                                   sequi sint? Eum perferendis iste nostrum quasi.
-                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                   Optio ab repudiandae quidem modi officia accusamus. 
-                                   Fugiat assumenda quia aliquam harum modi est mollitia 
-                                   sequi sint? Eum perferendis iste nostrum quasi.
-                                </div>
-                                </div>
+
+    <section style="margin-bottom: 20px">
+        <div class="row">
+            <div class="col-md-12 col-ms-12 col-xs-12" style="background: #5aceff5c;">
+                <div class="sec-title-two centered" style="margin-bottom: 20px;">
+                    <h1 style="font-size: 29px;margin-top: 40px;">
+                        Alinie sus procesos con el negocio
+                    </h1>
+                </div>   
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="sec-title centered" style="margin-bottom: 0px;" >
+                            <div class="text" style="text-align: justify;margin-bottom: 5px;padding-right:20px;padding-left:20px;" >
+                                Omega ITSM, ha sido desarrollada para soportar ITIL y otros marcos de referencias de mejores
+                                prácticas ampliamente adoptados por las organizaciones. Permitiendo la estandarización de
+                                procesos para la gestión de servicios, como solicitudes de servicios, incidentes, problemas y
+                                cambios. Los cuales son imprescindibles en las mesas de servicios, además integramos la gestión
+                                de conocimiento, acuerdos de niveles de servicios y catálogo de servicio, dichos procesos permiten
+                                garantizar la continuidad de los servicios críticos de IT.<br>
+                            
+                                Nuestra suite de gestión de servicios viene integra con una potente solución de gestión de
+                                configuraciones (CMDB), la cual incluye gestión de activos, contrato y proveedores, así como sus
+                                relaciones, permitiéndole obtener visibilidad de la infraestructura que soporta el negocio.
                             </div>
-                    </div>
+                        </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <img style="" src="{{ URL::to('/') }}/images/background/omega-ITSM.png" alt="">
                 </div>
             </div>
         </div>
     </section>
+    
+    <!--About Two Section-->
 
 
 
     <section style="margin-bottom: 30px;" >
     	<div class="row" style="display: unset;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center; margin-bottom: 50px">
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="">
-                            <figure class="icon-box">
-                                    <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
-                            </figure>
-                            <span style="font-family: inherit; font-size: 15px;">
-                                Omega Knowledge
-                            </span>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                            <a href="">
-                                <figure class="icon-box">
-                                        <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
-                                </figure>
-                                <span style="font-family: inherit; font-size: 15px;">
-                                    Omega Knowledge
-                                </span>
-                            </a>
-                    </div>
-                </div> 
-                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <a href="">
-                                <figure class="icon-box">
-                                        <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
-                                </figure>
-                                <span style="font-family: inherit; font-size: 15px;">
-                                    Omega Knowledge
-                                </span>
-                            </a>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                                <a href="">
-                                    <figure class="icon-box">
-                                            <img style="height: 160px;" src="{{ URL::to('/') }}/images/icons/cap.png" alt="">
-                                    </figure>
-                                    <span style="font-family: inherit; font-size: 15px;">
-                                        Omega Knowledge
-                                    </span>
-                                </a>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="sec-title-two centered" style="margin-bottom: 10px" >
                         <h1 style="font-size: 30px">
                             Principales Beneficios
                         </h1>
                 </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Aumenta la Productividad.</span>
-                    </span>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                    <ul class="list-inline">
+                        <li data-toggle="modal" data-target="#MODAL">
+                            <a href="#myGallery" data-slide-to="0">
+                                <img class="img-thumbnail" src="{{ URL::to('/') }}/images/icons/cap.png"><br>
+                            </a>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="sec-title centered" style="text-align: initial;margin-bottom: 5px;">
+                    <div class="row">
+                        <div class="text" style="font-size: 17px">
+                            <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
+                                <i class="fa fa-check check"></i>
+                            </div>
+                            <div class="col-ms-11 col-xs-11" style="padding-left:0px;padding-right: 0px;">     
+                                <div>
+                                    Base la toma de decisiones en información oportuna, 
+                                    precisa y en tiempo real, evitando desviaciones y 
+                                    retardos en la prestación de servicio.    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text" style="font-size: 17px;padding-top:0px">
+                            <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
+                                <i class="fa fa-check check"></i>
+                            </div>
+                            <div class="col-ms-11 col-xs-11" style="padding-left:0px;padding-right: 0px;">     
+                                <div>
+                                        Mejora los tiempos de respuesta, cumpliendo así a cabalidad los acuerdos de niveles de
+                                        servicios y aumentando la satisfacción de tus clientes.    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text" style="font-size: 17px">
+                            <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
+                                <i class="fa fa-check check"></i>
+                            </div>
+                            <div class="col-ms-11 col-xs-11" style="padding-left:0px;padding-right: 0px;">     
+                                <div>
+                                    Automatice sus procesos de gestión de servicios para TI de tal manera que cada ticket
+                                    entrante sea automáticamente asignado a la persona o grupo de resolución más
+                                    apropiado dentro de la mesa de servicio.    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text" style="font-size: 17px">
+                            <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
+                                <i class="fa fa-check check"></i>
+                            </div>
+                            <div class="col-ms-11 col-xs-11" style="padding-left:0px;padding-right: 0px;">     
+                                <div>
+                                    Nuestras soluciones son fácilmente configurables y 
+                                    personalizables, para que las mismas se ajusten al negocio y no de forma contraria.    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text" style="font-size: 17px">
+                            <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
+                                <i class="fa fa-check check"></i>
+                            </div>
+                            <div class="col-ms-11 col-xs-11" style="padding-left:0px;padding-right: 0px;">     
+                                <div>
+                                    Aumente la productividad y reduzca los costos, eliminando las tareas manuales y la
+                                    duplicación de esfuerzos, retrabajos u otras tareas que impliquen desperdicio de tiempo.    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Reduce los Gastos Operacionales</span>
-                    </span>
-                </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Aunmenta la visilidad en toda la Organizacion</span>
-                    </span>
-                </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Reduce el tiempo del ciclo del proyecto</span>
-                    </span>
-                </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Integra Solucitudes de servicios con recuersos, portafolios y getión de Proyectos.</span>
-                    </span>
-                </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Automatiza el ciclo completo de  gestión de Incidentes y problemas.</span>
-                    </span>
-                </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Mejora la Gestion y uso de la infraestructura de TI.</span>
-                    </span>
-                </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Controla y protege la implemantación de recursos IT.</span>
-                    </span>
-                </div>
-                <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px">
-                    <span class="text">
-                        <span><i class="fa fa-check check"></i>Define e implemeta procesos estandarizados de cambio con facilidad.</span>
-                    </span>
-                </div>
+
+
+
             </div>
         </div>
     </section>
@@ -462,9 +456,9 @@
     	<div class="">
             <div style="margin-bottom: 0px">
                 <div style="margin-top: 35px">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="col-md-2 col-sm-2 col-xs-0"></div>
+                        <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 20px">
                             <div class="sec-title centered" style="margin-bottom: 0px">
                                     <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
                                     <p class="text" style="margin-top: -10px;color: #fff;">
@@ -478,7 +472,7 @@
                             </div>
     
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
+                        <div class="col-md-4 col-sm-12 col-xs-12" style="padding: 20px">
                             <div class="sec-title centered" style="margin-bottom: 0px">
                                 <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
                                 <p class="text" style="margin-top: -10px;color: #fff;">
@@ -491,7 +485,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-0"></div>
                     </div>
                 </div>     
             </div>
@@ -517,15 +511,16 @@
     </section>
 
 
-
-    <section class="page-title" style="height: 530px;background: #5aceff5c;">
-        <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
+    <section class="page-title" style="background: #5aceff5c;">
+        <div class="image-layer" style="opacity: 10.0;">        
+            <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
+        </div>
         <div class="auto-container">
         </div>
     </section>
 
         <!--Testimonials Two Section-->
-    <section class="testimonials-two" style="padding: 40px 0px;">
+    <section class="testimonials-two" style="padding: 0px 0px;">
             <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
                     <h1 style="font-size: 30px">Que dicen nuestros clientes</h1>
                 </div>
@@ -614,15 +609,11 @@
                 </div>
                 
             </div>
+            <div class="sec-title centered" style="background: #5aceff5c; margin-bottom: 0px;">
+                <h1 style="font-size:25px; margin-bottom: 15px;padding-top: 15px;">Participe en nuestros eventos en línea </h1>
+                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;padding-bottom: 20px;"><a href="{{ URL::to('/') }}/webcast/" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
+            </div>
     </section>
 
-    <section class="services-two" style="background: #5aceff5c;padding:22px;height:150px;"> 
-    	<div class="auto-container">
-            <div class="sec-title centered">
-                <h1 style="font-size:25px; margin-bottom: 15px">Participe en nuestros eventos en línea </h1>
-                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="{{ URL::to('/') }}/webcast/" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
-            </div>
-            
-        </div>
-    </section>
+    @include('web.modals.Slider')
 @endsection

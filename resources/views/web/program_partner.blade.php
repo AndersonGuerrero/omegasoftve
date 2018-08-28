@@ -267,5 +267,6 @@
     </div>
 </section>
 
-@include('web.modals.Progra_partner')
+
+
 @endsection

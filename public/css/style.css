@@ -3069,6 +3069,7 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 }
 
 .testimonials-two .owl-dots{
+	margin-bottom: 30px;
 	position:relative;
 	padding-top:80px;
 	text-align:center;	
