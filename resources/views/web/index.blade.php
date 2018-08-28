@@ -318,7 +318,7 @@
             <div class="col-md-12 col-ms-12 col-xs-12" style="background: #5aceff5c;">
                 <div class="sec-title-two centered" style="margin-bottom: 20px;">
                     <h1 style="font-size: 29px;margin-top: 40px;">
-                        Alinie sus procesos con el negocio
+                        Alinee sus procesos con el negocio
                     </h1>
                 </div>   
                 <div class="col-md-6 col-sm-12 col-xs-12">
@@ -329,7 +329,7 @@
                                 procesos para la gestión de servicios, como solicitudes de servicios, incidentes, problemas y
                                 cambios. Los cuales son imprescindibles en las mesas de servicios, además integramos la gestión
                                 de conocimiento, acuerdos de niveles de servicios y catálogo de servicio, dichos procesos permiten
-                                garantizar la continuidad de los servicios críticos de IT.<br>
+                                garantizar la continuidad de los servicios críticos de IT.<br><br>
                             
                                 Nuestra suite de gestión de servicios viene integra con una potente solución de gestión de
                                 configuraciones (CMDB), la cual incluye gestión de activos, contrato y proveedores, así como sus
