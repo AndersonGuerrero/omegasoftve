@@ -16,7 +16,7 @@
             <div class="sec-title-two centered" style="margin-bottom: 30px;">
                 <h1 style="font-size:30px">Acompáñanos a expandir nuestros horizontes, ofreciendo soluciones de calidad.</h1>
             </div>
-            <div class="sec-title centered" style="margin-bottom: 30px;">
+            <div class="sec-title centered">
                     <div class="text">
                         Nuestro Programa de Parten tiene un claro enfoque en la rentabilidad. Nuestro objetivo es
                         proporcionar a nuestros socios todas las herramientas y recursos que necesitan para tener
@@ -68,7 +68,7 @@
     <div class="auto-container">
         <div class="sec-title centered" style="margin-bottom: 20px;">
             <h1 style="font-size:30px;padding-top: 65px;">Alguno de los beneficios de forma parte de nuestro equipo</h1>
-            <div class="text" style="font-size: 25px;">
+            <div class="text">
                 Nuestro programa de partner le proporciona los recursos esenciales
                 para acelerar su ciclo de venta y ayudar a hacer crecer su negocio
             </div>
@@ -268,5 +268,5 @@
 </section>
 
 
-
+@include('web.modals.Progra_partner')
 @endsection

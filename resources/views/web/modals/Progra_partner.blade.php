@@ -5,7 +5,7 @@
             <div class="callback-box">
                     <div class="callback-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff;position: absolute;height: 30px;width: 30px;top: 5px;right: 6px;z-index: 9;"><i class="fa fa-times"></i></button>
-                        <h2 id=""> </h2>
+                        <h2 style="text-transform: none" >Registrate  y conviértete en nuestro socio </h2>
                     </div>
                     <div class="form-box" style="padding-left:15px;padding-right:15px;padding-top:25px">
                         <div class="form-style-two callback-form">
