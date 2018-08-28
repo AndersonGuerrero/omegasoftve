@@ -42,7 +42,7 @@
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
                         </div>
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-proyectos-con-OITSM.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/omega-itsm-webcast-1.jpg" alt=""></a></figure>
                         </div>
                         <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
@@ -82,7 +82,7 @@
                             Integración de Omega Service Desk con Knowledgebase.
                             </div>
                             <div class="inner-box">
-                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-OITSM-pontencia-y-simplicidad-1.jpg" alt=""></a></figure>
+                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-de-OSDK-con-KB-webcast-2.jpg" alt=""></a></figure>
                             </div>
                             <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
@@ -120,7 +120,7 @@
                         Integración de Omega Service Desk con la Gestión de Activos.
                         </div>
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-integracion-OSDK-CMDb.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-con-cmdb-webcast.jpg" alt=""></a></figure>
                         </div>
                         <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
@@ -158,7 +158,7 @@
                             <div class="inner-box">
                                 <figure  class="image-box">
                                     <a href="">
-                                        <img src="{{ URL::to('/') }}/images/resource/integracion-de-OSDK-con-KB-webcast-2.jpg" alt="">
+                                        <img src="{{ URL::to('/') }}/images/resource/webcast-proyectos-con-OITSM.jpg" alt="">
                                     </a>
                                 </figure>
                             </div>
