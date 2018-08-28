@@ -32,8 +32,8 @@ class WebcastController extends Controller{
                 if($array['success']){
                     $this->validate($request, [
                         'email' => 'required|email',
-                        'name' => 'required|text',
-                        'country' => 'required|text',
+                        'name' => 'required',
+                        'country' => 'required',
                     ]);
                     $message = [
                         'title' => 'Webcast Omegasoftve',
