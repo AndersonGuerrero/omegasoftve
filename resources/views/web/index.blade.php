@@ -520,7 +520,7 @@
     </section>
 
         <!--Testimonials Two Section-->
-    <section class="testimonials-two" style="padding: 0px 0px;">
+    <section class="testimonials-two" style="padding: 0px 0px;padding-top: 30px;">
             <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
                     <h1 style="font-size: 30px">Que dicen nuestros clientes</h1>
                 </div>
