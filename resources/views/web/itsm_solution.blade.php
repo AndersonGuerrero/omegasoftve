@@ -979,8 +979,11 @@
 
                                     <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                         <div class="auto-container">
-                                            <div class="sec-title centered" style="margin-bottom: 85px;">
-                                                <h1 style="font-size:30px;padding-top: 65px;">Nuestras versiones se ajustan a empresas de cualquier tamaño</h1>
+                                            <div class="sec-title centered" style="margin-bottom: 50px;">
+                                                <h1 style="font-size:30px;padding-top: 65px;">Tipo de Licenciamiento para Omega ITSM</h1>
+                                                <div class="text">
+                                                        Disponible en las modalidades On Premise | On Demand
+                                                </div>
                                             </div>
                                         </div>
                                     </section>
@@ -1041,7 +1044,7 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Reportes standard</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 110px;color: #fff" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 110px;color: #fff" data-id="1" data-toggle="modal" data-target="#myVerciones" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
@@ -1104,7 +1107,7 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Reportes personalizados</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 15px;color: #fff" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 15px;color: #fff" data-id="1" data-toggle="modal" data-target="#myVerciones" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
@@ -1157,7 +1160,7 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Dashboard standard</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 85px;color: #fff" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 85px;color: #fff" data-id="1" data-toggle="modal" data-target="#myVerciones" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
@@ -1210,7 +1213,7 @@
                                                                 <span style="font-size: 15px"><i class="fa fa-check check"></i>Dashboard personalizados</span>
                                                             </span>
                                                         </div>
-                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 125px;color: #fff" data-id="1" data-toggle="modal" data-target="#myModal" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
+                                                        <div class="text-center"><a style="padding: 6px;border-color: #3ccc00;background: #3ccc00;margin-top: 125px;color: #fff" data-id="1" data-toggle="modal" data-target="#myVerciones" style="text-decoration:none;" class="theme-btn btn-style-three"><div style="text-transform: none;padding-left: 5px;padding-right: 5px;">solicitar cotización</div></a></div>
                                                     </div>  
                                                 </div>
                                             </div>
@@ -1228,30 +1231,25 @@
                                                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                                                             <div class="sec-title centered" style="margin-bottom: 0px">
                                                                 <p class="text" style="margin-top: -10px; text-align: justify">
-                                                                    <b>Lorem ipsum:</b> dolor sit amet consectetur adipisicing elit. 
-                                                                    Aperiam quae libero labore dolorem incidunt qui nobis! 
-                                                                    Accusantium quos perferendis vel impedit distinctio modi, 
-                                                                    nemo porro quidem ipsum deserunt, assumenda illo! 
+                                                                    <b>Concurrente:</b> Este esquema se administra según la disponibilidad 
+                                                                    de licencias adquiridas y el acceso de especialistas a la aplicación, 
+                                                                    depende de la liberación de cada licencia para un nuevo ingreso. 
                                                                 </p>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                                                             <div class="sec-title centered" style="margin-bottom: 0px">
                                                                 <p class="text" style="margin-top: -10px; text-align: justify">
-                                                                    <b>Lorem ipsum:</b> dolor sit amet consectetur adipisicing elit. 
-                                                                    Aperiam quae libero labore dolorem incidunt qui nobis! 
-                                                                    Accusantium quos perferendis vel impedit distinctio modi, 
-                                                                    nemo porro quidem ipsum deserunt, assumenda illo! 
+                                                                    <b>Nombrado:</b>Este esquema otorga una licencia personalizada y 
+                                                                    única con los datos básicos del especialista que ingresa a la 
+                                                                    consola en cualquier momento. 
                                                                 </p>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                                                             <div class="sec-title centered" style="margin-bottom: 0px">
                                                                 <p class="text" style="margin-top: -10px; text-align: justify">
-                                                                    <b>Lorem ipsum:</b> dolor sit amet consectetur adipisicing elit. 
-                                                                    Aperiam quae libero labore dolorem incidunt qui nobis! 
-                                                                    Accusantium quos perferendis vel impedit distinctio modi, 
-                                                                    nemo porro quidem ipsum deserunt, assumenda illo! 
+                                                                    <b>Activos (CMDB):</b>Una licencia para cada activo de configuración CI´s 
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1435,4 +1433,4 @@
 @section('javascript')
 <script src="{{ URL::to('/') }}/js/itsm.js"></script>
 @endsection
-@include('web.modals.webcast')
+@include('web.modals.verciones_precios')
