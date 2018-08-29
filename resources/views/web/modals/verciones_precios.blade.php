@@ -31,7 +31,7 @@
                                                     </div>
                                             <div class="form-group">
                                                 <select name="country" required>
-                                                    <option value="" selected  disabled>Elegir opción</option>
+                                                    <option value="" selected  disabled>Elegir País</option>
                                                     <option value="Afganistán" id="AF">Afganistán</option>
                                                     <option value="Albania" id="AL">Albania</option>
                                                     <option value="Alemania" id="DE">Alemania</option>
