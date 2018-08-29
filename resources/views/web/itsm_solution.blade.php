@@ -21,11 +21,11 @@
                             <!--Jobs Widget-->
                             <div class="jobs-widget side-widget">
                                 <div class="widget-inner">
-                                    <ul id="categorys-vacancies-content">
+                                    <ul id="categorys-tab">
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-Información-General" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-Información-General" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/informacion-general.png" alt="">Información General</a>
                                                 </h2>
                                             </div>
@@ -33,7 +33,7 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-ITSM-ITIL" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-ITSM-ITIL" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/itil-itsm.png" alt="">ITSM Alineada con ITIL</a>
                                                 </h2>
                                             </div>
@@ -41,7 +41,7 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-Caractristicas" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-Caractristicas" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/caracteristicas.png" alt="">Caracteristicas</a>
                                                 </h2>
                                             </div>
@@ -49,7 +49,7 @@
                                         <!--<div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2>
-                                                    <a data-id="select-Benefcios" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-Benefcios" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Beneficios</a>
                                                 </h2>
                                             </div>
@@ -57,7 +57,7 @@
                                         <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
-                                                    <a data-id="select-Verciones-y-precios" style="text-decoration:none;" class="clearfix categorys-vacancies" href="">
+                                                    <a data-id="select-Verciones-y-precios" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
                                                         <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/versiones-y-precios.png" alt="">Versiones y Precios</a>
                                                 </h2>
                                             </div>
@@ -1429,9 +1429,10 @@
             
         </div>
     </section>
-    @include('web.modals.webcast')
+   
 @endsection
 
 @section('javascript')
-<script src="{{ URL::to('/') }}/js/team.js"></script>
+<script src="{{ URL::to('/') }}/js/itsm.js"></script>
 @endsection
+@include('web.modals.webcast')

@@ -10,33 +10,18 @@
 		</div>
 	</section>
 
-	<!--<section>
-		<div class="sec-title centered">
+	<section>
+		<div class="sec-title centered" style="margin-bottom:0px; padding-top: 30px">
 			<div class="text">
-				Nuestro Programa de Parten tiene un claro enfoque en la rentabilidad. Nuestro objetivo es
-				proporcionar a nuestros socios todas las herramientas y recursos que necesitan para tener
-				éxito en la venta, implementación y soporte de nuestras soluciones para ITSM
+					En nuestros blog encontrarás información relevante acerca de temas 
+					relacionados con las nuestras soluciones y de gestión TI. Es un medio 
+					importante para estar actualizado y encontrar respuestas a preguntas frecuentes.
 			</div>
 		</div>
-	</section>-->
-
-     <!--Page Title-->
-     <!--<section class="page-title">
-    	<div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/7.jpg);"></div>
-        <div class="auto-container">
-        	<h1>Blog List</h1>
-            <div class="bread-crumb">
-            	<ul class="clearfix">
-                	<li><a href="index-2.html">Home</a></li>
-                    <li class="active">Blog List</li>
-                </ul>
-            </div>
-        </div>
-    </section>-->
-    
+	</section>
     
     <!--News Section-->
-    <section class="news-section-three" style="padding-bottom: 0px">
+    <section class="news-section-three" style="padding-bottom: 0px;padding-top: 60px;">
     	<div class="auto-container">
             
             <div class="row clearfix">
@@ -45,7 +30,27 @@
 					<div class="news-block-one">
 						<div class="inner-box">
 							<figure class="image-box"><a href="">
-                                <img src="{{ URL::to('/') }}/images/resource/porque-adoptar-itil.jpg" alt=""></a></figure>
+                                <img src="{{ URL::to('/') }}/images/resource/gestion-de-incidentes.jpg" alt=""></a></figure>
+							<h3><a href="">Get home loan & a chance to...</a></h3>
+							<div class="post-info">Post: 18 April 2018</div>
+							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+						</div>
+					</div>
+					<!--News Block-->
+					<div class="news-block-one">
+						<div class="inner-box">
+							<figure class="image-box"><a href="">
+                                <img src="{{ URL::to('/') }}/images/resource/como-elegir-un-software-de-mesa-de-servicio.jpg" alt=""></a></figure>
+							<h3><a href="">Spirit second whales under...</a></h3>
+							<div class="post-info">Post: 22 April 2018</div>
+							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+						</div>
+					</div>
+					<!--News Block-->
+					<div class="news-block-one">
+						<div class="inner-box">
+							<figure class="image-box"><a href="">
+								<img src="{{ URL::to('/') }}/images/resource/help-desk-vs-service-desk.jpg" alt=""></a></figure>
 							<h3><a href="">Explain quarterly forecasting...</a></h3>
 							<div class="post-info">Post: 15 April 2018</div>
 							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
@@ -54,65 +59,43 @@
 					<!--News Block-->
 					<div class="news-block-one">
 						<div class="inner-box">
-							<figure class="image-box"><a href="blog-detail.html">
-                                <img src="{{ URL::to('/') }}/images/resource/itil.jpg" alt=""></a></figure>
-							<h3><a href="blog-detail.html">Get home loan & a chance to...</a></h3>
-							<div class="post-info">Post: 18 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="blog-detail.html">
-                                <img src="{{ URL::to('/') }}/images/resource/importancia-de-itil-en-un-service-desk.jpg" alt=""></a></figure>
-							<h3><a href="blog-detail.html">Spirit second whales under...</a></h3>
-							<div class="post-info">Post: 22 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="blog-detail.html">
-                                <img src="{{ URL::to('/') }}/images/resource/help-desk-vs-service-desk.jpg" alt=""></a></figure>
-							<h3><a href="blog-detail.html">Explain quarterly forecasting...</a></h3>
-							<div class="post-info">Post: 15 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="blog-detail.html">
-                                <img src="{{ URL::to('/') }}/images/resource/gestion-de-incidentes.jpg" alt=""></a></figure>
-							<h3><a href="blog-detail.html">Get home loan & a chance to...</a></h3>
-							<div class="post-info">Post: 18 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="blog-detail.html">
-                                <img src="{{ URL::to('/') }}/images/resource/como-elegir-un-software-de-mesa-de-servicio.jpg" alt=""></a></figure>
-							<h3><a href="blog-detail.html">Spirit second whales under...</a></h3>
-							<div class="post-info">Post: 22 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="blog-detail.html">
+							<figure class="image-box"><a href="">
                                 <img src="{{ URL::to('/') }}/images/resource/beneficios-de-un-service-desk-para-su-organizacion.jpg" alt=""></a></figure>
-							<h3><a href="blog-detail.html">Explain quarterly forecasting...</a></h3>
+							<h3><a href="">Explain quarterly forecasting...</a></h3>
 							<div class="post-info">Post: 15 April 2018</div>
 							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
 						</div>
 					</div>
 					<!--News Block-->
-
+					<div class="news-block-one">
+						<div class="inner-box">
+							<figure class="image-box"><a href="">
+								<img src="{{ URL::to('/') }}/images/resource/importancia-de-itil-en-un-service-desk.jpg" alt=""></a></figure>
+							<h3><a href="">Spirit second whales under...</a></h3>
+							<div class="post-info">Post: 22 April 2018</div>
+							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+						</div>
+					</div>
+					<!--News Block-->
+					<div class="news-block-one">
+						<div class="inner-box">
+							<figure class="image-box"><a href="">
+								<img src="{{ URL::to('/') }}/images/resource/porque-adoptar-itil.jpg" alt=""></a></figure>
+							<h3><a href="">Explain quarterly forecasting...</a></h3>
+							<div class="post-info">Post: 15 April 2018</div>
+							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+						</div>
+					</div>
+					<!--News Block-->	
+					<div class="news-block-one">
+						<div class="inner-box">
+							<figure class="image-box"><a href="">
+								<img src="{{ URL::to('/') }}/images/resource/itil.jpg" alt=""></a></figure>
+							<h3><a href="">Get home loan & a chance to...</a></h3>
+							<div class="post-info">Post: 18 April 2018</div>
+							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+						</div>
+					</div>
 					<!--News Block-->
 				</div>
 				
@@ -199,14 +182,5 @@
             
         </div>
     </section>
-    
-    <!--Call To Acion Two Section-->
-    <!--<section class="call-to-action-two">
-    	<div class="auto-container">
-        	<div class="outer-box clearfix">
-            	<h2>Are you looking a professional advisor for your business?</h2>
-                <div class="link-box"><a href="contact.html" class="theme-btn btn-style-three">Get a quote</a></div>
-            </div>
-        </div>
-    </section>-->
+
 @endsection
