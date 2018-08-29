@@ -16,16 +16,11 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
                     <div class="sec-title centered" style="margin-bottom: 30px">
-                        <h1 style="font-size: 30px">Conozca las principales funcionalidades que ofrece nuestro aplicativo</h1>
+                        <h1 style="font-size: 33px">Conozca las principales funcionalidades que nuestro  <br> aplicativo</h1>
                         <div class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Ducimus quam doloremque sequi id debitis voluptatum illum 
-                            porro asperiores nostrum, qui ad deleniti, laboriosam cum 
-                            saepe temporibus architecto nobis commodi expedita!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Iusto possimus impedit, magni laudantium in deleniti odit 
-                            nisi eos ipsa saepe dolores velit voluptates sapiente molestiae 
-                            praesentium architecto amet neque sed.
+                            Participe en nuestros Webcast  en línea, interactúe con 
+                            nuestros especialistas y descubra las soluciones que 
+                            traemos para ustedes.
                         </div>
                     </div>
                 </div>
@@ -69,11 +64,9 @@
                         <br>
                         • Demostración del Aplicativo.
                         </div>
-                        <a data-title="OmegaITSM, Potencia y simplicidad en una misma herramienta." data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
-                            <div style="height: 70px;background: #2976f5;">
-                                <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
-                            </div>
-                        </a>
+                        <div class="text-center button-conten-webcas">
+                            <a href="" class="theme-btn btn-style-three button-webcas" data-title="OmegaITSM, Potencia y simplicidad en una misma herramienta." data-toggle="modal" data-target="#myModal">Registrate</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-6">
@@ -105,11 +98,9 @@
                             <br>
                             • Demostracion del aplicativo
                             </div>
-                            <a data-title="Integración de Omega Service Desk con Knowledgebase." data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
-                                <div style="height: 70px;background: #2976f5;">
-                                    <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
-                                </div>
-                            </a>
+                            <div class="text-center button-conten-webcas">
+                                <a href="" class="theme-btn btn-style-three button-webcas" data-title="Integración de Omega Service Desk con Knowledgebase." data-toggle="modal" data-target="#myModal">Registrate</a>
+                            </div>
                         </div>
                     </div>
             </div>   
@@ -143,11 +134,9 @@
                         <br>
                         • Demostración del aplicativo.
                         </div>
-                        <a data-title="Integración de Omega Service Desk con la Gestión de Activos." data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
-                            <div style="height: 70px;background: #2976f5;">
-                                <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
-                            </div>
-                        </a>
+                        <div class="text-center button-conten-webcas">
+                            <a href="" class="theme-btn btn-style-three button-webcas" data-title="Integración de Omega Service Desk con la Gestión de Activos." data-toggle="modal" data-target="#myModal">Registrate</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-6">
@@ -181,11 +170,9 @@
                                 <br>
                                 • Demostración del Aplicativo
                             </div>
-                            <a data-title="Gestionando Proyectos con Omega ITSM." data-toggle="modal" data-target="#myModal" style="text-decoration:none;">
-                                <div style="height: 70px;background: #2976f5;">
-                                    <h1 style="color:#fff; padding-top: 20px; font-size: 30px;">Registrate</h1>
-                                </div>
-                            </a>
+                            <div class="text-center button-conten-webcas">
+                                <a href="" class="theme-btn btn-style-three button-webcas" data-title="Gestionando Proyectos con Omega ITSM." data-toggle="modal" data-target="#myModal">Registrate</a>
+                            </div>
                         </div>
                     </div>
             </div> 

@@ -5,7 +5,7 @@
             <div class="callback-box">
                     <div class="callback-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff;position: absolute;height: 30px;width: 30px;top: 5px;right: 6px;z-index: 9;"><i class="fa fa-times"></i></button>
-                        <h2 id="title-webcast">--</h2>
+                        <h2 style="text-transform: none; font-size: 24px;" id="title-webcast">--</h2>
                     </div>
                     <div class="form-box">
                         <div class="form-style-two callback-form">
@@ -15,7 +15,10 @@
                                 </div>
                                 <div class="form-group">
                                     <input type="text" name="email" value="" placeholder="Email" required="">
-                                </div>  
+                                </div> 
+                                <div class="form-group">
+                                    <input type="text" name="Company" value="" placeholder="Compañia" required="">
+                                </div> 
                                 <input type="hidden" name="webcast_title" id="input-webcast-title"> 
                                 <div class="form-group">
                                     <select name="country" required>
