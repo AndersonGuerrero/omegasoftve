@@ -22,9 +22,14 @@
                                         <div>
                                             <textarea name="message" placeholder="Resumen de Experiencia"></textarea>
                                         </div>
-                                        <div  style="margin-bottom: 10px">
-                                            <input type="file" class="" id="">
+                                        <div style="text-align: end;">
+                                            <label class="btn btn-primary" style="font-weight: 600;font-size: 12px;border-color: #8baad6 !important;background: #8baad6 !important;">
+                                                    Adjuntar CV<input type="file" style="display: none;">
+                                            </label>
                                         </div>
+                                        <!-- <div  style="margin-bottom: 10px">
+                                            <input type="file" class="" id="">
+                                        </div> -->
                                         <div>
                                             <div class="text-center">
                                                 <button type="submit" class="theme-btn btn-style-two" style="margin-top: 0px; margin-bottom: 25px;">Enviar</button>
