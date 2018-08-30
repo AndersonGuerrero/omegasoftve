@@ -2,7 +2,7 @@
 <!--begin modal window-->
 <div class="modal fade" id="MODAL" style="margin-top: 8%;"  >
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" style="box-shadow: none;border: 0;border-radius: 40px;">
                 <!--begin carousel-->
                 <div id="myGallery" class="carousel slide" data-interval="false">
                     <div class="carousel-inner">
@@ -26,20 +26,8 @@
                         </div>
                         <div class="item"> <img src="{{ URL::to('/') }}/images/icons/base-de-conocimiento2.png" alt="item3">
                             <div class="carousel-caption">
-                                <h3>Base de conocimiento</h3>
+                                <h3 style="color:#00325d;">Base de conocimiento</h3>
                                 
-                            </div>
-                        </div>
-                        <div class="item"> <img src="https://placeimg.com/600/400/nature/5" alt="item4">
-                            <div class="carousel-caption">
-                                <h3>Heading 3</h3>
-                                <p>Slide 4 description.</p>
-                            </div>
-                        </div>
-                        <div class="item"> <img src="https://placeimg.com/600/400/nature/6" alt="item5">
-                            <div class="carousel-caption">
-                                <h3>Heading 3</h3>
-                                <p>Slide 5 description.</p>
                             </div>
                         </div>
                         <!--end carousel-inner-->

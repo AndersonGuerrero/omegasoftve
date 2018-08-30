@@ -315,7 +315,7 @@
 
     <section style="margin-bottom: 20px">
         <div class="row">
-            <div class="col-md-12 col-ms-12 col-xs-12" style="background: #5aceff5c;">
+            <div class="col-md-12 col-ms-12 col-xs-12" style="background: #5aceff29">
                 <div class="sec-title-two centered" style="margin-bottom: 20px;">
                     <h1 style="font-size: 29px;margin-top: 40px;">
                     Alinee sus procesos de gestión de servicios con el negocio
@@ -500,7 +500,7 @@
     </section>
 
 
-    <section class="page-title" style="background: #5aceff5c;">
+    <section class="page-title" style="background: 5aceff29">
         <div class="image-layer" style="opacity: 10.0;">        
             <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
         </div>
