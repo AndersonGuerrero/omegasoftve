@@ -123,7 +123,8 @@
                                                         <li>Buena dicción y escritura.</li>
                                                     </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="" data-id="1" data-toggle="modal" data-target="#myTeam" class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box"><a data-title="Coordinador de Soporte Técnico" data-toggle="modal" 
+                                                data-target="#myTeam" class="theme-btn btn-style-two">Postularse</a></div>
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
                                         <!--End Secion Vacantes-->
@@ -157,7 +158,8 @@
                                                         <li>Herramientas de Gestión de Ticket</li>
                                                     </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box"><a href="#" data-title="Analista de Soporte Técnico" data-toggle="modal" 
+                                                data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
                                             
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
@@ -238,7 +240,11 @@
                                                             </li>
                                                         </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box">
+                                                    <a href="#" data-title="Director Comercial" 
+                                                        data-toggle="modal" data-target="#myTeam"  
+                                                        class="theme-btn btn-style-two">Postularse</a>
+                                                </div>
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
                                         <!--End Secion Vacantes-->
@@ -302,7 +308,10 @@
                                                         </li>
                                                     </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box">
+                                                    <a href="#" data-title="Ejecutivo de Ventas" data-toggle="modal" 
+                                                       data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a>
+                                                </div>
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
                                         <!--End Secion Vacantes-->
@@ -339,7 +348,9 @@
                                                         <li>Participación Activa en Eventos donde participe la empresa.</li>
                                                     </ul>
                                                 </div>  
-                                                <div class="link-box"><a href="#" data-id="1" data-toggle="modal" data-target="#myTeam"  class="theme-btn btn-style-two">Postularse</a></div>
+                                                <div class="link-box">
+                                                <a href="#" data-title="Gerente de Canales de Distribución" data-toggle="modal" data-target="#myTeam"  
+                                                class="theme-btn btn-style-two">Postularse</a></div>
                                             </div> 
                                                 <hr style="height:0px;width: 110%;background-color:#d8cece;">
                                         <!--End Secion Vacantes-->
