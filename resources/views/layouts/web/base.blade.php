@@ -92,18 +92,23 @@
     }
 
     var CaptchaLoad = function() {
-        window.id_captcha_footer = grecaptcha.render($('#g-recaptcha-footer')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+        var data = {'sitekey': '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'}
+        window.id_captcha_footer = grecaptcha.render($('#g-recaptcha-footer')[0], data);
         
         if($('#g-recaptcha-webcast')[0]){
-            window.id_captcha_webcast = grecaptcha.render($('#g-recaptcha-webcast')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+            window.id_captcha_webcast = grecaptcha.render($('#g-recaptcha-webcast')[0], data);
         }
 
         if($('#g-recaptcha-newsletter')[0]){
-            window.id_captcha_newsletter = grecaptcha.render($('#g-recaptcha-newsletter')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+            window.id_captcha_newsletter = grecaptcha.render($('#g-recaptcha-newsletter')[0], data);
         }
 
         if($('#g-recaptcha-contact')[0]){
-            window.id_captcha_contact = grecaptcha.render($('#g-recaptcha-contact')[0], {'sitekey' : '6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW'});
+            window.id_captcha_contact = grecaptcha.render($('#g-recaptcha-contact')[0], data);
+        }
+        
+        if($('#g-recaptcha-team')[0]){
+            window.id_captcha_team = grecaptcha.render($('#g-recaptcha-team')[0], data);
         }
     };
 
@@ -119,6 +124,8 @@
                 grecaptcha.execute(window.id_captcha_newsletter);
             }else if(idcaptcha === 'g-recaptcha-contact'){
                 grecaptcha.execute(window.id_captcha_contact);
+            }else if(idcaptcha === 'g-recaptcha-team'){
+                grecaptcha.execute(window.id_captcha_team);
             }
         }else{
             $(event.currentTarget).closest('form')[0].reportValidity()

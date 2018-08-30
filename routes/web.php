@@ -19,7 +19,10 @@ Route::get('/blog/', 'Web@blog');
 Route::get('/newsletter/', 'NewsletterController@newsletter');
 Route::post('/newsletter/', ['as'=>'newsletter.send', 'uses'=>'NewsletterController@newsletterPost']);
 Route::get('/quienes-somos/', 'Web@about');
-Route::get('/nuestro-equipo/', 'Web@team');
+
+Route::get('/nuestro-equipo/', 'TeamController@index');
+Route::post('/nuestro-equipo/', ['as'=>'team.register', 'uses'=>'TeamController@register']);
+
 Route::get('/contacto/', 'ContactController@contact');
 Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
 Route::get('/partners/', 'Web@partners');
