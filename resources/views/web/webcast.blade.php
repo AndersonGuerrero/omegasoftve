@@ -53,17 +53,18 @@
                         del negocio, recurso humano capacitado y sistematización de las
                         soluciones a incidencias y problemas presentados. Compatible en las
                         mejores prácticas para la gestión de servicio y único punto de
-                        contacto se convertirá en el mejor aliado para su organización. En
-                        este Webcast conoceremos:
+                        contacto se convertirá en el mejor aliado para su organización.
                         <br>
                         <br>
-                        • Visión General de Omega ITSM
+                        En este Webcast conoceremos:
                         <br>
-                        • Gestiones Itil Incorporadas.
+                         Visión General de Omega ITSM
                         <br>
-                        • Principales funcionalidades.
+                         Gestiones Itil Incorporadas.
                         <br>
-                        • Demostración del Aplicativo.
+                         Principales funcionalidades.
+                        <br>
+                         Demostración del Aplicativo.
                         </div>
                         <div class="text-center button-conten-webcas">
                             <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="OmegaITSM, Potencia y simplicidad en una misma herramienta." data-toggle="modal" data-target="#myModal">Registrate</a>
@@ -90,14 +91,16 @@
                             Knowledgebase que garantiza el almacenamiento del conocimiento
                             aplicado durante la resolución de las solicitudes, procedimientos
                             diarios, errores conocidos y demás documentación útil para el ahorro
-                            de tiempo y esfuerzo. En este Webcast conoceremos:
+                            de tiempo y esfuerzo. 
                             <br>
                             <br>
-                            • Base de Conocimiento.
+                            En este Webcast conoceremos:
                             <br>
-                            • Vinculacion entre Omega Service Desk y Knowledgebase.
+                             Base de Conocimiento.
                             <br>
-                            • Demostracion del aplicativo
+                             Vinculacion entre Omega Service Desk y Knowledgebase.
+                            <br>
+                             Demostracion del aplicativo
                             </div>
                             <div class="text-center button-conten-webcas">
                                 <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Integración de Omega Service Desk con Knowledgebase." data-toggle="modal" data-target="#myModal">Registrate</a>
@@ -126,14 +129,16 @@
                         de IT teniendo una estrecha interacción con las gestiones de
                         requerimientos,incidentes, problemas y cambios, siendo estas las
                         encargadas de resolver las incidencias presentadas que mantienen
-                        actualizada la CMDB. En este Webcast conoceremos:
+                        actualizada la CMDB. 
                         <br>
                         <br>
-                        • Gestión de Configuración.
+                        En este Webcast conoceremos:
                         <br>
-                        • Vinculación entre Omega Service Desk y CMDB.
+                         Gestión de Configuración.
                         <br>
-                        • Demostración del aplicativo.
+                         Vinculación entre Omega Service Desk y CMDB.
+                        <br>
+                         Demostración del aplicativo.
                         </div>
                         <div class="text-center button-conten-webcas">
                             <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Integración de Omega Service Desk con la Gestión de Activos." data-toggle="modal" data-target="#myModal">Registrate</a>
@@ -163,13 +168,14 @@
                                 modulo para la gestión de proyectos, basados en la metodoligía
                                 SCRUM, el cual le permitira registrar, seguir y controlar, cada una de
                                 las fase de los proyecto y sus respectivas tareas, asi como los tiempos
-                                de ejecución y avance de manera automatizada. En este Webcast
-                                conoceremos:
+                                de ejecución y avance de manera automatizada.
                                 <br>
                                 <br>
-                                • Gestión de Proyectos
+                                En este Webcast conoceremos:
                                 <br>
-                                • Demostración del Aplicativo
+                                 Gestión de Proyectos
+                                <br>
+                                 Demostración del Aplicativo
                             </div>
                             <div class="text-center button-conten-webcas">
                                 <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Gestionando Proyectos con Omega ITSM." data-toggle="modal" data-target="#myModal">Registrate</a>
