@@ -22,8 +22,10 @@
                                         <div>
                                             <textarea name="resume" required placeholder="Resumen de Experiencia"></textarea>
                                         </div>
-                                        <div  style="margin-bottom: 10px">
-                                            <input accept=".pdf" type="file" name="cv" required class="btn-style-two" style="margin-bottom: 10px;width: 100%;display: flex;justify-content: center;">
+                                        <div style="text-align: end;">
+                                            <label class="btn btn-primary" style="font-weight: 600;font-size: 12px;border-color: #8baad6 !important;background: #8baad6 !important;">
+                                                    Adjuntar CV<input accept=".pdf" name="cv" type="file" style="display: none;">
+                                            </label>
                                         </div>
                                         <input type="hidden" name="team_title" id="input-team-title">
                                         <div
@@ -32,6 +34,7 @@
                                             data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
                                             data-callback="callbackTeam"
                                             data-size="invisible">
+
                                         </div>
                                         <div>
                                             <div class="text-center">

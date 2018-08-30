@@ -59,10 +59,10 @@
                                 <div class="widget-inner">
                                     <ul id="categorys-vacancies-content">
                                         <li class="current"><a data-id="select-Tecnología" class="clearfix categorys-vacancies" href="#">
-                                            <span class="pull-left">Tecnología</span> <span class="pull-right"></span></a>
+                                            <span class="pull-left">Tecnología (2)</span> <span class="pull-right"></span></a>
                                         </li>
                                         <li><a data-id="select-Comercial" class="clearfix categorys-vacancies" href="#">
-                                            <span class="pull-left">Comercial</span> <span class="pull-right"></span></a>
+                                            <span class="pull-left">Comercial (3)</span> <span class="pull-right"></span></a>
                                         </li>
                                         <li><a data-id="select-Marketing" class="clearfix categorys-vacancies" href="#">
                                             <span class="pull-left">Marketing</span> <span class="pull-right"></span></a>

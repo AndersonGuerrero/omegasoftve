@@ -83,6 +83,34 @@ font-family: 'Raleway', sans-serif;*/
 ====================================================================
 
  ***/
+ 
+ .button-conten-webcas{
+	transition:none; 
+	line-height:15px; 
+	border-width:0px; 
+	margin:0px; 
+	padding:0px; 
+	letter-spacing:0px; 
+	font-weight:400; 
+	font-size:10px;
+	padding-bottom:20px;
+ }
+ .button-webcas{
+	transition: none !important; 
+	text-align: inherit !important; 
+	line-height: 24px !important; 
+	border-width: 2px !important; 
+	margin: 0px !important; 
+	padding: 15px 45px 11px !important; 
+	letter-spacing: 1px !important; 
+	font-weight: 600 !important; 
+	font-size: 24px !important;
+	text-decoration:none !important;
+	width: 50% !important;
+	border-color: #3ccc00 !important; 
+	background: #3ccc00 !important;
+	text-transform: none !important;
+ }
  a:hover, a:focus {
     color: black;
     text-decoration: none;
@@ -1164,16 +1192,14 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	margin-left:-25px;
 }
 .sec-title-two.centered2:before{
-	width: 126px;
-    left: 5%;
-	margin-left: -32px;
-	border-bottom: 5px solid#63f726	
+	width: 69px;
+    left: 3%;
+	border-bottom: 3px solid#00325d	
 }
 .sec-title-two.centered3:before{
-	width: 126px;
-    left: 20%;
-	margin-left: -32px;
-	border-bottom: 5px solid#63f726	
+	width: 99px;
+    left: 3%;
+	border-bottom: 3px solid#00325d	
 }
 
 .sec-title-two.light h1,
@@ -3069,6 +3095,7 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 }
 
 .testimonials-two .owl-dots{
+	margin-bottom: 30px;
 	position:relative;
 	padding-top:80px;
 	text-align:center;	
@@ -6158,6 +6185,33 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	height: 215px;
 	background-image: url(../images/background/fondo.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (max-width: 767px){
+	.imgback{
+		height: 320px !important;
+	}
+	
+	.imgback .col-xs-12{
+		padding: 15px !important;
+	}
+}
+
+@media (max-width: 604px){
+	.imgback{
+		height: 350px !important;
+	}
+}
+
+@media (max-width: 522px){
+	.imgback{
+		height: 400px !important;
+	}
+}
+@media (max-width: 346px){
+	.imgback{
+		height: 405px !important;
+	}
 }
 
 @keyframes movimiento{

@@ -72,8 +72,8 @@
                                           <li class="dropdown"><a href="#">Partner</a>
                                               <ul>
                                                   <!--<li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
-                                                  <li><a href="{{ URL::to('/') }}/programa-partner/">Programa Partner</a></li>
-                                                  <li><a href="{{ URL::to('/') }}/portal-partner/">Portal Partner</a></li>
+                                                  <li><a style="text-transform: none" href="{{ URL::to('/') }}/programa-partner/">Programa para Partner</a></li>
+                                                  <li><a style="text-transform: none" href="{{ URL::to('/') }}/portal-partner/">Portal de Partner</a></li>
                                               </ul>
                                           </li>
                                           <li class="dropdown"><a href="#">Comunidad</a>
@@ -143,8 +143,8 @@
                                       <li class="dropdown"><a href="#">Partner</a>
                                           <ul>
                                              <!-- <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
-                                              <li><a href="{{ URL::to('/') }}/programa-partner/">Programa de Partner</a></li>
-                                              <li><a href="{{ URL::to('/') }}/portal-partner/">Portal Partner</a></li>
+                                              <li><a style="text-transform: none" href="{{ URL::to('/') }}/programa-partner/"> Programa para Partner</a></li>
+                                              <li><a style="text-transform: none" href="{{ URL::to('/') }}/portal-partner/">Portal de Partner</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Comunidad</a>
