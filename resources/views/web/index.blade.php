@@ -358,7 +358,7 @@
                     <ul class="list-inline">
                         <li data-toggle="modal" data-target="#MODAL">
                             <a href="#myGallery" data-slide-to="0">
-                                <img class="img-thumbnail" src="{{ URL::to('/') }}/images/icons/benficios.png"><br>
+                                <img class="" src="{{ URL::to('/') }}/images/icons/benficios.png"><br>
                             </a>
                         </li>
                     </ul>
