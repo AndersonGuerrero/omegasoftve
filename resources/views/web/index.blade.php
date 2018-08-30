@@ -318,12 +318,12 @@
             <div class="col-md-12 col-ms-12 col-xs-12" style="background: #5aceff5c;">
                 <div class="sec-title-two centered" style="margin-bottom: 20px;">
                     <h1 style="font-size: 29px;margin-top: 40px;">
-                        Alinee sus procesos con el negocio
+                    Alinee sus procesos de gestión de servicios con el negocio
                     </h1>
                 </div>   
                 <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="sec-title centered" style="margin-bottom: 0px;" >
-                            <div class="text" style="text-align: justify;margin-bottom: 5px;padding-right:20px;padding-left:20px;" >
+                            <div class="text" style="text-align:initial ;margin-bottom: 5px;padding-right:20px;padding-left:20px;" >
                                 Omega ITSM, ha sido desarrollada para soportar ITIL y otros marcos de referencias de mejores
                                 prácticas ampliamente adoptados por las organizaciones. Permitiendo la estandarización de
                                 procesos para la gestión de servicios, como solicitudes de servicios, incidentes, problemas y
@@ -350,9 +350,9 @@
 
     <section style="margin-bottom: 30px;" >
     	<div class="row" style="display: unset;">
-                <div class="sec-title-two centered" style="margin-bottom: 10px" >
+                <div class="sec-title-two centered" style="margin-bottom: 40px" >
                         <h1 style="font-size: 30px">
-                            Principales Beneficios
+                        Maximice los beneficios para su organización con Omega ITSM
                         </h1>
                 </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
@@ -360,7 +360,7 @@
                     <ul class="list-inline">
                         <li data-toggle="modal" data-target="#MODAL">
                             <a href="#myGallery" data-slide-to="0">
-                                <img class="img-thumbnail" src="{{ URL::to('/') }}/images/icons/cap.png"><br>
+                                <img class="img-thumbnail" src="{{ URL::to('/') }}/images/icons/monitor_beneficios.png"><br>
                             </a>
                         </li>
                     </ul>
