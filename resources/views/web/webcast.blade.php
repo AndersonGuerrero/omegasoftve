@@ -85,7 +85,7 @@
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                     <b>Contenido</b>
                             </div>-->
-                            <div class="text" style="text-align:center;padding:15px;min-height:366px;">
+                            <div class="text" style="text-align:center;padding:15px;min-height:393px;">
                             Con el fin de fortalecer el conocimiento de nuestros usuarios y
                             solucionadores, Omega Service Desk integra su módulo
                             Knowledgebase que garantiza el almacenamiento del conocimiento
