@@ -74,11 +74,11 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-6">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                            <div class="text" style="font-size: 23px;min-height: 82px;">
+                            <!--<div class="text" style="font-size: 23px;min-height: 82px;">
                             Integración de Omega Service Desk con Knowledgebase.
-                            </div>
+                            </div>-->
                             <div class="inner-box">
-                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-de-OSDK-con-KB-webcast-2.jpg" alt=""></a></figure>
+                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-2.jpg" alt=""></a></figure>
                             </div>
                             <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
@@ -110,11 +110,11 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="col-md-6 col-sm-12 col-xs-6" >
                     <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                        <div class="text" style="font-size: 23px; min-height: 82px;">
+                        <!--<div class="text" style="font-size: 23px; min-height: 82px;">
                         Integración de Omega Service Desk con la Gestión de Activos.
-                        </div>
+                        </div>-->
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-con-cmdb-webcast.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-3.jpg" alt=""></a></figure>
                         </div>
                         <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
@@ -144,13 +144,13 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-6">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                            <div class="text" style="font-size:23px;min-height:82px;">
+                            <!--<div class="text" style="font-size:23px;min-height:82px;">
                             Gestionando Proyectos con Omega ITSM.
-                            </div>
+                            </div>-->
                             <div class="inner-box">
                                 <figure  class="image-box">
                                     <a href="">
-                                        <img src="{{ URL::to('/') }}/images/resource/webcast-proyectos-con-OITSM.jpg" alt="">
+                                        <img src="{{ URL::to('/') }}/images/resource/webcast-4.jpg" alt="">
                                     </a>
                                 </figure>
                             </div>
