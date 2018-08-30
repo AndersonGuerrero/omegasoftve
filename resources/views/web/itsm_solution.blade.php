@@ -81,7 +81,7 @@
                                                             para la gestión de servicios IT</h1>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px">
-                                                    <div class="text" style="font-size: 20px;margin-bottom: 85px; text-align: center">
+                                                    <div class="text" style="margin-bottom: 85px; text-align: center">
                                                             Omega ITSM, integra módulos y funcionalidades que le permitirán 
                                                             estandarizar sus procesos y la gestión de servicio, alineándolos 
                                                             con las mejores prácticas de ITIL, de forma fácil y eficaz.
