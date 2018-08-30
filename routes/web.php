@@ -33,7 +33,10 @@ Route::post('/programa-partner/', ['as'=>'partner.send', 'uses'=>'PartnerControl
 
 Route::get('/demo/', 'Web@demo');
 Route::get('/english/', 'Web@english');
-Route::get('/soluciones/itsm/', 'Web@itsm_solution');
+
+Route::get('/soluciones/itsm/', 'ITSMController@index');
+Route::post('/soluciones/itsm/', ['as'=>'quotation.send', 'uses'=>'ITSMController@quotationSend']);
+
 Route::get('/demo-guiada/', 'Web@demo_guiada');
 Route::get('/solicitud/serial/', 'Web@request_serial');
 Route::get('/webcast/', 'WebcastController@index');

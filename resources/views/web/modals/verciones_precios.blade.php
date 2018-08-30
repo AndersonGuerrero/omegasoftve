@@ -9,7 +9,7 @@
                         </div>
                         <div class="form-box" style="padding-left:15px;padding-right:15px;padding-top:25px">
                             <div class="form-style-two callback-form">
-                                    {{ Form::open(array('route' => 'version.send', 'id' => 'form_version')) }}
+                                    {{ Form::open(array('route' => 'quotation.send', 'id' => 'form_quotation')) }}
                                    <div class="col-md-12 col-md-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
                                         <div class="form-group" style="padding-left: 0px; padding-right: 0px;">
                                             

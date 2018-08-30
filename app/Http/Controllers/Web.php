@@ -43,10 +43,6 @@ class Web extends Controller{
     public function english(){
         return view('web/english');
     }
-    
-    public function itsm_solution(){
-        return view('web/itsm_solution');
-    }
 
     public function demo_guiada(){
         return view('web/demo_guiada');
