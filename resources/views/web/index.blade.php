@@ -359,7 +359,7 @@
                         <li data-toggle="modal" data-target="#MODAL">
                             <a href="#myGallery" data-slide-to="0">
                                 <img class="" src="{{ URL::to('/') }}/images/icons/benficios.png">
-                                <img src="{{ URL::to('/') }}/images/icons/magnifying-glass.png" alt="" style="position: absolute;left: 0;margin-left: 37%;margin-top: 25%;">
+                                <img  style="position: absolute;left: 0;margin-left: 37%;margin-top: -45%;" src="{{ URL::to('/') }}/images/icons/magnifying-glass.png" alt="">
                             </a>
                         </li>
                     </ul>
