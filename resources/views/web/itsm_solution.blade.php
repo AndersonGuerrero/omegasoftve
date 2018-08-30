@@ -105,12 +105,12 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;" >
-                                                            <h1 style="font-size: 35px;margin-top: 20px;">
+                                                            <h1 style="font-size: 35px;margin-top: 20px; padding-left:15px;padding-right:15px;">
                                                                 Gestiona diferentes procesos
                                                             </h1>
                                                     </div>
                                                     <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 0px;padding-right: 150px;font-size: 22px;">
+                                                        <div class="text" style="padding-left: 0px;padding-right: 15px;padding-left:15px; font-size: 22px;">
                                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
                                                                 consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
                                                                 nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
@@ -1388,24 +1388,25 @@
     
 
      
-        <div class="auto-container" style="margin-top: 100px">
+        <div class="auto-container">
             <div class="sec-title centered" style="margin-bottom: 40px;">
                 <h1 style="font-size:30px;">Empresas que han confiado en nosotros …</h1>
             </div>
         </div>
    
 
-    <section class="page-title" style="height: 530px;background: #fff;">
-        <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientesBlanco.png); opacity: 10.0;"></div>
-        <div class="auto-container">
-        </div>
-    </section>
+
+        <section class="page-title" style="background: #5aceff5c;">
+                <div style="opacity: 10.0;">        
+                    <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
+                </div>
+            </section>
     
         <!--Testimonials Two Section-->
-     <section class="testimonials-two" style="padding: 40px 0px;">
+     <section class="testimonials-two" style="padding: 0px 0px;padding-top: 30px;">
             <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
                     <h1 style="font-size: 30px">Que dicen nuestros clientes</h1>
-                </div>
+            </div>
             <div class="auto-container">
                 <!--Heading-->                    
                 <div class="carousel-box">
@@ -1491,16 +1492,12 @@
                 </div>
                 
             </div>
-    </section>
-
-    <section class="services-two" style="background: #007affb8;padding:22px;height:150px;"> 
-    	<div class="auto-container">
-            <div class="sec-title centered">
-                <h1 style="font-size:25px; margin-bottom: 15px">Participe en nuestros eventos en línea </h1>
-                <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="http://localhost:8000/webcast/" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
+            <div class="sec-title centered" style="background: #007affb8; margin-bottom: 0px;">
+                <div style="padding-bottom: 30px">
+                    <h1 style="font-size:25px; margin-bottom: 15px;padding-top: 15px;">Participe en nuestros eventos en línea</h1>
+                    <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="http://localhost:8000/webcast/" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
+                </div>
             </div>
-            
-        </div>
     </section>
    
 @endsection

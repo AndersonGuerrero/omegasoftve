@@ -346,8 +346,6 @@
     
     <!--About Two Section-->
 
-
-
     <section style="margin-bottom: 30px;" >
     	<div class="row" style="display: unset;">
                 <div class="sec-title-two centered" style="margin-bottom: 40px" >
@@ -360,7 +358,7 @@
                     <ul class="list-inline">
                         <li data-toggle="modal" data-target="#MODAL">
                             <a href="#myGallery" data-slide-to="0">
-                                <img class="img-thumbnail" src="{{ URL::to('/') }}/images/icons/monitor_beneficios.png"><br>
+                                <img class="img-thumbnail" src="{{ URL::to('/') }}/images/icons/benficios.png"><br>
                             </a>
                         </li>
                     </ul>
