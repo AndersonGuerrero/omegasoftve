@@ -22,9 +22,7 @@
                             nuestros especialistas y descubra las soluciones que 
                             traemos para ustedes.
                         </div>
-                        <div class="text" style="padding-top: 35px">
-                            Próximos Eventos
-                        </div>
+                        <h1 style="padding-top: 35px; font-size: 33px;">Próximos Eventos</h1>
                     </div>
                 </div>
             </div>
@@ -33,8 +31,8 @@
 
     <section>
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-6 col-sm-12 col-xs-6" >
+            <div class="col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
+                <div class="col-md-6 col-sm-12 col-xs-12" style="padding-left: 20px;padding-right: 20px;">
                     <div class="sec-title centered" style="margin-bottom:30px;border:1px solid #c2d1df;">
                         <!--<div class="text" style="font-size: 23px;min-height: 82px;">
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
@@ -72,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-6">
+                <div class="col-md-6 col-sm-12 col-xs-12" style="padding-left: 20px;padding-right: 20px;">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
                             <!--<div class="text" style="font-size: 23px;min-height: 82px;">
                             Integración de Omega Service Desk con Knowledgebase.
@@ -108,7 +106,7 @@
                     </div>
             </div>   
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-6 col-sm-12 col-xs-6" >
+                <div class="col-md-6 col-sm-12 col-xs-12" style="padding-left: 20px;padding-right: 20px;">
                     <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
                         <!--<div class="text" style="font-size: 23px; min-height: 82px;">
                         Integración de Omega Service Desk con la Gestión de Activos.
@@ -142,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-6">
+                <div class="col-md-6 col-sm-12 col-xs-12" style="padding-left: 20px;padding-right: 20px;">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
                             <!--<div class="text" style="font-size:23px;min-height:82px;">
                             Gestionando Proyectos con Omega ITSM.
@@ -177,7 +175,7 @@
                                 <a href="" class="theme-btn btn-style-three button-webcas" data-title="Gestionando Proyectos con Omega ITSM." data-toggle="modal" data-target="#myModal">Registrate</a>
                             </div>
                         </div>
-                    </div>
+                </div>
             </div> 
         </div>
     </section>
