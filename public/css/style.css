@@ -6545,3 +6545,24 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 
 
 
+.btn-style-three-2{
+	position:relative;
+	padding:15px 45px 11px;
+	line-height:24px;
+	background:none;
+	color:#00325d !important;
+	border: 2px solid #00325d;
+	
+	font-size:16px;
+	font-weight:600;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-family: 'Hind Guntur', sans-serif;
+	border-radius:30px;
+}
+
+.btn-style-three-2:hover{
+	background:#00325d;
+	color:#ffffff !important;
+	border:2px solid #00325d;
+}
