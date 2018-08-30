@@ -172,7 +172,7 @@
                                     </figure>
                             </div>
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
-                                <h1 style="font-size: 18px;">Partner de Soluciones Oro</h1>
+                                <!--<h1 style="font-size: 18px;">Partner de Soluciones Oro</h1>-->
                                 <div class="text" style="text-align:initial; font-size:15px;">
                                         Opción para compañías proveedoras de soluciones IT que quieran convertirse en
                                         socios estratégicos de Omegasoft. Con un alto compromiso para el
@@ -186,11 +186,11 @@
                         <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
                             <div style="padding: 0px; margin-bottom: 0px;">
                                     <figure style="text-align: center;" class="icon-box">
-                                        <img src="{{ URL::to('/') }}/images/icons/partner-nivel-plata.png" alt="">
+                                        <img src="{{ URL::to('/') }}/images/icons/soluciones-plata.png" alt="">
                                     </figure>
                             </div>
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
-                                <h1 style="font-size: 18px;">Partner de Soluciones Plata</h1>
+                                <!--<h1 style="font-size: 18px;">Partner de Soluciones Plata</h1>-->
                                 <div class="text" style="text-align:initial; font-size:15px;margin-bottom: 48px;">
                                         Opción para proveedores de soluciones IT, interesados en hacer crecer su
                                         negocio ofreciendo nuestras soluciones y otros servicios de valor añadido sobre
@@ -205,11 +205,11 @@
                             <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
                                 <div style="padding: 0px; margin-bottom: 0px;">
                                         <figure style="text-align: center;" class="icon-box">
-                                            <img src="{{ URL::to('/') }}/images/icons/partner-de-servicio.png" alt="">
+                                            <img src="{{ URL::to('/') }}/images/icons/partner-de-servicio1.png" alt="">
                                         </figure>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
-                                    <h1 style="font-size: 18px;">Partner de Servicio</h1>
+                                    <!--<h1 style="font-size: 18px;">Partner de Servicio</h1>-->
                                     <div class="text" style="text-align:initial; font-size:15px;">
                                             Opción para compañías prestadoras de servicios para la gestión IT, que pudieran
                                             generar oportunidades de negocios en sus respectivos clientes recomendando
@@ -222,11 +222,11 @@
                             <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
                                 <div style="padding: 0px; margin-bottom: 0px;">
                                         <figure style="text-align: center;" class="icon-box">
-                                            <img src="{{ URL::to('/') }}/images/icons/partner-distribuidor.png" alt="">
+                                            <img src="{{ URL::to('/') }}/images/icons/partner-distribuidor1.png" alt="">
                                         </figure>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
-                                    <h1 style="font-size: 18px;">Partner Distribuidor</h1>
+                                    <!--<h1 style="font-size: 18px;">Partner Distribuidor</h1>-->
                                     <div class="text" style="text-align:initial; font-size:15px;">
                                         Es la opción más fácil para comenzar a hacer negocios basados en nuestras
                                         soluciones, revendiendo ediciones comerciales sin compromiso de formación y
