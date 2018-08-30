@@ -22,6 +22,9 @@
                             nuestros especialistas y descubra las soluciones que 
                             traemos para ustedes.
                         </div>
+                        <div class="text" style="padding-top: 35px">
+                            Próximos Eventos
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,18 +36,18 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="col-md-6 col-sm-12 col-xs-6" >
                     <div class="sec-title centered" style="margin-bottom:30px;border:1px solid #c2d1df;">
-                        <div class="text" style="font-size: 23px;min-height: 82px;">
+                        <!--<div class="text" style="font-size: 23px;min-height: 82px;">
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
-                        </div>
+                        </div>-->
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/omega-itsm-webcast-1.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-omega-itsm.jpg" alt=""></a></figure>
                         </div>
-                        <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                        <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
                         </div>
                         <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                 <b>Contenido</b>
-                        </div>
+                        </div>-->
                         <div class="text" style="text-align: center; padding: 15px;">
                         Para brindar una atención efectiva y en los tiempos establecidos,
                         Omega ITSM ofrece a su organización un control centralizado de las
@@ -77,12 +80,12 @@
                             <div class="inner-box">
                                 <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-de-OSDK-con-KB-webcast-2.jpg" alt=""></a></figure>
                             </div>
-                            <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                            <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
                             </div>
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                     <b>Contenido</b>
-                            </div>
+                            </div>-->
                             <div class="text" style="text-align:center;padding:15px;min-height:366px;">
                             Con el fin de fortalecer el conocimiento de nuestros usuarios y
                             solucionadores, Omega Service Desk integra su módulo
@@ -113,12 +116,12 @@
                         <div class="inner-box">
                             <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-con-cmdb-webcast.jpg" alt=""></a></figure>
                         </div>
-                        <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                        <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
                         </div>
                         <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                 <b>Contenido</b>
-                        </div>
+                        </div>-->
                         <div class="text" style="text-align: center; padding: 15px;">
                         Para gestionar los activos de la organización Omega Service Desk
                         integra el módulo CMDB, que controla los detalles de la infrestructura
@@ -151,12 +154,12 @@
                                     </a>
                                 </figure>
                             </div>
-                            <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                            <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
                             </div>
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                     <b>Contenido</b>
-                            </div>
+                            </div> -->
                             <div class="text" style="text-align:center;padding:15px;min-height:310px;">
                                 Nuestra solución de gestión de servicios, Omega ITSM, incluye un
                                 modulo para la gestión de proyectos, basados en la metodoligía

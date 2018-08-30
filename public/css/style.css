@@ -131,8 +131,8 @@ font-family: 'Raleway', sans-serif;*/
 	font-size: 24px !important;
 	text-decoration:none !important;
 	width: 50% !important;
-	border-color: #3ccc00 !important; 
-	background: #3ccc00 !important;
+	/*border-color: #3ccc00 !important;*/ 
+	/*background: #3ccc00 !important;*/ 
 	text-transform: none !important;
  }
  a:hover, a:focus {
