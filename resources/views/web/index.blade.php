@@ -353,7 +353,7 @@
                         Maximice los beneficios para su organización con Omega ITSM
                         </h1>
                 </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom: 30px;">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
                     <ul class="list-inline">
                         <li data-toggle="modal" data-target="#MODAL">
@@ -370,7 +370,7 @@
                     
                 </div> 
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom: 30px;">
                 <div class="sec-title centered" style="text-align: initial;margin-bottom: 5px;">
                     <div class="row">
                         <div class="text" style="font-size: 17px">
