@@ -23,7 +23,6 @@
                    <div class="sec-title centered">
                        <h1 style="margin-top: 50px">Envianos un mensaje</h1>
                        <div class="text">Contacto directo con rápida respuesta.</div>
-                       <div class="text">@include('flash::message')</div>
                    </div>
                    <div class="form-style-one quote-form">
                    {{ Form::open(array('route' => 'contact.send', 'id' => 'form-contact')) }}

@@ -36,20 +36,12 @@ class Web extends Controller{
         return view('web/team');
     }
 
-    public function partners(){
-        return view('web/partners');
-    }
-
     public function demo(){
         return view('web/demo');
     }
 
     public function english(){
         return view('web/english');
-    }
-
-    public function portal_partner(){
-        return view('web/portal_partners', array('hide_footer' => true));
     }
     
     public function itsm_solution(){
@@ -62,9 +54,4 @@ class Web extends Controller{
     public function request_serial(){
         return view('web/request_serial');
     }
-    
-    public function program_partner(){
-        return view('web/program_partner');
-    }
-    
 }
