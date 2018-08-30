@@ -9,46 +9,53 @@
                     </div>
                     <div class="form-box" style="padding-left:15px;padding-right:15px;padding-top:25px">
                         <div class="form-style-two callback-form">
-                            <form method="post" action="http://themebunch.com/html/fico/contact.html">
+                            {{ Form::open(array('route' => 'partner.send', 'id' => 'form_partner')) }}
                                <div class="col-md-12 col-md-12 col-xs-12" style="padding-left: 0px; padding-right: 0px;">
                                     <div class="col-md-6 col-md-6 col-xs-6 form-group" style="padding-left: 0px">
                                         <div style="margin-bottom: 10px">
-                                            <input type="text" name="Company" value="" placeholder="Empresa" required>
+                                            <input type="text" name="company" value="" placeholder="Empresa" required>
                                         </div>
                                         <div  style="margin-bottom: 10px">
-                                            <input type="text" name="Person to Contact" value="" placeholder="Persona a Contactar" required>
+                                            <input type="text" name="person_contact" value="" placeholder="Persona a Contactar" required>
                                         </div>
                                         <div style="margin-bottom: 10px">
-                                            <input type="text" name="Email" value="" placeholder="Email" required>
+                                            <input type="email" name="email" value="" placeholder="Email" required>
                                         </div>
                                         <div style="margin-bottom: 10px">
-                                            <input type="text" name="Phone" value="" placeholder="Telefono" required>
+                                            <input type="text" name="phone" value="" placeholder="Telefono" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-md-6 col-xs-6" style="padding-right: 0px">
                                         <div  style="margin-bottom: 10px">
-                                            <input type="text" name="Cel" value="" placeholder="Celular" required>
+                                            <input type="text" name="cel" value="" placeholder="Celular" required>
                                         </div>
                                         <div  style="margin-bottom: 10px">
                                             <input type="text" name="country" value="" placeholder="País" required>
                                         </div>
                                         <div  style="margin-bottom: 10px">
-                                            <input type="text" name="City" value="" placeholder="Ciudad" required>
+                                            <input type="text" name="city" value="" placeholder="Ciudad" required>
                                         </div>
                                         <div  style="margin-bottom: 10px">
-                                            <input type="text" name="WebPage" value="" placeholder="Pagina Web" required>
+                                            <input type="url" name="web_page" value="" placeholder="Pagina Web" required>
                                         </div>
                                     </div>
                                     <div>
-                                        <textarea name="message" placeholder="Mensaje"></textarea>
+                                        <textarea name="message" required placeholder="Mensaje"></textarea>
                                     </div>
-                                    <div class="">
+                                    <div
+                                        class="recaptcha-hide" 
+                                        id="g-recaptcha-partner"
+                                        data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                        data-callback="callbackPartner"
+                                        data-size="invisible">
+                                    </div>
+                                    <div>
                                         <div class="text-center">
-                                            <button type="submit" class="theme-btn btn-style-two" style="margin-top: 0px; margin-bottom: 25px;">Enviar</button>
+                                            <button type="submit" class="theme-btn btn-style-two btn-send" style="margin-top: 0px; margin-bottom: 25px;">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
-                            </form>
+                            {{ Form::close() }}
                         </div>
                     </div>
                 </div>
@@ -56,3 +63,10 @@
         </div><!-- modal dialog -->
     </div><!-- modal fade -->
 <!-- Cierra Modal -->
+@section('javascript')
+    <script>
+        function callbackPartner(data){
+            $('#form_partner').submit()
+        }
+    </script>
+@endsection

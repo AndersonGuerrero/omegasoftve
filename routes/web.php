@@ -25,14 +25,17 @@ Route::post('/nuestro-equipo/', ['as'=>'team.register', 'uses'=>'TeamController@
 
 Route::get('/contacto/', 'ContactController@contact');
 Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
-Route::get('/partners/', 'Web@partners');
-Route::get('/portal-partner/', 'Web@portal_partner');
+
+Route::get('/partners/', 'PartnerController@@index');
+Route::get('/portal-partner/', 'PartnerController@portal');
+Route::get('/programa-partner/', 'PartnerController@program');
+Route::post('/programa-partner/', ['as'=>'partner.send', 'uses'=>'PartnerController@programPost']);
+
 Route::get('/demo/', 'Web@demo');
 Route::get('/english/', 'Web@english');
 Route::get('/soluciones/itsm/', 'Web@itsm_solution');
 Route::get('/demo-guiada/', 'Web@demo_guiada');
 Route::get('/solicitud/serial/', 'Web@request_serial');
-Route::get('/programa-partner/', 'Web@program_partner');
 Route::get('/webcast/', 'WebcastController@index');
 Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);
 

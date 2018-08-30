@@ -34,6 +34,13 @@
 <!--[if lt IE 9]><script src="{{ URL::to('/') }}/js/respond.js"></script><![endif]-->
 <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaLoad" async defer></script>
 @yield('css')
+
+<style>
+    .alert-danger{
+        margin-bottom: 0;
+    }
+</style>
+
 </head>
 
 <body>
@@ -110,6 +117,10 @@
         if($('#g-recaptcha-team')[0]){
             window.id_captcha_team = grecaptcha.render($('#g-recaptcha-team')[0], data);
         }
+
+        if($('#g-recaptcha-partner')[0]){
+            window.id_captcha_partner = grecaptcha.render($('#g-recaptcha-partner')[0], data);
+        }
     };
 
     $('.btn-send').on('click', function (event) {
@@ -126,6 +137,8 @@
                 grecaptcha.execute(window.id_captcha_contact);
             }else if(idcaptcha === 'g-recaptcha-team'){
                 grecaptcha.execute(window.id_captcha_team);
+            }else if(idcaptcha === 'g-recaptcha-partner'){
+                grecaptcha.execute(window.id_captcha_partner);
             }
         }else{
             $(event.currentTarget).closest('form')[0].reportValidity()

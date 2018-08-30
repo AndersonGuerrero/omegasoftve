@@ -4,13 +4,21 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Mail;
 
-class TeamController extends Controller{
+class PartnerController extends Controller{
     
     public function index(){
-        return view('web/team');
+        return view('web/partners');
+    }
+    
+    public function program(){
+        return view('web/program_partner');
     }
 
-    public function register(Request $request){
+    public function portal(){
+        return view('web/portal_partners', array('hide_footer' => true));
+    }
+
+    public function programPost(Request $request){
         if ($request->isMethod('post')) {
             if($request->input('g-recaptcha-response')){         
                 $url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -32,29 +40,35 @@ class TeamController extends Controller{
                 $array = json_decode($result, true);
                 if($array['success']){
                     $this->validate($request, [
+                        'company' => 'required',
+                        'person_contact' => 'required',
                         'email' => 'required|email',
-                        'name' => 'required',
-                        'resume' => 'required',
+                        'phone' => 'required',
+                        'cel' => 'required',
+                        'country' => 'required',
+                        'city' => 'required',
+                        'web_page' => 'required',
+                        'message' => 'required'
                     ]);
                     $message = [
-                        'title' => 'Vacantes Omegasoftve',
+                        'title' => 'Registro Partner Omegasoftve',
                         'content' => 
-                        'Vacante: '. $request->team_title.'<br>'.
-                        'Nombre: '. $request->name.'<br>'.
+                        'Compañia: '. $request->company.'<br>'.
+                        'Persona de contacto: '. $request->person_contact.'<br>'.
                         'Email: '. $request->email.'<br>'.
-                        'Resumen: '. $request->resume.'<br>'                        
+                        'Telefono: '. $request->phone.'<br>'.
+                        'Celular: '. $request->cel.'<br>'.
+                        'Pais: '. $request->country.'<br>'.
+                        'City: '. $request->city.'<br>'.
+                        'Pagina web: '. $request->web_page.'<br>'.
+                        'Mensaje: '. $request->message.'<br>'                        
                     ];
                     $email = $request->email;
                     
                     Mail::send('layouts.email', $message, function ($message) use ($email, $request) {
-                        $message->from($email, 'Vacantes');
-                        $message->subject('Vacantes Omegasoftve');
-                        $message->to('talento.humano@omegasoftve.com')->cc($email);
-
-                        $message->attach($request->file('cv')->getRealPath(), [
-                            'as' => $request->file('cv')->getClientOriginalName(), 
-                            'mime' => $request->file('cv')->getMimeType()
-                         ]);
+                        $message->from($email, 'Registro Partner');
+                        $message->subject('Registro Partner Omegasoftve');
+                        $message->to('registro.partner@omegasoftve.com')->cc($email);
                     });
                     flash('Gracias, te estaremos contactando.')->success();
                 }else{

@@ -41,6 +41,7 @@ class WebcastController extends Controller{
                         'Webcast: '. $request->webcast_title.'<br>'.
                         'Nombre: '. $request->name.'<br>'.
                         'Email: '. $request->email.'<br>'.
+                        'Compañia: '. $request->company.'<br>',
                         'Pais: '. $request->country.'<br>'                        
                     ];
                     $email = $request->email;

@@ -103,7 +103,7 @@
                   </div>
               </div>
               <!--End Main Box-->
-              
+              @include('flash::message')
               <!--Sticky Header-->
               <div class="sticky-header">
                   <div class="auto-container clearfix">

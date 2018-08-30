@@ -61,7 +61,6 @@
                                         class="btn btn-outline-secondary btn-send" type="submit">Enviar</button>
                                     </div>
                                 </div>
-                            @include('flash::message')
                             {{ Form::close() }}
                         </div>
                     </div>

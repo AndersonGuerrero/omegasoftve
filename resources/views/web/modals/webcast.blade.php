@@ -17,7 +17,7 @@
                                     <input type="text" name="email" value="" placeholder="Email" required="">
                                 </div> 
                                 <div class="form-group">
-                                    <input type="text" name="Company" value="" placeholder="Compañia" required="">
+                                    <input type="text" name="company" value="" placeholder="Compañia" required>
                                 </div> 
                                 <input type="hidden" name="webcast_title" id="input-webcast-title"> 
                                 <div class="form-group">
@@ -276,7 +276,7 @@
                                         class="theme-btn btn-style-two btn-send" 
                                         >Enviar</button>
                                     </div>
-                                </div>  
+                                </div>
                                 {{ Form::close() }}
                         </div>
                     </div>
