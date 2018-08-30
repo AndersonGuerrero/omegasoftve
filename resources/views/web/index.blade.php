@@ -361,8 +361,8 @@
                                 <img class="" src="{{ URL::to('/') }}/images/icons/benficios.png">
                                 <!--<img  style="position: absolute;left: 0;margin-left: 37%;margin-top: -45%;" src="{{ URL::to('/') }}/images/icons/magnifying-glass.png" alt="">-->
                                 <div style="position: absolute;left: 0;margin-left: 37%;margin-top: -10%;">
-                                    <div class="text-center button-conten-carrusel"><a href="" class="theme-btn btn-style-three button-carrusel">
-                                        <img src="{{ URL::to('/') }}/images/icons/magnifying-glass.png" alt=""> </a></div>
+                                    <div class="text-center button-conten-carrusel"><div class="theme-btn btn-style-three button-carrusel">
+                                        <img src="{{ URL::to('/') }}/images/icons/magnifying-glass.png" alt=""> </div></div>
                                 </div>
                             </a>
                         </li>
