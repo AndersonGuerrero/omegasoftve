@@ -1384,7 +1384,7 @@
    
 
 
-        <section class="page-title" style="background: #5aceff29;">
+        <section class="page-title" style="background: #5aceff29">
             <div class="auto-container">
                 <div class="sec-title centered" style="margin-bottom: 0px; padding-top: 30px">
                     <h1 style="font-size:30px;">Empresas que han confiado en nosotros …</h1>
