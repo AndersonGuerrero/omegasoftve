@@ -6,28 +6,28 @@
                 <!--begin carousel-->
                 <div id="myGallery" class="carousel slide" data-interval="false">
                     <div class="carousel-inner">
-                        <div class="item active"> <img src="https://placeimg.com/600/400/nature/1" alt="item0">
+                        <div class="item active"> <img src="{{ URL::to('/') }}/images/icons/toma-de-decisiones1.png" alt="item0">
                             <div class="carousel-caption">
-                                <h3>Heading 3</h3>
-                                <p>Slide 0  description.</p>
+                                <h3>Toma de decisiones</h3>
+                                
                             </div>
                         </div>
-                        <div class="item"> <img src="https://placeimg.com/600/400/nature/2" alt="item1">
+                        <div class="item"> <img src="{{ URL::to('/') }}/images/icons/gestione-diferentes-procesos1.png" alt="item1">
                             <div class="carousel-caption">
-                                <h3>Heading 3</h3>
-                                <p>Slide 1 description.</p>
+                                <h3>Gestione diferentes procesos</h3>
+                                
                             </div>
                         </div>
-                        <div class="item"> <img src="https://placeimg.com/600/400/nature/3" alt="item2">
+                        <div class="item"> <img src="{{ URL::to('/') }}/images/icons/gestion-de-cambios2.png" alt="item2">
                             <div class="carousel-caption">
-                                <h3>Heading 3</h3>
-                                <p>Slide 2  description.</p>
+                                <h3>gestion de cambios</h3>
+                                
                             </div>
                         </div>
-                        <div class="item"> <img src="https://placeimg.com/600/400/nature/4" alt="item3">
+                        <div class="item"> <img src="{{ URL::to('/') }}/images/icons/base-de-conocimiento2.png" alt="item3">
                             <div class="carousel-caption">
-                                <h3>Heading 3</h3>
-                                <p>Slide 3 description.</p>
+                                <h3>Base de conocimiento</h3>
+                                
                             </div>
                         </div>
                         <div class="item"> <img src="https://placeimg.com/600/400/nature/5" alt="item4">

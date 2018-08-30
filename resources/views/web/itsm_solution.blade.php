@@ -1380,19 +1380,20 @@
     
 
      
-        <div class="auto-container">
-            <div class="sec-title centered" style="margin-bottom: 40px;">
-                <h1 style="font-size:30px;">Empresas que han confiado en nosotros …</h1>
-            </div>
-        </div>
+
    
 
 
         <section class="page-title" style="background: #5aceff5c;">
-                <div style="opacity: 10.0;">        
-                    <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
+            <div class="auto-container">
+                <div class="sec-title centered" style="margin-bottom: 0px; padding-top: 30px">
+                    <h1 style="font-size:30px;">Empresas que han confiado en nosotros …</h1>
                 </div>
-            </section>
+            </div>
+            <div style="opacity: 10.0;">        
+                <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
+            </div>
+        </section>
     
         <!--Testimonials Two Section-->
      <section class="testimonials-two" style="padding: 0px 0px;padding-top: 30px;">
