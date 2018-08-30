@@ -168,7 +168,7 @@
                         <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
                             <div style="padding: 0px; margin-bottom: 0px;">
                                     <figure style="text-align: center;" class="icon-box">
-                                        <img src="{{ URL::to('/') }}/images/icons/partner-nivel-oro.png" alt="">
+                                        <img src="{{ URL::to('/') }}/images/icons/soluciones-nivel-oro.png" alt="">
                                     </figure>
                             </div>
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
