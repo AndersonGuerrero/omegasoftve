@@ -1193,14 +1193,12 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 }
 .sec-title-two.centered2:before{
 	width: 126px;
-    left: 5%;
-	margin-left: -10px;
+    left: 3%;
 	border-bottom: 5px solid#63f726	
 }
 .sec-title-two.centered3:before{
 	width: 126px;
-    left: 20%;
-	margin-left: -32px;
+    left: 3%;
 	border-bottom: 5px solid#63f726	
 }
 
@@ -6207,7 +6205,7 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 
 @media (max-width: 522px){
 	.imgback{
-		height: 375px !important;
+		height: 400px !important;
 	}
 }
 @media (max-width: 346px){

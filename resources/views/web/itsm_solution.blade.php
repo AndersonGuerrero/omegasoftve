@@ -77,22 +77,18 @@
                                     <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title-two centered" style="margin-bottom: 0px;">
-                                                    <h1 style="font-size:30px;padding-top: 65px">Ofrece una atención más oportuna y reduce tus<br>tiempos de repuesta</h1>
+                                                    <h1 style="font-size:30px;padding-top: 65px">Omega ITSM, Provee todo lo necesario
+                                                            para la gestión de servicios IT</h1>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px">
                                                     <div class="text" style="font-size: 20px;margin-bottom: 85px; text-align: center">
-                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                                            Doloribus maxime maiores quibusdam aut dolorum, totam magni 
-                                                            vero amet repellat aliquam ipsam et deleniti doloremque vitae 
-                                                            placeat suscipit corrupti quia nihil. Lorem ipsum, dolor sit amet 
-                                                            consectetur adipisicing elit. Reprehenderit, aut temporibus vitae 
-                                                            earum ullam mollitia aliquam et voluptatem facere aspernatur ipsam 
-                                                            accusamus corrupti possimus iusto vel libero sunt atque sint.
+                                                            Omega ITSM, integra módulos y funcionalidades que le permitirán 
+                                                            estandarizar sus procesos y la gestión de servicio, alineándolos 
+                                                            con las mejores prácticas de ITIL, de forma fácil y eficaz.
                                                     </div>
                                                 </div>
                                             </div>
                                     </section>
-
                                     <!--About Two Section-->    
                                     <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
@@ -105,16 +101,16 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;" >
-                                                            <h1 style="font-size: 35px;margin-top: 20px; padding-left:15px;padding-right:15px;">
-                                                                Gestiona diferentes procesos
+                                                            <h1 style="font-size: 30px;margin-top: 20px; padding-left:15px;padding-right:15px;">
+                                                                Centralice la gestión de servicios
                                                             </h1>
                                                     </div>
                                                     <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 0px;padding-right: 15px;padding-left:15px; font-size: 22px;">
-                                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
-                                                                consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
-                                                                nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
-                                                                adipisci dolores.
+                                                        <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                                Con Omega ITSM, usted podrá centralizar la atención de los diversos procesos de su
+                                                                negocio, como lo son Requerimientos de Servicios, problemas, cambios y proyecto.
+                                                                Además, podrá incluir a otras áreas de la compañía diferentes a IT, gracias a nuestra
+                                                                funcionalidad de multimesa de servicio.
                                                         </div>
                                                     </div>
                                                 </div>
@@ -124,17 +120,17 @@
                                     <section style="margin-bottom: 60px">
                                         <div class="row" style="display: unset;">
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <div class="sec-title-two centered3" style="margin-bottom:10px;text-align: initial;padding-left:100px;"  >
-                                                        <h1 style="font-size: 35px;margin-top: 20px;">
-                                                            Portar de usuarios
+                                                <div class="sec-title-two centered3" style="margin-bottom:10px;text-align: initial;"  >
+                                                        <h1 style="font-size: 30px;margin-top: 20px;padding-right: 15px;padding-left:15px;">
+                                                            Mejore la comunicación con sus usuarios.
                                                         </h1>
                                                 </div>
                                                 <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                    <div class="text" style="padding-left:100px;padding-right: 0px;font-size: 22px;">
-                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
-                                                            consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
-                                                            nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
-                                                            adipisci dolores.
+                                                    <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                            Facilite la comunicación con sus usuarios finales a través de un portal de autoservicios
+                                                            intuitivo, facilitándole la creación y seguimiento de ticket, acceso a información dela base
+                                                            de datos de conocimientos y anuncios de interrupciones de servicios programadas o
+                                                            generales, entre otros beneficios.
                                                     </div>
                                                 </div>
                                             </div>
@@ -159,16 +155,16 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                                     <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;">
-                                                            <h1 style="font-size: 35px;margin-top: 20px;">
-                                                                Gestion de cambios
+                                                            <h1 style="font-size: 30px;margin-top: 20px;padding-right: 15px;padding-left:15px;">
+                                                                Controle los cambios en su organización
                                                             </h1>
                                                     </div>
                                                     <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                        <div class="text" style="padding-left: 0px;padding-right: 150px;font-size: 22px;">
-                                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic 
-                                                                consequatur asperiores sequi fugit facere ipsum consequuntur, voluptatum 
-                                                                nobis quas soluta cumque libero aspernatur illum repellendus! Nihil similique 
-                                                                adipisci dolores.
+                                                        <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                                Las funcionalidades de Gestión de Cambios de Omega ITSM, le permitirá asegurar que
+                                                                todos los cambios de TI se manejen de manera eficiente, con una eficaz gestión del riesgo
+                                                                que minimice las demoras, las fallas asociadas y minimice los problemas relacionados con
+                                                                los cambios.
                                                         </div>
                                                     </div>
                                                 </div>
@@ -176,36 +172,36 @@
                                     </section>
                                      
                                     <section>
-                                            <div class="imgback" > 
-                                                <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
-                                                    <div class="sec-title centered" style="margin-bottom: 0px">
-                                                            <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
-                                                            <p class="text" style="margin-top: -10px;color: #fff;">
-                                                                    Prueba nuestra solución sin limitaciones y de forma gratuita 
-                                                            </p>
-                                                        <a href="http://localhost:8000/demo/">
-                                                            <figure class="icon-box">
-                                                                    <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                            
-                                                </div>
-                                                <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
-                                                    <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
+                                        <div class="imgback" > 
+                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+                                                <div class="sec-title centered" style="margin-bottom: 0px">
+                                                        <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
                                                         <p class="text" style="margin-top: -10px;color: #fff;">
-                                                                Solicite que uno de nuestros expertos le muestren nuestros productos 
+                                                                Prueba nuestra solución sin limitaciones y de forma gratuita 
                                                         </p>
-                                                        <a href="http://localhost:8000/demo-guiada/">
-                                                            <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
-                                                            </figure>
-                                                        </a>
-                                                    </div>
+                                                    <a href="http://localhost:8000/demo/">
+                                                        <figure class="icon-box">
+                                                                <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                        
+                                            </div>
+                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+                                                <div class="sec-title centered" style="margin-bottom: 0px">
+                                                    <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
+                                                    <p class="text" style="margin-top: -10px;color: #fff;">
+                                                            Solicite que uno de nuestros expertos le muestren nuestros productos 
+                                                    </p>
+                                                    <a href="http://localhost:8000/demo-guiada/">
+                                                        <figure class="icon-box">
+                                                            <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
+                                                        </figure>
+                                                    </a>
                                                 </div>
                                             </div>
-                                        </section>
+                                        </div>
+                                    </section>
                                     
                                     <section>
                                         <div class="auto-container">
@@ -339,8 +335,7 @@
                                             <div class="auto-container">
                                                 <div class="sec-title centered" style="margin-bottom: 40px;">
                                                     <h1 style="font-size:30px; padding-top: 65px">
-                                                        Omega ITSM, ha sido desarrollado para soportar 
-                                                        y facilitar la automatización de los procesos,
+                                                        Omega ITSM, ha sido desarrollado para soportar y facilitar la automatización de los procesos,
                                                         basados en las mejores prácticas de ITIL.</h1>
                                                 </div>
                                             </div>
@@ -355,10 +350,10 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/incidentes.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Incidentes</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Restablezca los servicios afectados, gestione 
-                                                            los incidentes notificados por los usuarios
-                                                            resolviendo con eficiencia y eficacia las interrupciones 
-                                                            con el menor impacto</div>
+                                                            Restablezca los servicios afectados, gestione los incidentes 
+                                                            notificados por los usuarios resolviendo con eficiencia y 
+                                                            eficacia las interrupciones con el menor impacto
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -367,9 +362,9 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/requerimientos.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Requerimientos</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Proporcione una gestión adecuada a las solicitudes 
-                                                            de los usuarios ante las peticiones orientadas a mejoras 
-                                                            de los servicios.</div>
+                                                            Proporcione una gestión adecuada a las solicitudes de los usuarios ante las peticiones
+                                                            orientadas a mejoras de los servicios.
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -378,11 +373,10 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/catalogo-de-servicio.png" alt=""></figure>
                                                         <h3><a href="">Catálogo de Servicio</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Defina un catálogo de servicio de fácil 
-                                                            comprensión para usuarios y solucionadores, 
-                                                            donde detalle los servicios ofrecidos por el 
-                                                            negocio, grupos solucionadores encargados de la
-                                                            atención.</div>
+                                                            Defina un catálogo de servicio de fácil comprensión para usuarios y solucionadores, donde
+                                                            detalle los servicios ofrecidos por el negocio, grupos solucionadores encargados de la
+                                                            atención.
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -393,9 +387,9 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/SLA.png" alt=""></figure>
                                                         <h3><a href="">Acuerdo de Niveles de Servicio</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Establezca contratos de tiempos para la resolución 
-                                                            de las solicitudes entre el usuario y TI, los SLA 
-                                                            implementados garantizarán el cumplimiento del soporte.</div>
+                                                            Establezca contratos de tiempos para la resolución de las solicitudes entre el usuario y TI,
+                                                            los SLA implementados garantizarán el cumplimiento del soporte.
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -404,10 +398,9 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/bd-conocimiento.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Conocimiento</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Disponga de un espacio para el almacenamiento 
-                                                            de artículos y soluciones que sirva de canal 
-                                                            colaborativo para usuarios y solucionadores 
-                                                            en la resolución de inquietudes 24*7.</div>
+                                                            Disponga de un espacio para el almacenamiento de artículos y soluciones que sirva de
+                                                            canal colaborativo para usuarios y solucionadores en la resolución de inquietudes 24*7.
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -416,34 +409,34 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/problemas.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Problemas</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Determine las causas raíz de los incidentes 
-                                                            recurrentes sobre los activos de su organización, 
-                                                            identifique errores conocidos y proporcione 
-                                                            soluciones efectivas a problemas.</div>
+                                                            Determine las causas raíz de los incidentes recurrentes sobre los activos de su
+                                                            organización, identifique errores conocidos y proporcione soluciones efectivas a
+                                                            problemas.
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row clearfix">
-                                            <!--Service Block-->
-                                            <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
-                                                <div class="inner-box">
-                                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/cambios.png" alt=""></figure>
-                                                    <h3><a href="">Gestión de Cambios</a></h3>
-                                                    <div style="font-size: 15px;" class="text">
-                                                        Registre, controle y evalúe los cambios sugeridos 
-                                                        sobre su infraestructura IT, mejore el servicio e 
-                                                        incremente la productividad del usuario.</div>
+                                                <!--Service Block-->
+                                                <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="inner-box">
+                                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/cambios.png" alt=""></figure>
+                                                        <h3><a href="">Gestión de Cambios</a></h3>
+                                                        <div style="font-size: 15px;" class="text">
+                                                            Registre, controle y evalúe los cambios sugeridos sobre su infraestructura IT, mejore el
+                                                            servicio e incremente la productividad del usuario.
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <!--Service Block-->
+                                                <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proyectos.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Proyectos</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Planifique el desarrollo de nuevos proyectos para 
-                                                            su organización, orientados a la implementación de 
-                                                            nuevas tecnologías, programaciones, mejoras de servicio, etc</div>
+                                                            Planifique el desarrollo de nuevos proyectos para su organización, orientados a la
+                                                            implementación de nuevas tecnologías, programaciones, mejoras de servicio, etc
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -452,10 +445,10 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/CMDB.png" alt=""></figure>
                                                         <h3><a href="">CMDB</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Rastrea y administra todos los elementos de 
-                                                            configuración y asigna sus relaciones y dependencias. 
-                                                            Analice visualmente el impacto de los cambios y las
-                                                            interrupciones en la toma de decisiones</div>
+                                                            Rastrea y administra todos los elementos de configuración y asigna sus relaciones
+                                                            y dependencias. Analice visualmente el impacto de los cambios y las
+                                                            interrupciones en la toma de decisiones    
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -466,10 +459,10 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/activos.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Activos</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Lleve el control de todos los elementos de 
-                                                            configuración de la infraestructura TI, como
-                                                            hardware y software, entre otros. Optimice la 
-                                                            utilización de activos, evitando la vulnerabilidad.</div>
+                                                            Lleve el control de todos los elementos de configuración de la infraestructura TI, como
+                                                            hardware y software, entre otros. Optimice la utilización de activos, evitando la
+                                                            vulnerabilidad.    
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -478,10 +471,10 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/contratos.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Contratos</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Lleve el control de todos contratos relacionados 
-                                                            con los activos, generando alarmas por vencimiento, 
-                                                            permitiendo conocer y distribuir el costo total de los 
-                                                            recursos en las áreas de la organización</div>
+                                                            Lleve el control de todos contratos relacionados con los activos, generando alarmas por
+                                                            vencimiento, permitiendo conocer y distribuir el costo total de los recursos en las áreas de
+                                                            la organización    
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -490,10 +483,10 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proveedores.png" alt=""></figure>
                                                         <h3><a href="">Gestión de Proveedores</a></h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Gestione la relación con los proveedores de servicios 
-                                                            de los que depende su organización.Con la finalidad de 
-                                                            alcanzar la mayor calidad y velar por el cumplimiento de 
-                                                            los contratos próximos a vencer.</div>
+                                                            Gestione la relación con los proveedores de servicios de los que depende su organización.
+                                                            Con la finalidad de alcanzar la mayor calidad y velar por el cumplimiento de los contratos
+                                                            próximos a vencer.
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -528,8 +521,7 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                        </div>
-
+                                    </div>
                                 </div>
                                 <!--Career Block-->
                                 <div class="career-block select-Caractristicas">
