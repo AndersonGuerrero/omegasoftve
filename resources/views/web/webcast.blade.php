@@ -16,12 +16,13 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
                     <div class="sec-title centered" style="margin-bottom: 30px">
-                        <h1 style="font-size: 33px">Conozca las principales funcionalidades que nuestro  <br> aplicativo</h1>
+                        <h1 style="font-size: 33px">Conozca las principales funcionalidades de nuestras soluciones</h1>
                         <div class="text">
                             Participe en nuestros Webcast  en línea, interactúe con 
                             nuestros especialistas y descubra las soluciones que 
                             traemos para ustedes.
                         </div>
+                        <h1 style="padding-top: 35px; font-size: 33px;">Próximos Eventos</h1>
                     </div>
                 </div>
             </div>
@@ -30,22 +31,22 @@
 
     <section>
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-6 col-sm-12 col-xs-6" >
+            <div class="col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 30px">
+                <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="sec-title centered" style="margin-bottom:30px;border:1px solid #c2d1df;">
-                        <div class="text" style="font-size: 23px;min-height: 82px;">
+                        <!--<div class="text" style="font-size: 23px;min-height: 82px;">
                             OmegaITSM, Potencia y simplicidad en una misma herramienta.
-                        </div>
+                        </div>-->
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/omega-itsm-webcast-1.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-omega-itsm.jpg" alt=""></a></figure>
                         </div>
-                        <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                        <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
                         </div>
                         <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                 <b>Contenido</b>
-                        </div>
-                        <div class="text" style="text-align: justify; padding: 15px;">
+                        </div>-->
+                        <div class="text" style="text-align: center; padding: 15px;">
                         Para brindar una atención efectiva y en los tiempos establecidos,
                         Omega ITSM ofrece a su organización un control centralizado de las
                         solicitudes de soporte y garantiza la disponibilidad en las operaciones
@@ -65,25 +66,25 @@
                         • Demostración del Aplicativo.
                         </div>
                         <div class="text-center button-conten-webcas">
-                            <a href="" class="theme-btn btn-style-three button-webcas" data-title="OmegaITSM, Potencia y simplicidad en una misma herramienta." data-toggle="modal" data-target="#myModal">Registrate</a>
+                            <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="OmegaITSM, Potencia y simplicidad en una misma herramienta." data-toggle="modal" data-target="#myModal">Registrate</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-6">
+                <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                            <div class="text" style="font-size: 23px;min-height: 82px;">
+                            <!--<div class="text" style="font-size: 23px;min-height: 82px;">
                             Integración de Omega Service Desk con Knowledgebase.
-                            </div>
+                            </div>-->
                             <div class="inner-box">
-                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-de-OSDK-con-KB-webcast-2.jpg" alt=""></a></figure>
+                                <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-2.jpg" alt=""></a></figure>
                             </div>
-                            <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                            <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
                             </div>
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                     <b>Contenido</b>
-                            </div>
-                            <div class="text" style="text-align:justify;padding:15px;min-height:366px;">
+                            </div>-->
+                            <div class="text" style="text-align:center;padding:15px;min-height:366px;">
                             Con el fin de fortalecer el conocimiento de nuestros usuarios y
                             solucionadores, Omega Service Desk integra su módulo
                             Knowledgebase que garantiza el almacenamiento del conocimiento
@@ -99,27 +100,27 @@
                             • Demostracion del aplicativo
                             </div>
                             <div class="text-center button-conten-webcas">
-                                <a href="" class="theme-btn btn-style-three button-webcas" data-title="Integración de Omega Service Desk con Knowledgebase." data-toggle="modal" data-target="#myModal">Registrate</a>
+                                <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Integración de Omega Service Desk con Knowledgebase." data-toggle="modal" data-target="#myModal">Registrate</a>
                             </div>
                         </div>
-                    </div>
+                </div>
             </div>   
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-6 col-sm-12 col-xs-6" >
+                <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                        <div class="text" style="font-size: 23px; min-height: 82px;">
+                        <!--<div class="text" style="font-size: 23px; min-height: 82px;">
                         Integración de Omega Service Desk con la Gestión de Activos.
-                        </div>
+                        </div>-->
                         <div class="inner-box">
-                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/integracion-con-cmdb-webcast.jpg" alt=""></a></figure>
+                            <figure  class="image-box"><a href=""><img src="{{ URL::to('/') }}/images/resource/webcast-3.jpg" alt=""></a></figure>
                         </div>
-                        <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                        <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                 Duración: 45 min Aprox - Español
                         </div>
                         <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                 <b>Contenido</b>
-                        </div>
-                        <div class="text" style="text-align: justify; padding: 15px;">
+                        </div>-->
+                        <div class="text" style="text-align: center; padding: 15px;">
                         Para gestionar los activos de la organización Omega Service Desk
                         integra el módulo CMDB, que controla los detalles de la infrestructura
                         de IT teniendo una estrecha interacción con las gestiones de
@@ -135,29 +136,29 @@
                         • Demostración del aplicativo.
                         </div>
                         <div class="text-center button-conten-webcas">
-                            <a href="" class="theme-btn btn-style-three button-webcas" data-title="Integración de Omega Service Desk con la Gestión de Activos." data-toggle="modal" data-target="#myModal">Registrate</a>
+                            <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Integración de Omega Service Desk con la Gestión de Activos." data-toggle="modal" data-target="#myModal">Registrate</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-6">
+                <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                            <div class="text" style="font-size:23px;min-height:82px;">
+                            <!--<div class="text" style="font-size:23px;min-height:82px;">
                             Gestionando Proyectos con Omega ITSM.
-                            </div>
+                            </div>-->
                             <div class="inner-box">
                                 <figure  class="image-box">
                                     <a href="">
-                                        <img src="{{ URL::to('/') }}/images/resource/webcast-proyectos-con-OITSM.jpg" alt="">
+                                        <img src="{{ URL::to('/') }}/images/resource/webcast-4.jpg" alt="">
                                     </a>
                                 </figure>
                             </div>
-                            <div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
+                            <!--<div class="text" style="font-size: 17px; text-align: initial;color:#807d7d; margin-bottom: 15px;padding: 15px;">
                                     Duración: 45 min Aprox - Español
                             </div>
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                     <b>Contenido</b>
-                            </div>
-                            <div class="text" style="text-align:justify;padding:15px;min-height:310px;">
+                            </div> -->
+                            <div class="text" style="text-align:center;padding:15px;min-height:310px;">
                                 Nuestra solución de gestión de servicios, Omega ITSM, incluye un
                                 modulo para la gestión de proyectos, basados en la metodoligía
                                 SCRUM, el cual le permitira registrar, seguir y controlar, cada una de
@@ -171,10 +172,10 @@
                                 • Demostración del Aplicativo
                             </div>
                             <div class="text-center button-conten-webcas">
-                                <a href="" class="theme-btn btn-style-three button-webcas" data-title="Gestionando Proyectos con Omega ITSM." data-toggle="modal" data-target="#myModal">Registrate</a>
+                                <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Gestionando Proyectos con Omega ITSM." data-toggle="modal" data-target="#myModal">Registrate</a>
                             </div>
                         </div>
-                    </div>
+                </div>
             </div> 
         </div>
     </section>

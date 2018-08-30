@@ -315,7 +315,7 @@
 
     <section style="margin-bottom: 20px">
         <div class="row">
-            <div class="col-md-12 col-ms-12 col-xs-12" style="background: #5aceff5c;">
+            <div class="col-md-12 col-ms-12 col-xs-12" style="background: #5aceff29">
                 <div class="sec-title-two centered" style="margin-bottom: 20px;">
                     <h1 style="font-size: 29px;margin-top: 40px;">
                     Alinee sus procesos de gestión de servicios con el negocio
@@ -353,18 +353,24 @@
                         Maximice los beneficios para su organización con Omega ITSM
                         </h1>
                 </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom: 30px;">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
                     <ul class="list-inline">
                         <li data-toggle="modal" data-target="#MODAL">
                             <a href="#myGallery" data-slide-to="0">
-                                <img class="" src="{{ URL::to('/') }}/images/icons/benficios.png"><br>
+                                <img class="" src="{{ URL::to('/') }}/images/icons/benficios.png">
+                                <!--<img  style="position: absolute;left: 0;margin-left: 37%;margin-top: -45%;" src="{{ URL::to('/') }}/images/icons/magnifying-glass.png" alt="">-->
+                                <div style="position: absolute;left: 0;margin-left: 37%;margin-top: -10%;">
+                                    <div class="text-center button-conten-carrusel"><div class="theme-btn btn-style-three button-carrusel">
+                                        <img src="{{ URL::to('/') }}/images/icons/magnifying-glass.png" alt=""> </div></div>
+                                </div>
                             </a>
                         </li>
                     </ul>
+                    
                 </div> 
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom: 30px;">
                 <div class="sec-title centered" style="text-align: initial;margin-bottom: 5px;">
                     <div class="row">
                         <div class="text" style="font-size: 17px">
@@ -382,7 +388,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="text" style="font-size: 17px;padding-top:0px">
+                        <div class="text" style="font-size: 17px;padding-bottom: 10px;">
                             <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
                                 <i class="fa fa-check check"></i>
                             </div>
@@ -500,7 +506,7 @@
     </section>
 
 
-    <section class="page-title" style="background: #5aceff5c;">
+    <section class="page-title" style="background: 5aceff29">
         <div class="image-layer" style="opacity: 10.0;">        
             <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
         </div>
