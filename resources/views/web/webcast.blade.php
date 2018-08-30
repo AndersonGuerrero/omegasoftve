@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
                     <div class="sec-title centered" style="margin-bottom: 30px">
-                        <h1 style="font-size: 33px">Conozca las principales funcionalidades que nuestro  <br> aplicativo</h1>
+                        <h1 style="font-size: 33px">Conozca las principales funcionalidades de nuestras soluciones</h1>
                         <div class="text">
                             Participe en nuestros Webcast  en línea, interactúe con 
                             nuestros especialistas y descubra las soluciones que 
@@ -45,7 +45,7 @@
                         <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                 <b>Contenido</b>
                         </div>
-                        <div class="text" style="text-align: justify; padding: 15px;">
+                        <div class="text" style="text-align: center; padding: 15px;">
                         Para brindar una atención efectiva y en los tiempos establecidos,
                         Omega ITSM ofrece a su organización un control centralizado de las
                         solicitudes de soporte y garantiza la disponibilidad en las operaciones
@@ -83,7 +83,7 @@
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                     <b>Contenido</b>
                             </div>
-                            <div class="text" style="text-align:justify;padding:15px;min-height:366px;">
+                            <div class="text" style="text-align:center;padding:15px;min-height:366px;">
                             Con el fin de fortalecer el conocimiento de nuestros usuarios y
                             solucionadores, Omega Service Desk integra su módulo
                             Knowledgebase que garantiza el almacenamiento del conocimiento
@@ -119,7 +119,7 @@
                         <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                 <b>Contenido</b>
                         </div>
-                        <div class="text" style="text-align: justify; padding: 15px;">
+                        <div class="text" style="text-align: center; padding: 15px;">
                         Para gestionar los activos de la organización Omega Service Desk
                         integra el módulo CMDB, que controla los detalles de la infrestructura
                         de IT teniendo una estrecha interacción con las gestiones de
@@ -157,7 +157,7 @@
                             <div class="text" style="font-size: 20px; text-align: initial;padding: 15px;">
                                     <b>Contenido</b>
                             </div>
-                            <div class="text" style="text-align:justify;padding:15px;min-height:310px;">
+                            <div class="text" style="text-align:center;padding:15px;min-height:310px;">
                                 Nuestra solución de gestión de servicios, Omega ITSM, incluye un
                                 modulo para la gestión de proyectos, basados en la metodoligía
                                 SCRUM, el cual le permitira registrar, seguir y controlar, cada una de

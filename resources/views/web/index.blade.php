@@ -388,7 +388,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="text" style="font-size: 17px;padding-top:0px">
+                        <div class="text" style="font-size: 17px;padding-bottom: 10px;">
                             <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
                                 <i class="fa fa-check check"></i>
                             </div>
