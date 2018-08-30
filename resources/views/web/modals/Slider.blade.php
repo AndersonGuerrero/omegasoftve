@@ -2,7 +2,7 @@
 <!--begin modal window-->
 <div class="modal fade" id="MODAL" style="margin-top: 8%;"  >
         <div class="modal-dialog">
-            <div class="modal-content" style="box-shadow: none;border: 0;border-radius: 40px;">
+            <div class="modal-content" style="background:#fff0; box-shadow: none;border: 0;border-radius: 40px;">
                 <!--begin carousel-->
                 <div id="myGallery" class="carousel slide" data-interval="false">
                     <div class="carousel-inner">
