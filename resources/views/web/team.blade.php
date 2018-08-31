@@ -357,8 +357,6 @@
                                     </div>
                                 </div>
                                 <!--Career Block-->
-
-                                <!--Career Block-->
                                 <div class="career-block select-Marketing">
                                     
                                 </div>
