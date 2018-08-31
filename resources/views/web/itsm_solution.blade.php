@@ -1488,9 +1488,14 @@
             </div>
     </section>
    
+@include('web.modals.versiones_precios')
 @endsection
 
 @section('javascript')
 <script src="{{ URL::to('/') }}/js/itsm.js"></script>
+<script>
+    function callbackQuotation(data){
+        $('#form_quotation').submit()
+    }
+</script>
 @endsection
-@include('web.modals.verciones_precios')

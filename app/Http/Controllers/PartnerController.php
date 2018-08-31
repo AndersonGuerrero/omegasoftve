@@ -17,6 +17,7 @@ class PartnerController extends Controller{
     public function portal(){
         return view('web/portal_partners', array('hide_footer' => true));
     }
+    
 
     public function programPost(Request $request){
         if ($request->isMethod('post')) {
