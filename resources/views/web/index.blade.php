@@ -373,7 +373,7 @@
             <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom: 30px;">
                 <div class="sec-title centered" style="text-align: initial;margin-bottom: 5px;">
                     <div class="row">
-                        <div class="text" style="font-size: 17px">
+                        <div class="text" style="font-size: 17px; margin-bottom: 5px">
                             <div class="col-ms-1 col-xs-1" style="padding-left:0px;padding-right: 0px;text-align: center;">
                                 <i class="fa fa-check check"></i>
                             </div>
