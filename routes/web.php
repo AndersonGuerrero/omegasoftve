@@ -26,7 +26,7 @@ Route::post('/nuestro-equipo/', ['as'=>'team.register', 'uses'=>'TeamController@
 Route::get('/contacto/', 'ContactController@contact');
 Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
 
-Route::get('/partners/', 'PartnerController@@index');
+Route::get('/partners/', 'PartnerController@index');
 Route::get('/portal-partner/', 'PartnerController@portal');
 Route::get('/programa-partner/', 'PartnerController@program');
 Route::post('/programa-partner/', ['as'=>'partner.send', 'uses'=>'PartnerController@programPost']);
