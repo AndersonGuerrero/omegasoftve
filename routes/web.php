@@ -31,13 +31,15 @@ Route::get('/portal-partner/', 'PartnerController@portal');
 Route::get('/programa-partner/', 'PartnerController@program');
 Route::post('/programa-partner/', ['as'=>'partner.send', 'uses'=>'PartnerController@programPost']);
 
-Route::get('/demo/', 'Web@demo');
+Route::get('/demo/', 'DemoController@index');
+Route::get('/demo-guiada/', 'DemoController@guiada');
+Route::post('/demo-guiada-send/', ['as'=>'demo.send', 'uses'=>'DemoController@demoPost']);
+
 Route::get('/english/', 'Web@english');
 
 Route::get('/soluciones/itsm/', 'ITSMController@index');
 Route::post('/soluciones/itsm/', ['as'=>'quotation.send', 'uses'=>'ITSMController@quotationSend']);
 
-Route::get('/demo-guiada/', 'Web@demo_guiada');
 Route::get('/solicitud/serial/', 'Web@request_serial');
 Route::get('/webcast/', 'WebcastController@index');
 Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);
