@@ -1077,11 +1077,11 @@
 
                                     <section>
                                         <div class="row">
-                                            <div class="col-md-3 col-ms-3 col-xs-3" style="padding-bottom: 15px;padding-top: 15px;">
-                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
-                                                    <div style="min-height:170px;max-height:170px;">
-                                                        <img style="border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
-                                                    </div>
+                                            <div class="col-md-3 col-ms-6 col-xs-12" style="padding-bottom: 15px;padding-top: 15px;">
+                                                <div class="col-md-12 col-ms-12 col-xs-12">
+                                                    
+                                                        <img style="width: 100%;border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
+                                                   
                                                     <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
                                                                 <h1 style="font-size: 23px; color: #fff; padding-top: 4px">INITIAL</h1>
@@ -1135,11 +1135,11 @@
                                                     </div>  
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-ms-3 col-xs-3"  style="padding-bottom: 15px;padding-top: 15px;">
-                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
-                                                    <div style="min-height:170px;max-height:170px;">
-                                                        <img style="border-top-right-radius: 14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/standard.jpg" alt="">
-                                                    </div>
+                                            <div class="col-md-3 col-ms-6 col-xs-12"  style="padding-bottom: 15px;padding-top: 15px;">
+                                                <div class="col-md-12 col-ms-12 col-xs-12">
+                                                   
+                                                        <img style="width: 100%;border-top-right-radius: 14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/standard.jpg" alt="">
+                                                    
                                                     <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
                                                                 <h1 style="font-size: 23px; color: #fff; padding-top: 4px">STANDARD</h1>
@@ -1198,11 +1198,11 @@
                                                     </div>  
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-ms-3 col-xs-3"  style="padding-bottom: 15px;padding-top: 15px;">
-                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
-                                                    <div style="min-height:170px;max-height:170px;">
-                                                        <img style="border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/professional.jpg" alt="">
-                                                    </div>
+                                            <div class="col-md-3 col-ms-6 col-xs-12"  style="padding-bottom: 15px;padding-top: 15px;">
+                                                <div class="col-md-12 col-ms-12 col-xs-12">
+                                                    
+                                                        <img style="width: 100%;border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/professional.jpg" alt="">
+                                                    
                                                     <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
                                                                 <h1 style="font-size: 23px; color: #fff; padding-top: 4px">PROFECIONAL</h1>
@@ -1251,11 +1251,11 @@
                                                     </div>  
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-ms-3 col-xs-3"  style="padding-bottom: 15px;padding-top: 15px;">
-                                                <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
-                                                    <div style="min-height:170px;max-height:170px;">
-                                                        <img style="border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/enterprise.jpg" alt="">
-                                                    </div>
+                                            <div class="col-md-3 col-ms-6 col-xs-12"  style="padding-bottom: 15px;padding-top: 15px;">
+                                                <div class="col-md-12 col-ms-12 col-xs-12">
+                                                   
+                                                        <img style="width: 100%;border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/enterprise.jpg" alt="">
+                                                    
                                                     <div style="min-height:140px;max-height:140px;margin-top: -5px;background:#007aff">
                                                             <div class="sec-title centered" style="text-align: center; margin-bottom: -5px;">
                                                                 <h1 style="font-size: 23px; color: #fff; padding-top: 4px">ENTERPRISE</h1>

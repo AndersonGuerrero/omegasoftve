@@ -6231,6 +6231,12 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	background-size: cover;
 }
 
+@media (max-width: 522px){	
+    .img-versiones{
+		width: 345px !important;
+	}
+}
+
 @media (min-width: 767px){	
 	.size-cap-1{
 		padding-right: 110px !important;
@@ -6254,7 +6260,7 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 
 @media (max-width: 604px){
 	.imgback{
-		height: 350px !important;
+		height: 375px !important;
 	}
 }
 
