@@ -50,16 +50,3 @@
             </div><!-- modal dialog -->
         </div><!-- modal fade -->
     <!-- Cierra Modal -->
-    
-@section('javascript')
-    <script>
-        function callbackTeam(data){
-            $('#form_team').submit()
-        }
-        $('#myTeam').on('show.bs.modal', function(event) {
-            var title = $(event.relatedTarget).data('title')
-            $('#input-team-title').val(title)
-            $('#title-team').html(title)
-        })
-    </script>
-@endsection
