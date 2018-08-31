@@ -4,10 +4,7 @@
 
     <!--Page title-->
     <section class="page-title" style="height:530px;">
-            <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/demostracion-guiada.jpg); opacity: 10.0;"></div>
-            <div class="auto-container">
-
-            </div>
+        <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/demostracion-guiada.jpg); opacity: 10.0;"></div>
     </section>
 
 
@@ -40,38 +37,48 @@
 
                     <div class="col-md-7 col-sm-7 col-xs-12" style="margin-top: 60px;">
                        <div class="form-style-one quote-form">
-                       <form method="POST" action="http://localhost:8000/contacto" accept-charset="UTF-8" id="form-contact"><input name="_token" type="hidden" value="Rn2aO0vRxHmfxT7c4A1eWS6AE8KGVlq4Sve2FSbf">
-                           
-                               <div class="row clearfix">
-                                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                       <input type="text" name="username" value="" placeholder="Nombre y Apellido" required="">
-                                   </div>
-                                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="compañia" value="" placeholder="Compañia" required="">
+                       {{ Form::open(array('route' => 'demo.send', 'id' => 'form_demo')) }}
+                            <div
+                                class="recaptcha-hide" 
+                                id="g-recaptcha-demo"
+                                data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW"
+                                data-callback="callbackDemo"
+                                data-size="invisible">
+                            </div>     
+                            <div class="row clearfix">
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="name" value="" placeholder="Nombre y Apellido" required>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="company" value="" placeholder="Compañia" required>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <input type="email" name="email" value="" placeholder="Correo Electronico" required>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <textarea style="height: 130px;" name="message" required placeholder="Escriba su Mensaje"></textarea>
+                                </div>
+                                
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="text-center">
+                                    <button type="submit" class="theme-btn btn-style-two btn-send">Enviar</button>
                                     </div>
-                                   <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                       <input type="text" name="email" value="" placeholder="Correo Electronico" required="">
-                                   </div>
-                                   <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                       <textarea style="height: 130px;" name="message" placeholder="Escriba su Mensaje"></textarea>
-                                   </div>
-                                   <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                       <div class="text-center">
-                                           <button data-callback="send_form" data-sitekey="6LcjmmgUAAAAAIpIHH-NyYnEJwI8xhRB2knImJDW" class="theme-btn btn-style-two g-recaptcha">Enviar
-                                           </button>
-                                        </div>
-                                   </div>
-                               </div>
-                               </form>
+                                </div>
+                            </div>
+                        {{ Form::close() }}
                        </div>
                     </div>
-                    
                 </div>
-                
                <!-- <div class="form-container">
-    
                 </div>-->
             </div>
         </section>
-    
+@endsection
+
+@section('javascript')
+<script>
+    function callbackDemo(data){
+        $('#form_demo').submit()
+    }
+</script>
 @endsection

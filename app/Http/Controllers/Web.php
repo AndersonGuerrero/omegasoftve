@@ -27,7 +27,6 @@ class Web extends Controller{
         return view('web/blog');
     }
 
-
     public function about(){
         return view('web/about');
     }
@@ -36,17 +35,10 @@ class Web extends Controller{
         return view('web/team');
     }
 
-    public function demo(){
-        return view('web/demo');
-    }
-
     public function english(){
         return view('web/english');
     }
 
-    public function demo_guiada(){
-        return view('web/demo_guiada');
-    }
     public function request_serial(){
         return view('web/request_serial');
     }
