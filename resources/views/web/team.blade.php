@@ -380,4 +380,14 @@
 
 @section('javascript')
 <script src="{{ URL::to('/') }}/js/team.js"></script>
+<script>
+    function callbackTeam(data){
+        $('#form_team').submit()
+    }
+    $('#myTeam').on('show.bs.modal', function(event) {
+        var title = $(event.relatedTarget).data('title')
+        $('#input-team-title').val(title)
+        $('#title-team').html(title)
+    })
+</script>
 @endsection
