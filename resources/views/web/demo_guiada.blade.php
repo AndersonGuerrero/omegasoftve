@@ -68,15 +68,11 @@
                         {{ Form::close() }}
                        </div>
                     </div>
-                    
                 </div>
-                
                <!-- <div class="form-container">
-    
                 </div>-->
             </div>
         </section>
-    
 @endsection
 
 @section('javascript')
