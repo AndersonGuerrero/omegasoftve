@@ -1310,12 +1310,12 @@
                                     <section class="services-two" style="padding-bottom: 160px;padding-top: 20px;">
                                             <div class="" style="margin-bottom: 60px">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                    <h1 style="font-size:30px;margin-top: 60px;">Omega ITSM</h1>
+                                                    <h1 style="font-size:30px;margin-top: 60px;">Tipo de Licenciamiento para Omega ITSM</h1>
                                                 </div>
                                                 <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                                                     <div class="sec-title centered" style="margin-bottom: 0px">
                                                         <p class="text" style="margin-top: -10px; text-align: justify">
-                                                            <b>Concurrente:</b> Este esquema se administra según la disponibilidad 
+                                                            <b>Concurrente: </b> Este esquema se administra según la disponibilidad 
                                                             de licencias adquiridas y el acceso de especialistas a la aplicación, 
                                                             depende de la liberación de cada licencia para un nuevo ingreso. 
                                                         </p>
@@ -1324,7 +1324,7 @@
                                                 <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                                                     <div class="sec-title centered" style="margin-bottom: 0px">
                                                         <p class="text" style="margin-top: -10px; text-align: justify">
-                                                            <b>Nombrado:</b>Este esquema otorga una licencia personalizada y 
+                                                            <b>Nombrado: </b> Este esquema otorga una licencia personalizada y 
                                                             única con los datos básicos del especialista que ingresa a la 
                                                             consola en cualquier momento. 
                                                         </p>
@@ -1333,7 +1333,7 @@
                                                 <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
                                                     <div class="sec-title centered" style="margin-bottom: 0px">
                                                         <p class="text" style="margin-top: -10px; text-align: justify">
-                                                            <b>Activos (CMDB):</b>Una licencia para cada activo de configuración CI´s 
+                                                            <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s 
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1378,25 +1378,19 @@
 
     </section>
     
-
-     
-
-   
-
-
-        <section class="page-title" style="background: #5aceff29">
-            <div class="auto-container">
-                <div class="sec-title centered" style="margin-bottom: 0px; padding-top: 30px">
-                    <h1 style="font-size:30px;">Empresas que han confiado en nosotros …</h1>
-                </div>
+    <section class="page-title" style="background: #5aceff29;">
+        
+            <div class="sec-title centered" style="margin-bottom: 0px; padding-top: 30px">
+                <h1 style="font-size:30px;">Empresas que han confiado en nosotros …</h1>
             </div>
-            <div style="opacity: 10.0;">        
-                <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
-            </div>
-        </section>
+        
+        <div style="opacity: 10.0;">        
+            <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png" alt="">
+        </div>
+    </section>
     
         <!--Testimonials Two Section-->
-     <section class="testimonials-two" style="padding: 0px 0px;padding-top: 30px;">
+    <section class="testimonials-two" style="padding: 0px 0px;padding-top: 30px;">
             <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
                     <h1 style="font-size: 30px">Que dicen nuestros clientes</h1>
             </div>
