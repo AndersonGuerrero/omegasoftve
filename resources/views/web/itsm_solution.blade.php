@@ -12,7 +12,7 @@
     </section>
     
 
-    <section class="careers-page" style="padding:0px">
+    <section class="careers-page" style="padding: 0px 0px 0px;">
             <div class="">
                 <div class="row clearfix">
                     <!--Left Side-->
@@ -22,7 +22,7 @@
                             <div class="jobs-widget side-widget">
                                 <div class="widget-inner">
                                     <ul id="categorys-tab">
-                                        <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
+                                        <div class="col-md-3 col-ms-3 col-xs-3">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
                                                     <a data-id="select-Información-General" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
@@ -30,7 +30,7 @@
                                                 </h2>
                                             </div>
                                         </div>
-                                        <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
+                                        <div class="col-md-3 col-ms-3 col-xs-3">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
                                                     <a data-id="select-ITSM-ITIL" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
@@ -38,7 +38,7 @@
                                                 </h2>
                                             </div>
                                         </div>
-                                        <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
+                                        <div class="col-md-3 col-ms-3 col-xs-3">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
                                                     <a data-id="select-Caractristicas" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
@@ -54,7 +54,7 @@
                                                 </h2>
                                             </div>
                                         </div>-->
-                                        <div class="col-md-3 col-ms-3 col-xs-3" style="padding-left:0px; padding-right: 0px;">
+                                        <div class="col-md-3 col-ms-3 col-xs-3">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
                                                     <a data-id="select-Verciones-y-precios" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
@@ -70,7 +70,7 @@
                     
                     <!--Content Side-->
                     <div class="content-side col-md-12 col-sm-12 col-xs-12" style="margin-bottom: -80px">
-                        <div class="inner" style="padding-left:0px; ">
+                        <div class="inner" style="padding-left:0px;">
                             <div class="career-posts">
                                 <!--Career Block-->
                                 <div class="career-block select-Información-General">
@@ -99,7 +99,7 @@
                                                         </figure>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="col-md-6 col-sm-6 col-xs-12 size-cap-1">
                                                     <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;" >
                                                             <h1 style="font-size: 30px;margin-top: 20px; padding-left:15px;padding-right:15px;">
                                                                 Centralice la gestión de servicios
@@ -119,7 +119,7 @@
                                     <!--About Two Section-->
                                     <section style="margin-bottom: 60px">
                                         <div class="row" style="display: unset;">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="col-md-6 col-sm-6 col-xs-12  size-cap-2">
                                                 <div class="sec-title-two centered3" style="margin-bottom:10px;text-align: initial;"  >
                                                         <h1 style="font-size: 30px;margin-top: 20px;padding-right: 15px;padding-left:15px;">
                                                             Mejore la comunicación con sus usuarios.
@@ -147,13 +147,13 @@
                                     <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
                                                 <div class="col-md-6 col-sm-6 col-xs-6"> 
-                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: end">
                                                         <figure class="icon-box">
                                                                 <img style="height: 260px;margin-top: 26px;" src="{{ URL::to('/') }}/images/icons/gestion-de-cambios.png" alt="">
                                                         </figure>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="col-md-6 col-sm-6 col-xs-12  size-cap-1">
                                                     <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;">
                                                             <h1 style="font-size: 30px;margin-top: 20px;padding-right: 15px;padding-left:15px;">
                                                                 Controle los cambios en su organización
@@ -929,7 +929,7 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                        </div>
+                                    </div>
 
                                 </div>
                                 <!--Career Block-->
@@ -1062,7 +1062,7 @@
 
                                 </div>
                                 <!--Career Block-->
-                                <div class="career-block select-Verciones-y-precios">
+                                <div class="career-block select-Verciones-y-precios" style="margin-bottom: 70px !important;">
 
                                     <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                         <div class="auto-container">
@@ -1077,7 +1077,7 @@
 
                                     <section>
                                         <div class="row">
-                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                            <div class="col-md-3 col-ms-3 col-xs-3" style="padding-bottom: 15px;padding-top: 15px;">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
                                                         <img style="border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/initial.jpg" alt="">
@@ -1135,7 +1135,7 @@
                                                     </div>  
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                            <div class="col-md-3 col-ms-3 col-xs-3"  style="padding-bottom: 15px;padding-top: 15px;">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
                                                         <img style="border-top-right-radius: 14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/standard.jpg" alt="">
@@ -1198,7 +1198,7 @@
                                                     </div>  
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                            <div class="col-md-3 col-ms-3 col-xs-3"  style="padding-bottom: 15px;padding-top: 15px;">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
                                                         <img style="border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/professional.jpg" alt="">
@@ -1251,7 +1251,7 @@
                                                     </div>  
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-ms-3 col-xs-3">
+                                            <div class="col-md-3 col-ms-3 col-xs-3"  style="padding-bottom: 15px;padding-top: 15px;">
                                                 <div class="col-md-12 col-ms-12 col-xs-12" style="padding-left: 15px;padding-right:15px">
                                                     <div style="min-height:170px;max-height:170px;">
                                                         <img style="border-top-right-radius:14px;border-top-left-radius: 14px;" src="{{ URL::to('/') }}/images/icons/enterprise.jpg" alt="">
@@ -1307,67 +1307,68 @@
                                         </div>  
                                     </section>
 
-                                    <section class="services-two" style="padding-bottom: 160px;padding-top: 20px;">
-                                            <div class="" style="margin-bottom: 60px">
-                                                <div class="sec-title centered" style="margin-bottom: 0px;">
-                                                    <h1 style="font-size:30px;margin-top: 60px;">Tipo de Licenciamiento para Omega ITSM</h1>
-                                                </div>
-                                                <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                                                    <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <p class="text" style="margin-top: -10px; text-align: justify">
-                                                            <b>Concurrente: </b> Este esquema se administra según la disponibilidad 
-                                                            de licencias adquiridas y el acceso de especialistas a la aplicación, 
-                                                            depende de la liberación de cada licencia para un nuevo ingreso. 
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                                                    <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <p class="text" style="margin-top: -10px; text-align: justify">
-                                                            <b>Nombrado: </b> Este esquema otorga una licencia personalizada y 
-                                                            única con los datos básicos del especialista que ingresa a la 
-                                                            consola en cualquier momento. 
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 col-sm-4 col-xs-4" style="padding: 20px">
-                                                    <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <p class="text" style="margin-top: -10px; text-align: justify">
-                                                            <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s 
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    <section class="services-two" style="padding: 50px 0px 30px;" >
+                                        <div class="row">
+                                            <div class="sec-title centered" style="margin-bottom: 0px"> 
+                                                     <h1 style="font-size:30px;padding: 15px;">Tipo de Licenciamiento para Omega ITSM</h1> 
+                                                 <div class="col-md-4 col-sm-12 col-xs-12">
+                                                     <div class="sec-title centered" style="margin-bottom: 0px">
+                                                         <p class="text" style="text-align: justify;padding: 15px;">
+                                                             <b>Concurrente: </b> Este esquema se administra según la disponibilidad 
+                                                             de licencias adquiridas y el acceso de especialistas a la aplicación, 
+                                                             depende de la liberación de cada licencia para un nuevo ingreso. 
+                                                         </p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4 col-sm-12 col-xs-12">
+                                                     <div class="sec-title centered" style="margin-bottom: 0px">
+                                                         <p class="text" style="text-align: justify;padding: 15px;">
+                                                             <b>Nombrado: </b> Este esquema otorga una licencia personalizada y 
+                                                             única con los datos básicos del especialista que ingresa a la 
+                                                             consola en cualquier momento. 
+                                                         </p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4 col-sm-12 col-xs-12">
+                                                     <div class="sec-title centered" style="margin-bottom: 0px">
+                                                         <p class="text" style="text-align: justify;padding: 15px;">
+                                                             <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s 
+                                                         </p>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                        </div>
                                     </section>
                                     <!--Call |To Acion Section-->
+                                        
                                     <div class="imgback" > 
-                                        <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
-                                            <div class="sec-title centered" style="margin-bottom: 0px">
-                                                    <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
+                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+                                                <div class="sec-title centered" style="margin-bottom: 0px">
+                                                        <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
+                                                        <p class="text" style="margin-top: -10px;color: #fff;">
+                                                                Prueba nuestra solución sin limitaciones y de forma gratuita 
+                                                        </p>
+                                                    <a href="http://localhost:8000/demo/">
+                                                        <figure class="icon-box">
+                                                                <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                        
+                                            </div>
+                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+                                                <div class="sec-title centered" style="margin-bottom: 0px">
+                                                    <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
                                                     <p class="text" style="margin-top: -10px;color: #fff;">
-                                                            Prueba nuestra solución sin limitaciones y de forma gratuita 
+                                                            Solicite que uno de nuestros expertos le muestren nuestros productos 
                                                     </p>
-                                                <a href="http://localhost:8000/demo/">
-                                                    <figure class="icon-box">
-                                                            <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
-                                                    </figure>
-                                                </a>
+                                                    <a href="http://localhost:8000/demo-guiada/">
+                                                        <figure class="icon-box">
+                                                            <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
+                                                        </figure>
+                                                    </a>
+                                                </div>
                                             </div>
-                                    
-                                        </div>
-                                        <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
-                                            <div class="sec-title centered" style="margin-bottom: 0px">
-                                                <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
-                                                <p class="text" style="margin-top: -10px;color: #fff;">
-                                                        Solicite que uno de nuestros expertos le muestren nuestros productos 
-                                                </p>
-                                                <a href="http://localhost:8000/demo-guiada/">
-                                                    <figure class="icon-box">
-                                                        <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
