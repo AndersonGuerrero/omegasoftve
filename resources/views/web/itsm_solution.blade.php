@@ -179,7 +179,7 @@
                                                         <p class="text" style="margin-top: -10px;color: #fff;">
                                                                 Prueba nuestra solución sin limitaciones y de forma gratuita 
                                                         </p>
-                                                    <a href="http://localhost:8000/demo/">
+                                                    <a href="{{ URL::to('/') }}/demo/">
                                                         <figure class="icon-box">
                                                                 <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
                                                         </figure>
@@ -500,7 +500,7 @@
                                                         <p class="text" style="margin-top: -10px;color: #fff;">
                                                                 Prueba nuestra solución sin limitaciones y de forma gratuita 
                                                         </p>
-                                                    <a href="http://localhost:8000/demo/">
+                                                    <a href="{{ URL::to('/') }}/demo/">
                                                         <figure class="icon-box">
                                                                 <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
                                                         </figure>
@@ -908,7 +908,7 @@
                                                         <p class="text" style="margin-top: -10px;color: #fff;">
                                                                 Prueba nuestra solución sin limitaciones y de forma gratuita 
                                                         </p>
-                                                    <a href="http://localhost:8000/demo/">
+                                                    <a href="{{ URL::to('/') }}/demo/">
                                                         <figure class="icon-box">
                                                                 <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
                                                         </figure>
@@ -1348,7 +1348,7 @@
                                                         <p class="text" style="margin-top: -10px;color: #fff;">
                                                                 Prueba nuestra solución sin limitaciones y de forma gratuita 
                                                         </p>
-                                                    <a href="http://localhost:8000/demo/">
+                                                    <a href="{{ URL::to('/') }}/demo/">
                                                         <figure class="icon-box">
                                                                 <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
                                                         </figure>
