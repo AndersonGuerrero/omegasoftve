@@ -6222,11 +6222,6 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
     animation: movimiento 20s infinite linear alternate;
 	background-repeat: no-repeat;
 }
-@media (max-width: 768px) {
-	.soport-media {
-	    padding-left: 40px !important ; 
-    }
-}
 
 /*-------------Portar parnet-------------------*/
 @media (max-width: 979px){
@@ -6277,12 +6272,111 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+@media (max-width: 1072px){	
+    .webcast-media{
+		min-height: 450px !important ;
+	}
+}
+@media (max-width: 1014px){	
+    .webcast-media{
+		min-height: 478px !important ;
+	}
+}
+@media (max-width: 964px){	
+    .webcast-media{
+		min-height: 478px !important ;
+	}
+}
+@media (max-width: 940px){	
+    .webcast-media{
+		min-height: 504px !important ;
+	}
+}
+@media (max-width: 915px){	
+    .webcast-media{
+		min-height: 505px !important ;
+	}
+}
+@media (max-width: 910px){	
+    .webcast-media{
+		min-height: 505px !important ;
+	}
+}
+@media (max-width: 872px){	
+    .webcast-media{
+		min-height: 534px !important ;
+	}
+}
+@media (max-width: 790px){	
+    .webcast-media{
+		min-height: 561px !important ;
+	}
+}
+@media (max-width: 1072px){	
+    .webcast-media2{
+		min-height: 366px !important ;
+	}
+}
+@media (max-width: 1016px){	
+    .webcast-media2{
+		min-height: 393px !important ;
+	}
+}
+@media (max-width: 964px){	
+    .webcast-media2{
+		min-height: 394px !important ;
+	}
+}
+@media (max-width: 920px){	
+    .webcast-media2{
+		min-height: 478px !important ;
+	}
+}
+@media (max-width: 940px){	
+    .webcast-media2{
+		min-height: 422px !important ;
+	}
+}
+@media (max-width: 915px){	
+    .webcast-media2{
+		min-height: 505px !important ;
+	}
+}
+@media (max-width: 910px){	
+    .webcast-media2{
+		min-height: 450px !important ;
+	}
+}
+@media (max-width: 872px){	
+    .webcast-media2{
+		min-height: 450px !important ;
+	}
+}
+@media (max-width: 790px){	
+    .webcast-media2{
+		min-height: 478px !important ;
+	}
+}
+/*-----------webcas media-------------------*/
 @media (max-width: 522px){	
     .img-versiones{
 		width: 345px !important;
 	}
 }
+
+/*--------Media Soport-----------*/
+@media (min-width: 767px){
+	.soport-media {
+		padding-left: 105px !important;
+	}
+}
+@media (max-width: 522px){	
+    .soport-media{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+}
+/*--------Media Soport-----------*/
 
 @media (min-width: 767px){	
 	.size-cap-1{

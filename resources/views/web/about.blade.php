@@ -130,7 +130,7 @@
                 
                 <div class="row clearfix">
                     <!--News Block-->
-                    <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+                    <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/mision.jpg" alt=""></a></figure>
                             <div class="lower-box">
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <!--News Block-->
-                    <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+                    <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/vision.jpg" alt=""></a></figure>
                             <div class="lower-box">
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                     <!--News Block-->
-                    <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+                    <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/valores.jpg" alt=""></a></figure>
                             <div class="lower-box">
