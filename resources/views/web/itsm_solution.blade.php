@@ -193,7 +193,7 @@
                                                     <p class="text" style="margin-top: -10px;color: #fff;">
                                                             Solicite que uno de nuestros expertos le muestren nuestros productos 
                                                     </p>
-                                                    <a href="http://localhost:8000/demo-guiada/">
+                                                    <a href="{{ URL::to('/') }}/demo-guiada/">
                                                         <figure class="icon-box">
                                                             <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
                                                         </figure>
@@ -514,7 +514,7 @@
                                                     <p class="text" style="margin-top: -10px;color: #fff;">
                                                             Solicite que uno de nuestros expertos le muestren nuestros productos 
                                                     </p>
-                                                    <a href="http://localhost:8000/demo-guiada/">
+                                                    <a href="{{ URL::to('/') }}/demo-guiada/">
                                                         <figure class="icon-box">
                                                             <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
                                                         </figure>
@@ -922,7 +922,7 @@
                                                     <p class="text" style="margin-top: -10px;color: #fff;">
                                                             Solicite que uno de nuestros expertos le muestren nuestros productos 
                                                     </p>
-                                                    <a href="http://localhost:8000/demo-guiada/">
+                                                    <a href="{{ URL::to('/') }}/demo-guiada/">
                                                         <figure class="icon-box">
                                                             <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
                                                         </figure>
@@ -1362,7 +1362,7 @@
                                                     <p class="text" style="margin-top: -10px;color: #fff;">
                                                             Solicite que uno de nuestros expertos le muestren nuestros productos 
                                                     </p>
-                                                    <a href="http://localhost:8000/demo-guiada/">
+                                                    <a href="{{ URL::to('/') }}/demo-guiada/">
                                                         <figure class="icon-box">
                                                             <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
                                                         </figure>

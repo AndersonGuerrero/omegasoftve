@@ -152,7 +152,7 @@
                                     Beneficios
                             </h1>
                         </div>
-                        <div style="padding-left: 40px;">
+                        <div class="soport-media">
                             <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 60px;">
                                     <span class="text">
                                         <span><i class="fa fa-check check"></i>Resolución de incidencias, inconvenientes técnicos y asesorías.</span>

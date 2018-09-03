@@ -6222,6 +6222,12 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
     animation: movimiento 20s infinite linear alternate;
 	background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+	.soport-media {
+	    padding-left: 40px !important ; 
+    }
+}
+
 /*-------------Portar parnet-------------------*/
 @media (max-width: 979px){
 	.portal-media {
