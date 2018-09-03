@@ -1,8 +1,9 @@
 @extends('layouts.web.base')
 @section('title', 'Contacto')
 @section('content')
-    <section class="page-title" style="height:530px;">
-        <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/img-contactenos.jpg); opacity: 10.0;">
+    <section class="page-title">
+        <div class="" style="opacity: 10.0;">
+        <img src="{{ URL::to('/') }}/images/background/img-contactenos.jpg" alt="">
         </div>
         <div class="auto-container">
         	

@@ -6222,6 +6222,47 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
     animation: movimiento 20s infinite linear alternate;
 	background-repeat: no-repeat;
 }
+/*-------------Portar parnet-------------------*/
+@media (max-width: 979px){
+	.portal-media {
+		height: 71vh !important;
+		
+	}
+}
+
+@media (max-width: 767px){
+	.portal-media {
+		height: 86vh !important;
+		
+	}
+}
+
+
+@media (max-width: 604px){
+	.portal-media{
+		height: 110vh !important;
+	}
+}
+@media (min-width: 576px){
+	.portal-media .col-sm-4 {
+		
+		padding-top: 100px !important ;
+	}
+}
+
+
+@media (max-width: 522px){
+	.portal-media{
+		height: 110vh !important;
+	}
+}
+@media (max-width: 346px){
+	.imgback{
+		height: 153vh !important;
+	}
+}
+
+/*--------------Portar parnet------------------*/
 
 .imgback{
 	width: 100%;

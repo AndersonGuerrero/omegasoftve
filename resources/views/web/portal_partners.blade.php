@@ -3,11 +3,11 @@
 @section('content')
 
 <section class="page-title">
-    <div class="image-layer" 
+    <div class="portal-media" 
          style="
          opacity:10.0;
          background-image:url('{{ URL::to('/') }}/images/background/fondo-para-portal-de-partner.jpg');
-         height:100vh;">
+         height:81vh;">
         <div class="auto-container">
             <div class="row" style="padding-top:55px;">
                 <div class="col- md-4 col-sm-4 col-xs-12">
