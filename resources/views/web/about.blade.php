@@ -32,7 +32,8 @@
                             simplificar los procesos de gestión de servicios, adquirir 
                             visibilidad en tiempo real en todos sus servicios e infraestructura 
                             y orquestar las interacciones de personas, procesos y tecnologías para 
-                            un rendimiento óptimo de los servicios.                                                                                                                                        flexibles  y asequibles para empresas de todos los tamaños..</div>
+                            un rendimiento óptimo de los servicios.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,7 +139,7 @@
                                     <h1 style="font-size:25px">Misión</h1>
                                     <div class="text" style="font-size: 16px;text-align: justify;">
                                          Generar de forma permanente, acciones estratégicas y operativas
-                                         que persigan la vanguardia tecnológica y humana en toda la dimensión
+                                         que persigan la vanguardia, tecnológica y humana en toda la dimensión
                                          de la Gestión de Servicios IT. 
                                     </div>
                                 </div>

@@ -86,7 +86,7 @@
                                         <!--Secion Vacantes-->
                                         <div style="margin-bottom: 30px;">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
-                                                    <h2 style="margin-bottom: 0px;">Coordinador de Soporte Técnico</h2>
+                                                    <h2 style="margin-bottom: 0px;text-transform: none;">Coordinador de Soporte Técnico</h2>
                                                     <p class="text" style="text-align: initial;">
                                                         Dirigir las actividades del departamento de soporte, seguimiento a las solicitudes realizadas
                                                         por nuestros clientes.
@@ -95,19 +95,19 @@
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
                                                     <h2 style="font-size: 20px;margin-bottom: 10px;">Funciones:</h2>
                                                     <ul>
-                                                        <li>Supervisión de Personal.</li>
-                                                        <li>Visitas a Oficinas de Clientes.</li>
-                                                        <li>Realización de Informe e indicadores de gestión.</li>
-                                                        <li>Implementación de Software desarrollados por el negocio.</li>
+                                                        <li>Supervisión de personal.</li>
+                                                        <li>Visitas a pficinas de clientes.</li>
+                                                        <li>Realización de informe e indicadores de gestión.</li>
+                                                        <li>Implementación de software desarrollados por el negocio.</li>
                                                         <li>Definir planes de implementación de aplicaciones.</li>
                                                         <li>Capacitaciones de personal y clientes.</li>
-                                                        <li>Resolución de Incidencias y errores de productos.</li>
-                                                        <li>Desarrollo de Manuales y guías de usuarios.</li>
+                                                        <li>Resolución de incidencias y errores de productos.</li>
+                                                        <li>Desarrollo de manuales y guías de usuarios.</li>
                                                         <li>Testing de desarrollos del negocio.</li>
-                                                        <li>Nuevas Funcionalidades.</li>
-                                                        <li>Corrección de Errores.</li>
-                                                        <li>Presentaciones de Software a nuevos clientes.</li>
-                                                        <li>Apoyo a otras áreas del negocio.</li>
+                                                        <li>Nuevas funcionalidades.</li>
+                                                        <li>Corrección de errores.</li>
+                                                        <li>Presentaciones de software a nuevos clientes.</li>
+                                                        <li>Apoyo a otras areas del negocio.</li>
                                                     </ul>
                                                 </div>  
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;">
@@ -121,7 +121,8 @@
                                                         <li>Toma decisiones.</li>
                                                         <li>Orientado a resultados.</li>
                                                         <li>Buena dicción y escritura.</li>
-                                                    </ul>
+                                                    </ul
+                                                    >
                                                 </div>  
                                                 <div class="link-box"><a data-title="Coordinador de Soporte Técnico" data-toggle="modal" 
                                                 data-target="#myTeam" class="theme-btn btn-style-two">Postularse</a></div>
@@ -131,7 +132,7 @@
                                         <!--Secion Vacantes-->
                                             <div style="margin-bottom: 30px;margin-top: 30px;">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
-                                                    <h2 style="margin-bottom: 0px;">Analista de Soporte Técnico</h2>
+                                                    <h2 style="margin-bottom: 0px;text-transform: none;">Analista de Soporte Técnico</h2>
                                                     <p class="text" style="text-align: initial;">
                                                         Profesional con amplios conocimientos técnico, orientado a la prestación de servicios
                                                     </p>
@@ -149,13 +150,13 @@
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;">
                                                     <h2 style="font-size: 20px;margin-bottom: 10px;">Conocimientos</h2>
                                                     <ul>
-                                                        <li>Plataforma sistema operativo Windows /Linux. Avanzado o intermedio.</li>
-                                                        <li>Administración y gestión de bases de datos SQL. Intermedio.</li>
-                                                        <li>Aplicaciones de Escritorio Office.</li>
-                                                        <li>ITIL Intermedio o Básico.</li>
-                                                        <li>Herramientas de Control Remoto</li>
+                                                        <li>Plataforma sistema operativo windows/linux. avanzado o intermedio.</li>
+                                                        <li>Administración y gestión de bases de datos SQL. intermedio.</li>
+                                                        <li>Aplicaciones de escritorio office.</li>
+                                                        <li>ITIL intermedio o básico.</li>
+                                                        <li>Herramientas de control remoto</li>
                                                         <li>Manejo de atención a clientes</li>
-                                                        <li>Herramientas de Gestión de Ticket</li>
+                                                        <li>Herramientas de gestión de ticket</li>
                                                     </ul>
                                                 </div>  
                                                 <div class="link-box"><a href="#" data-title="Analista de Soporte Técnico" data-toggle="modal" 
@@ -172,7 +173,7 @@
                                         <!--Secion Vacantes-->
                                             <div style="margin-bottom: 30px;">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
-                                                    <h2 style="margin-bottom: 0px;">Director Comercial</h2>
+                                                    <h2 style="margin-bottom: 0px;text-transform: none;">Director Comercial</h2>
                                                     <p class="text" style="text-align: initial;">
                                                         Se requiere de un líder dinámico, 
                                                         estratega, buen negociador, espíritu 
@@ -209,7 +210,7 @@
                                                             Establecer las estrategias de marketing necesarias.
                                                         </li>
                                                         <li>
-                                                            Análisis de la Competencia.
+                                                            Análisis de la competencia.
                                                         </li>
                                                     </ul>
                                                 </div>  
@@ -217,26 +218,26 @@
                                                         <h2 style="font-size: 20px;margin-bottom: 10px;">Capacidades:</h2>
                                                         <ul>
                                                             <li>
-                                                                Conocimiento en Planificación estratégica.
+                                                                Conocimiento en planificación estratégica.
                                                             </li>
                                                             <li>
                                                                 Experiencia en el área de ventas en la red (Network Marketing).
                                                             </li>
                                                             <li>
-                                                                Dominio en el manejo de los canales Ventas y Distribución.
+                                                                Dominio en el manejo de los canales ventas y distribución.
                                                             </li>
                                                             <li>
-                                                                Manejo y dominio de los Indicadores de Gestión.
+                                                                Manejo y dominio de los indicadores de gestión.
                                                             </li>
                                                             <li>
-                                                                Capacidad de Negociación e Interpretación de las Estratégicas de Mercado dirigidas al
-                                                                crecimiento y mejora del Departamento de Ventas.
+                                                                Capacidad de negociación e interpretación de las estratégicas de mercado dirigidas al
+                                                                crecimiento y mejora del departamento de ventas.
                                                             </li>
                                                             <li>
                                                                 Facilidad para la toma de decisiones.
                                                             </li>
                                                             <li>
-                                                                Alta capacidad de relación y negociación.
+                                                                Alta Capacidad de relación y negociación.
                                                             </li>
                                                         </ul>
                                                 </div>  
@@ -251,19 +252,19 @@
                                         <!--Secion Vacantes-->
                                             <div style="margin-top: 50px; margin-bottom: 30px;">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
-                                                    <h2 style="margin-bottom: 0px;">Ejecutivo de Ventas</h2>
+                                                    <h2 style="margin-bottom: 0px;text-transform: none;">Ejecutivo de Ventas</h2>
                                                     <p class="text" style="text-align: initial;">
-                                                        profesional responsable, ordenado, dinámico y proactivo.
+                                                        Profesional responsable, ordenado, dinámico y proactivo.
                                                     </p>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
                                                     <h2 style="font-size: 20px;margin-bottom: 10px;">Competencias:</h2>
                                                     <ul>
                                                         <li>
-                                                            Atención a Cartera Existente.
+                                                            Atención a cartera existente.
                                                         </li>
                                                         <li>
-                                                            Captación de Nueva Cartera.
+                                                            Captación de nueva cartera.
                                                         </li>
                                                         <li>
                                                             Capacidad de aportar a la estructura de ventas.
@@ -286,13 +287,13 @@
                                                     </ul>
                                                 </div>  
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
-                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Funciones inherente al Cargo:</h2>
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;text-transform: none;">Funciones inherente al Cargo:</h2>
                                                     <ul>
                                                         <li>
                                                             Atención personalizada de cartera.
                                                         </li>
                                                         <li>
-                                                            Enlace Directo entre clientes y empresa.
+                                                            Enlace directo entre clientes y empresa.
                                                         </li>
                                                         <li>
                                                             Canalización de requerimientos.
@@ -304,7 +305,7 @@
                                                             Ofertar todas las oportunidades de negocio que ofrece la empresa.
                                                         </li>
                                                         <li>
-                                                            Participación Activa en Eventos donde participe la empresa.
+                                                            Participación activa en eventos donde participe la empresa.
                                                         </li>
                                                     </ul>
                                                 </div>  
@@ -318,18 +319,18 @@
                                             <!--Secion Vacantes-->
                                             <div style="margin-top: 50px;margin-bottom: 30px;">
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
-                                                    <h2 style="margin-bottom: 0px;">Gerente de Canales de Distribución</h2>
+                                                    <h2 style="margin-bottom: 0px;text-transform: none;">Gerente de Canales de Distribución</h2>
                                                     <p class="text" style="text-align: initial;">
-                                                        Profesional con experiencia en el establecimiento de alianzas comerciales
+                                                        Profesional con Experiencia en el Establecimiento de Alianzas Comerciales
                                                     </p>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
                                                     <h2 style="font-size: 20px;margin-bottom: 10px;">Competencias:</h2>
                                                     <ul>
-                                                        <li>Segmentación de Canales de venta.</li>
+                                                        <li>Segmentación de canales de venta.</li>
                                                         <li>Atención a los distintos canales de venta.</li>
                                                         <li>Análisis de competencia.</li>
-                                                        <li>Desarrollo de Negocios a corto y mediano plazo.</li>
+                                                        <li>Desarrollo de negocios a corto y mediano plazo.</li>
                                                         <li>Orientación al servicio.</li>
                                                         <li>Comunicación efectiva.</li>
                                                         <li>Toma decisiones.</li>
@@ -338,14 +339,14 @@
                                                     </ul>
                                                 </div>  
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;">
-                                                    <h2 style="font-size: 20px;margin-bottom: 10px;">Funciones inherentes al Cargo:</h2>
+                                                    <h2 style="font-size: 20px;margin-bottom: 10px;text-transform: none;">Funciones inherentes al Cargo:</h2>
                                                     <ul>
                                                         <li>Determinar necesidades de cada canal de ventas.</li>
                                                         <li>Direccionar la venta de los productos de la empresa.</li>
                                                         <li>Canalización de requerimientos.</li>
                                                         <li>Mantener solvencia efectiva de sus clientes.</li>
-                                                        <li>Supervisión efectiva del uso del producto: Debilidades y Fortalezas.</li>
-                                                        <li>Participación Activa en Eventos donde participe la empresa.</li>
+                                                        <li>Supervisión efectiva del uso del producto: debilidades y fortalezas.</li>
+                                                        <li>Participación activa en eventos donde participe la empresa.</li>
                                                     </ul>
                                                 </div>  
                                                 <div class="link-box">
