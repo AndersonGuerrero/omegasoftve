@@ -19,7 +19,7 @@
                             <h2 style="font-size: 28px; margin-top: 20px;" >En Omegasoft más que un empleo, formarás parte de una familia</h2>
                         <div class="text" style="text-align: center;">
                             Si te apasiona  la tecnología y estás interesado  en  desarrollar  
-                            soluciones  de  vanguardia  Omegasoft  es  el  lugar  perfecto  para  
+                            soluciones  de  vanguardia,  Omegasoft  es  el  lugar  perfecto  para  
                             ti,  aplica  en  nuestras  vacantes  y forma  parte  del  equipo. El
                             desarrollo  de nuevas soluciones y la expansión de nuestra compañía en
                             gran parte se debe al magnifico equipo de profesionales que nos conforman,
@@ -35,8 +35,7 @@
                             capacidad de  colaboración  y  energía frente a los retos que se nos presenten
                             y hacer la diferencia. Nuestras  prioridades  es  ofrecer  al  nuevo  talento
                             una  propuesta  en  la  que   puedan  desafiar  su potencial y lograr resultados
-                            extraordinarios.                                                                                                                                        
-                            flexibles  y asequibles para empresas de todos los tamaños.
+                            extraordinarios.                           
                         </div>
                         </div>
                     </div>
