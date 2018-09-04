@@ -18,20 +18,21 @@
             </div>
             <div class="sec-title centered">
                     <div class="text">
-                        Nuestro Programa de Parten tiene un claro enfoque en la rentabilidad. Nuestro objetivo es
-                        proporcionar a nuestros socios todas las herramientas y recursos que necesitan para tener
-                        éxito en la venta, implementación y soporte de nuestras soluciones para ITSM
+                        Nuestro programa para partner tiene un claro enfoque en la rentabilidad. 
+                        Nuestro objetivo es proporcionar a nuestros socios todas las herramientas 
+                        y recursos que necesitan para tener éxito en la venta, implementación y 
+                        soporte de nuestras soluciones para ITSM.
                     </div>
                 </div>
             <div class="sec-title centered" style="margin-bottom: 10px;">
                 <div class="text">
-                    Conviértase en Partner de Omegasoft y pasará a formar parte de
-                    nuestro equipo. Tendrá acceso al portal de Partner, para estar al día en
-                    las últimas noticias relacionadas con muestras soluciones y accederá al
-                    variado contenido de marketing disponible que puede necesitar para
-                    acercarse a sus clientes: casos de éxito, nuevas alianzas, integraciones,
-                    etc. Le guiaremos en su viaje para conseguir nuevos clientes e
-                    implementaciones exitosas con nuestras soluciones  
+                        Conviértase en partner de Omegasoft y pasará a formar parte de nuestro equipo. 
+                        Tendrá acceso al portal de Partner, para estar al día en las últimas noticias 
+                        relacionadas con muestras soluciones y así como diversos contenidos que pudieran 
+                        ser utilizado por su departamento de marketing como lo son: casos de éxito, 
+                        nuevas alianzas, integraciones, etc. Por otra parte contara con profesionales 
+                        en las áreas de ventas y soporte que lo guiaremos en su viaje para conseguir 
+                        nuevos clientes e implementaciones exitosas con nuestras soluciones  
                 </div>
             </div>
             <!--<div class="sec-title centered" style="margin-bottom: 30px;">
@@ -248,10 +249,10 @@
             </div>
             <div class="sec-title centered" style="margin-bottom: 30px;">
                 <div class="text">
-                        Buscamos apoyar a los asociados para que puedan 
-                        expandir su portafolio con el fin de llegar a más 
-                        clientes con soluciones de valor agregado, productos 
-                        y servicios de forma simple y efectiva.
+                    Nuestro programa está enfocado en apoyar a los asociados para 
+                    que puedan expandir su portafolio con el fin de llegar a más 
+                    clientes con soluciones de valor agregado, productos y servicios 
+                    de forma simple y efectiva.
                 </div>
             </div>
         </div>
