@@ -206,7 +206,7 @@
                                     <section>
                                         <div class="auto-container">
                                             <div class="sec-title-two centered " style="margin-bottom: 30px;">
-                                                <h1 style="font-size:30px;">Beneficios</h1>
+                                                <h1 style="font-size:30px;">Obtenga beneficios para su organización con nuestras soluciones</h1>
                                             </div>
                                         </div>
                                     </section>
@@ -221,10 +221,9 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/flexibilidad.png" alt=""></figure>
                                                         <h3>Flexibilidad</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Restablezca los servicios afectados, gestione 
-                                                            los incidentes notificados por los usuarios
-                                                            resolviendo con eficiencia y eficacia las interrupciones 
-                                                            con el menor impacto</div>
+                                                                Nuestras soluciones son fácilmente configurables y 
+                                                                personalizables, para que las mismas se ajusten al 
+                                                                negocio y no de forma contraria.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -233,22 +232,18 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/toma_de_decisiones.png" alt=""></figure>
                                                         <h3>Toma de decisiones</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Proporcione una gestión adecuada a las solicitudes 
-                                                            de los usuarios ante las peticiones orientadas a mejoras 
-                                                            de los servicios.</div>
+                                                                Base la toma de decisiones en información oportuna, precisa y en tiempo real, evitando
+                                                                desviaciones y retardos en la prestación de servicio.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/satisfaccion-del-cliente.png" alt=""></figure>
-                                                        <h3>Satisfaccion del cliente</h3>
+                                                        <h3>Satisfacción del cliente</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Defina un catálogo de servicio de fácil 
-                                                            comprensión para usuarios y solucionadores, 
-                                                            donde detalle los servicios ofrecidos por el 
-                                                            negocio, grupos solucionadores encargados de la
-                                                            atención.</div>
+                                                            Mejora los tiempos de respuesta, cumpliendo así a cabalidad los acuerdos de niveles de
+                                                            servicios y aumentando la satisfacción de tus clientes.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -257,35 +252,33 @@
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/reduccion_de_costos.png" alt=""></figure>
-                                                        <h3>Reduccion de costos</h3>
+                                                        <h3>Reducción de costos</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Establezca contratos de tiempos para la resolución 
-                                                            de las solicitudes entre el usuario y TI, los SLA 
-                                                            implementados garantizarán el cumplimiento del soporte.</div>
+                                                                Aumente la productividad y reduzca los costos, eliminando las tareas manuales y la
+                                                                duplicación de esfuerzos, retrabajos u otras tareas que impliquen desperdicio de tiempo.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/prestacion-de-servicio.png" alt=""></figure>
-                                                        <h3>Prestacion de servicio</h3>
+                                                        <h3>Prestación de Servicio</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Disponga de un espacio para el almacenamiento 
-                                                            de artículos y soluciones que sirva de canal 
-                                                            colaborativo para usuarios y solucionadores 
-                                                            en la resolución de inquietudes 24*7.</div>
+                                                            El usuario final tiene la expectativa de que sus problemas y solicitudes se resuelvan
+                                                            rápidamente. Estandarización de los procesos, notificaciones y automatización eliminan la
+                                                            dependencia del factor humano para efectuar actividades manuales y reducir los tiempos
+                                                            de espera, aumentando así su satisfacción.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/gobernabilidad-control.png" alt=""></figure>
-                                                        <h3>Gobernabilidad control</h3>
+                                                        <h3>Gobernabilidad y control</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Determine las causas raíz de los incidentes 
-                                                            recurrentes sobre los activos de su organización, 
-                                                            identifique errores conocidos y proporcione 
-                                                            soluciones efectivas a problemas.</div>
+                                                            La estandarización de los procesos basados en mejores prácticas, permiten la
+                                                            introducción de controles internos, sobre los cambios efectuados en la infraestructura
+                                                            reduciendo los riesgos e interrupciones en el servicio que afecten al negocio.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -294,11 +287,11 @@
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/eficiencia.png" alt=""></figure>
-                                                        <h3>Eficiencia</h3>
+                                                        <h3>Eficacia</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Registre, controle y evalúe los cambios sugeridos 
-                                                            sobre su infraestructura IT, mejore el servicio e 
-                                                            incremente la productividad del usuario.</div>
+                                                            Las expectativas del usuario final respecto centro de soporte, se basa en cuán rápido se
+                                                            resuelven las solicitudes. Omega ITSM posibilitan a los solucionadores sacar el mayor provecho a su día de trabajo, sin necesidad de trabajar más arduamente sino más
+                                                            inteligentemente.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
@@ -307,21 +300,21 @@
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/disponibilidad.png" alt=""></figure>
                                                         <h3>Disponibilidad</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Planifique el desarrollo de nuevos proyectos para 
-                                                            su organización, orientados a la implementación de 
-                                                            nuevas tecnologías, programaciones, mejoras de servicio, etc</div>
+                                                            Proporcionar a los usuarios finales acceso a un portal de autoservicios, que incluye una
+                                                            base de datos de conocimiento con información relevante para la solución de incidencia y
+                                                            sumado a la automatización de tareas permiten que el usuario pueda tener ayuda
+                                                            disponible, aunque la mesa de servicio no este operativa.</div>
                                                     </div>
                                                 </div>
                                                 <!--Service Block-->
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/automatizacion.png" alt=""></figure>
-                                                        <h3>Automatizacion</h3>
+                                                        <h3>Automatización</h3>
                                                         <div style="font-size: 15px;" class="text">
-                                                            Rastrea y administra todos los elementos de 
-                                                            configuración y asigna sus relaciones y dependencias.&nbsp;
-                                                            Analice visualmente el impacto de los cambios y las
-                                                            interrupciones en la toma de decisiones</div>
+                                                            Automatice sus procesos de gestión de servicios para TI, de tal manera que cada ticket
+                                                            entrante sea automáticamente asignado a la persona o grupo de resolución más
+                                                            apropiado dentro de la mesa de servicio.</div>
                                                     </div>
                                                 </div>
                                             </div>
