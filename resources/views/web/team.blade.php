@@ -180,11 +180,10 @@
                                                     </p>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
-                                                    <h2 style="font-size: 20px;margin-bottom: 0px;">Perfil Requerido</h2>                                        
+                                                    <h2 style="font-size: 20px;margin-bottom: 0px;">Perfil requerido</h2>                                        
                                                     <p class="text" style="text-align: initial;">
-                                                        Formación Universitaria Superior en Administración 
-                                                        y Dirección de Empresas, Económicas,Derecho, Marketing 
-                                                        u otras relacionadas con Empresa.
+                                                            Formación universitaria superior en Administración, 
+                                                            dirección de empresas, economía, derecho, marketing o afines.
                                                     </p>
                                                 </div>
                                                 <div class="sec-title centered" style="margin-bottom: 0px;text-align: initial;margin-bottom: 50px;">
