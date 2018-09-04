@@ -60,34 +60,34 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="sec-title centered" style="margin-bottom: 30px;    border: 1px solid #c2d1df;">
-                            <img style="width: 100%;" src="{{ URL::to('/') }}/images/resource/webcast-2.jpg">
-                                <div style="min-height:440px;">
-                                    <div class="text" style="text-align:center;padding:15px;">
-                                    Con el fin de fortalecer el conocimiento de nuestros usuarios y
-                                    solucionadores, Omega Service Desk integra su módulo
-                                    Knowledgebase que garantiza el almacenamiento del conocimiento
-                                    aplicado durante la resolución de las solicitudes, procedimientos
-                                    diarios, errores conocidos y demás documentación útil para el ahorro
-                                    de tiempo y esfuerzo. 
-                                    <br>
-                                    <br>
-                                    </div>
-                                    <div class="text" style="text-align:center;padding:15px;padding-bottom: 40px;">
-                                        <u><b> Este Webcast conoceremos:</b></u>
-                                        <br>
-                                            Base de Conocimiento.
-                                        <br>
-                                            Vinculacion entre Omega Service Desk y Knowledgebase.
-                                        <br>
-                                            Demostracion del aplicativo
-                                    </div>
-                                    <div class="text-center button-conten-webcas">
-                                        <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Integración de Omega Service Desk con Knowledgebase." data-toggle="modal" data-target="#myModal">Registrate</a>
-                                    </div>
-                                </div>
+                    <div class="sec-title centered" style="margin-bottom: 30px;border: 1px solid #c2d1df;">
+                    <img style="width: 100%;" src="{{ URL::to('/') }}/images/resource/webcast-2.jpg">
+                        <div style="min-height:440px;">
+                            <div class="text" style="text-align:center;padding:15px;">
+                            Con el fin de fortalecer el conocimiento de nuestros usuarios y
+                            solucionadores, Omega Service Desk integra su módulo
+                            Knowledgebase que garantiza el almacenamiento del conocimiento
+                            aplicado durante la resolución de las solicitudes, procedimientos
+                            diarios, errores conocidos y demás documentación útil para el ahorro
+                            de tiempo y esfuerzo. 
+                            <br>
+                            <br>
+                            </div>
+                            <div class="text" style="text-align:center;padding:15px;padding-bottom: 40px;">
+                                <u><b> Este Webcast conoceremos:</b></u>
+                                <br>
+                                    Base de Conocimiento.
+                                <br>
+                                    Vinculacion entre Omega Service Desk y Knowledgebase.
+                                <br>
+                                    Demostracion del aplicativo
+                            </div>
+                            <div class="text-center button-conten-webcas">
+                                <a href="" class="theme-btn btn-style-three-2 button-webcas" data-title="Integración de Omega Service Desk con Knowledgebase." data-toggle="modal" data-target="#myModal">Registrate</a>
                             </div>
                         </div>
+                    </div>
+                </div>
                 </div>
             </div>   
             <div class="col-md-12 col-sm-12 col-xs-12">
