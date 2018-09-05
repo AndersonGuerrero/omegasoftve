@@ -6304,12 +6304,12 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 }
 @media (max-width: 872px){	
     .webcast-media{
-		min-height: 534px !important ;
+		min-height: 534px !important;
 	}
 }
 @media (max-width: 790px){	
     .webcast-media{
-		min-height: 561px !important ;
+		min-height: 561px !important;
 	}
 }
 @media (max-width: 1072px){	
