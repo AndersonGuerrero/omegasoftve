@@ -586,7 +586,7 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                    Omegasoft nosha permitido la
+                                    Omegasoft nos ha permitido la
                                     implementacion de una solución intergra
                                     par la gestión de los servicios TI, alineando
                                     los procesos del área con las buenas prácticas
