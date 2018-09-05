@@ -39,7 +39,6 @@ var CaptchaLoad = function() {
     if($('#g-recaptcha-demo')[0]){
         window.id_captcha_demo = grecaptcha.render($('#g-recaptcha-demo')[0], data);
     }
-    
 };
 
 $('.btn-send').on('click', function (event) {
