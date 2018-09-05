@@ -1,8 +1,9 @@
 @extends('layouts.web.base')
 @section('title', 'Contacto')
 @section('content')
-    <section class="page-title" style="height:530px;">
-        <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/img-contactenos.jpg); opacity: 10.0;">
+    <section class="page-title">
+        <div class="" style="opacity: 10.0;">
+        <img src="{{ URL::to('/') }}/images/background/img-contactenos.jpg" alt="">
         </div>
         <div class="auto-container">
         	
@@ -83,13 +84,13 @@
     </section>
     
     <section class="map-section">
-                <div class="map-outer">
-                    <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8062660010555!2d-67.48272563389337!3d10.032839996414316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e801b7ed443bcc5%3A0xd3b7679524d544da!2sOmegasoft+C.A!5e0!3m2!1ses!2sve!4v1532615909272" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
+            <div class="map-outer">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8062660010555!2d-67.48272563389337!3d10.032839996414316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e801b7ed443bcc5%3A0xd3b7679524d544da!2sOmegasoft+C.A!5e0!3m2!1ses!2sve!4v1532615909272" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                
-        </section>
+            </div>
+            
+    </section>
 @endsection
 
 @section('javascript')

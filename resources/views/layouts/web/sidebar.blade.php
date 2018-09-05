@@ -78,7 +78,7 @@
                                           </li>
                                           <li class="dropdown"><a href="#">Comunidad</a>
                                               <ul>
-                                                  <li><a href="{{ URL::to('/') }}/blog/">blog</a></li>
+                                                  <!--<li><a href="{{ URL::to('/') }}/blog/">blog</a></li>-->
                                                   <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
                                                   <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
                                                  <!-- <li><a href="faqs.html">FAQs</a></li>
@@ -149,7 +149,7 @@
                                       </li>
                                       <li class="dropdown"><a href="#">Comunidad</a>
                                           <ul>
-                                              <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>
+                                              <!--<li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>-->
                                               <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
                                               <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
                                           </ul>

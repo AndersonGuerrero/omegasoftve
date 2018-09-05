@@ -1,8 +1,9 @@
 @extends('layouts.web.base')
 @section('title', 'Quienes Somos')
 @section('content')
-    <section class="page-title" style="height: 530px;">
-    	<div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/QuinesSomos.jpeg); opacity: 10.0;"></div>
+    <section class="page-title">
+    	<div class="image-layer" style="opacity: 10.0;"></div>
+         <img src="{{ URL::to('/') }}/images/background/QuinesSomos.jpeg" alt="">
         <div class="auto-container">
         </div>
     </section>
@@ -31,7 +32,8 @@
                             simplificar los procesos de gestión de servicios, adquirir 
                             visibilidad en tiempo real en todos sus servicios e infraestructura 
                             y orquestar las interacciones de personas, procesos y tecnologías para 
-                            un rendimiento óptimo de los servicios.                                                                                                                                        flexibles  y asequibles para empresas de todos los tamaños..</div>
+                            un rendimiento óptimo de los servicios.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,7 +131,7 @@
                 
                 <div class="row clearfix">
                     <!--News Block-->
-                    <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+                    <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/mision.jpg" alt=""></a></figure>
                             <div class="lower-box">
@@ -137,7 +139,7 @@
                                     <h1 style="font-size:25px">Misión</h1>
                                     <div class="text" style="font-size: 16px;text-align: justify;">
                                          Generar de forma permanente, acciones estratégicas y operativas
-                                         que persigan la vanguardia tecnológica y humana en toda la dimensión
+                                         que persigan la vanguardia, tecnológica y humana en toda la dimensión
                                          de la Gestión de Servicios IT. 
                                     </div>
                                 </div>
@@ -145,7 +147,7 @@
                         </div>
                     </div>
                     <!--News Block-->
-                    <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+                    <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/vision.jpg" alt=""></a></figure>
                             <div class="lower-box">
@@ -161,7 +163,7 @@
                         </div>
                     </div>
                     <!--News Block-->
-                    <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+                    <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/valores.jpg" alt=""></a></figure>
                             <div class="lower-box">

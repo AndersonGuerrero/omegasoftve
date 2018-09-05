@@ -1,8 +1,9 @@
 @extends('layouts.web.base')
 @section('title', 'Nuestros Clientes')
 @section('content')
-<section class="page-title" style="height: 530px;">
-    	<div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/nuestros-clientes.jpg); opacity: 10.0;"></div>
+<section class="page-title">
+    	<div class="" style="opacity: 10.0;"></div>
+            <img src="{{ URL::to('/') }}/images/background/nuestros-clientes.jpg">
         <div class="auto-container">
         </div>
     </section>
@@ -30,8 +31,9 @@
         </div>
     </section>
 
-    <section class="page-title" style="height: 530px;background: #5aceff5c;">
-            <div class="image-layer" style="background-image:url({{ URL::to('/') }}/images/background/clientes-nuevo.png); opacity: 10.0;"></div>
+    <section class="page-title" style="background: #5aceff5c;">
+            <div class="image-layer" style="opacity: 10.0;"></div>
+                <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png">
             <div class="auto-container">
             </div>
     </section>

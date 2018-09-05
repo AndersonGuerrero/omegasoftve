@@ -152,33 +152,33 @@
                                     Beneficios
                             </h1>
                         </div>
-                        <div style="padding-left: 40px;">
-                            <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;margin-left: 60px;">
+                        <div class=" soport-media">
+                            <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;">
                                     <span class="text">
                                         <span><i class="fa fa-check check"></i>Resolución de incidencias, inconvenientes técnicos y asesorías.</span>
                                     </span>
                                 </div>
-                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;margin-left: 60px;">
+                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;">
                                     <span class="text">
                                         <span><i class="fa fa-check check"></i>Documentación técnica especializada.</span>
                                     </span>
                                 </div>
-                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;margin-left: 60px;">
+                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;">
                                     <span class="text">
                                         <span><i class="fa fa-check check"></i>Próximas actualizaciones.</span>
                                     </span>
                                 </div>
-                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;margin-left: 60px;">
+                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;">
                                     <span class="text">
                                         <span><i class="fa fa-check check"></i>Presentaciones guiadas con personal y tecnología de vanguardia.</span>
                                     </span>
                                 </div>
-                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;margin-left: 60px;">
+                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;">
                                     <span class="text">
                                         <span><i class="fa fa-check check"></i>Capacitaciones con un personal de amplia trayectoria.</span>
                                     </span>
                                 </div>
-                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;margin-left: 60px;">
+                                <div class="sec-title centered" style="text-align: initial; margin-bottom: 5px;">
                                     <span class="text">
                                         <span><i class="fa fa-check check"></i>Notificación de mejoras y nuevas funcionalidades.</span>
                                     </span>
@@ -187,10 +187,10 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
+                        <div class="sec-title-two centered" style="margin-bottom: 30px;">
                             <h1 style="font-size: 30px">Horarios de Atención</h1>
                         </div>
-                            <div class="sec-title centered" style="text-align: center; margin-bottom: 5px;margin-left: 60px;">
+                            <div class="sec-title centered" style="text-align: center; margin-bottom: 5px;">
                                 <div class="text">
                                     Lunes – viernes de 8:00 a 17:00 (GMT – 4).
                                 </div>
@@ -302,26 +302,28 @@
 
     <section class="services-two"  style="padding: 0px 0px 90px;"> 
             <div class="auto-container">
-                <div class="sec-title centered">
-                    <h1 style="font-size:30px;margin-bottom: 25px;" >Limitaciones del servicio</h1>
-                    <div class="col-md-6 col-ms-6 col-xs-6">
-                        <div class="sec-title centered"> 
-                            <div class="text" style="text-align: justify">
-                                    • Nuestro servicio de soporte técnico se brindará única 
-                                    y exclusivamente a clientes que tengan el servicio de 
-                                    soporte activo al momento de ser solicitado.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-ms-6 col-xs-6">
+                <div class="row">
+                    <div class="sec-title centered" style="margin-bottom: -100px;">
+                        <h1 style="font-size:30px;margin-bottom: 25px;" >Limitaciones del servicio</h1>
+                        <div class="col-md-6 col-ms-12 col-xs-12">
                             <div class="sec-title centered"> 
                                 <div class="text" style="text-align: justify">
-                                    • El servicio de soporte estándar se brindará a través 
-                                    de comunicación telefónica, chat, vía Internet, correo 
-                                    electrónico ó acceso remoto. No incluye soporte en sitio.
+                                        • Nuestro servicio de soporte técnico se brindará única 
+                                        y exclusivamente a clientes que tengan el servicio de 
+                                        soporte activo al momento de ser solicitado.
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-6 col-ms-12 col-xs-12">
+                                <div class="sec-title centered"> 
+                                    <div class="text" style="text-align: justify">
+                                        • El servicio de soporte estándar se brindará a través 
+                                        de comunicación telefónica, chat, vía Internet, correo 
+                                        electrónico ó acceso remoto. No incluye soporte en sitio.
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
                 </div>
             </div>
     </section>

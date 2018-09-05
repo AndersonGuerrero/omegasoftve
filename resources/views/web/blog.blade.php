@@ -26,77 +26,92 @@
             
             <div class="row clearfix">
 				<div class="content-side col-lg-9 col-md-8 col-sm-12 col-xs-12">
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="">
-                                <img src="{{ URL::to('/') }}/images/resource/gestion-de-incidentes.jpg" alt=""></a></figure>
-							<h3><a href="">Get home loan & a chance to...</a></h3>
-							<div class="post-info">Post: 18 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+					<!--News Block-->		
+					<div class="career-block select-itil">
+						<!--News Block-->
+						<div class="news-block-one">
+							<div class="inner-box">
+								<figure class="image-box"><a href="">
+									<img src="{{ URL::to('/') }}/images/resource/gestion-de-incidentes.jpg" alt=""></a></figure>
+								<h3><a href="">1Get home loan & a chance to...</a></h3>
+								<div class="post-info">Post: 18 April 2018</div>
+								<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+							</div>
+						</div>
+						<!--News Block-->
+						<div class="news-block-one">
+							<div class="inner-box">
+								<figure class="image-box"><a href="">
+									<img src="{{ URL::to('/') }}/images/resource/como-elegir-un-software-de-mesa-de-servicio.jpg" alt=""></a></figure>
+								<h3><a href="">Spirit second whales under...</a></h3>
+								<div class="post-info">Post: 22 April 2018</div>
+								<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+							</div>
+						</div>	
+					</div>
+					<!------------------------------------>
+					<div class="career-block select-service-Desk">
+						<!--News Block-->
+						<div class="news-block-one">
+							<div class="inner-box">
+								<figure class="image-box"><a href="">
+									<img src="{{ URL::to('/') }}/images/resource/help-desk-vs-service-desk.jpg" alt=""></a></figure>
+								<h3><a href="">Explain quarterly forecasting...</a></h3>
+								<div class="post-info">Post: 15 April 2018</div>
+								<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+							</div>
+						</div>
+						<!--News Block-->
+						<div class="news-block-one">
+							<div class="inner-box">
+								<figure class="image-box"><a href="">
+									<img src="{{ URL::to('/') }}/images/resource/beneficios-de-un-service-desk-para-su-organizacion.jpg" alt=""></a></figure>
+								<h3><a href="">Explain quarterly forecasting...</a></h3>
+								<div class="post-info">Post: 15 April 2018</div>
+								<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+							</div>
 						</div>
 					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="">
-                                <img src="{{ URL::to('/') }}/images/resource/como-elegir-un-software-de-mesa-de-servicio.jpg" alt=""></a></figure>
-							<h3><a href="">Spirit second whales under...</a></h3>
-							<div class="post-info">Post: 22 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+					<!------------------------------------>
+					<div class="career-block select-Gestion-servicio">	
+						<!--News Block-->
+						<div class="news-block-one">
+							<div class="inner-box">
+								<figure class="image-box"><a href="">
+									<img src="{{ URL::to('/') }}/images/resource/importancia-de-itil-en-un-service-desk.jpg" alt=""></a></figure>
+								<h3><a href="">Spirit second whales under...</a></h3>
+								<div class="post-info">Post: 22 April 2018</div>
+								<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+							</div>
 						</div>
+						<!--News Block-->
 					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="">
-								<img src="{{ URL::to('/') }}/images/resource/help-desk-vs-service-desk.jpg" alt=""></a></figure>
-							<h3><a href="">Explain quarterly forecasting...</a></h3>
-							<div class="post-info">Post: 15 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+					<!------------------------------------>
+					<div class="career-block select-Cmdb">
+						<div class="news-block-one">
+							<div class="inner-box">
+								<figure class="image-box"><a href="">
+									<img src="{{ URL::to('/') }}/images/resource/porque-adoptar-itil.jpg" alt=""></a></figure>
+								<h3><a href="">Explain quarterly forecasting...</a></h3>
+								<div class="post-info">Post: 15 April 2018</div>
+								<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+							</div>
 						</div>
+						<!--News Block-->
 					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="">
-                                <img src="{{ URL::to('/') }}/images/resource/beneficios-de-un-service-desk-para-su-organizacion.jpg" alt=""></a></figure>
-							<h3><a href="">Explain quarterly forecasting...</a></h3>
-							<div class="post-info">Post: 15 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+					<!------------------------------------>
+					<div class="career-block select-itsm">
+						<div class="news-block-one">
+							<div class="inner-box">
+								<figure class="image-box"><a href="">
+									<img src="{{ URL::to('/') }}/images/resource/itil.jpg" alt=""></a></figure>
+								<h3><a href="">Get home loan & a chance to...</a></h3>
+								<div class="post-info">Post: 18 April 2018</div>
+								<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
+							</div>
 						</div>
+						<!--News Block-->	
 					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="">
-								<img src="{{ URL::to('/') }}/images/resource/importancia-de-itil-en-un-service-desk.jpg" alt=""></a></figure>
-							<h3><a href="">Spirit second whales under...</a></h3>
-							<div class="post-info">Post: 22 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="">
-								<img src="{{ URL::to('/') }}/images/resource/porque-adoptar-itil.jpg" alt=""></a></figure>
-							<h3><a href="">Explain quarterly forecasting...</a></h3>
-							<div class="post-info">Post: 15 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->	
-					<div class="news-block-one">
-						<div class="inner-box">
-							<figure class="image-box"><a href="">
-								<img src="{{ URL::to('/') }}/images/resource/itil.jpg" alt=""></a></figure>
-							<h3><a href="">Get home loan & a chance to...</a></h3>
-							<div class="post-info">Post: 18 April 2018</div>
-							<div class="text">Nouvelle trouvait supplice lupanars revendre me. Crispent ethiopie philippe essaiera.</div>
-						</div>
-					</div>
-					<!--News Block-->
 				</div>
 				
 				<!--Sidebar Side-->
@@ -118,12 +133,12 @@
                         	<div class="sidebar-title">
                             	<h3>Categorias</h3>
                             </div>
-                            <ul class="popular-category-list">
-                            	<li><a style="text-decoration:none;" href="#">ITIL</a></li>
-                                <li><a style="text-decoration:none;" href="#">Service Desk</a></li>
-                                <li><a style="text-decoration:none;" href="#">Gestión de Servicio</a></li>
-                                <li><a style="text-decoration:none;" href="#">Cmdb</a></li>
-                                <li><a style="text-decoration:none;" href="#">ITSM</a></li>
+                            <ul id="categorys-blog-content" class="popular-category-list">
+                            	<li><a data-id="select-itil" class="clearfix categorys-blog" style="text-decoration:none;" href="#">ITIL</a></li>
+                                <li><a data-id="select-service-Desk" class="clearfix categorys-blog" style="text-decoration:none;" href="#">Service Desk</a></li>
+                                <li><a data-id="select-Gestion-servicio" class="clearfix categorys-blog" style="text-decoration:none;" href="#">Gestión de Servicio</a></li>
+                                <li><a data-id="select-Cmdb" class="clearfix categorys-blog" style="text-decoration:none;" href="#">Cmdb</a></li>
+                                <li><a data-id="select-itsm" class="clearfix categorys-blog" style="text-decoration:none;" href="#">ITSM</a></li>
                             </ul>
 						</div>
                         
@@ -173,7 +188,6 @@
 					<li><a href="#" class="active">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
 					<li><span class="gap">&bull; &bull; &bull;</span></li>
 					<li><a href="#">20</a></li>
 					<li class="next"><a href="#">Siguiente &nbsp;<span class="fa fa-angle-right"></span></a></li>
@@ -183,4 +197,17 @@
         </div>
     </section>
 
+@endsection
+@section('javascript')
+<script src="{{ URL::to('/') }}/js/team.js"></script>
+<script>
+    function callbackTeam(data){
+        $('#form_team').submit()
+    }
+    $('#myTeam').on('show.bs.modal', function(event) {
+        var title = $(event.relatedTarget).data('title')
+        $('#input-team-title').val(title)
+        $('#title-team').html(title)
+    })
+</script>
 @endsection
