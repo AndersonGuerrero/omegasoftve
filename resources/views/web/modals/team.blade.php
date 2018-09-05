@@ -24,7 +24,7 @@
                                         </div>
                                         <div style="text-align: end;">
                                             <label class="btn btn-primary" style="font-weight: 600;font-size: 12px;border-color: #8baad6 !important;background: #8baad6 !important;">
-                                                    Adjuntar CV<input accept=".pdf, .odt, .docx, .pptx, .doc, .dot" name="cv" type="file" style="display: none;">
+                                                    Adjuntar CV<input accept=".pdf, .odt, .docx, .pptx, .doc, .dot" name="cv" type="file" required style="display: none;">
                                             </label>
                                         </div>
                                         <input type="hidden" name="team_title" id="input-team-title">

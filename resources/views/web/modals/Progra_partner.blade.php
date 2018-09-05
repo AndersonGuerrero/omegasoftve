@@ -36,7 +36,7 @@
                                             <input type="text" name="city" value="" placeholder="Ciudad" required>
                                         </div>
                                         <div  style="margin-bottom: 10px">
-                                            <input type="url" name="web_page" value="" placeholder="Pagina Web" required>
+                                            <input type="text" name="web_page" value="" placeholder="Pagina Web" required>
                                         </div>
                                     </div>
                                     <div>
