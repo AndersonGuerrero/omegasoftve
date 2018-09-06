@@ -1414,12 +1414,12 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                    Con las soluciones de Omegasoft, hemos podido
+                                    Con las soluciones de Omegasoft, se puede
                                     gestionar de manera eficiente las necesidades
-                                    de nuestros usuarios, ha permitido mayor 
-                                    control en el tiempo de atención lo que ha sido 
-                                    una oportunidad para el mejoramiento continuo
-                                    de nuestros procesos, en particular se ha
+                                    de nuestros usuarios, permite mayor 
+                                    control en el tiempo de atención lo que da la
+                                    oportunidad para el mejoramiento continuo
+                                    de nuestros procesos, en particular ha
                                     mejorado notablemente la comunicación entre
                                     los usuarios y nuestros departamentos, los
                                     cuales ahora conocen en todo momento el 
