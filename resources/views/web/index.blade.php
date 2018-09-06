@@ -587,7 +587,7 @@
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
                                     Omegasoft nos ha permitido la
-                                    implementación de una solución íntergra
+                                    implementación de una solución íntegra
                                     para la gestión de los servicios TI, alineando
                                     los procesos del área con las buenas prácticas
                                     que ofrece ITIL lo cual hoy nos facilita
