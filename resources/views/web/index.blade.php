@@ -586,10 +586,10 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                omegasoft nos permite implementar una solucio integra
+                                omegasoft nos permite implementar una solucion integra
                                     para la gestión de los servicios TI, alineando
                                     los procesos del área con las buenas prácticas
-                                    que ofrece ITIL lo cual hoy nos facilita
+                                    que ofrece ITIL lo cual hoy facilita
                                     brindar servicios de mayor calidad.</div>
                                 <div class="info">
                                     <figure class="image img-circle">
