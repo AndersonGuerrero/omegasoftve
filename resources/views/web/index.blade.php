@@ -546,15 +546,15 @@
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
                                     Con las soluciones de Omegasoft, hemos podido
-                                    gestiona de manera eficiente las necesidades
+                                    gestionar de manera eficiente las necesidades
                                     de nuestros usuarios, ha permitido mayor 
-                                    contro en el tiempo de atención lo que ha sido 
+                                    control en el tiempo de atención lo que ha sido 
                                     una oportunidad para el mejoramiento continuo
                                     de nuestros procesos, en particular se ha
-                                    mejorando notablemente la comunicación entre
-                                    los usuarios y nuestros departamnto, los
+                                    mejorado notablemente la comunicación entre
+                                    los usuarios y nuestros departamentos, los
                                     cuales ahora conocen en todo momento el 
-                                    estado en el que se encuentra su solucitud.</div>
+                                    estado en el que se encuentra su solicitud.</div>
                                 <div class="info">
                                     <figure class="image img-circle">
                                         <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente2.png" alt=""></figure>
@@ -587,11 +587,11 @@
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
                                     Omegasoft nos ha permitido la
-                                    implementacion de una solución intergra
-                                    par la gestión de los servicios TI, alineando
+                                    implementación de una solución íntergra
+                                    para la gestión de los servicios TI, alineando
                                     los procesos del área con las buenas prácticas
                                     que ofrece ITIL lo cual hoy nos facilita
-                                    el brindar servicios de mayor calidad.</div>
+                                    brindar servicios de mayor calidad.</div>
                                 <div class="info">
                                     <figure class="image img-circle">
                                         <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente4.png" alt=""></figure>
