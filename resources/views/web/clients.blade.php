@@ -69,7 +69,7 @@
                                     Con las soluciones de Omegasoft, hemos podido
                                     gestiona de manera eficiente las necesidades
                                     de nuestros usuarios, ha permitido mayor 
-                                    contro en el tiempo de atención loque ha sido 
+                                    contro en el tiempo de atención lo que ha sido 
                                     una oportunidad para el mejoramiento continuo
                                     de nuestros procesos, en particular se ha
                                     mejorando notablemente la comunicación entre
@@ -89,7 +89,7 @@
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
                                     Con Omega ITSM tenemos gestión
-                                    controlada y alineada aTIL, una comunicacion
+                                    controlada y alineada a TIL, una comunicacion
                                     efectiva con los usuarios, una distribución
                                     más eficiente de las cargas de trabajo, un
                                     seguimiento continuo mediante reportes e
