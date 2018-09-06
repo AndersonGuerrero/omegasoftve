@@ -527,7 +527,7 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                    Omega ITSM nos ha ayudado totalmente
+                                    Omega ITSM nos ayudado totalmente
                                     a mejorar nuestra gestión de servicios. La gerencia
                                     de Tecnología ahora es mucho más eficiente, mejorando
                                     nuestros Tiempos de respuesta teniendo un unico punto de
