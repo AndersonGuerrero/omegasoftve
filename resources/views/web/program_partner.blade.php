@@ -71,7 +71,7 @@
             <h1 style="font-size:30px;padding-top: 65px;">Alguno de los beneficios de forma parte de nuestro equipo</h1>
             <div class="text">
                 Nuestro programa de partner le proporciona los recursos esenciales
-                para acelerar su ciclo de venta y ayudar a hacer crecer su negocio
+                para acelerar su ciclo de venta y ayudar a crecer su negocio
             </div>
         </div>
     </div>

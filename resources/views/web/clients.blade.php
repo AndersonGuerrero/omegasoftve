@@ -48,7 +48,7 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                    Omega ITSM nos ha ayudado totalmente
+                                    Omega ITSM nos ayuda totalmente
                                     a mejorar nuestra gestión de servicios. La gerencia
                                     de Tecnología ahora es mucho más eficiente, mejorando
                                     nuestros Tiempos de respuesta teniendo un unico punto de
@@ -66,16 +66,16 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                    Con las soluciones de Omegasoft, hemos podido
-                                    gestiona de manera eficiente las necesidades
-                                    de nuestros usuarios, ha permitido mayor 
-                                    contro en el tiempo de atención loque ha sido 
-                                    una oportunidad para el mejoramiento continuo
-                                    de nuestros procesos, en particular se ha
-                                    mejorando notablemente la comunicación entre
-                                    los usuarios y nuestros departamnto, los
+                                   Con las soluciones de Omegasoft, se puede
+                                    gestionar de manera eficiente las necesidades
+                                    de nuestros usuarios, permite mayor 
+                                    control en el tiempo de atención lo que da la
+                                    oportunidad para el mejoramiento continuo
+                                    de nuestros procesos, en particular ha
+                                    mejorado notablemente la comunicación entre
+                                    los usuarios y nuestros departamentos, los
                                     cuales ahora conocen en todo momento el 
-                                    estado en el que se encuentra su solucitud.</div>
+                                    estado en el que se encuentra su solicitud.</div>
                                 <div class="info">
                                     <figure class="image img-circle">
                                         <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente2.png" alt=""></figure>
@@ -89,7 +89,7 @@
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
                                     Con Omega ITSM tenemos gestión
-                                    controlada y alineada aTIL, una comunicacion
+                                    controlada y alineada a TIL, una comunicacion
                                     efectiva con los usuarios, una distribución
                                     más eficiente de las cargas de trabajo, un
                                     seguimiento continuo mediante reportes e
@@ -107,12 +107,11 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                    Omegasoft nosha permitido la
-                                    implementacion de una solución intergra
-                                    par la gestión de los servicios TI, alineando
+                                omegasoft nos permite implementar una solucion integra
+                                    para la gestión de los servicios TI, alineando
                                     los procesos del área con las buenas prácticas
-                                    que ofrece ITIL lo cual hoy nos facilita
-                                    el brindar servicios de mayor calidad.</div>
+                                    que ofrece ITIL lo cual nos facilita
+                                    brindar servicios de mayor calidad.</div>
                                 <div class="info">
                                     <figure class="image img-circle">
                                         <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente4.png" alt=""></figure>

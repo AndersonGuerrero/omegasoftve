@@ -6272,89 +6272,40 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-@media (max-width: 1072px){	
-    .webcast-media{
-		min-height: 450px !important ;
+@media (min-width: 772px){	
+	.webcast-media1{
+		/*min-height: 393px !important ;*/
 	}
 }
-@media (max-width: 1014px){	
-    .webcast-media{
-		min-height: 478px !important ;
-	}
-}
-@media (max-width: 964px){	
-    .webcast-media{
-		min-height: 478px !important ;
-	}
-}
-@media (max-width: 940px){	
-    .webcast-media{
-		min-height: 504px !important ;
-	}
-}
-@media (max-width: 915px){	
-    .webcast-media{
-		min-height: 505px !important ;
-	}
-}
-@media (max-width: 910px){	
-    .webcast-media{
-		min-height: 505px !important ;
-	}
-}
-@media (max-width: 872px){	
-    .webcast-media{
-		min-height: 534px !important;
-	}
-}
-@media (max-width: 790px){	
-    .webcast-media{
-		min-height: 561px !important;
-	}
-}
-@media (max-width: 1072px){	
+@media (min-width: 822px){	
     .webcast-media2{
-		min-height: 366px !important ;
+		/*min-height: 339px !important; */
 	}
 }
-@media (max-width: 1016px){	
+@media (min-width: 1069px){	
     .webcast-media2{
-		min-height: 393px !important ;
+		/*min-height: 365px !important ;*/
 	}
 }
-@media (max-width: 964px){	
-    .webcast-media2{
-		min-height: 394px !important ;
+@media (min-width: 814px){	
+	.webcast-media3{
+		/*min-height: 395px !important;*/
 	}
 }
-@media (max-width: 920px){	
-    .webcast-media2{
-		min-height: 478px !important ;
+
+@media (min-width: 948px){	
+	.webcast-media3{
+		/*min-height: 422px !important;*/
 	}
 }
-@media (max-width: 940px){	
-    .webcast-media2{
-		min-height: 422px !important ;
+@media (min-width: 772px){	
+	.webcast-media4{
+		/*min-height: 227px !important; */
 	}
 }
-@media (max-width: 915px){	
-    .webcast-media2{
-		min-height: 505px !important ;
-	}
-}
-@media (max-width: 910px){	
-    .webcast-media2{
-		min-height: 450px !important ;
-	}
-}
-@media (max-width: 872px){	
-    .webcast-media2{
-		min-height: 450px !important ;
-	}
-}
-@media (max-width: 790px){	
-    .webcast-media2{
-		min-height: 478px !important ;
+@media (min-width: 768px){	
+	.webcast-media4{
+		/*min-height: 395px !important;*/
 	}
 }
 /*-----------webcas media-------------------*/
