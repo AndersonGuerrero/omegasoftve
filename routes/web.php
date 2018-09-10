@@ -44,4 +44,9 @@ Route::get('/solicitud/serial/', 'Web@request_serial');
 Route::get('/webcast/', 'WebcastController@index');
 Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);
 
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('admin/blog', 'BlogController');
+Route::get('admin/', 'AdminController@index');
