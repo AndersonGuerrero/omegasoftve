@@ -11,37 +11,37 @@
 |
 */
 
-Route::get('/', 'Web@index');
+Route::get('/', 'Web@index')->name('index');
 Route::get('/soporte/', 'Web@soport')->name('web-soporte');
-Route::get('/nuestros-clientes/', 'Web@clients');
-Route::get('/casos-de-exito/', 'Web@success_stories');
-Route::get('/blog/', 'Web@blog');
-Route::get('/newsletter/', 'NewsletterController@newsletter');
+Route::get('/nuestros-clientes/', 'Web@clients')->name('clients');
+Route::get('/casos-de-exito/', 'Web@success_stories')->name('success_stories');
+Route::get('/blog/', 'Web@blog')->name('blog');
+Route::get('/newsletter/', 'NewsletterController@newsletter')->name('newsletter');
 Route::post('/newsletter/', ['as'=>'newsletter.send', 'uses'=>'NewsletterController@newsletterPost']);
-Route::get('/quienes-somos/', 'Web@about');
+Route::get('/quienes-somos/', 'Web@about')->name('about');
 
-Route::get('/nuestro-equipo/', 'TeamController@index');
+Route::get('/nuestro-equipo/', 'TeamController@index')->name('team');
 Route::post('/nuestro-equipo/', ['as'=>'team.register', 'uses'=>'TeamController@register']);
 
-Route::get('/contacto/', 'ContactController@contact');
+Route::get('/contacto/', 'ContactController@contact')->name('contact');
 Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
 
-Route::get('/partners/', 'PartnerController@index');
-Route::get('/portal-partner/', 'PartnerController@portal');
-Route::get('/programa-partner/', 'PartnerController@program');
+Route::get('/partners/', 'PartnerController@index')->name('partner');
+Route::get('/portal-partner/', 'PartnerController@portal')->name('portal-partner');
+Route::get('/programa-partner/', 'PartnerController@program')->name('program-partner');
 Route::post('/programa-partner/', ['as'=>'partner.send', 'uses'=>'PartnerController@programPost']);
 
-Route::get('/demo/', 'DemoController@index');
-Route::get('/demo-guiada/', 'DemoController@guiada');
+Route::get('/demo/', 'DemoController@index')->name('demo');
+Route::get('/demo-guiada/', 'DemoController@guiada')->name('demo-guiada');
 Route::post('/demo-guiada-send/', ['as'=>'demo.send', 'uses'=>'DemoController@demoPost']);
 
-Route::get('/english/', 'Web@english');
+Route::get('/english/', 'Web@english')->name('english');
 
-Route::get('/soluciones/itsm/', 'ITSMController@index');
+Route::get('/soluciones/itsm/', 'ITSMController@index')->name('ITSM');
 Route::post('/soluciones/itsm/', ['as'=>'quotation.send', 'uses'=>'ITSMController@quotationSend']);
 
-Route::get('/solicitud/serial/', 'Web@request_serial');
-Route::get('/webcast/', 'WebcastController@index');
+Route::get('/solicitud/serial/', 'Web@request_serial')->name('request_serial');
+Route::get('/webcast/', 'WebcastController@index')->name('webcast');
 Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);
 
 Auth::routes();

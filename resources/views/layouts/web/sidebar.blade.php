@@ -38,7 +38,7 @@
                       <div class="clearfix">
                           
                           <div class="logo-box">
-                              <div class="logo"><a href="{{ URL::to('/') }}/"><img src="{{ URL::to('/') }}/images/logo.png" alt="" title=""></a></div>
+                              <div class="logo"><a href="{{ route('index') }}"><img src="{{ URL::to('/') }}/images/logo.png" alt="" title=""></a></div>
                           </div>
                           
                           <div class="nav-outer clearfix">
@@ -57,7 +57,7 @@
                                       <ul class="navigation clearfix">
                                           <li class="dropdown"><a href="">Soluciones</a>
                                               <ul>
-                                                  <li><a style="text-transform: none " href="{{ URL::to('/') }}/soluciones/itsm/">Gestión de Servicios IT (ITSM)</a></li>
+                                                  <li><a style="text-transform: none " href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
                                               </ul>
                                           </li>
                                           </li>
@@ -65,21 +65,21 @@
                                           </li>
                                           <li class="dropdown"><a href="#">Clientes</a>
                                               <ul>
-                                                  <li><a href="{{ URL::to('/') }}/nuestros-clientes/">Nuestros Clientes</a></li>
+                                                  <li><a href="{{ route('clients') }}">Nuestros Clientes</a></li>
                                                   <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
                                               </ul>
                                           </li>
                                           <li class="dropdown"><a href="#">Partner</a>
                                               <ul>
                                                   <!--<li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
-                                                  <li><a style="text-transform: none" href="{{ URL::to('/') }}/programa-partner/">Programa para Partner</a></li>
-                                                  <li><a style="text-transform: none" href="{{ URL::to('/') }}/portal-partner/">Portal de Partner</a></li>
+                                                  <li><a style="text-transform: none" href="{{ route('program-partner') }}">Programa para Partner</a></li>
+                                                  <li><a style="text-transform: none" href="{{ route('portal-partner') }}">Portal de Partner</a></li>
                                               </ul>
                                           </li>
                                           <li class="dropdown"><a href="#">Comunidad</a>
                                               <ul>
                                                   <!--<li><a href="{{ URL::to('/') }}/blog/">blog</a></li>-->
-                                                  <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
+                                                  <li><a href="{{ route('webcast') }}">Webcast</a></li>
                                                   <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
                                                  <!-- <li><a href="faqs.html">FAQs</a></li>
                                                   <li><a href="coming-soon.html">Comming Soon</a></li>-->
@@ -87,9 +87,9 @@
                                           </li>
                                           <li class="dropdown"><a href="#">Nosotros</a>
                                               <ul>
-                                                  <li><a href="{{ URL::to('/') }}/quienes-somos/">Quines somos</a></li>
-                                                  <li><a href="{{ URL::to('/') }}/nuestro-equipo/">Nuestro Equipo</a></li>
-                                                  <li><a href="{{ URL::to('/') }}/contacto/">Contáctanos</a></li>
+                                                  <li><a href="{{ route('about') }}">Quines somos</a></li>
+                                                  <li><a href="{{ route('team') }}">Nuestro Equipo</a></li>
+                                                  <li><a href="{{ route('contact') }}">Contáctanos</a></li>
                                               </ul>
                                           </li>
                                           <!--<li><a href="contact.html">Contact Us</a></li>-->
@@ -109,7 +109,7 @@
                   <div class="auto-container clearfix">
                       <!--Logo-->
                       <div class="logo pull-left">
-                          <a href="{{ URL::to('/') }}/" class="img-responsive"><img src="{{ URL::to('/') }}/images/logo-small.png" alt="" title=""></a>
+                          <a href="{{ route('index') }}" class="img-responsive"><img src="{{ URL::to('/') }}/images/logo-small.png" alt="" title=""></a>
                       </div>
                       
                       <!--Right Col-->
@@ -129,36 +129,37 @@
                                   <ul class="navigation clearfix">
                                       <li class="dropdown"><a href="">Soluciones</a>
                                           <ul>
-                                              <li><a style="text-transform: none" href="{{ URL::to('/') }}/soluciones/itsm/">Gestión de Servicios IT (ITSM)</a></li>
+                                              <li><a style="text-transform: none" 
+                                              href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
                                           </ul>
                                       </li>
                                       <li class=""><a href="{{ route('web-soporte') }}">Soporte</a>
                                       </li>
                                       <li class="dropdown"><a href="#">Clientes</a>
                                           <ul>
-                                              <li><a href="{{ URL::to('/') }}/nuestros-clientes/">Nuestros Clientes</a></li>
+                                              <li><a href="{{ route('clients') }}">Nuestros Clientes</a></li>
                                               <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Partner</a>
                                           <ul>
                                              <!-- <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
-                                              <li><a style="text-transform: none" href="{{ URL::to('/') }}/programa-partner/"> Programa para Partner</a></li>
-                                              <li><a style="text-transform: none" href="{{ URL::to('/') }}/portal-partner/">Portal de Partner</a></li>
+                                              <li><a style="text-transform: none" href="{{ route('program-partner') }}"> Programa para Partner</a></li>
+                                              <li><a style="text-transform: none" href="{{ route('portal-partner') }}">Portal de Partner</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Comunidad</a>
                                           <ul>
                                               <!--<li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>-->
-                                              <li><a href="{{ URL::to('/') }}/webcast/">Webcast</a></li>
+                                              <li><a href="{{ route('webcast') }}">Webcast</a></li>
                                               <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
                                           </ul>
                                       </li>
                                       <li class="dropdown"><a href="#">Nosotros</a>
                                           <ul>
-                                              <li><a href="{{ URL::to('/') }}/quienes-somos/">Quines somos</a></li>
-                                              <li><a href="{{ URL::to('/') }}/nuestro-equipo/">Nuestro Equipo</a></li>
-                                              <li><a href="{{ URL::to('/') }}/contacto/">Contáctanos</a></li>
+                                              <li><a href="{{ route('about') }}">Quines somos</a></li>
+                                              <li><a href="{{ route('team') }}">Nuestro Equipo</a></li>
+                                              <li><a href="{{ route('contact') }}">Contáctanos</a></li>
                                           </ul>
                                       </li>
                                   </ul>
