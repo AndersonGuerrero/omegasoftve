@@ -61,7 +61,7 @@
                                               </ul>
                                           </li>
                                           </li>
-                                          <li class=""><a href="{{ URL::to('/') }}/soporte/">Soporte</a>
+                                          <li class=""><a href="{{ route('web-soporte') }}">Soporte</a>
                                           </li>
                                           <li class="dropdown"><a href="#">Clientes</a>
                                               <ul>
@@ -132,7 +132,7 @@
                                               <li><a style="text-transform: none" href="{{ URL::to('/') }}/soluciones/itsm/">Gestión de Servicios IT (ITSM)</a></li>
                                           </ul>
                                       </li>
-                                      <li class=""><a href="{{ URL::to('/') }}/soporte/">Soporte</a>
+                                      <li class=""><a href="{{ route('web-soporte') }}">Soporte</a>
                                       </li>
                                       <li class="dropdown"><a href="#">Clientes</a>
                                           <ul>

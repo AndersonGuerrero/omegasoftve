@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'Web@index');
-Route::get('/soporte/', 'Web@soport');
+Route::get('/soporte/', 'Web@soport')->name('web-soporte');
 Route::get('/nuestros-clientes/', 'Web@clients');
 Route::get('/casos-de-exito/', 'Web@success_stories');
 Route::get('/blog/', 'Web@blog');

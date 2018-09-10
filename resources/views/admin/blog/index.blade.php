@@ -11,7 +11,7 @@
                        <h1 style="margin-top: 50px">Blogs</h1>
                    </div>
                    <div class="sec-title" style="float:right;">
-                    <a href="">
+                    <a href="{{ URL::to('/') }}">
                         <button class="theme-btn btn-style-two btn-send">
                                Crear blog
                             </button>
