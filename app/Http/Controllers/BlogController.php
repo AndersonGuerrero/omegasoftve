@@ -17,10 +17,16 @@ class BlogController extends Controller
     }
     
     public function store(Request $request){
-        \App\Blog::create([
+        $blog = \App\Blog::create([
             'title'=> $request->input('title'),
             'content'=> $request->input('content'),
-            'category_id'=> $request->input('category')
+            'category_id'=> $request->input('category'),
+            'imagen'=>''
+        ]);
+        $imageName = time().'.'.$request->image->getClientOriginalExtension();
+        $request->image->move(public_path('blogs/'.$blog->id.'/'), $imageName);
+        \App\Blog::find($blog->id)->update([
+            'imagen'=>$imageName
         ]);
         flash('Blog registrado!')->success();
         return redirect('admin/blog/');
