@@ -40,11 +40,15 @@
                                 <td>
                                     {{$item->title}}
                                 </td>
-                                <td>
-                                    <a href="{{ route('blog-update', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Editar</a>
-                                </td>
-                                <td>
-                                    <a href="{{ route('blog-delete', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Eliminar</a>
+                                <td style="text-align: center">
+                                    <button type="button" class="btn btn-primary" style="width: 50%;">
+                                         <a href="{{ route('blog-update', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Editar</a>
+                                    </button>
+                                
+                                <td style="text-align: center;">
+                                    <button type="button" class="btn btn-danger" style="width: 50%;">
+                                        <a href="{{ route('blog-delete', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Eliminar</a>
+                                    </button>
                                 </td>
                             </tr>
                         @endforeach
