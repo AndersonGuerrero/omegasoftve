@@ -48,5 +48,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('admin/blog', 'BlogController');
+Route::get('admin/blog', 'BlogController@index')->name('blog-index');
+Route::get('admin/blog/create/', 'BlogController@create')->name('blog-create');
+Route::get('admin/blog/update/{post}/', 'BlogController@update')->name('blog-update');
+Route::post('admin/blog/update/{post}/', 'BlogController@update')->name('blog-update');
+Route::get('admin/blog/delete/{post}/', 'BlogController@delete')->name('blog-delete');
+Route::post('admin/blog/store', ['as'=>'blog.store', 'uses'=>'BlogController@store']);
 Route::get('admin/', 'AdminController@index');

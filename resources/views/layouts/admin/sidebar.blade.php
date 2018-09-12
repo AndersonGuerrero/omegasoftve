@@ -30,7 +30,7 @@
                                   
                                   <div class="navbar-collapse collapse clearfix">
                                       <ul class="navigation clearfix">
-                                          <li class=""><a href="{{ URL::to('/') }}/admin/blog/">Blogs</a>
+                                          <li class=""><a href="{{ route('blog-index') }}">Blogs</a>
                                           </li>
                                           <!--<li><a href="contact.html">Contact Us</a></li>-->
                                       </ul>
@@ -67,7 +67,7 @@
                               
                               <div class="navbar-collapse collapse clearfix">
                                   <ul class="navigation clearfix">
-                                      <li class=""><a href="{{ URL::to('/') }}/admin/blog/">Soporte</a>
+                                      <li class=""><a href="{{ route('blog-index') }}">Blogs</a>
                                       </li>
                                   </ul>
                               </div>
