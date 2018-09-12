@@ -9,7 +9,10 @@
                 <div class="col-md-12 col-sm-12 col-xs-12" style="padding-right: 20px">
                    <div class="sec-title centered">
                        <h1 style="margin-top: 50px">Editar Blog</h1>
-                   </div>
+                    </div>
+                    <div class="sec-title centered">
+                        <img src="{{asset('blogs/'.$blog->id.'/'.$blog->imagen)}}" height="50px" width="100px" alt="">
+                    </div>
                    <div class="form-style-one quote-form">
                    {{ Form::open(array(route('blog-update', $blog->id), 'id' => 'form-blog')) }}
                            <div class="row clearfix">

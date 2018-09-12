@@ -24,6 +24,7 @@
                                 <th scope="col">Id</th>
                                 <th scope="col">Imagen</th>
                                 <th scope="col">Titulo</th>
+                                <th scope="col">Categoria</th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                             </tr>
@@ -34,11 +35,14 @@
                                 <th scope="row">
                                     {{$item->id}}
                                 </th>
-                                <td>
-                                    imagen blog
+                                <td style="text-align: center">
+                                    <img src="{{asset('blogs/'.$item->id.'/'.$item->imagen)}}" width="40px" alt="">
                                 </td>
                                 <td>
                                     {{$item->title}}
+                                </td>
+                                <td>
+                                    {{$item->category->name}}
                                 </td>
                                 <td style="text-align: center">
                                     <button type="button" class="btn btn-primary" style="width: 50%;">
