@@ -11,9 +11,9 @@
                        <h1 style="margin-top: 50px">Categorias</h1>
                    </div>
                    <div class="sec-title" style="float:right;">
-                    <a href="{{ route('blog-create') }}">
+                    <a href="{{ route('category-create') }}">
                         <button class="theme-btn btn-style-two btn-send">
-                               Crear blog
+                               Crear categoria
                             </button>
                     </a>   
                    </div>
@@ -22,29 +22,25 @@
                         <thead>
                             <tr>
                                 <th scope="col">Id</th>
-                                <th scope="col">Imagen</th>
-                                <th scope="col">Titulo</th>
+                                <th scope="col">Nombre</th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                             </tr>
                         </thead>
                     <tbody>
-                        @foreach($blogs as $item)
+                        @foreach($categories as $item)
                             <tr>
                                 <th scope="row">
                                     {{$item->id}}
                                 </th>
                                 <td>
-                                    imagen blog
+                                    {{$item->name}}
                                 </td>
                                 <td>
-                                    {{$item->title}}
+                                    <a href="{{ route('category-update', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Editar</a>
                                 </td>
                                 <td>
-                                    <a href="{{ route('blog-update', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Editar</a>
-                                </td>
-                                <td>
-                                    <a href="{{ route('blog-delete', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Eliminar</a>
+                                    <a href="{{ route('category-delete', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Eliminar</a>
                                 </td>
                             </tr>
                         @endforeach

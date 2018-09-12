@@ -11,23 +11,12 @@
                        <h1 style="margin-top: 50px">Detalles de la categoria</h1>
                    </div>
                    <div class="form-style-one quote-form">
-                   {{ Form::open(array('route' => 'blog.store', 'id' => 'form-blog')) }}
+                   {{ Form::open(array('route' => 'category.store', 'id' => 'form-category')) }}
                            <div class="row clearfix">
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                   {{ Form::text('title', null, ['placeholder'=>'Titulo', 'required'=> 'required']) }}
+                                   {{ Form::text('name', null, ['placeholder'=>'Nombre', 'required'=> 'required']) }}
                                    
                                </div>
-                               <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                               {{ Form::select('category', $categories, null, ['placeholder'=>'Seleccione una categoria', 'required'=> 'required'] ) }}
-                               </div>
-                               <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                   {{ Form::textarea('content', null, array('placeholder'=>'Contenido', 'required'=> 'required')) }}
-                               </div>
-                                <div style="">
-                                    <label class="btn btn-primary" style="font-weight: 600;font-size: 12px;border-color: #8baad6 !important;background: #8baad6 !important;">
-                                            Adjuntar Imagen<input accept=".png, .jpg, .jpeg, .gif" name="imagen" type="file" required style="">
-                                    </label>
-                                </div>
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                    <div class="text-center">
                                    {{ Form::submit('Guardar', ['class'=>'theme-btn btn-style-two btn-send']) }}

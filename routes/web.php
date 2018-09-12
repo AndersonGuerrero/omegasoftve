@@ -55,3 +55,11 @@ Route::post('admin/blog/update/{post}/', 'BlogController@update')->name('blog-up
 Route::get('admin/blog/delete/{post}/', 'BlogController@delete')->name('blog-delete');
 Route::post('admin/blog/store', ['as'=>'blog.store', 'uses'=>'BlogController@store']);
 Route::get('admin/', 'AdminController@index');
+
+
+Route::get('admin/category', 'CategoryController@index')->name('category-index');
+Route::get('admin/category/create/', 'CategoryController@create')->name('category-create');
+Route::get('admin/category/update/{category}/', 'CategoryController@update')->name('category-update');
+Route::post('admin/category/update/{category}/', 'CategoryController@update')->name('category-update');
+Route::get('admin/category/delete/{category}/', 'CategoryController@delete')->name('category-delete');
+Route::post('admin/category/store', ['as'=>'category.store', 'uses'=>'CategoryController@store']);

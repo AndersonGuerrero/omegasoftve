@@ -32,6 +32,8 @@
                                       <ul class="navigation clearfix">
                                           <li class=""><a href="{{ route('blog-index') }}">Blogs</a>
                                           </li>
+                                          <li class=""><a href="{{ route('category-index') }}">Categorias</a>
+                                          </li>
                                           <!--<li><a href="contact.html">Contact Us</a></li>-->
                                       </ul>
                                   </div>
@@ -69,6 +71,8 @@
                                   <ul class="navigation clearfix">
                                       <li class=""><a href="{{ route('blog-index') }}">Blogs</a>
                                       </li>
+                                      <li class=""><a href="{{ route('category-index') }}">Categorias</a>
+                                          </li>
                                   </ul>
                               </div>
                           </nav><!-- Main Menu End-->

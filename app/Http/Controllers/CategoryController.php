@@ -7,47 +7,40 @@ use Illuminate\Http\Request;
 class CategoryController extends Controller
 {
     public function index(){
-        $blogs = \App\Blog::all();
-        return view('admin.blog.index', array('blogs'=>$blogs));    
+        $categories = \App\Category::all();
+        return view('admin.category.index', array('categories'=>$categories));    
     }
 
     public function create(){
-        $categories = \App\Category::pluck('name', 'id');
-        return view('admin.blog.create', array('categories'=>$categories));
+        return view('admin.category.create');
     }
     
     public function store(Request $request){
-        \App\Blog::create([
-            'title'=> $request->input('title'),
-            'content'=> $request->input('content'),
-            'category_id'=> $request->input('category')
+        \App\Category::create([
+            'name'=> $request->input('name')
         ]);
-        flash('Blog registrado!')->success();
-        return redirect('admin/blog/');
+        flash('Categoria registrada!')->success();
+        return redirect('admin/category/');
     }
     
-    public function update(Request $request, $blogid){
+    public function update(Request $request, $categoryid){
         if ($request->isMethod('post')) {
-            \App\Blog::find($blogid)->update([
-                'title'=> $request->input('title'),
-                'content'=> $request->input('content'),
-                'category_id'=> $request->input('category')
+            \App\Category::find($categoryid)->update([
+                'name'=> $request->input('name')
             ]);
-            flash('Blog actualizado!')->success();
-            return redirect('admin/blog/');
+            flash('Categoria actualizada!')->success();
+            return redirect('admin/category/');
             }else{
-                $categories = \App\Category::pluck('name', 'id');
-                $blog = \App\Blog::find($blogid);
-                return view('admin.blog.update', array(
-                    'categories'=>$categories,
-                'blog'=>$blog
+                $category = \App\Category::find($categoryid);
+                return view('admin.category.update', array(
+                    'category'=>$category
             ));
         }
     }
 
     public function delete(Request $request, $id){
-        \App\Blog::find($id)->delete();
-        flash('Blog eliminado!')->success();
-        return redirect('admin/blog/');
+        \App\Category::find($id)->delete();
+        flash('Categoria eliminado!')->success();
+        return redirect('admin/category/');
     }
 }
