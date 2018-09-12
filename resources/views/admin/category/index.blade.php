@@ -21,8 +21,8 @@
                    <table class="table table-striped table-bordered table-hover">
                         <thead>
                             <tr>
-                                <th scope="col">Id</th>
-                                <th scope="col">Nombre</th>
+                                <th scope="col" style="font-size: 18px;">Id</th>
+                                <th scope="col" style="text-align:center;font-size: 18px;" >Nombre</th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                             </tr>
@@ -30,17 +30,21 @@
                     <tbody>
                         @foreach($categories as $item)
                             <tr>
-                                <th scope="row">
+                                <th scope="row" style="font-size: 15px;">
                                     {{$item->id}}
                                 </th>
-                                <td>
+                                <td style="text-align:center;font-size: 15px;">
                                     {{$item->name}}
                                 </td>
-                                <td>
-                                    <a href="{{ route('category-update', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Editar</a>
+                                <td style="text-align:center">
+                                    <button type="button" class="btn btn-primary" style="width:40%;">
+                                        <a href="{{ route('category-update', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Editar</a>
+                                    </button>
                                 </td>
-                                <td>
-                                    <a href="{{ route('category-delete', $item->id) }}" style="color:#01325c;font-size:12px;font-weight:600;">Eliminar</a>
+                                <td style="text-align:center">
+                                    <button type="button" class="btn btn-danger" style="width:40%;"> 
+                                        <a href="{{ route('category-delete', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Eliminar</a>
+                                    </button>
                                 </td>
                             </tr>
                         @endforeach
