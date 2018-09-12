@@ -39,8 +39,12 @@ class CategoryController extends Controller
     }
 
     public function delete(Request $request, $id){
-        \App\Category::find($id)->delete();
-        flash('Categoria eliminado!')->success();
+        try {
+            \App\Category::find($id)->delete();
+            flash('Categoria eliminado!')->success();
+        } catch (\Exception $e) {
+            flash('No puedes eliminar esta categoria, Posee blogs relacionados!')->error();
+        }
         return redirect('admin/category/');
     }
 }
