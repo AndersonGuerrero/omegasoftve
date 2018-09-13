@@ -47,7 +47,7 @@
                                     <br>
                                 </div>
                                 <div class="text" style="text-align: center; padding: 15px;">
-                                    <u><b> Este Webcast conoceremos:</b></u>
+                                    <u><b>En este webcast conocemos</b></u>
                                     <br>
                                     Visión General de Omega ITSM
                                     <br>
@@ -78,7 +78,7 @@
                             <br>
                             </div>
                             <div class="text" style="text-align:center;padding:15px;margin-top: 30px;">
-                                <u><b> Este Webcast conoceremos:</b></u>
+                                <u><b>En este webcast conocemos</b></u>
                                 <br>
                                     Base de Conocimiento.
                                 <br>
@@ -110,7 +110,7 @@
                                     <br>
                                 </div>
                                 <div class="text" style="text-align: center; padding: 15px;">
-                                    <u><b> Este Webcast conoceremos:</b></u>
+                                    <u><b>En este webcast conocemos</b></u>
                                     <br>
                                     Gestión de Configuración.
                                     <br>
@@ -137,7 +137,7 @@
                                 <br>
                             </div>
                             <div  class="text" style="text-align:center;padding:15px;margin-top: 30px;">
-                                <u><b> Este Webcast conoceremos:</b></u>
+                                <u><b>En este webcast conocemos</b></u>
                                 <br>
                                 Gestión de Proyectos
                                 <br>
