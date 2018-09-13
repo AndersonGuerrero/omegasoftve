@@ -91,7 +91,7 @@
                         </div>
                         <div class="col-md-10 col-ms-10 col-xs-10" style="margin-bottom: -30px;">
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                <h1 style="font-size:20px;text-align: initial;" >Solicitudes por correo</h1>
+                                <h1 style="font-size:20px;text-align: initial;" >Solicitudes por Correo</h1>
                             </div>
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                 <div class="text" style="text-align:initial; font-size:15px;">
@@ -111,7 +111,7 @@
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                    <h1 style="font-size:20px;text-align: initial;" >Interctivo</h1>
+                                    <h1 style="font-size:20px;text-align: initial;" >Chat Interactivo</h1>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
@@ -128,7 +128,7 @@
                                 </div>
                                 <div class="col-md-10 col-ms-10 col-xs-10">
                                     <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                        <h1 style="font-size:20px;text-align: initial;">Portal web</h1>
+                                        <h1 style="font-size:20px;text-align: initial;">Portal Web</h1>
                                     </div>
                                     <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                         <div class="text" style="text-align:initial; font-size:15px;">
