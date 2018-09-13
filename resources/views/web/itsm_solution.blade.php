@@ -265,7 +265,7 @@
                                                         <h3>Prestación de Servicio</h3>
                                                         <div style="font-size: 15px;" class="text">
                                                             El usuario final tiene la expectativa de que sus problemas y solicitudes se resuelvan
-                                                            rápidamente. Estandarización de los procesos, notificaciones y automatización eliminan la
+                                                            rápidamente. La estandarización de los procesos, notificaciones y automatización eliminan la
                                                             dependencia del factor humano para efectuar actividades manuales y reducir los tiempos
                                                             de espera, aumentando así su satisfacción.</div>
                                                     </div>
