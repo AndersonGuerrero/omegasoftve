@@ -16,7 +16,7 @@
                         <h1>Algunas de las empresas que han confiado en nosotros</h1>
                         <div class="text">Para nosotros nuestros clientes son la gran apuesta de valor,
                             el verdadero aval de la compañía y la mayor garantía de continuidad.
-                            les agradecemos la confianza que nos han brindado durante toda nuestra
+                            Les agradecemos la confianza que nos han brindado durante toda nuestra
                             trayectoria, un apoyo que ha permitido que seamos una empresa con gran
                             proyección de futuro, son nuestra mejor razón para despertarnos cada dia.
                         </div>
