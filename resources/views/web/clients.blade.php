@@ -51,7 +51,7 @@
                                     Omega ITSM nos ayuda totalmente
                                     a mejorar nuestra gestión de servicios. La gerencia
                                     de Tecnología ahora es mucho más eficiente, mejorando
-                                    nuestros Tiempos de respuesta teniendo un unico punto de
+                                    nuestros tiempos de respuesta, teniendo un unico punto de
                                     contacto con los distintos departamentos de la gerencia. 
                                 </div>
                                 <div class="info">
