@@ -217,7 +217,7 @@
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                    <h1 style="font-size:20px;text-align: initial;" >Tipo de soporte</h1>
+                                    <h1 style="font-size:20px;text-align: initial;" >Tipo de Soporte</h1>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
@@ -238,7 +238,7 @@
                         </div>
                         <div class="col-md-10 col-ms-10 col-xs-10" style="margin-bottom: -30px;">
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                <h1 style="font-size:20px;text-align: initial;" >Niveles de servcios</h1>
+                                <h1 style="font-size:20px;text-align: initial;" >Niveles de Servicio</h1>
                             </div>
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                 <div class="text" style="text-align:initial; font-size:15px;">
