@@ -89,7 +89,7 @@
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
                                     Con Omega ITSM tenemos gestión
-                                    controlada y alineada a TIL, una comunicacion
+                                    controlada y alineada a ITIL, una comunicacion
                                     efectiva con los usuarios, una distribución
                                     más eficiente de las cargas de trabajo, un
                                     seguimiento continuo mediante reportes e
