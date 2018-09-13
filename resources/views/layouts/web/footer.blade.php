@@ -62,8 +62,8 @@
                                         <div class="info">
                                             <ul>
                                                 <li class="clearfix"><strong>Telefono: </strong> <span class="txt">(58) 244 386 8448</span></li>
-                                                <li class="clearfix"><strong>Email: </strong> <span class="txt"><a href="email:info@omegasoftve.com">info@omegasoftve.com</a></span></li>
-                                                <li class="clearfix"><strong>Direccion: </strong> <span class="txt">Calle páez #24 entre calle carabaño y leopoldo tosta sector centro. villa de cura, venezuela.</span></li>
+                                                <li class="clearfix"><strong>Email: </strong> <span class="txt"><!--<a href="email:info@omegasoftve.com">-->info@omegasoftve.com<!--</a>--></span></li>
+                                                <li class="clearfix"><strong>Direccion: </strong> <span class="txt">Dirección:  Calle Páez #24 entre calle Carabaño y Leopoldo Tosta, sector centro. Villa de Cura, Aragua, Venezuela.</span></li>
                                             </ul>
                                         </div>
                                     </div>

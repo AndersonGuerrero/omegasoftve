@@ -63,7 +63,7 @@
                         <h1 style="margin-top: 50px">Información de Contacto</h1>
                         <div style="margin-top: 109px;">
                             <h2 style="text-align: -webkit-left;color: #00325d;margin-left: 37px;">Direccion:</h2>
-                            <div class="text" style="text-align: initial; margin-top: -15px; margin-left: 37px; ">Calle páez #24 entre calle carabaño y leopoldo tosta sector centro. villa de cura, venezuela.</div>
+                            <div class="text" style="text-align: initial; margin-top: -15px; margin-left: 37px; ">Calle Páez #24 entre calle Carabaño y Leopoldo Tosta, sector centro. Villa de Cura, Aragua, Venezuela.</div>
                         </div>
                         <div style="margin-top: 5px;">
                             <h2 style="text-align: -webkit-left; margin-top: 10px;color: #00325d; margin-left: 37px; ">Telefono:</h2>

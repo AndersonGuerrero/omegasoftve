@@ -25,14 +25,14 @@
                     </div>
                     <div class="sec-title centered">
                         <div class="text">
-                            Nuestros principales objetivos son combinar la facilidad, 
-                            la accesibilidad y la practicidad al proporcionar soluciones 
-                            flexibles y asequibles para empresas de todos los tamaños, 
-                            permitiéndoles obtener control en la entrega de servicios, 
-                            simplificar los procesos de gestión de servicios, adquirir 
-                            visibilidad en tiempo real en todos sus servicios e infraestructura 
-                            y orquestar las interacciones de personas, procesos y tecnologías para 
-                            un rendimiento óptimo de los servicios.
+                        Nuestros principales objetivos son combinar la facilidad, 
+                        la accesibilidad y la practicidad al proporcionar soluciones 
+                        flexibles y asequibles a las organizaciones, permitiéndoles 
+                        obtener control en la entrega de servicios, simplificar los 
+                        procesos de gestión de servicios, adquirir visibilidad en 
+                        tiempo real en todos sus servicios e infraestructura y orquestar 
+                        las interacciones de personas, procesos y tecnologías para un 
+                        rendimiento óptimo de los servicios.
                         </div>
                     </div>
                 </div>
