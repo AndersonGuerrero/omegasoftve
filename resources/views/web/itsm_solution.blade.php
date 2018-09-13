@@ -161,10 +161,10 @@
                                                     </div>
                                                     <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
                                                         <div class="text" style="padding-right: 15px;padding-left:15px;">
-                                                                Las funcionalidades de Gestión de Cambios de Omega ITSM, le permitirá asegurar que
-                                                                todos los cambios de TI se manejen de manera eficiente, con una eficaz gestión del riesgo
-                                                                que minimice las demoras, las fallas asociadas y minimice los problemas relacionados con
-                                                                los cambios.
+                                                        Las funcionalidades de Gestión de Cambios de Omega ITSM, le permitirá 
+                                                        asegurar que todos los cambios de TI se manejen de manera eficiente, 
+                                                        con una eficaz gestión del riesgo, reduciendo las demoras, las fallas 
+                                                        asociadas y minimizando los problemas relacionados con los cambios.
                                                         </div>
                                                     </div>
                                                 </div>
@@ -203,7 +203,7 @@
                                         </div>
                                     </section>
                                     
-                                    <section>
+                                    <section style="padding-top: 50px;">
                                         <div class="auto-container">
                                             <div class="sec-title-two centered " style="margin-bottom: 30px;">
                                                 <h1 style="font-size:30px;">Obtenga beneficios para su organización con nuestras soluciones</h1>
@@ -230,7 +230,7 @@
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/toma_de_decisiones.png" alt=""></figure>
-                                                        <h3>Toma de decisiones</h3>
+                                                        <h3>Toma de Decisiones</h3>
                                                         <div style="font-size: 15px;" class="text">
                                                                 Base la toma de decisiones en información oportuna, precisa y en tiempo real, evitando
                                                                 desviaciones y retardos en la prestación de servicio.</div>
@@ -240,7 +240,7 @@
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/satisfaccion-del-cliente.png" alt=""></figure>
-                                                        <h3>Satisfacción del cliente</h3>
+                                                        <h3>Satisfacción del Cliente</h3>
                                                         <div style="font-size: 15px;" class="text">
                                                             Mejora los tiempos de respuesta, cumpliendo así a cabalidad los acuerdos de niveles de
                                                             servicios y aumentando la satisfacción de tus clientes.</div>
@@ -252,7 +252,7 @@
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/reduccion_de_costos.png" alt=""></figure>
-                                                        <h3>Reducción de costos</h3>
+                                                        <h3>Reducción de Costos</h3>
                                                         <div style="font-size: 15px;" class="text">
                                                                 Aumente la productividad y reduzca los costos, eliminando las tareas manuales y la
                                                                 duplicación de esfuerzos, retrabajos u otras tareas que impliquen desperdicio de tiempo.</div>
@@ -274,7 +274,7 @@
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/gobernabilidad-control.png" alt=""></figure>
-                                                        <h3>Gobernabilidad y control</h3>
+                                                        <h3>Gobernabilidad y Control</h3>
                                                         <div style="font-size: 15px;" class="text">
                                                             La estandarización de los procesos basados en mejores prácticas, permiten la
                                                             introducción de controles internos, sobre los cambios efectuados en la infraestructura
