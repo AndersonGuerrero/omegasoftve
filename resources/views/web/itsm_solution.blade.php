@@ -107,8 +107,8 @@
                                                     </div>
                                                     <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
                                                         <div class="text" style="padding-right: 15px;padding-left:15px;">
-                                                                Con Omega ITSM, usted podrá centralizar la atención de los diversos procesos de su
-                                                                negocio, como lo son Requerimientos de Servicios, problemas, cambios y proyecto.
+                                                                Con omega ITSM, usted podrá centralizar la atención de los diversos procesos de su
+                                                                negocio, como lo son requerimientos de servicios, problemas, cambios y proyecto.
                                                                 Además, podrá incluir a otras áreas de la compañía diferentes a IT, gracias a nuestra
                                                                 funcionalidad de multimesa de servicio.
                                                         </div>
@@ -1384,10 +1384,7 @@
     </section>
     
         <!--Testimonials Two Section-->
-    <section class="testimonials-two" style="padding: 0px 0px;padding-top: 30px;">
-            <div class="sec-title-two centered" style="margin-bottom: 30px;margin-left: 20px;">
-                    <h1 style="font-size: 30px">Que dicen nuestros clientes</h1>
-            </div>
+        <section class="testimonials-two">
             <div class="auto-container">
                 <!--Heading-->                    
                 <div class="carousel-box">
@@ -1399,7 +1396,7 @@
                                     Omega ITSM nos ayuda totalmente
                                     a mejorar nuestra gestión de servicios. La gerencia
                                     de Tecnología ahora es mucho más eficiente, mejorando
-                                    nuestros Tiempos de respuesta teniendo un unico punto de
+                                    nuestros tiempos de respuesta, teniendo un unico punto de
                                     contacto con los distintos departamentos de la gerencia. 
                                 </div>
                                 <div class="info">
@@ -1414,7 +1411,7 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                    Con las soluciones de Omegasoft, se puede
+                                   Con las soluciones de Omegasoft, se puede
                                     gestionar de manera eficiente las necesidades
                                     de nuestros usuarios, permite mayor 
                                     control en el tiempo de atención lo que da la
@@ -1437,7 +1434,7 @@
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
                                     Con Omega ITSM tenemos gestión
-                                    controlada y alineada a TIL, una comunicacion
+                                    controlada y alineada a ITIL, una comunicacion
                                     efectiva con los usuarios, una distribución
                                     más eficiente de las cargas de trabajo, un
                                     seguimiento continuo mediante reportes e
@@ -1455,7 +1452,7 @@
                         <div class="testimonial-block">
                             <div class="inner">
                                 <div style="text-align: justify;" class="text">
-                                omegasoft nos permite implementar una solucion integra
+                                    Omegasoft nos permite implementar una solucion integra
                                     para la gestión de los servicios TI, alineando
                                     los procesos del área con las buenas prácticas
                                     que ofrece ITIL lo cual nos facilita
@@ -1471,12 +1468,6 @@
                     </div>
                 </div>
                 
-            </div>
-            <div class="sec-title centered" style="background: #007affb8; margin-bottom: 0px;">
-                <div style="padding-bottom: 30px">
-                    <h1 style="font-size:25px; margin-bottom: 15px;padding-top: 15px;">Participe en nuestros eventos en línea</h1>
-                    <div class="text-center" style="transition: none; line-height: 15px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 10px;"><a href="http://localhost:8000/webcast/" class="theme-btn btn-style-three" style="transition: none; text-align: inherit; line-height: 24px; border-width: 2px; margin: 0px; padding: 15px 45px 11px; letter-spacing: 1px; font-weight: 600; font-size: 16px;border-color: #3ccc00; background: #3ccc00">Programación Eventos En Línea</a></div>
-                </div>
             </div>
     </section>
    
