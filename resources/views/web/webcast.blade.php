@@ -41,7 +41,7 @@
                                     procesos de su negocio, como lo son Requerimientos de Servicios, 
                                     problemas, cambios y proyecto. Además, podrá incluir a otras áreas 
                                     de la compañía diferentes a IT, gracias a nuestra funcionalidad de 
-                                    multimesa de servicio. Además, podrá proporcionales a sus usuarios 
+                                    multimesa de servicio. También, podrá proporcionales a sus usuarios 
                                     un portal de autoservicio potente y fácil de utilizar.
                                     <br>
                                     <br>
