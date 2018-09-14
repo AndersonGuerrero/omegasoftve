@@ -6,19 +6,19 @@
     	<div class="auto-container">
         	
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12" style="padding-right: 20px">
-                   <div class="sec-title centered">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="padding-right: 90px;padding-left:90px;">
+                   <div style="text-align: center">
                        <h1 style="margin-top: 50px">Blogs</h1>
                    </div>
-                   <div class="sec-title" style="float:right;">
+                   <div class="sec-title" style="float:right;padding-bottom:15px;">
                     <a href="{{ route('blog-create') }}">
-                        <button class="theme-btn btn-style-two btn-send">
+                        <button class="btn btn-outline-success">
                                Crear blog
                             </button>
                     </a>   
                    </div>
                    <div class="form-style-one quote-form">
-                   <table class="table table-striped table-bordered table-hover">
+                   <table class="table table-striped  table-hover">
                         <thead>
                             <tr>
                                 <th scope="col">Id</th>
@@ -35,7 +35,7 @@
                                 <th scope="row">
                                     {{$item->id}}
                                 </th>
-                                <td style="text-align: center">
+                                <td>
                                     <img src="{{asset('blogs/'.$item->id.'/'.$item->imagen)}}" width="40px" alt="">
                                 </td>
                                 <td>
