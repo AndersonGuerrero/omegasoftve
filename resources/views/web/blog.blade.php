@@ -133,7 +133,7 @@
                         	<div class="sidebar-title">
                             	<h3>Categorias</h3>
                             </div>
-							Nombre: {{ $categories->nombre }} <br>
+							Nombre: {{ $categories }} <br>
 							
                             <ul id="categorys-blog-content" class="popular-category-list">
                             	<li><a data-id="select-itil" class="clearfix categorys-blog" style="text-decoration:none;" href="#">ITIL</a></li>

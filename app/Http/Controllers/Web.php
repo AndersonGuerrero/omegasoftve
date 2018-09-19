@@ -23,10 +23,6 @@ class Web extends Controller{
         return view('web/success_stories');
     }
 
-    public function blog(){
-        return view('web/blog');
-    }
-
     public function about(){
         return view('web/about');
     }

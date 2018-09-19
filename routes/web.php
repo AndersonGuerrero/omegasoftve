@@ -15,7 +15,6 @@ Route::get('/', 'Web@index')->name('index');
 Route::get('/soporte/', 'Web@soport')->name('web-soporte');
 Route::get('/nuestros-clientes/', 'Web@clients')->name('clients');
 Route::get('/casos-de-exito/', 'Web@success_stories')->name('success_stories');
-Route::get('/blog/', 'Web@blog')->name('blog');
 Route::get('/newsletter/', 'NewsletterController@newsletter')->name('newsletter');
 Route::post('/newsletter/', ['as'=>'newsletter.send', 'uses'=>'NewsletterController@newsletterPost']);
 Route::get('/quienes-somos/', 'Web@about')->name('about');
@@ -63,5 +62,5 @@ Route::get('admin/category/update/{category}/', 'CategoryController@update')->na
 Route::post('admin/category/update/{category}/', 'CategoryController@update')->name('category-update');
 Route::get('admin/category/delete/{category}/', 'CategoryController@delete')->name('category-delete');
 Route::post('admin/category/store', ['as'=>'category.store', 'uses'=>'CategoryController@store']);
-//Route::get('web/blog', 'CategoryController@bogCategory')->name('category-bogCategory');
-Route::get('/web/blog', 'CategoryController@blogCategory')->name('category-blogCategory');
+
+Route::get('/blog/', 'BlogWebController@index')->name('blog');
