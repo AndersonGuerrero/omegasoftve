@@ -26,27 +26,29 @@
             
             <div class="row clearfix">
 				<div class="content-side col-lg-9 col-md-8 col-sm-12 col-xs-12">
-					<?php
-					if($blogs->count()==0){
-						echo '<h3>No se encontraron resultados.</h3>';
-					}
-					?>
-					@foreach($blogs as $item)
-						<!--News Block-->
+                        <!--News Block-->
 						<div class="news-block-one">
 							<div class="inner-box">
-								<figure class="image-box"><a href="{{ route('blog-name', str_slug($item->title)) }}">
-									<img 
-									style="width:870px;height: 372px;"
-									src="{{ URL::to('/').'/blogs/'.$item->id.'/'.$item->imagen }}" alt=""></a></figure>
-								<h3><a href="{{ route('blog-name', str_slug($item->title)) }}">{{$item->title}}</a></h3>
-								<div class="post-info">Post: {{ $item->created_at->format('d M Y')}}</div>
-								<div class="text">
-								{{ Str::limit($item->content, 170, '...') }}
+								<figure class="image-box"><a href="{{ route('blog-name', str_slug($blog->title)) }}">
+                                    <img 
+                                    style="width:870px;height: 372px;"
+                                    src="{{ URL::to('/').'/blogs/'.$blog->id.'/'.$blog->imagen }}" alt=""></a></figure>
+								<h3><a href="{{ route('blog-name', str_slug($blog->title)) }}">{{$blog->title}}</a></h3>
+								<div class="post-info">Post: {{ $blog->created_at->format('d M Y')}}</div>
+								<div style="
+                                        font-style: normal;
+                                        font-size: 12px;
+                                        font-weight:400;
+                                        letter-spacing: 3px;
+                                        color: #231f20;
+                                        text-transform: uppercase;
+                                        line-height: 1.5em;
+                                        text-align: justify;
+                                    " class="text">
+                                        {{ $blog->content }}
 								</div>
 							</div>
 						</div>
-					@endforeach
 				</div>
 				
 				<!--Sidebar Side-->
@@ -55,13 +57,10 @@
 						
                         <!-- Search -->
                         <div class="sidebar-widget search-box">
-                        	<form method="get" action="">
+                        	<form method="get" action="{{ route('blog') }}">
                                 <div class="form-group">
-									<input type="search" name="search" value="{{$search}}" 
-									placeholder="Buscar" required>
-                                    <button type="submit">
-										<span class="icon fa fa-search"></span>
-									</button>
+                                    <input type="search" name="search" value="" placeholder="Buscar" required>
+                                    <button type="submit"><span class="icon fa fa-search"></span></button>
                                 </div>
                             </form>
 						</div>
@@ -73,18 +72,11 @@
                             </div>
                             <ul class="popular-category-list">
 								@foreach($categories as $item)
-                            	<li>
-									<a
-									style="
-									<?php 
-									if($catg){
-										if($catg->id==$item->id){
-											echo 'color: #007aff;';
-										} 
-									}
-									?>"
-									 class="clearfix" style="text-decoration:none;" 
-								href="{{ route('blog-category', str_slug($item->name))}}">{{$item->name}}</a></li>
+                                    <li>
+                                        <a class="clearfix" style="text-decoration:none;" 
+                                            href="{{ route('blog-category', str_slug($item->name))}}">{{$item->name}}
+                                        </a>
+                                    </li>
                                 @endforeach
                         	</ul>
 						</div>
@@ -111,24 +103,11 @@
                         
                     </aside>
                 </div><!--End Sidebar Side-->
-				
 			</div>
-            <br><br>
-            <!-- Styled Pagination -->
-			<div class="styled-pagination">
-				<ul class="clearfix">
-					<li class="prev"><a href="#"><span class="fa fa-angle-left"></span> &nbsp;Anterios</a></li>
-					<li><a href="#" class="active">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><span class="gap">&bull; &bull; &bull;</span></li>
-					<li><a href="#">20</a></li>
-					<li class="next"><a href="#">Siguiente &nbsp;<span class="fa fa-angle-right"></span></a></li>
-				</ul>
-			</div>
-            
         </div>
     </section>
+    <br>
+    <br>
 
 @endsection
 @section('javascript')

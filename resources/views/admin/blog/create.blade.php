@@ -28,6 +28,7 @@
                                     <input accept=".png, .jpg, .jpeg, .gif" name="image" type="file" required>
                                 </div>
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    870x372
                                    <div class="text-center">
                                    {{ Form::submit('Guardar', ['class'=>'btn btn-primary btn-send']) }}
                                     </div>

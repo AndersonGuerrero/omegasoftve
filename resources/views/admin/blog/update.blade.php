@@ -28,6 +28,7 @@
                                    {{ Form::textarea('content', $blog->content, array( 'class'=>'form-control',  'placeholder'=>'Contenido', 'required'=> 'required')) }}
                                </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: end;">
+                                    870x372
                                     <input accept=".png, .jpg, .jpeg, .gif" name="imagen" type="file" required>         
                                 </div>
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">

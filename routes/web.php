@@ -64,3 +64,5 @@ Route::get('admin/category/delete/{category}/', 'CategoryController@delete')->na
 Route::post('admin/category/store', ['as'=>'category.store', 'uses'=>'CategoryController@store']);
 
 Route::get('/blog/', 'BlogWebController@index')->name('blog');
+Route::get('/blog/{blogName}', 'BlogWebController@blog')->name('blog-name');
+Route::get('/blogs/{categoryName}/', 'BlogWebController@blogsCategory')->name('blog-category');
