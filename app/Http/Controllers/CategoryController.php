@@ -62,5 +62,5 @@ class CategoryController extends Controller
             flash('No puedes eliminar esta categoria, Posee blogs relacionados!')->error();
         }
         return redirect('admin/category/');
-    }
+    }    
 }

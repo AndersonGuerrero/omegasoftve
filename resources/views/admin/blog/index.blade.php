@@ -14,7 +14,7 @@
                     <a href="{{ route('blog-create') }}">
                         <button class="btn btn-outline-success">
                                Crear blog
-                            </button>
+                        </button>
                     </a>   
                    </div>
                    <div class="form-style-one quote-form">

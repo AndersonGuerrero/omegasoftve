@@ -63,3 +63,5 @@ Route::get('admin/category/update/{category}/', 'CategoryController@update')->na
 Route::post('admin/category/update/{category}/', 'CategoryController@update')->name('category-update');
 Route::get('admin/category/delete/{category}/', 'CategoryController@delete')->name('category-delete');
 Route::post('admin/category/store', ['as'=>'category.store', 'uses'=>'CategoryController@store']);
+//Route::get('web/blog', 'CategoryController@bogCategory')->name('category-bogCategory');
+Route::get('/web/blog', 'CategoryController@blogCategory')->name('category-blogCategory');
