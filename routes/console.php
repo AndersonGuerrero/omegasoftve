@@ -16,3 +16,12 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+Artisan::command('user:create', function () {
+    \App\User::create([
+        'name' => $this->ask('Name?'),
+        'email' => $this->ask('Email?'),
+        'password' => bcrypt($this->secret('Password?')),
+    ]);
+    $this->info('Account created ');
+})->describe('Create users in DB');

@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    ¡Has iniciado sesión!
+                    ¡Administrador de omegasoftve.com!
                 </div>
             </div>
         </div>

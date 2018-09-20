@@ -51,7 +51,7 @@
                                 <a class="nav-link" href="{{ route('category-index') }}">{{ __('Categorias') }}</a>
                             </li>    
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Registrar') }}</a>
+                                <a class="nav-link" href="{{ route('register-user') }}">{{ __('Registrar') }}</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -77,6 +77,7 @@
         </nav>
 
         <main class="py-4">
+        @include('flash::message')
             @yield('content')
         </main>
     </div>
