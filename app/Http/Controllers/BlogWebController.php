@@ -15,9 +15,9 @@ class BlogWebController extends Controller{
         $lastsBlogs = Blog::orderBy('created_at','desc')->take(4)->get();
         $search = $request->input('search');
         if($search){
-            $blogs = Blog::where('title', 'like', '%'.$search.'%')->get();
+            $blogs = Blog::where('title', 'like', '%'.$search.'%')->paginate(5);
         }else{
-            $blogs = Blog::get();
+            $blogs = Blog::paginate(5);
         }
 
         return view('web.blog',

@@ -115,17 +115,7 @@
 			</div>
             <br><br>
             <!-- Styled Pagination -->
-			<div class="styled-pagination">
-				<ul class="clearfix">
-					<li class="prev"><a href="#"><span class="fa fa-angle-left"></span> &nbsp;Anterios</a></li>
-					<li><a href="#" class="active">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><span class="gap">&bull; &bull; &bull;</span></li>
-					<li><a href="#">20</a></li>
-					<li class="next"><a href="#">Siguiente &nbsp;<span class="fa fa-angle-right"></span></a></li>
-				</ul>
-			</div>
+			{{ $blogs->links('pagination.default') }}
             
         </div>
     </section>
