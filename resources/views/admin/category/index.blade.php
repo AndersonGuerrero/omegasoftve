@@ -37,14 +37,20 @@
                                             {{$item->name}}
                                         </td>
                                         <td style="text-align:center">
-                                            <button type="button" class="btn btn-primary" style="width:40%;">
-                                                <a href="{{ route('category-update', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Editar</a>
-                                            </button>
+                                                <a href="{{ route('category-update', $item->id) }}" 
+                                                    style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">
+                                                    <button type="button" class="btn btn-primary" style="width:40%;">
+                                                            Editar
+                                                    </button>
+                                                </a>
                                         </td>
                                         <td style="text-align:center">
-                                            <button type="button" class="btn btn-danger" style="width:40%;"> 
-                                                <a href="{{ route('category-delete', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Eliminar</a>
-                                            </button>
+                                                <a href="{{ route('category-delete', $item->id) }}" 
+                                                    style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">
+                                                    <button type="button" class="btn btn-danger" style="width:40%;"> 
+                                                        Eliminar
+                                                    </button>
+                                                </a>
                                         </td>
                                     </tr>
                                 @endforeach

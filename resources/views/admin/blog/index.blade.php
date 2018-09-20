@@ -45,14 +45,18 @@
                                     {{$item->category->name}}
                                 </td>
                                 <td style="text-align: center">
+                                    <a href="{{ route('blog-update', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">
                                     <button type="button" class="btn btn-primary" style="width: 50%;">
-                                         <a href="{{ route('blog-update', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Editar</a>
+                                        Editar
                                     </button>
+                                    </a>
                                 
                                 <td style="text-align: center;">
-                                    <button type="button" class="btn btn-danger" style="width: 50%;">
-                                        <a href="{{ route('blog-delete', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">Eliminar</a>
-                                    </button>
+                                    <a href="{{ route('blog-delete', $item->id) }}" style="color:#fff;font-size:12px;font-weight:600;text-decoration:none">
+                                        <button type="button" class="btn btn-danger" style="width: 50%;">
+                                        Eliminar
+                                        </button>
+                                    </a>
                                 </td>
                             </tr>
                         @endforeach
