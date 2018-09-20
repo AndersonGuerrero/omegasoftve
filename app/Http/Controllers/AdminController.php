@@ -19,9 +19,9 @@ class AdminController extends Controller
 
     public function storeUser(Request $request)
     {
-        // if (!Auth::check()) {
-        //     return redirect('login/');
-        // }
+        if (!Auth::check()) {
+            return redirect('login/');
+        }
         $this->validate($request, [
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
@@ -38,9 +38,9 @@ class AdminController extends Controller
 
     public function registerUser()
     {
-        // if (!Auth::check()) {
-        //     return redirect('login/');
-        // }
+        if (!Auth::check()) {
+            return redirect('login/');
+        }
         return view('auth.register_user');
     }
 }
