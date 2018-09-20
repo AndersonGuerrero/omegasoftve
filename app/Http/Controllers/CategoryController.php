@@ -62,5 +62,19 @@ class CategoryController extends Controller
             flash('No puedes eliminar esta categoria, Posee blogs relacionados!')->error();
         }
         return redirect('admin/category/');
-    }    
+    }
+
+    public function blogCategory($id){
+        if (!Auth::check()) {
+            return redirect('login/');
+        }
+         // Buscamos el id en la tabla
+         $categories = Tabla::find($id);
+         // retornamos la vista con los datos 
+         return view('blog.blogCategory')->with('categories', $categories);
+         // with() nos permite pasar variables a la vista
+         // el primer parámetros es el nombre con el que estará disponible en la vista
+         // el segundo son los datos.     
+    }
+    
 }
