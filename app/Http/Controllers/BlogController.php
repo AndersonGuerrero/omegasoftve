@@ -52,6 +52,11 @@ class BlogController extends Controller
                 'content'=> $request->input('content'),
                 'category_id'=> $request->input('category')
             ]);
+            $blog = \App\Blog::find($blogid);
+            $imageName = time().'.'.$request->image->getClientOriginalExtension();
+            $request->image->move(public_path('blogs/'.$blog->id.'/'), $imageName);
+            $blog->imagen = $imageName;
+            $blog->save();
             flash('Blog actualizado!')->success();
             return redirect('admin/blog/');
             }else{
