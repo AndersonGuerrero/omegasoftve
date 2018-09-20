@@ -15,9 +15,9 @@ class BlogWebController extends Controller{
         $lastsBlogs = Blog::orderBy('created_at','desc')->take(4)->get();
         $search = $request->input('search');
         if($search){
-            $blogs = Blog::where('title', 'like', '%'.$search.'%')->paginate(1);
+            $blogs = Blog::where('title', 'like', '%'.$search.'%')->paginate(5);
         }else{
-            $blogs = Blog::paginate(1);
+            $blogs = Blog::paginate(5);
         }
 
         return view('web.blog',
@@ -55,10 +55,9 @@ class BlogWebController extends Controller{
         $lastsBlogs = Blog::orderBy('created_at','desc')->take(4)->get();
         $search = $request->input('search');
         if($search){
-            $blogs = Blog::where('title', 'like', '%'.$search.'%')->
-                           where('category_id', $catg->id)->get();
+            $blogs = Blog::where('title', 'like', '%'.$search.'%')->where('category_id', $catg->id)->paginate(5);
         }else{
-            $blogs = Blog::where('category_id', $catg->id)->get();
+            $blogs = Blog::where('category_id', $catg->id)->paginate(5);
         }
         return view('web.blog',
         [
