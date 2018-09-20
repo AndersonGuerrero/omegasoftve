@@ -66,3 +66,5 @@ Route::post('admin/category/store', ['as'=>'category.store', 'uses'=>'CategoryCo
 Route::get('/blog/', 'BlogWebController@index')->name('blog');
 Route::get('/blog/{blogName}', 'BlogWebController@blog')->name('blog-name');
 Route::get('/blogs/{categoryName}/', 'BlogWebController@blogsCategory')->name('blog-category');
+Route::get('/register-user/', 'AdminController@registerUser')->name('register-user');
+Route::post('/store-user/', 'AdminController@storeUser')->name('store-user');
