@@ -46,4 +46,8 @@ class Web extends Controller{
     public function omega_kwoledgebase(){
         return view('web/omega_kwoledgebase');
     }
+    public function ticket_tracking(){
+        return view('web/ticket_tracking');
+    }
+    
 }

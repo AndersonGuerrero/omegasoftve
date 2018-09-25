@@ -32,7 +32,7 @@
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a target="_blank" style="text-decoration:none;" href="{{route('open_ticket')}}">
+                            <a target="_blank" style="text-decoration:none;" href="{{route('ticket_tracking')}}">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/estado-de-un-ticket.png" alt="">Seguimiento de ticket</a>
                         </h2>
                     </div>

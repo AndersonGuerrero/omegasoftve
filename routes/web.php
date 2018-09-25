@@ -44,6 +44,7 @@ Route::get('/webcast/', 'WebcastController@index')->name('webcast');
 Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);
 
 Route::get('/open-ticket/', 'Web@open_ticket')->name('open_ticket');
+Route::get('/ticket-tracking/', 'Web@ticket_tracking')->name('ticket_tracking');
 Route::get('/kwoledgebase/', 'Web@omega_kwoledgebase')->name('omega_kwoledgebase');
 
 Auth::routes();
