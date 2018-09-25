@@ -15,7 +15,7 @@
                         <img src="{{asset('blogs/'.$blog->id.'/'.$blog->imagen)}}" height="200px" width="250px" alt="">
                     </div>
                    <div class="form-style-one quote-form">
-                   {{ Form::open(array(route('blog-update', $blog->id), 'id' => 'form-blog')) }}
+                   {{ Form::open(array(route('blog-update', $blog->id), 'id' => 'form-blog', 'enctype'=>'multipart/form-data')) }}
                            <div class="row clearfix">
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                    {{ Form::text('title', $blog->title, ['class'=>'form-control',  'placeholder'=>'Titulo', 'required'=> 'required']) }}
@@ -29,7 +29,7 @@
                                </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: end;">
                                     870x372
-                                    <input accept=".png, .jpg, .jpeg, .gif" name="imagen" type="file" required>         
+                                    <input accept=".png, .jpg, .jpeg, .gif" name="image" type="file" required>         
                                 </div>
                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                    <div class="text-center">

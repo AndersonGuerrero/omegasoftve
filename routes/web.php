@@ -43,6 +43,9 @@ Route::get('/solicitud/serial/', 'Web@request_serial')->name('request_serial');
 Route::get('/webcast/', 'WebcastController@index')->name('webcast');
 Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);
 
+Route::get('/open-ticket/', 'Web@open_ticket')->name('open_ticket');
+Route::get('/kwoledgebase/', 'Web@omega_kwoledgebase')->name('omega_kwoledgebase');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
