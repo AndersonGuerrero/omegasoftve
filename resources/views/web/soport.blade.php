@@ -24,7 +24,7 @@
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a style="text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">
+                            <a style="text-decoration:none;" target="_blank" href="{{route('open_ticket')}}">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/abrir-un-ticket.png" alt="">Aperturar Ticket</a>
                         </h2>
                     </div>
@@ -32,7 +32,7 @@
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a style="text-decoration:none;" href="http://omegasoftve.com/registrar-ticket/">
+                            <a target="_blank" style="text-decoration:none;" href="{{route('open_ticket')}}">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/estado-de-un-ticket.png" alt="">Seguimiento de ticket</a>
                         </h2>
                     </div>
@@ -40,7 +40,7 @@
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
                         <h2 style="padding-top: 15px;">
-                            <a style="text-decoration:none;" href="http://omegasoftve.com/omega-kwoledgebase/">
+                            <a style="text-decoration:none;" target="_blank" href="{{route('omega_kwoledgebase')}}">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/base-de-conocimiento.png" alt="">Base de conocimiento</a>
                         </h2>
                     </div>
