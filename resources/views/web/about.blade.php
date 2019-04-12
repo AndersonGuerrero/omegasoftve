@@ -1,5 +1,5 @@
 @extends('layouts.web.base')
-@section('title', 'Quienes--Somos')
+@section('title', 'Quienes Somos')
 @section('content')
     <section class="page-title">
     	<div class="image-layer" style="opacity: 10.0;"></div>
@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
                     <div class="sec-title centered" style="margin-bottom: 15px;">
-                        <h1>Acerca de Nosotros</h1>
+                        <h1>Acerca2 de Nosotros</h1>
                         <div class="text">
                             Omegasoft, nace en el 2010 como una empresa 
                             de servicios IT, integrada por un grupo de 
