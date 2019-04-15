@@ -1,5 +1,5 @@
 @extends('layouts.web.base')
-@section('title', 'Quienes Somos')
+@section('title', 'Quiene--Somos')
 @section('content')
     <section class="page-title">
     	<div class="image-layer" style="opacity: 10.0;"></div>
