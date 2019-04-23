@@ -9,7 +9,7 @@
                 <div class="col-md-4 col-sm-4"></div>
                 <div class="col-md-4 col-sm-4 col-xs-12" style="text-align: center">
                    <div >
-                       <h1 style="margin-top: 20px;text-align: center">Nuevaca tegoria</h1>
+                       <h1 style="margin-top: 20px;text-align: center">Nueva categoria</h1>
                    </div>
                    <div class="form-style-one quote-form">
                    {{ Form::open(array('route' => 'category.store', 'id' => 'form-category')) }}
