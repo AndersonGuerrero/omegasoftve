@@ -358,8 +358,8 @@ img{
 .scroll-to-top{
 	position:fixed;
 	bottom:15px;
-	right:15px;
-	width:60px;
+    left: 4px;
+	width:71px;
 	height:60px;
 	color:#ffffff;
 	font-size:24px;
@@ -3672,6 +3672,7 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	transition: all 0.3s ease !important;
 	left: 4px !important;
 	z-index: 1;
+    bottom: 85px !important;
 }
 
 .grecaptcha-badge:hover {
