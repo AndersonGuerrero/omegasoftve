@@ -38,10 +38,10 @@
                                             <ul>
                                                 <li><a href="#">Omega ITSM</a></li>
                                                 <li><a href="{{ URL::to('/') }}/soporte/">Acceso de Soporte</a></li>
-                                                <li><a href="#">Programa de Partner</a></li>
-                                                <li><a href="#">Portal de Partner</a></li>
+                                                <!-- <li><a href="#">Programa de Partner</a></li> -->
+                                                <!-- <li><a href="#">Portal de Partner</a></li> -->
                                                 <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>
-                                                <li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>
+                                                <!-- <li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li> -->
                                             </ul>
                                         </div>
                                     </div>
