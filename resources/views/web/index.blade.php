@@ -518,12 +518,12 @@
     <section class="testimonials-two" style = "padding: 60px 0px;">
             <div class="auto-container">
                 <div class="">
-                    <div class="testimonial-slider">
+                    <div class="">
                         <div class="demo">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div id="testimonial-slider" class="owl-carousel">
+                                        <div id="testimonial-carousel-two" class="owl-carousel">
                                             <div class="testimonial">
                                                 <div class="testimonial-profile">
                                                     <a href="#"><img src="{{ URL::to('/') }}/images/clients/cliente5.jpg" alt=""></a>

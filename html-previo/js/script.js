@@ -137,7 +137,7 @@
 	
 	//Single Item Carousel
 	if ($('.single-item-carousel').length) {
-		$('.single-item-carousel').owlCarousel({
+		$('.single-item-carousel').({
 			loop:true,
 			margin:30,
 			nav:true,
@@ -161,7 +161,7 @@
 	
 	// Sponsors Carousel
 	if ($('.sponsors-carousel').length) {
-		$('.sponsors-carousel').owlCarousel({
+		$('.sponsors-carousel').({
 			loop:true,
 			margin:30,
 			nav:true,
@@ -191,7 +191,7 @@
 	
 	//Cases Carousel
 	if ($('.cases-carousel').length) {
-		$('.cases-carousel').owlCarousel({
+		$('.cases-carousel').({
 			loop:true,
 			margin:0,
 			nav:true,
@@ -251,7 +251,7 @@
 	
 	//Testimonials Carousel Two
 	if ($('.testimonial-carousel-two').length) {
-		$('.testimonial-carousel-two').owlCarousel({
+		$('.testimonial-carousel-two').({
 			loop:true,
 			margin:200,
 			nav:true,

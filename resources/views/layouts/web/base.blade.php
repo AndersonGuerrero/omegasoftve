@@ -21,26 +21,9 @@
 <link href="{{ URL::to('/') }}/css/color-switcher-design.css" rel="stylesheet">
 
 <!---Testimonial Carrosel -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <link href="{{ URL::to('/') }}/css/testimonial.css" rel="stylesheet">
 <link href="{{ URL::to('/') }}/css/owl-carousel.css" rel="stylesheet">
 <link href="{{ URL::to('/') }}/css/owl-theme.css" rel="stylesheet">
-<script type="text/javascript">
- $(document).ready(function(){
-    $("#testimonial-slider").owlCarousel({
-        items:1,
-        itemsDesktop:[1199,1],
-        itemsDesktopSmall:[1000,1],
-        itemsTablet:[767,1],
-        pagination: false,
-        navigation:true,
-        navigationText:["",""],
-        slideSpeed:1000,
-        autoPlay:false
-    });
-});
-</script>
 
 <!---End Testimonial Carrosel -->
 

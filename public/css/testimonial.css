@@ -1,0 +1,90 @@
+.demo{
+    background: -webkit-linear-gradient(to left, #fff , #fff);
+    background: linear-gradient(to left, #fff , #fff);
+}
+.testimonial{
+    margin: 0 15px;
+    padding: 20px 0;
+}
+.testimonial .testimonial-profile{
+    float: left;
+    width: 135px;
+    border: 2px solid #000;
+    margin-right: 7%;
+}
+.testimonial .testimonial-profile img{
+    width: 100%;
+    height: auto;
+    transform: translate(10px,10px);
+}
+.testimonial .testimonial-content{
+    position: relative;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.testimonial .testimonial-content:before{
+    content: "\0201c";
+    font-size: 95px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(215, 219, 229);
+    position: absolute;
+    top: -22px;
+    left: -3px;
+}
+.testimonial .testimonial-title{
+    margin: 10px 0 8px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.testimonial .testimonial-post{
+    display: block;
+    color: #333131;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+.testimonial .testimonial-description{
+    font-size: 16px;
+    color: #5a6d92;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.owl-theme .owl-controls{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 5px 10px;
+    background: transparent;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    color: #fff;
+}
+.owl-next:before{
+    content: "\f054";
+}
+@media only screen and (max-width: 767px) {
+    .testimonial .testimonial-profile{
+        float: none;
+        margin: 0 0 15px 0;
+    }
+    .testimonial .testimonial-content{
+        padding-left: 25px;
+    }
+    .testimonial-content:before{
+        left: 10px;
+    }
+    .owl-theme .owl-controls{
+        left: 3%;
+    }
+}

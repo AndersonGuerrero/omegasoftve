@@ -250,14 +250,14 @@
 	}
 	
 	//Testimonials Carousel Two
-	if ($('.testimonial-carousel-two').length) {
-		$('.testimonial-carousel-two').owlCarousel({
+	if ($('#testimonial-carousel-two').length) {
+		$('#testimonial-carousel-two').owlCarousel({
 			loop:true,
 			margin:200,
 			nav:true,
 			smartSpeed: 700,
 			autoplay: true,
-			autoplayTimeout: 15000,
+			autoplayTimeout: 17000,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
@@ -271,11 +271,11 @@
 					margin:0
 				},
 				1024:{
-					items:2,
+					items:1,
 					margin:80
 				},
 				1300:{
-					items:2
+					items:1
 				}
 			}
 		});    		
