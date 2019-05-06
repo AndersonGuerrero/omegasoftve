@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
                     <div class="sec-title centered" style="margin-bottom: 15px;">
-                        <h1>Acerca de Nosotros</h1>
+                        <h2>Acerca de Nosotros</h2>
                         <div class="text">
                             Omegasoft, nace en el 2010 como una empresa 
                             de servicios IT, integrada por un grupo de 
@@ -44,7 +44,7 @@
             <div class="auto-container">
                 <!--Heading-->
                 <div class="sec-title-two centered">
-                    <h1>Nuestra historia</h1>
+                    <h2>Nuestra historia</h2>
                 </div>
                 
                 <div class="services-outer">
@@ -126,7 +126,7 @@
             <div class="auto-container">
                 <!--Heading-->
                 <div class="sec-title-two centered">
-                    <h1>Misión, Visión y Valores</h1>
+                    <h2>Misión, Visión y Valores</h2>
                 </div>
                 
                 <div class="row clearfix">
@@ -136,7 +136,7 @@
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/mision.jpg" alt=""></a></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
-                                    <h1 style="font-size:25px">Misión</h1>
+                                    <h2 style="font-size:25px">Misión</h2>
                                     <div class="text" style="font-size: 16px;text-align: justify;">
                                          Generar de forma permanente, acciones estratégicas y operativas
                                          que persigan la vanguardia, tecnológica y humana en toda la dimensión
@@ -152,7 +152,7 @@
                             <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/vision.jpg" alt=""></a></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
-                                    <h1 style="font-size:25px">Visión</h1>
+                                    <h2 style="font-size:25px">Visión</h2>
                                     <div class="text" style="font-size: 16px;text-align: justify;">
                                             Constituirnos en una referencia global en la generación 
                                             de aplicaciones especializadas en la dimensionalidad de

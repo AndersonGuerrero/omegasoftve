@@ -9,7 +9,7 @@
                 <div class="col-md-2 col-sm-3"></div>
                 <div class="col-md-8 col-sm-6 col-xs-12" style="text-align: center;">
                    <div style="text-align: center">
-                       <h1 style="margin-top: 20px">Editar Blog</h1>
+                       <h2 style="margin-top: 20px">Editar Blog</h2>
                     </div>
                     <div style="padding-bottom: 30px; text-align: center">
                         <img src="{{asset('blogs/'.$blog->id.'/'.$blog->imagen)}}" height="200px" width="250px" alt="">

@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="padding-right: 90px;padding-left:90px;">
                    <div>
-                       <h1 style="text-align: center">Categorias</h1>
+                       <h2 style="text-align: center">Categorias</h2>
                    </div>
                    <div style="float:right;padding-bottom:15px;">
                     <a href="{{ route('category-create') }}">     

@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="padding-right: 90px;padding-left:90px;">
                    <div style="text-align: center">
-                       <h1 style="margin-top: 50px">Blogs</h1>
+                       <h2 style="margin-top: 50px">Blogs</h2>
                    </div>
                    <div class="sec-title" style="float:right;padding-bottom:15px;">
                     <a href="{{ route('blog-create') }}">

@@ -9,7 +9,7 @@
                 <div class="col-md-2 col-sm-3"></div>
                 <div class="col-md-8 col-sm-6 col-xs-12" style="text-align: center;">
                    <div>
-                       <h1 style="margin-top: 50px">Detalles del Blog</h1>
+                       <h2 style="margin-top: 50px">Detalles del Blog</h2>
                    </div>
                    <div class="form-style-one quote-form">
                    {{ Form::open(array('route' => 'blog.store', 'id' => 'form-blog', 'enctype'=>'multipart/form-data')) }}

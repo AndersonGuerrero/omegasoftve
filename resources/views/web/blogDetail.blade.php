@@ -36,14 +36,11 @@
 								<h3><a href="{{ route('blog-name', str_slug($blog->title)) }}">{{$blog->title}}</a></h3>
 								<div class="post-info">Post: {{ $blog->created_at->format('d M Y')}}</div>
 								<div style="
-                                        font-style: unset;
-                                        font-size: 13px;
-                                        font-weight:400;
-                                        letter-spacing: 2px;
-                                        color: #231f20;
-                                        text-transform: initial;
-                                        line-height: 1.5em;
-                                        text-align: justify;
+                                        font-size: 15px;
+                                        position: relative;
+                                        line-height: 1.60em;
+                                        font-weight: 500;
+                                        font-family: 'Raleway', sans-serif;
                                     " class="text">
                                         {!! nl2br(e($blog->content)) !!}
 								</div>

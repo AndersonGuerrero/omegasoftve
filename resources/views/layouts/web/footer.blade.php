@@ -5,10 +5,10 @@
             <div class="auto-container">
                 <div class="row clearfix">
                     <!--Big Column-->
-                    <div class="big-column col-md-6 col-sm-12 col-xs-12">    
+                    <div class="big-column col-md-4 col-sm-12 col-xs-12">    
                         <div class="row clearfix">
                             <!--Footer Column-->
-                            <div class="footer-column col-md-7 col-sm-6 col-xs-12">
+                            <div class="footer-column col-md-12 col-sm-6 col-xs-12"  style = "padding-left: 70px;" >
                                 <div class="footer-widget about-widget">
                                     <div class="widget-inner">
                                         <div class="logo"><img src="{{ URL::to('/') }}/images/logo.png" alt=""></div>
@@ -17,20 +17,29 @@
                                                           y  la  practicidad   al   proporcionar 
                                                           soluciones  flexibles  y  asequible  para 
                                                           empresas  de  todos  los tamaños.</div>
-                                        <!--<div class="social-links">
-                                            <ul class="clearfix">
-                                                <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                                <li><a href="#"><span class="fa fa-skype"></span></a></li>
-                                                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                                            </ul>
-                                        </div>-->
+                                        <div>
+                                            <div class="social-links">
+                                                    <ul class="clearfix">
+                                                        <li><a target="_black" href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
+                                                        <li><a target="_black" href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
+                                                        <li><a target="_black" href="https://join.skype.com/invite/MHGMd5TGZRR9"><span class="fa fa-skype"></span></a></li>
+                                                        <li><a target="_black" href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
+                                                        <li><a target="_black" href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
+                                                    </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         	<!--Footer Column-->
-                            <div class="footer-column col-md-5 col-sm-6 col-xs-12">
+                            
+                        </div>
+                    </div>
+                    
+                    <!--Big Column-->
+                    <div class="big-column col-md-4 col-sm-12 col-xs-12"  >    
+                        <div class="row clearfix">
+                        <div class="footer-column col-md-12 col-sm-12 col-xs-12" style = "padding-left: 70px;">
                                 <div class="footer-widget links-widget">
                                     <div class="widget-inner">
                                         <h3>Link de Acceso rapido</h3>
@@ -47,15 +56,15 @@
                                     </div>
                                 </div>
                             </div>
+    
                         </div>
                     </div>
-                    
-                    <!--Big Column-->
-                    <div class="big-column col-md-6 col-sm-12 col-xs-12">    
-                        <div class="row clearfix">
-                            
-                            <!--Footer Column-->
-                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="big-column col-md-4 col-sm-12 col-xs-12">  
+                        <div class="footer-widget info-widget">
+                            <div class="row clearfix">
+                                                         <!--Footer Column-->
+                            <div class="footer-column col-md-12 col-sm-12 col-xs-12">
                                 <div class="footer-widget info-widget">
                                     <div class="widget-inner">
                                         <h3 style="text-align: center;">CONTACTANOS</h3>
@@ -70,7 +79,7 @@
                                 </div>
                             </div>
                             <!--Footer Column-->
-                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <!-- <div class="footer-column col-md-6 col-sm-6 col-xs-12">
                                 <div class="footer-widget gallery-widget">
                                     <div class="widget-inner">
                                         <h3 style="margin-left: 25px;" >Redes Sociales</h3>
@@ -122,7 +131,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
+
+                            <div>
                         </div>
                     </div>
                 </div>

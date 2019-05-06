@@ -11,7 +11,7 @@
                           <ul class="info clearfix" style="margin-bottom: 0rem;">
                               <li><a href="email:info@omegasoftve.com" style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@Omegasoftve.com</a></li>
                               <li><a href="#" style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</a></li>                                  
-                              <div class="top-right clearfix">
+                              <!-- <div class="top-right clearfix">
                                   <div class="options-box clearfix">
                                       <div class="lang-box">
                                           <div class="dropdown">
@@ -24,7 +24,7 @@
                                           </div>
                                       </div>
                                   </div>
-                              </div>
+                              </div> -->
                           </ul>
                       </div>
                       
@@ -88,7 +88,7 @@
                                           <li class="dropdown"><a href="#">Nosotros</a>
                                               <ul>
                                                   <li><a href="{{ route('about') }}">Quines somos</a></li>
-                                                  <li><a href="{{ route('team') }}">Nuestro Equipo</a></li>
+                                                  <li><a href="{{ route('team') }}">Únete a Nosotros</a></li>
                                                   <li><a href="{{ route('contact') }}">Contáctanos</a></li>
                                               </ul>
                                           </li>
@@ -158,7 +158,7 @@
                                       <li class="dropdown"><a href="#">Nosotros</a>
                                           <ul>
                                               <li><a href="{{ route('about') }}">Quines somos</a></li>
-                                              <li><a href="{{ route('team') }}">Nuestro Equipo</a></li>
+                                              <li><a href="{{ route('team') }}">Únete a Nosotros</a></li>
                                               <li><a href="{{ route('contact') }}">Contáctanos</a></li>
                                           </ul>
                                       </li>
