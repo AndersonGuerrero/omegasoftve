@@ -39,90 +39,92 @@
     </section>
 
         <!--Testimonials Two Section-->
-    <section class="testimonials-two">
+        <section class="testimonials-two" style = "padding: 60px 0px;">
             <div class="auto-container">
-                <!--Heading-->                    
-                <div class="carousel-box">
-                    <div class="testimonial-carousel-two owl-theme owl-carousel">
-                        <!--Slide Item-->
-                        <div class="testimonial-block">
-                            <div class="inner">
-                                <div style="text-align: justify;" class="text">
-                                    Omega ITSM nos ayuda totalmente
-                                    a mejorar nuestra gestión de servicios. La gerencia
-                                    de Tecnología ahora es mucho más eficiente, mejorando
-                                    nuestros tiempos de respuesta, teniendo un unico punto de
-                                    contacto con los distintos departamentos de la gerencia. 
-                                </div>
-                                <div class="info">
-                                    <figure class="image img-circle">
-                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente1.png" alt=""></figure>
-                                    <h4>Arnoldo Rodriguez</h4>
-                                    <div class="designation">Gerente de Tecnología, Grupos de Ultimas Noticias.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Slide Item-->
-                        <div class="testimonial-block">
-                            <div class="inner">
-                                <div style="text-align: justify;" class="text">
-                                   Con las soluciones de Omegasoft, se puede
-                                    gestionar de manera eficiente las necesidades
-                                    de nuestros usuarios, permite mayor 
-                                    control en el tiempo de atención lo que da la
-                                    oportunidad para el mejoramiento continuo
-                                    de nuestros procesos, en particular ha
-                                    mejorado notablemente la comunicación entre
-                                    los usuarios y nuestros departamentos, los
-                                    cuales ahora conocen en todo momento el 
-                                    estado en el que se encuentra su solicitud.</div>
-                                <div class="info">
-                                    <figure class="image img-circle">
-                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente2.png" alt=""></figure>
-                                    <h4>Jesús Reyes</h4>
-                                    <div class="designation">Gerente de Tecnología, Technip Velam</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Slide Item-->
-                        <div class="testimonial-block">
-                            <div class="inner">
-                                <div style="text-align: justify;" class="text">
-                                    Con Omega ITSM tenemos gestión
-                                    controlada y alineada a ITIL, una comunicacion
-                                    efectiva con los usuarios, una distribución
-                                    más eficiente de las cargas de trabajo, un
-                                    seguimiento continuo mediante reportes e
-                                    informes y una medición de niveles de 
-                                    servicios para mejora del servicios.</div>
-                                <div class="info">
-                                    <figure class="image img-circle">
-                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente3.png" alt=""></figure>
-                                    <h4>José Flores</h4>
-                                    <div class="designation">Gerente de Tecnología, Ron Santa Teresa</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Slide Item-->
-                        <div class="testimonial-block">
-                            <div class="inner">
-                                <div style="text-align: justify;" class="text">
-                                    Omegasoft nos permite implementar una solucion integra
-                                    para la gestión de los servicios TI, alineando
-                                    los procesos del área con las buenas prácticas
-                                    que ofrece ITIL lo cual nos facilita
-                                    brindar servicios de mayor calidad.</div>
-                                <div class="info">
-                                    <figure class="image img-circle">
-                                        <img class="img-circle" src="{{ URL::to('/') }}/images/clients/cliente4.png" alt=""></figure>
-                                    <h4>Juan Carlos Duque</h4>
-                                    <div class="designation">Gerente de Tecnología,Mapre la Seuridad</div>
+                <div class="demo">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="testimonial-carousel-two" class="owl-carousel">
+                                    <div class="testimonial">
+                                        <div class="testimonial-profile">
+                                            <a href="https://www.linkedin.com/in/arnoldo-rodriguez-12435949/"><img src="{{ URL::to('/') }}/images/clients/cleinte7.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <h3 class="testimonial-title">Arnoldo Rodriguez</h3>
+                                            <span class="testimonial-post">Gerente de Tecnología, Grupos de Ultimas Noticias.</span>
+                                            <p class="testimonial-description">
+                                            Omega ITSM nos ayuda totalmente
+                                            a mejorar nuestra gestión de servicios. La gerencia
+                                            de Tecnología ahora es mucho más eficiente, mejorando
+                                            nuestros tiempos de respuesta, teniendo un unico punto de
+                                            contacto con los distintos departamentos de la gerencia.
+                                            </p>
+                                        </div>
+                                    </div>
+                
+                                    <div class="testimonial">
+                                        <div class="testimonial-profile">
+                                            <a href="https://www.linkedin.com/in/jesusreyesvzla/?originalSubdomain=ve""><img src="{{ URL::to('/') }}/images/clients/cleinte8.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <h3 class="testimonial-title">Jesús Reyes</h3>
+                                            <span class="testimonial-post">Gerente de Tecnología, Technip Velam</span>
+                                            <p class="testimonial-description">
+                                                Con las soluciones de Omegasoft, se puede   
+                                                gestionar de manera eficiente las necesidades
+                                                de nuestros usuarios, permite mayor 
+                                                control en el tiempo de atención lo que da la
+                                                oportunidad para el mejoramiento continuo
+                                                de nuestros procesos, en particular ha
+                                                mejorado notablemente la comunicación entre
+                                                los usuarios y nuestros departamentos, los
+                                                cuales ahora conocen en todo momento el 
+                                                estado en el que se encuentra su solicitud.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial">
+                                        <div class="testimonial-profile">
+                                            <a href="https://www.linkedin.com/in/jose-angel-flores-melo-7a209b4/?originalSubdomain=ve"><img src="{{ URL::to('/') }}/images/clients/cleinte9.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <h3 class="testimonial-title">José Flores</h3>
+                                            <span class="testimonial-post">Gerente de Tecnología, Ron Santa Teresa</span>
+                                            <p class="testimonial-description">
+                                                Con Omega ITSM tenemos gestión
+                                                controlada y alineada a ITIL, una comunicacion
+                                                efectiva con los usuarios, una distribución
+                                                más eficiente de las cargas de trabajo, un
+                                                seguimiento continuo mediante reportes e
+                                                informes y una medición de niveles de 
+                                                servicios para mejora del servicios.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial">
+                                        <div class="testimonial-profile">
+                                            <a href="https://www.linkedin.com/in/juan-carlos-duque-mendez-6bab1867/"><img src="{{ URL::to('/') }}/images/clients/cleinte10.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <h3 class="testimonial-title">Juan Carlos Duque</h3>
+                                            <span class="testimonial-post">Gerente de Tecnología,Mapfre la Seguridad</span>
+                                            <p class="testimonial-description">
+                                                Omegasoft nos permite implementar una solucion integra
+                                                para la gestión de los servicios TI, alineando
+                                                los procesos del área con las buenas prácticas
+                                                que ofrece ITIL lo cual nos facilita
+                                                brindar servicios de mayor calidad.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
     </section>
 @endsection

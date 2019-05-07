@@ -1,5 +1,5 @@
 @extends('layouts.web.base')
-@section('title', 'Quiene S3omos')
+@section('title', 'Quienes Somos')
 @section('content')
     <section class="page-title">
     	<div class="image-layer" style="opacity: 10.0;"></div>
@@ -250,50 +250,60 @@
             </div>
     </section>
 
-        <!--Testimonials Two Section-->
-    <section class="testimonials-two">
+
+            <!--Testimonials Two Section-->
+            <section class="testimonials-two" style = "padding: 60px 0px;">
             <div class="auto-container">
-                <!--Heading-->
+
                 <div class="sec-title-two centered">
                     <h1 style="margin-top: -100px">Nuestro Equipo</h1>
                 </div>
+
+                <div class="demo">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="testimonial-carousel-two" class="owl-carousel">
+                                    <div class="testimonial">
+                                        <div class="testimonial-profile">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-2.jpeg" alt="">
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <h3 class="testimonial-title">Dubraska Figuera</h3>
+                                            <span class="testimonial-post">Support Coordinator.</span>
+                                            <p class="testimonial-description">
+                                            Me complace compartir mis
+                                            experiencias como parte de la familia Omegasoft, donde he
+                                            recibido grandes oportunidades y retos durante cinco años
+                                            de carrera, es una empresa que permite a sus empleados un
+                                            crecimiento continuo y donde contamos con un grupo de profesionales
+                                            que trabajan esmeradamente para la satisfacción de nuestros clientes.
+                                            </p>
+                                        </div>
+                                    </div>
                 
-                <div class="carousel-box">
-                    <div class="testimonial-carousel-two owl-theme owl-carousel">
-                        <!--Slide Item-->
-                        <div class="testimonial-block">
-                            <div class="inner">
-                                <div class="text">Me complace compartir mis
-                                       experiencias como parte de la familia Omegasoft, donde he
-                                       recibido grandes oportunidades y retos durante cinco años
-                                       de carrera, es una empresa que permite a sus empleados un
-                                       crecimiento continuo y donde contamos con un grupo de profesionales
-                                       que trabajan esmeradamente para la satisfacción de nuestros clientes..</div>
-                                <div class="info">
-                                    <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-2.jpg" alt=""></figure>
-                                    <h4>Dubraska Figuera </h4>
-                                    <div class="designation">Support Coordinator</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Slide Item-->
-                        <div class="testimonial-block">
-                            <div class="inner">
-                                <div class="text">Omegasoft significo para mi en su momento un cambio
-                                      de aire, hoy tres años después representa un lugar de crecimiento
-                                      profesional que se va gestando día a día, un lugar donde he encontrado
-                                      excelentes compañeros; donde los errores te llevan a mejorar y que con
-                                      constancia y perseverancia se pueden alcanzar las metas.</div>
-                                <div class="info">
-                                    <figure class="image img-circle"><img class="img-circle" src="{{ URL::to('/') }}/images/resource/author-1.jpg" alt=""></figure>
-                                    <h4>Andersón Guerrero </h4>
-                                    <div class="designation">Web Developer Leader</div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-profile">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-1.jpeg" alt="">
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <h3 class="testimonial-title">Andersón Guerrero</h3>
+                                            <span class="testimonial-post">Web Developer Leader</span>
+                                            <p class="testimonial-description">
+                                            Omegasoft significo para mi en su momento un cambio
+                                            de aire, hoy tres años después representa un lugar de crecimiento
+                                            profesional que se va gestando día a día, un lugar donde he encontrado
+                                            excelentes compañeros; donde los errores te llevan a mejorar y que con
+                                            constancia y perseverancia se pueden alcanzar las metas.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
     </section>
+
 @endsection
