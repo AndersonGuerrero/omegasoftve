@@ -1,0 +1,110 @@
+.post-slide{
+    /* background: #fff;
+    margin: 0 15px;
+    padding:27px 30px;
+    border-bottom: 1px solid #dedde1; */
+}
+.post-slide .post-header{
+    margin-bottom: 10px;
+}
+.post-slide .subtitle{
+    color:#0b99bc;
+    font-size:14px;
+    display: inline-block;
+    margin-bottom:5px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.post-slide .subtitle:hover{
+    color:#333;
+    text-decoration: none;
+}
+.post-slide .post-title{
+    margin: 0;
+}
+.post-slide .post-title a{
+    color:#333;
+    font-size:18px;
+    font-weight: bold;
+    text-transform:capitalize;
+    transition: all 0.4s ease 0s;
+}
+.post-slide .post-title a:hover{
+    color:#0b99bc;
+    text-decoration: none;
+}
+.post-slide .pic{
+    overflow: hidden;
+    position: relative;
+}
+.post-slide .pic img{
+    width: 100%;
+    height: auto;
+    transform: rotate(0deg) scale(1,1);
+    transition: all 0.9s ease 0s;
+}
+.post-slide:hover img{
+    transform: rotate(-2deg) scale(1.1,1.1);
+}
+.post-slide .pic:after{
+    /* content: ""; */
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0);
+    transition: all 0.9s ease 0s;
+ 
+}
+.post-slide:hover .pic:after{
+    background: rgba(255,255,255,0.2);
+}
+.post-slide .post-bar{
+    list-style: none;
+    padding:12px 0;
+    margin: 0;
+}
+.post-slide .post-bar li{
+    display: inline-block;
+    margin-right:3px;
+    color:#aaa;
+}
+.post-slide .post-bar li:last-child{
+    margin-right: 0;
+}
+.post-slide .post-bar li a{
+    color:#aaa;
+    transition:0.3s ease;
+}
+.post-slide .post-bar li a:hover{
+    text-decoration: none;
+    color:#0b99bc;
+}
+.post-slide .post-description{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom:15px;
+    color:#767676;
+}
+.post-slide .read-more{
+    color:#0b99bc;
+    font-size: 14px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.post-slide .read-more:hover{
+    color:#333;
+    text-decoration:none;
+}
+@media only screen and (max-width: 479px) {
+    .post-slide{
+        padding: 15px;
+    }
+    .post-slide .post-bar li{
+        margin-bottom: 5px;
+    }
+    .post-slide .post-bar li:last-child{
+        margin-bottom: 0;
+    }
+}

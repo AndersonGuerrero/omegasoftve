@@ -27,6 +27,14 @@
 
 <!---End Testimonial Carrosel -->
 
+<!--- Carousel  Empresas -->
+<link href="{{ URL::to('/') }}/css/owl-theme-Company.css" rel="stylesheet">
+<link href="{{ URL::to('/') }}/css/owl-caousel-Company.css" rel="stylesheet">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<!---End Carousel  Empresas -->
+
+
 <!--Color Themes-->
 <link id="theme-color-file" href="{{ URL::to('/') }}/css/color-themes/default-theme.css" rel="stylesheet">
 

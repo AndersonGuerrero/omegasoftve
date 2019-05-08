@@ -218,6 +218,39 @@
 		});    		
 	}
 	
+
+	//Company carousel logos
+
+	if ($('#news-slider').length) {
+		$('#news-slider').owlCarousel({
+			loop:true,
+			margin:30,
+			// nav:true,
+			smartSpeed: 700,
+			autoplay: 1000,
+			// navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+			responsive:{
+				0:{
+					items:2
+				},
+				600:{
+					items:3
+				},
+				778:{
+					items:5,
+					margin:20
+				},
+				1024:{
+					items:5,
+					margin:20
+				},
+				1200:{
+					items:5
+				}
+			}
+		});    		
+	}
+
 	//Services Carousel
 	if ($('.services-carousel').length) {
 		$('.services-carousel').owlCarousel({
@@ -249,6 +282,9 @@
 		});    		
 	}
 	
+
+
+
 	//Testimonials Carousel Two
 	if ($('#testimonial-carousel-two').length) {
 		$('#testimonial-carousel-two').owlCarousel({
