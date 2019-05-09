@@ -617,10 +617,17 @@
                                 <div id="testimonial-carousel-two" class="owl-carousel">
                                     <div class="testimonial">
                                         <div class="testimonial-profile">
-                                            <a href="https://www.linkedin.com/in/arnoldo-rodriguez-12435949/"><img src="{{ URL::to('/') }}/images/clients/cleinte7.jpeg" alt=""></a>
+                                            <a href="https://www.linkedin.com/in/arnoldo-rodriguez-12435949/">
+                                                <img src="{{ URL::to('/') }}/images/clients/cleinte7.jpeg" alt="">
+                                            </a>
                                         </div>
                                         <div class="testimonial-content">
-                                            <h3 class="testimonial-title">Arnoldo Rodriguez</h3>
+                                            <h3 class="testimonial-title">
+                                                <a href="https://www.linkedin.com/in/arnoldo-rodriguez-12435949/"
+                                                    style = "color: #000; text-decoration: none; outline: none;">
+                                                    Arnoldo Rodriguez
+                                                </a>
+                                            </h3>
                                             <span class="testimonial-post">Gerente de Tecnología, Grupos de Ultimas Noticias.</span>
                                             <p class="testimonial-description">
                                             Omega ITSM nos ayuda totalmente
@@ -634,10 +641,17 @@
                 
                                     <div class="testimonial">
                                         <div class="testimonial-profile">
-                                            <a href="https://www.linkedin.com/in/jesusreyesvzla/?originalSubdomain=ve""><img src="{{ URL::to('/') }}/images/clients/cleinte8.jpeg" alt=""></a>
+                                            <a href="https://www.linkedin.com/in/jesusreyesvzla/?originalSubdomain=ve">
+                                                <img src="{{ URL::to('/') }}/images/clients/cleinte8.jpeg" alt="">
+                                            </a>
                                         </div>
                                         <div class="testimonial-content">
-                                            <h3 class="testimonial-title">Jesús Reyes</h3>
+                                            <h3 class="testimonial-title">
+                                                <a href="https://www.linkedin.com/in/jesusreyesvzla/?originalSubdomain=ve"
+                                                    style = "color: #000; text-decoration: none; outline: none;">
+                                                    Jesús Reyes
+                                                </a>
+                                            </h3>
                                             <span class="testimonial-post">Gerente de Tecnología, Technip Velam</span>
                                             <p class="testimonial-description">
                                                 Con las soluciones de Omegasoft, se puede   
@@ -659,7 +673,12 @@
                                             <a href="https://www.linkedin.com/in/jose-angel-flores-melo-7a209b4/?originalSubdomain=ve"><img src="{{ URL::to('/') }}/images/clients/cleinte9.jpeg" alt=""></a>
                                         </div>
                                         <div class="testimonial-content">
-                                            <h3 class="testimonial-title">José Flores</h3>
+                                            <h3 class="testimonial-title">
+                                              <a href="https://www.linkedin.com/in/jose-angel-flores-melo-7a209b4/?originalSubdomain=ve"
+                                                 style = "color: #000; text-decoration: none; outline: none;">
+                                                José Flores
+                                            </a>
+                                            </h3>
                                             <span class="testimonial-post">Gerente de Tecnología, Ron Santa Teresa</span>
                                             <p class="testimonial-description">
                                                 Con Omega ITSM tenemos gestión
@@ -678,7 +697,12 @@
                                             <a href="https://www.linkedin.com/in/juan-carlos-duque-mendez-6bab1867/"><img src="{{ URL::to('/') }}/images/clients/cleinte10.jpeg" alt=""></a>
                                         </div>
                                         <div class="testimonial-content">
-                                            <h3 class="testimonial-title">Juan Carlos Duque</h3>
+                                            <h3 class="testimonial-title">
+                                            <a href="https://www.linkedin.com/in/juan-carlos-duque-mendez-6bab1867/" 
+                                               style = "color: #000; text-decoration: none; outline: none;">
+                                                Juan Carlos Duque
+                                                </a>
+                                            </h3>
                                             <span class="testimonial-post">Gerente de Tecnología,Mapfre la Seguridad</span>
                                             <p class="testimonial-description">
                                                 Omegasoft nos permite implementar una solucion integra
