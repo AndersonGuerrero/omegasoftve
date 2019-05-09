@@ -506,6 +506,7 @@
     </section>
 
 
+        <!--Clients  Section-->
     <section style = "background: #00325d;">
         <div class="container">
             <div class="row">

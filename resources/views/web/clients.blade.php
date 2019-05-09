@@ -31,12 +31,105 @@
         </div>
     </section>
 
-    <section class="page-title" style="background: #5aceff5c;">
+    
+        <!--Clients  Section-->
+        <section style = "background: #00325d;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="news-slider" class="owl-carousel">
+                        
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/20.png" alt="">
+                                </div>
+                            </div>
+            
+                                                
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/21.png" alt="">
+                                </div>
+                            </div>
+            
+                                                
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/22.png" alt="">
+                                </div>
+                            </div>
+
+                                    
+                                                
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/23.png" alt="">
+                                </div>
+                            </div>
+
+                                    
+                                                
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/24.png" alt="">
+                                </div>
+                            </div>
+
+                                                                        
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/25.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/26.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/27.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/28.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/29.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/30.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="post-slide">
+                                <div class="pic">
+                                    <img src="{{ URL::to('/') }}/images/clients/31.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- <section class="page-title" style="background: #5aceff5c;">
             <div class="image-layer" style="opacity: 10.0;"></div>
                 <img src="{{ URL::to('/') }}/images/background/clientes-nuevo.png">
             <div class="auto-container">
             </div>
-    </section>
+    </section> -->
 
         <!--Testimonials Two Section-->
         <section class="testimonials-two" style = "padding: 60px 0px;">

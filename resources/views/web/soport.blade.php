@@ -307,7 +307,7 @@
                         <h1 style="font-size:30px;margin-bottom: 25px;" >Limitaciones del servicio</h1>
                         <div class="col-md-6 col-ms-12 col-xs-12">
                             <div class="sec-title centered"> 
-                                <div class="text" style="text-align: justify">
+                                <div class="text" style="text-align: -webkit-auto">
                                         • Nuestro servicio de soporte técnico se brindará única 
                                         y exclusivamente a clientes que tengan el servicio de 
                                         soporte activo al momento de ser solicitado.
@@ -316,7 +316,7 @@
                         </div>
                         <div class="col-md-6 col-ms-12 col-xs-12">
                                 <div class="sec-title centered"> 
-                                    <div class="text" style="text-align: justify">
+                                    <div class="text" style="text-align: -webkit-auto">
                                         • El servicio de soporte estándar se brindará a través 
                                         de comunicación telefónica, chat, vía Internet, correo 
                                         electrónico ó acceso remoto. No incluye soporte en sitio.

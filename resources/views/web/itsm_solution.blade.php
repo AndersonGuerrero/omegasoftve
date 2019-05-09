@@ -1307,6 +1307,7 @@
                                                  <div class="col-md-4 col-sm-12 col-xs-12">
                                                      <div class="sec-title centered" style="margin-bottom: 0px">
                                                          <p class="text" style="text-align: justify;padding: 15px;">
+                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/Concurrente.png" alt="">
                                                              <b>Concurrente: </b> Este esquema se administra según la disponibilidad 
                                                              de licencias adquiridas y el acceso de especialistas a la aplicación, 
                                                              depende de la liberación de cada licencia para un nuevo ingreso. 
@@ -1316,6 +1317,7 @@
                                                  <div class="col-md-4 col-sm-12 col-xs-12">
                                                      <div class="sec-title centered" style="margin-bottom: 0px">
                                                          <p class="text" style="text-align: justify;padding: 15px;">
+                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/nombrado.png" alt="">
                                                              <b>Nombrado: </b> Este esquema otorga una licencia personalizada y 
                                                              única con los datos básicos del especialista que ingresa a la 
                                                              consola en cualquier momento. 
@@ -1325,6 +1327,7 @@
                                                  <div class="col-md-4 col-sm-12 col-xs-12">
                                                      <div class="sec-title centered" style="margin-bottom: 0px">
                                                          <p class="text" style="text-align: justify;padding: 15px;">
+                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/cmdb.png" alt="">
                                                              <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s 
                                                          </p>
                                                      </div>
