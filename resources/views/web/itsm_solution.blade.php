@@ -1300,43 +1300,6 @@
                                         </div>  
                                     </section>
 
-                                    <section class="services-two" style="padding: 50px 0px 30px;" >
-                                        <div class="row">
-                                            <div class="sec-title centered" style="margin-bottom: 0px"> 
-                                                     <h1 style="font-size:30px;padding: 15px;">Tipo de Licenciamiento para Omega ITSM</h1> 
-                                                 <div class="col-md-4 col-sm-12 col-xs-12">
-                                                     <div class="sec-title centered" style="margin-bottom: 0px">
-                                                         <p class="text" style="text-align: justify;padding: 15px;">
-                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/Concurrente.png" alt="">
-                                                             <b>Concurrente: </b> Este esquema se administra según la disponibilidad 
-                                                             de licencias adquiridas y el acceso de especialistas a la aplicación, 
-                                                             depende de la liberación de cada licencia para un nuevo ingreso. 
-                                                         </p>
-                                                     </div>
-                                                 </div>
-                                                 <div class="col-md-4 col-sm-12 col-xs-12">
-                                                     <div class="sec-title centered" style="margin-bottom: 0px">
-                                                         <p class="text" style="text-align: justify;padding: 15px;">
-                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/nombrado.png" alt="">
-                                                             <b>Nombrado: </b> Este esquema otorga una licencia personalizada y 
-                                                             única con los datos básicos del especialista que ingresa a la 
-                                                             consola en cualquier momento. 
-                                                         </p>
-                                                     </div>
-                                                 </div>
-                                                 <div class="col-md-4 col-sm-12 col-xs-12">
-                                                     <div class="sec-title centered" style="margin-bottom: 0px">
-                                                         <p class="text" style="text-align: justify;padding: 15px;">
-                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/cmdb.png" alt="">
-                                                             <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s 
-                                                         </p>
-                                                     </div>
-                                                 </div>
-                                             </div>
-                                        </div>
-                                    </section>
-                                    <!--Call |To Acion Section-->
-                                        
                                     <div class="imgback" > 
                                             <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
                                                 <div class="sec-title centered" style="margin-bottom: 0px">
@@ -1366,6 +1329,61 @@
                                                 </div>
                                             </div>
                                     </div>
+
+                                    <section class="services-two" style="padding: 50px 0px 30px;" >
+                                        <div class="row">
+                                            <div class="sec-title centered" style="margin-bottom: 0px"> 
+                                                     <h1 style="font-size:30px;padding: 15px;">Tipo de Licenciamiento para Omega ITSM</h1> 
+                                                 <div class="col-md-4 col-sm-12 col-xs-12">
+                                                     <div class="sec-title centered" style="margin-bottom: 0px">
+                                                        <div class="inner-box">
+                                                            <figure class="icon-box">
+                                                                <img src="{{ URL::to('/') }}/images/icons/Concurrente.png" style = "width: 20%;" alt="">
+                                                            </figure>
+                                                                <div style="font-size: 15px;" class="text">
+                                                                    <b>Concurrente: </b> Este esquema se administra según la disponibilidad 
+                                                                    de licencias adquiridas y el acceso de especialistas a la aplicación, 
+                                                                    depende de la liberación de cada licencia para un nuevo ingreso.
+                                                                </div>
+                                                        </div>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4 col-sm-12 col-xs-12">
+                                                     <div class="sec-title centered" style="margin-bottom: 0px">
+                                                        <div class="inner-box">
+                                                            <figure class="icon-box">
+                                                                <img src="{{ URL::to('/') }}/images/icons/nombrado.png" style = "width: 20%;" alt="">
+                                                            </figure>
+                                                                <div style="font-size: 15px;" class="text">
+                                                                <b>Nombrado: </b> Este esquema otorga una licencia personalizada y 
+                                                                    única con los datos básicos del especialista que ingresa a la 
+                                                                    consola en cualquier momento.
+                                                                </div>
+                                                        </div>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4 col-sm-12 col-xs-12">
+                                                     <div class="sec-title centered" style="margin-bottom: 0px">
+                                                        <div class="inner-box">
+                                                            <figure class="icon-box">
+                                                                <img src="{{ URL::to('/') }}/images/icons/cmdb.png" style = "width: 20%;" alt="">
+                                                            </figure>
+                                                                <div style="font-size: 15px;" class="text">
+                                                                    <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s
+                                                                </div>
+                                                        </div>
+                                                         <!-- <p class="text" style="text-align: justify;padding: 15px;">
+                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/cmdb.png" alt="">
+                                                             <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s 
+                                                         </p> -->
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                        </div>
+                                    </section>
+                                    <!--Call |To Acion Section-->
+                                        
+                                    
                                 </div>
                             </div>
                         </div>
