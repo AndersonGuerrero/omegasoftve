@@ -19,8 +19,8 @@ Route::get('/newsletter/', 'NewsletterController@newsletter')->name('newsletter'
 Route::post('/newsletter/', ['as'=>'newsletter.send', 'uses'=>'NewsletterController@newsletterPost']);
 Route::get('/quienes-somos/', 'Web@about')->name('about');
 
-Route::get('/nuestro-equipo/', 'TeamController@index')->name('team');
-Route::post('/nuestro-equipo/', ['as'=>'team.register', 'uses'=>'TeamController@register']);
+Route::get('/Únete-A-Nosotros/', 'TeamController@index')->name('team');
+Route::post('/Únete-A-Nosotros/', ['as'=>'team.register', 'uses'=>'TeamController@register']);
 
 Route::get('/contacto/', 'ContactController@contact')->name('contact');
 Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
