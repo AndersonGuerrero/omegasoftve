@@ -1,5 +1,5 @@
 @extends('layouts.web.base')
-@section('title', 'O0megaSoft')
+@section('title', 'OmegaSoft')
 
 @section('content')
 
