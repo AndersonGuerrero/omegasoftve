@@ -1175,6 +1175,14 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	line-height:1.2em;
 }
 
+.sec-title h2{
+	position:relative;
+	font-size:42px;
+	font-weight:700;
+	color:#00325d;
+	line-height:1.2em;
+}
+
 .sec-title .text{
 	position:relative;
 	font-size:18px;
