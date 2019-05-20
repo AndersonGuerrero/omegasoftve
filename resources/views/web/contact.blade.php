@@ -62,15 +62,15 @@
                     <div class="sec-title centered">
                         <h1 style="margin-top: 50px">Información de Contacto</h1>
                         <div style="margin-top: 109px;">
-                            <h2 style="text-align: -webkit-left;color: #00325d;margin-left: 37px;">Direccion:</h2>
+                            <h2 style="text-align: -webkit-left;color: #00325d;margin-left: 37px; font-size: 20px; ">Direccion:</h2>
                             <div class="text" style="text-align: initial; margin-top: -15px; margin-left: 37px; ">Calle Páez #24 entre calle Carabaño y Leopoldo Tosta, sector centro. Villa de Cura, Aragua, Venezuela.</div>
                         </div>
                         <div style="margin-top: 5px;">
-                            <h2 style="text-align: -webkit-left; margin-top: 10px;color: #00325d; margin-left: 37px; ">Telefono:</h2>
+                            <h2 style="text-align: -webkit-left; margin-top: 10px;color: #00325d; margin-left: 37px;  font-size: 20px; ">Telefono:</h2>
                             <div class="text" style="text-align: initial; margin-top: -15px; margin-left: 37px;">(58) 244 386 8448</div>
                         </div>
                         <div style="margin-top: 5px;">
-                            <h2 style="text-align: -webkit-left; margin-top: 10px; color: #00325d;margin-left: 37px;">Email:</h2>
+                            <h2 style="text-align: -webkit-left; margin-top: 10px; color: #00325d;margin-left: 37px;  font-size: 20px; ">Correo Electrónico:</h2>
                             <div class="text" style="text-align: initial; margin-top: -15px;margin-left: 37px;">info@omegasoftve.com</div>
                         </div>
                     </div>

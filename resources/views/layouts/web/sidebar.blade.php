@@ -9,8 +9,11 @@
                   <div class="auto-container clearfix">
                       <div class="top-right clearfix">
                           <ul class="info clearfix" style="margin-bottom: 0rem;">
-                              <li><a href="email:info@omegasoftve.com" style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@Omegasoftve.com</a></li>
-                              <li><a href="#" style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</a></li>                                  
+                              <li style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@omegasoftve.com</a></li>
+                              <li style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</a></li>                                  
+
+                           
+                          
                               <!-- <div class="top-right clearfix">
                                   <div class="options-box clearfix">
                                       <div class="lang-box">

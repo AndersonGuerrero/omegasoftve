@@ -15,7 +15,7 @@
             <div class="col-md-12 col-ms-12 col-xs-12">
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
-                        <h2 style="padding-top: 15px;">
+                        <h2 style="padding-top: 15px; font-size: 20px;">
                             <a style="text-decoration:none;" href="">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/inicio-centro-de-soporte.png" alt="">Centro de Soporte</a>
                         </h2>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
-                        <h2 style="padding-top: 15px;">
+                        <h2 style="padding-top: 15px; font-size: 20px; ">
                             <a style="text-decoration:none;" target="_blank" href="{{route('open_ticket')}}">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/abrir-un-ticket.png" alt="">Aperturar Ticket</a>
                         </h2>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
-                        <h2 style="padding-top: 15px;">
+                        <h2 style="padding-top: 15px; font-size: 20px; ">
                             <a target="_blank" style="text-decoration:none;" href="{{route('ticket_tracking')}}">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/estado-de-un-ticket.png" alt="">Seguimiento de ticket</a>
                         </h2>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-md-3 col-ms-3 col-xs-3">
                     <div class="sec-title centered">
-                        <h2 style="padding-top: 15px;">
+                        <h2 style="padding-top: 15px; font-size: 20px; ">
                             <a style="text-decoration:none;" target="_blank" href="{{route('omega_kwoledgebase')}}">
                                 <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="{{ URL::to('/') }}/images/icons/base-de-conocimiento.png" alt="">Base de conocimiento</a>
                         </h2>
@@ -78,7 +78,7 @@
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
-                                        Para obtener ayuda o soporte técnico, contactenos a través del (58) 244 3868448 ext 602.
+                                        Para obtener ayuda o soporte técnico, contactenos a través del (58) 244 3868448 ext 605.
                                     </div>
                                 </div>
                             </div>

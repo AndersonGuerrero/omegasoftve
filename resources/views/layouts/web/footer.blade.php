@@ -22,7 +22,7 @@
                                                     <ul class="clearfix">
                                                         <li><a target="_black" href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
                                                         <li><a target="_black" href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
-                                                        <li><a target="_black" href="https://join.skype.com/invite/MHGMd5TGZRR9"><span class="fa fa-skype"></span></a></li>
+                                                        <li><a target="_black" href="https://join.skype.com/invite/rbtBS36Igg1J"><span class="fa fa-skype"></span></a></li>
                                                         <li><a target="_black" href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
                                                         <li><a target="_black" href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
                                                     </ul>
@@ -46,7 +46,7 @@
                                         <div class="links">
                                             <ul>
                                                 <li><a href="#">Omega ITSM</a></li>
-                                                <li><a href="{{ URL::to('/') }}/soporte/">Acceso de Soporte</a></li>
+                                                <li><a href="{{ URL::to('/') }}/soporte/">Acceso Rápido</a></li>
                                                 <!-- <li><a href="#">Programa de Partner</a></li> -->
                                                 <!-- <li><a href="#">Portal de Partner</a></li> -->
                                                 <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>
@@ -71,7 +71,7 @@
                                         <div class="info">
                                             <ul>
                                                 <li class="clearfix"><strong>Telefono: </strong> <span class="txt">(58) 244 386 8448</span></li>
-                                                <li class="clearfix"><strong>Email: </strong> <span class="txt"><!--<a href="email:info@omegasoftve.com">-->info@omegasoftve.com<!--</a>--></span></li>
+                                                <li class="clearfix"><strong>Correo Electrónico: </strong> <span class="txt"><!--<a href="email:info@omegasoftve.com">-->info@omegasoftve.com<!--</a>--></span></li>
                                                 <li class="clearfix"><strong>Direccion: </strong> <span class="txt">Dirección:  Calle Páez #24 entre calle Carabaño y Leopoldo Tosta, sector centro. Villa de Cura, Aragua, Venezuela.</span></li>
                                             </ul>
                                         </div>
@@ -145,7 +145,7 @@
         	<div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-md-12 col-sm-12 col-xs-12" style="text-align:center;">
-                        <div class="copyright">&copy; 2018. OMEGASOFT TODOS LOS DERECHOS RESERVADOS <!--<a href="https://themeforest.net/user/yogsthemes/portfolio">YogsThemes--></a></div>
+                        <div class="copyright">&copy; 2019. OMEGASOFT TODOS LOS DERECHOS RESERVADOS <!--<a href="https://themeforest.net/user/yogsthemes/portfolio">YogsThemes--></a></div>
                     </div>
                    <!-- <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="footer-nav clearfix">

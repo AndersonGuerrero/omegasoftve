@@ -2182,6 +2182,246 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 
 ***/
 
+/* Header Social */
+.main-header{
+	position:relative;
+	background:#ffffff;
+	font-size:16px;
+}
+
+.header-style-two{
+	color:#8baad6;
+	background:#00325d;
+}
+
+.main-header .header-upper{
+	position:relative;
+	padding:120px 0px 70px;
+}
+
+.main-header .header-upper .header-column{
+	position:relative;
+	margin-bottom:30px;	
+}
+
+.main-header .header-upper .header-widget{
+	position:relative;
+}
+
+.main-header .header-upper h3{
+	position:relative;
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+	color:#00325d;
+	margin-bottom:30px;
+}
+
+.header-style-two .header-upper h3{
+	color:#ffffff !important;	
+}
+
+.main-header .header-upper .about-widget{
+	max-width:290px;	
+}
+
+.main-header .header-upper .about-widget .logo{
+	position:relative;
+	margin:-40px 0px 20px;	
+}
+
+.main-header .header-upper .about-widget .text{
+	position:relative;
+	font-size:16px;
+	margin-bottom:30px;
+}
+
+.main-header .social-links{
+	position:relative;	
+}
+
+.main-header .social-links li{
+	position:relative;
+	float:left;
+	margin-right:10px;
+}
+
+.main-header .social-links li a{
+	position:relative;
+	display:block;
+	color:#5a6d92;
+	width:32px;
+	height:32px;
+	font-size:14px;
+	border:1px solid #5a6d92;
+	line-height:30px;
+	text-align:center;
+	border-radius:50%;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.header-style-two .social-links li a{
+	color:#8baad6;
+	border-color:#8baad6;
+}
+
+.main-header .social-links li a:hover,
+.header-style-two .social-links li a:hover{
+	color:#007aff;
+	border-color:#007aff;	
+}
+
+.main-header .links{
+	position:relative;	
+}
+
+.main-header .links li{
+	position:relative;
+	margin-bottom:5px;
+}
+
+.main-header .links li:last-child{
+	margin-bottom:0px;	
+}
+
+.main-header .links li a{
+	position:relative;
+	display:inline-block;
+	line-height:24px;
+	color:#666666;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.header-style-two .links li a{
+	color:#8baad6;	
+}
+
+.main-header .links li a:hover,
+.header-style-two links li a:hover{
+	color:#007aff;	
+}
+
+.main-header .info-widget li{
+	position:relative;
+	color:#666666;
+	margin-bottom:15px;
+	line-height:24px;
+}
+
+.header-style-two .info-widget li{
+	color:#8baad6;
+}
+
+.main-header .info-widget li strong{
+	position:relative;
+	float:left;
+	width:30%;
+	font-weight:600;
+	padding-right:15px;
+}
+
+.main-header .info-widget li .txt{
+	position:relative;
+	float:left;
+	width:70%;
+}
+
+.main-header .gallery-widget .images{
+	position:relative;
+	margin:0px -8px;	
+}
+
+.main-header .gallery-widget .images .image-box{
+	position:relative;
+	float:left;
+	width:33.3333%;
+	padding:0px 8px;
+	margin-bottom:16px;	
+}
+
+.main-header .gallery-widget .images img{
+	display:block;
+	width:100%;	
+}
+
+.main-header .gallery-widget .images img:hover{
+	opacity:0.70;	
+}
+
+.main-header .header-bottom{
+	position:relative;
+	background:#ffffff;
+	border-top:1px solid #e0e0e0;
+}
+
+.header-style-two .header-bottom{
+	background:#00325d;
+	border-top-color:rgba(255,255,255,0.10);
+}
+
+.main-header .header-bottom .copyright{
+	position:relative;
+	padding:22px 0px 18px;
+	line-height:30px;	
+}
+
+.main-header .header-bottom .header-nav{
+	position:relative;
+	padding:22px 0px 18px;
+	line-height:30px;	
+}
+
+.main-header .header-bottom .header-nav ul{
+	position:relative;
+	float:right;	
+}
+
+.main-header .header-bottom .header-nav ul li{
+	position:relative;
+	display:inline-block;
+	margin-left:30px;
+}
+
+.main-header .header-bottom .header-nav ul li a{
+	position:relative;
+	display:block;
+	color:#5a6d92;
+	line-height:30px;
+}
+
+.header-style-two .header-bottom .header-nav ul li a{
+	color:#5a6d92;
+}
+
+.header-bottom .copyright a{
+	color:#0b0b0b;
+	-ms-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	transition:all 500ms ease;	
+}
+
+.header-style-two .header-bottom .copyright a{
+	color:#ffffff;
+}
+
+.main-header .header-bottom .header-nav ul li a:hover,
+.main-header .header-bottom .copyright a:hover,
+.header-style-two .header-bottom .header-nav ul li a:hover{
+	color:#007aff;	
+}
+
+/*** 
+/* End Header Social */
+
+
 .main-footer{
 	position:relative;
 	background:#ffffff;
