@@ -72,8 +72,24 @@
                         <div style="margin-top: 5px;">
                             <h2 style="text-align: -webkit-left; margin-top: 10px; color: #00325d;margin-left: 37px;  font-size: 20px; ">Correo Electrónico:</h2>
                             <div class="text" style="text-align: initial; margin-top: -15px;margin-left: 37px;">info@omegasoftve.com</div>
-                        </div>
+                        </div>      
                     </div>
+
+                        <div style = "text-align: center;">
+                            <div class="main-footer footer-style-two2">
+                                <div class="footer-upper2">
+                                    <div class="social-links" style ="display: inline-block;">
+                                        <ul class="clearfix" >
+                                            <li><a target="_black" href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
+                                            <li><a target="_black" href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
+                                            <li><a target="_black" href="https://join.skype.com/invite/rbtBS36Igg1J"><span class="fa fa-skype"></span></a></li>
+                                            <li><a target="_black" href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
+                                            <li><a target="_black" href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        <div>
                 </div>
             </div>
             

@@ -8,9 +8,27 @@
               <div class="header-top" style="background: #062c4c;">
                   <div class="auto-container clearfix">
                       <div class="top-right clearfix">
-                          <ul class="info clearfix" style="margin-bottom: 0rem;">
+                          <ul class="info clearfix" style="margin-bottom: 0rem; padding-top: 7px;">
                               <li style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@omegasoftve.com</a></li>
                               <li style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</a></li>                                  
+                                
+                              <li style = "margin-right: -70px;">
+                              <div style = "text-align: center;">
+                                    <div class="main-footer footer-style-two3 ">
+                                        <div class="footer-upper2">
+                                            <div class="social-links2" style ="display: inline-block;">
+                                                <ul class="clearfix" >
+                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
+                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
+                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://join.skype.com/invite/rbtBS36Igg1J"><span class="fa fa-skype"></span></a></li>
+                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
+                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div>
+                                </li>
 
                            
                           
