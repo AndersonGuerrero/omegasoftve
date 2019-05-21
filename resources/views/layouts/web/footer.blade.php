@@ -42,11 +42,11 @@
                         <div class="footer-column col-md-12 col-sm-12 col-xs-12" style = "padding-left: 70px;">
                                 <div class="footer-widget links-widget">
                                     <div class="widget-inner">
-                                        <h3>Link de Acceso rapido</h3>
+                                        <h3>Acceso rapido</h3>
                                         <div class="links">
                                             <ul>
                                                 <li><a href="#">Omega ITSM</a></li>
-                                                <li><a href="{{ URL::to('/') }}/soporte/">Acceso Rápido</a></li>
+                                                <li><a href="{{ URL::to('/') }}/soporte/">Soporte</a></li>
                                                 <!-- <li><a href="#">Programa de Partner</a></li> -->
                                                 <!-- <li><a href="#">Portal de Partner</a></li> -->
                                                 <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>

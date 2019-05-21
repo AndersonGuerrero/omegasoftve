@@ -123,7 +123,7 @@
                                                     </ul
                                                     >
                                                 </div>  
-                                                <div class="link-box"><a data-title="Coordinador de Soporte Técnico" data-toggle="modal" 
+                                                <div class="link-box"><a href="#" data-title="Coordinador de Soporte Técnico" data-toggle="modal" 
                                                 data-target="#myTeam" class="theme-btn btn-style-two">Postularse</a></div>
                                             </div> 
                                             <hr style="height:0px;width: 110%;background-color:#d8cece;">
