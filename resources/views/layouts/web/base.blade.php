@@ -27,6 +27,11 @@
 
 <!---End Testimonial Carrosel -->
 
+<!--- linea de tiempo -->
+<link href="{{ URL::to('/') }}/css/timeline.css" rel="stylesheet">
+
+<!--- End linea de tiempo -->
+
 <!--- Carousel  Empresas -->
 <link href="{{ URL::to('/') }}/css/owl-theme-Company.css" rel="stylesheet">
 <link href="{{ URL::to('/') }}/css/owl-caousel-Company.css" rel="stylesheet">

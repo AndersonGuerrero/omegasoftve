@@ -1,0 +1,206 @@
+.main-timeline{ position: relative; }
+.main-timeline:before{
+    content: '';
+    height: 90%;
+    width: 1px;
+    border-left: 7px dotted #909090;
+    transform: translatex(-50%);
+    position: absolute;
+    left: 50%;
+    top: 60px;
+}
+.main-timeline .timeline{
+    margin-bottom: 5px;
+    padding: 0px 0;
+    position: relative;
+    z-index: 1;
+}
+.main-timeline .timeline:before,
+.main-timeline .timeline:after{
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-color: #c1c6c7;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #fff,0 0 0 12px #909090;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+.main-timeline .timeline:after{
+    width: 35%;
+    height: 100px;
+    border-radius: 0;
+    left: auto;
+    right: 0;
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+    -webkit-clip-path: polygon(10% 0, 0 50%, 10% 100%, 100% 100%, 100% 0);
+    clip-path: polygon(10% 0, 0 50%, 10% 100%, 100% 100%, 100% 0);
+}
+.main-timeline .timeline-content{display: block;}
+.main-timeline .timeline-content:hover{text-decoration: none;}
+.main-timeline .timeline-content:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .content{
+    display: inline-block;
+    float: left;
+    width: 40%;
+    color: #909090;
+    position: relative;
+}
+.main-timeline .description{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.main-timeline .title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #007aff;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+.timeline-icon{
+    height: 130px;
+    width: 130px;
+    font-size: 70px;
+    color: #01C0F7;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    border: 5px solid #c1c6c7;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline-icon2{
+    height: 130px;
+    width: 130px;
+    font-size: 70px;
+    color: #01C0F7;
+    text-align: center;
+    /* line-height: 30px; */
+    background-color: #fff;
+    border: 5px solid #c1c6c7;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline-icon3{
+    height: 130px;
+    width: 130px;
+    font-size: 70px;
+    color: #01C0F7;
+    text-align: center;
+    /* line-height: 30px; */
+    background-color: #fff;
+    border: 5px solid #c1c6c7;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    transform: translateX(-945px);
+} 
+
+.main-timeline .timeline:nth-child(even):after{
+    right: auto;
+    left: 0;
+    transform: translateX(0) translateY(-50%) rotate(180deg);
+}
+.main-timeline .timeline:nth-child(even) .content{float: right;}
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    right: auto;
+    left: 2%;
+}
+.main-timeline .timeline:nth-child(4n+1):after{
+    background: linear-gradient(to right,#007bffdc,#007bffdc,#007bffdc,#007bffdc,#007bffdc,transparent,#007bffdc);
+}
+.main-timeline .timeline:nth-child(4n+2):before{background-color: #c1c6c7;}
+.main-timeline .timeline:nth-child(4n+2):after{
+ background: linear-gradient(to right,#007bffdc,#007bffdc,#007bffdc,#007bffdc,#007bffdc,transparent,#007bffdc);
+}
+ 
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon{
+   color: #0076B0;
+   border-color: #c1c6c7;;
+}
+.main-timeline .timeline:nth-child(4n+2) .title{color: #007aff;}
+.main-timeline .timeline:nth-child(4n+3):before{background-color: #c1c6c7;}
+.main-timeline .timeline:nth-child(4n+3):after{
+    background: linear-gradient(to right,#007bffdc,#007bffdc,#007bffdc,#007bffdc,#007bffdc,transparent,#007bffdc);
+}
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon{
+    color: #00B09E;
+    border-color: #c1c6c7;
+}
+.main-timeline .timeline:nth-child(4n+3) .title{color: #007aff;}
+.main-timeline .timeline:nth-child(4n+4):before{background-color: #c1c6c7;}
+.main-timeline .timeline:nth-child(4n+4):after{
+    background: linear-gradient(to right,#007bffdc,#007bffdc,#007bffdc,#007bffdc,#007bffdc,transparent,#007bffdc);
+}
+.main-timeline .timeline:nth-child(4n+4) .timeline-icon{
+    color: #22237E;
+    border-color: #c1c6c7;
+}
+.main-timeline .timeline:nth-child(4n+4) .title{color: #007aff;}
+@media screen and (max-width:990px){
+    .main-timeline:before{top: 75px;}
+}
+@media screen and (max-width:767px){
+    .main-timeline:before,
+    .main-timeline .timeline:before{display: none;}
+    .main-timeline .timeline{
+      padding-top: 180px;
+      margin-bottom: 20px;
+    }
+    .main-timeline .timeline:nth-child(even):after,
+    .main-timeline .timeline:after{
+        height: 170px;
+        width: 100px;
+        top: 0;
+        right: 50%;
+        transform: translateY(0) translateX(50%);
+        -webkit-clip-path: polygon(50% 100%, 100% 90%, 100% 0, 0 0, 0 90%);
+        clip-path: polygon(50% 100%, 100% 90%, 100% 0, 0 0, 0 90%);
+    }
+    .main-timeline .timeline:nth-child(even):after{left:auto;}
+    .main-timeline .timeline:nth-child(4n+1)after{
+      background: linear-gradient(to top,#01C0F7,#01C0F7,#01C0F7,#01C0F7,#01C0F7,transparent,#868686,#868686);
+    }
+    .main-timeline .timeline:nth-child(4n+2):after{
+        background: linear-gradient(to bottom,#868686,#868686,transparent,#0076B0,#0076B0,#0076B0,#0076B0,#0076B0);
+    }
+    .main-timeline .timeline:nth-child(4n+3):after{
+        background: linear-gradient(to top,#00B09E,#00B09E,#00B09E,#00B09E,#00B09E,transparent,#868686,#868686);
+    }
+    .main-timeline .timeline:nth-child(4n+4):after{
+        background: linear-gradient(to bottom,#868686,#868686,transparent,#22237E,#22237E,#22237E,#22237E,#22237E);
+    }
+    .main-timeline .content{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-icon,
+    .main-timeline .timeline-icon{
+        right: 50%;
+        top: 2%;
+        transform: translateX(50%) translateY(0);
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-icon{left: auto;}
+}
