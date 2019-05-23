@@ -399,7 +399,7 @@
                                 <div class="testimonial">
                                     <div class="testimonial-profile">
                                         <a href="https://www.linkedin.com/in/carlos-villegas-79540213b/">
-                                            <img src="{{ URL::to('/') }}/images/resource/" alt="">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-3.png" alt="">
                                         </a>
                                     </div>
                                     <div class="testimonial-content">
