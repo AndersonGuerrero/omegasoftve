@@ -3616,7 +3616,12 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	position:relative;
 	font-weight:500;
 	line-height:1.60em;
-	font-family: 'Raleway', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,
+	"Segoe UI",
+	Roboto,"Helvetica Neue",
+	Arial,sans-serif,
+	"Apple Color Emoji",
+	"Segoe UI Emoji","Segoe UI Symbol";
 	margin-bottom:20px;
 }
 

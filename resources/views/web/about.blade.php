@@ -13,26 +13,21 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 40px;">
                     <div class="sec-title centered" style="margin-bottom: 15px;">
-                        <h2>Acerca de Nosotros</h2>
+                        <h1>Acerca de Nosotros</h1>
                         <div class="text">
-                            Omegasoft, nace en el 2010 como una empresa 
-                            de servicios IT, integrada por un grupo de 
-                            profesionales experimentados y altamente 
-                            calificados en el área de gestión servicios IT, 
-                            ofreciendo a las organizaciones, soluciones para 
-                            mejorar sus capacidades organizativas, enfocándonos 
-                            en la simplificación de la gestión de servicios IT.                                                                                                                                       flexibles  y asequibles para empresas de todos los tamaños..</div>
+                        Omegasoft, nace en el 2010 como una empresa de servicios IT, integrada por un grupo de
+                        profesionales experimentados y altamente calificados en el área, ofreciendo a las organizaciones,
+                        soluciones y servicios para mejorar sus capacidades organizativas, enfocándonos en la
+                        simplificación de sus procesos, empleando metodologías que se adaptan a las diferentes
+                        empresas.                                                                                                                                       flexibles  y asequibles para empresas de todos los tamaños..</div>
                     </div>
                     <div class="sec-title centered">
                         <div class="text">
-                        Nuestros principales objetivos son combinar la facilidad, 
-                        la accesibilidad y la practicidad al proporcionar soluciones 
-                        flexibles y asequibles a las organizaciones, permitiéndoles 
-                        obtener control en la entrega de servicios, simplificar los 
-                        procesos de gestión de servicios, adquirir visibilidad en 
-                        tiempo real en todos sus servicios e infraestructura y orquestar 
-                        las interacciones de personas, procesos y tecnologías para un 
-                        rendimiento óptimo de los servicios.
+                        Nuestros principales objetivos son combinar la facilidad, la accesibilidad y la practicidad al
+                        proporcionar soluciones flexibles y asequibles a las organizaciones, permitiéndoles obtener control
+                        en la entrega de servicios, simplificar los procesos de gestión, adquirir visibilidad en tiempo real en
+                        todos sus servicios e infraestructura y orquestar las interacciones de personas, procesos y
+                        tecnologías para un rendimiento óptimo.
                         </div>
                     </div>
                 </div>
@@ -41,8 +36,8 @@
     </section>
 
     <section class = "">
-        <div class="sec-title-two centered">
-            <h2>Nuestra historia</h2>
+        <div class="sec-title-two centered" style = "margin-bottom: 0px;">
+            <h2>Historia</h2>
         </div>
             <div class="container">
                 <div class="row">
@@ -208,10 +203,10 @@
             </div>
     </section> -->
     
-    <section class="news-section-two" style="margin-top: 30px;">
+    <section class="news-section-two" style="margin-top: 30px; padding: 30px 0px 70px; ">
             <div class="auto-container">
                 <!--Heading-->
-                <div class="sec-title-two centered">
+                <div class="sec-title-two centered" style = "margin-bottom: 30px;">
                     <h2>Misión, Visión y Valores</h2>
                 </div>
                 
@@ -219,14 +214,13 @@
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/mision.jpg" alt=""></a></figure>
+                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/mision.jpg" alt=""></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
-                                    <h2 style="font-size:25px">Misión</h2>
+                                    <h3>Misión</h3>
                                     <div class="text" style="font-size: 16px;text-align: justify;">
-                                         Generar de forma permanente, acciones estratégicas y operativas
-                                         que persigan la vanguardia, tecnológica y humana en toda la dimensión
-                                         de la Gestión de Servicios IT. 
+                                    Proveer soluciones que permitan optimizar los procesos de atención de soporte y servicios IT, en
+                                    apoyo a las organizaciones para satisfacer las necesidades de sus clientes.
                                     </div>
                                 </div>
                             </div>
@@ -235,14 +229,13 @@
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/vision.jpg" alt=""></a></figure>
+                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/vision.jpg" alt=""></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
-                                    <h2 style="font-size:25px">Visión</h2>
+                                    <h3>Visión</h3>
                                     <div class="text" style="font-size: 16px;text-align: justify;">
-                                            Constituirnos en una referencia global en la generación 
-                                            de aplicaciones especializadas en la dimensionalidad de
-                                            la Gestión de Servicios de IT. 
+                                        Convertirnos en un aliado estratégico de soluciones para la gestión de servicios IT, en el mercado
+                                        latinoamericano reconocido por la calidad y el servicio. 
                                     </div>
                                 </div>
                             </div>
@@ -251,14 +244,13 @@
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-detail.html"><img src="{{ URL::to('/') }}/images/resource/valores.jpg" alt=""></a></figure>
+                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/valores.jpg" alt=""></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
-                                    <h1 style="font-size:25px">Valores</h1>
+                                    <h3>Valores</h3>
                                     <div class="text" style="font-size: 16px;text-align: justify;">
-                                            Actualización permanente, investigación e innovación,
-                                            trabajo organizado y pleno, humildad, resiliencia y 
-                                            aprendizaje organizacional. 
+                                        Nuestros valores fundamentales que nos identifican son: responsabilidad, excelencia,
+                                        profesionalismo, trabajo en equipo y compromiso, enmarcados en el enfoque a nuestros clientes.
                                     </div>
                                 </div>
                             </div>
@@ -268,7 +260,7 @@
             </div>
     </section>
         
-    <section class="default-section">
+    <section class="default-section" style = "padding: 60px 0px 100px;">
             <div class="auto-container">
             
                 <div class="row clearfix">
@@ -277,7 +269,7 @@
                         <div class="inner">
                             <!--Heading-->
                             <div class="sec-title-two">
-                                <h1>Nuestros Éxitos</h1>
+                                <h2>Nuestros Éxitos</h2>
                             </div>
                             <div class="fun-facts">
                                     <div class="row clearfix">
@@ -340,8 +332,8 @@
     <section class="testimonials-two" style = "padding: 60px 0px;">
         <div class="auto-container">
 
-            <div class="sec-title-two centered">
-                <h1 style="margin-top: -100px">Nuestro Equipo</h1>
+            <div class="sec-title-two centered" style = "margin-bottom: 25px;">
+                <h2 style="margin-top: -100px">Nuestro Equipo</h2>
             </div>
 
             <div class="demo">
@@ -349,12 +341,22 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div id="testimonial-carousel-two" class="owl-carousel">
+
+                                
+                            
                                 <div class="testimonial">
                                     <div class="testimonial-profile">
-                                        <img src="{{ URL::to('/') }}/images/resource/author-2.jpeg" alt="">
+                                        <a href="https://www.linkedin.com/in/dubraska-figuera/">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-2.jpeg" alt="">
+                                        </a>
                                     </div>
                                     <div class="testimonial-content">
-                                        <h3 class="testimonial-title">Dubraska Figuera</h3>
+                                        <h3 class="testimonial-title">
+                                            <a  href="https://www.linkedin.com/in/dubraska-figuera/" 
+                                                style = "color: #000; text-decoration: none; outline: none;">
+                                                Dubraska Figuera
+                                            </a>
+                                        </h3>
                                         <span class="testimonial-post">Support Coordinator.</span>
                                         <p class="testimonial-description">
                                         Me complace compartir mis
@@ -366,13 +368,22 @@
                                         </p>
                                     </div>
                                 </div>
+
+
             
                                 <div class="testimonial">
                                     <div class="testimonial-profile">
-                                        <img src="{{ URL::to('/') }}/images/resource/author-1.jpeg" alt="">
+                                        <a href="https://www.linkedin.com/in/anderson-guerrero/">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-1.jpeg" alt="">
+                                        </a>
                                     </div>
                                     <div class="testimonial-content">
-                                        <h3 class="testimonial-title">Andersón Guerrero</h3>
+                                        <h3 class="testimonial-title">
+                                            <a href="https://www.linkedin.com/in/anderson-guerrero/"
+                                               style = "color: #000; text-decoration: none; outline: none;">    
+                                                Andersón Guerrero
+                                            </a>
+                                        </h3>
                                         <span class="testimonial-post">Web Developer Leader</span>
                                         <p class="testimonial-description">
                                         Omegasoft significo para mi en su momento un cambio
@@ -383,6 +394,53 @@
                                         </p>
                                     </div>
                                 </div>
+
+
+                                <div class="testimonial">
+                                    <div class="testimonial-profile">
+                                        <a href="https://www.linkedin.com/in/carlos-villegas-79540213b/">
+                                            <img src="{{ URL::to('/') }}/images/resource/" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <h3 class="testimonial-title">
+                                            <a href="https://www.linkedin.com/in/carlos-villegas-79540213b/"
+                                               style = "color: #000; text-decoration: none; outline: none;">    
+                                               Carlos Villegas
+                                            </a>
+                                        </h3>
+                                        <span class="testimonial-post">Analista de Soporte Técnico</span>
+                                        <p class="testimonial-description">
+                                        Lo que más me gusta de trabajar en OmegaSoft es que cada día me da la oportunidad de crecer
+                                        profesional y personalmente, es para mí un privilegio poder estar con un grupo de trabajo que
+                                        constantemente busca mejorar e innovar para ofrecer un producto y un servicio de calidad.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="testimonial">
+                                    <div class="testimonial-profile">
+                                        <a href="https://www.linkedin.com/in/dangela-garcia/">
+                                            <img src="{{ URL::to('/') }}/images/resource/" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <h3 class="testimonial-title">
+                                            <a href="https://www.linkedin.com/in/dangela-garcia/"
+                                               style = "color: #000; text-decoration: none; outline: none;">    
+                                               Dangela Garcia
+                                            </a>
+                                        </h3>
+                                        <span class="testimonial-post">Support Coordinator</span>
+                                        <p class="testimonial-description">
+                                        Omegasoft representa un nuevo reto profesional, la oportunidad de crecer profesionalmente en
+                                        nuevas áreas, un lugar donde encuentro un excelente ambiente de trabajo con un grupo de
+                                        profesionales dedicados en brindar soluciones tecnológicas innovadoras.
+                                        </p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
