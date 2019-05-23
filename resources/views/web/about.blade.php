@@ -302,22 +302,22 @@
                             <div class="logos">
                                 <div class="row clearfix">
                                     <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                        <figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/1.png" alt=""></a></figure>
+                                        <figure class="image"><a href="https://www.multinacional.com.ve/Multinacional/"><img src="{{ URL::to('/') }}/images/clients/1.png" alt=""></a></figure>
                                     </div>
                                     <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                        <figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/2.png" alt=""></a></figure>
+                                        <figure class="image"><a href="https://www.seguroscaracas.com/portal/paginasv4/"><img src="{{ URL::to('/') }}/images/clients/2.png" alt=""></a></figure>
                                     </div>
                                     <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                        <figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/3.png" alt=""></a></figure>
+                                        <figure class="image"><a href="http://www.fundacionsantateresa.org/web/inicio.php"><img src="{{ URL::to('/') }}/images/clients/3.png" alt=""></a></figure>
                                     </div>
                                     <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                        <figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/4.png" alt=""></a></figure>
+                                        <figure class="image"><a href="https://www.grupophoenix.com/es/"><img src="{{ URL::to('/') }}/images/clients/4.png" alt=""></a></figure>
                                     </div>
                                     <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                        <figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/5.png" alt=""></a></figure>
+                                        <figure class="image"><a href="https://www.mapfre.com.ve/"><img src="{{ URL::to('/') }}/images/clients/5.png" alt=""></a></figure>
                                     </div>
                                     <div class="logo-column col-md-6 col-sm-6 col-xs-12">
-                                        <figure class="image"><a href="#"><img src="{{ URL::to('/') }}/images/clients/1.png" alt=""></a></figure>
+                                        <figure class="image"><a href="http://protinalproagro.com.ve/"><img src="{{ URL::to('/') }}/images/clients/6.png" alt=""></a></figure>
                                     </div>
                                 </div>
                             </div>
