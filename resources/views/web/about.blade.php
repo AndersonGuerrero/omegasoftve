@@ -15,11 +15,12 @@
                     <div class="sec-title centered" style="margin-bottom: 15px;">
                         <h1>Acerca de Nosotros</h1>
                         <div class="text">
-                        Omegasoft, nace en el 2010 como una empresa de servicios IT, integrada por un grupo de
-                        profesionales experimentados y altamente calificados en el área, ofreciendo a las organizaciones,
-                        soluciones y servicios para mejorar sus capacidades organizativas, enfocándonos en la
-                        simplificación de sus procesos, empleando metodologías que se adaptan a las diferentes
-                        empresas.                                                                                                                                       flexibles  y asequibles para empresas de todos los tamaños..</div>
+                        Omegasoft, nace en el 2010 como una empresa de servicios IT, integrada por un grupo 
+                        de profesionales experimentados y altamente calificados en el área, ofreciendo a las 
+                        organizaciones, soluciones y servicios para mejorar sus capacidades organizativas, 
+                        enfocándonos en la simplificación de sus procesos, empleando metodologías que se 
+                        adaptan a las diferentes empresas.            
+                        </div>
                     </div>
                     <div class="sec-title centered">
                         <div class="text">
@@ -342,61 +343,7 @@
                         <div class="col-md-12">
                             <div id="testimonial-carousel-two" class="owl-carousel">
 
-                                
-                            
-                                <div class="testimonial">
-                                    <div class="testimonial-profile">
-                                        <a href="https://www.linkedin.com/in/dubraska-figuera/">
-                                            <img src="{{ URL::to('/') }}/images/resource/author-2.jpeg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <h3 class="testimonial-title">
-                                            <a  href="https://www.linkedin.com/in/dubraska-figuera/" 
-                                                style = "color: #000; text-decoration: none; outline: none;">
-                                                Dubraska Figuera
-                                            </a>
-                                        </h3>
-                                        <span class="testimonial-post">Support Coordinator.</span>
-                                        <p class="testimonial-description">
-                                        Me complace compartir mis
-                                        experiencias como parte de la familia Omegasoft, donde he
-                                        recibido grandes oportunidades y retos durante cinco años
-                                        de carrera, es una empresa que permite a sus empleados un
-                                        crecimiento continuo y donde contamos con un grupo de profesionales
-                                        que trabajan esmeradamente para la satisfacción de nuestros clientes.
-                                        </p>
-                                    </div>
-                                </div>
-
-
-            
-                                <div class="testimonial">
-                                    <div class="testimonial-profile">
-                                        <a href="https://www.linkedin.com/in/anderson-guerrero/">
-                                            <img src="{{ URL::to('/') }}/images/resource/author-1.jpeg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <h3 class="testimonial-title">
-                                            <a href="https://www.linkedin.com/in/anderson-guerrero/"
-                                               style = "color: #000; text-decoration: none; outline: none;">    
-                                                Andersón Guerrero
-                                            </a>
-                                        </h3>
-                                        <span class="testimonial-post">Web Developer Leader</span>
-                                        <p class="testimonial-description">
-                                        Omegasoft significo para mi en su momento un cambio
-                                        de aire, hoy tres años después representa un lugar de crecimiento
-                                        profesional que se va gestando día a día, un lugar donde he encontrado
-                                        excelentes compañeros; donde los errores te llevan a mejorar y que con
-                                        constancia y perseverancia se pueden alcanzar las metas.
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="testimonial">
+                            <div class="testimonial">
                                     <div class="testimonial-profile">
                                         <a href="https://www.linkedin.com/in/carlos-villegas-79540213b/">
                                             <img src="{{ URL::to('/') }}/images/resource/author-3.png" alt="">
@@ -422,7 +369,7 @@
                                 <div class="testimonial">
                                     <div class="testimonial-profile">
                                         <a href="https://www.linkedin.com/in/dangela-garcia/">
-                                            <img src="{{ URL::to('/') }}/images/resource/" alt="">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-4.jpeg" alt="">
                                         </a>
                                     </div>
                                     <div class="testimonial-content">
@@ -437,6 +384,52 @@
                                         Omegasoft representa un nuevo reto profesional, la oportunidad de crecer profesionalmente en
                                         nuevas áreas, un lugar donde encuentro un excelente ambiente de trabajo con un grupo de
                                         profesionales dedicados en brindar soluciones tecnológicas innovadoras.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial">
+                                    <div class="testimonial-profile">
+                                        <a href="https://www.linkedin.com/in/anderson-guerrero/">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-1.jpeg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <h3 class="testimonial-title">
+                                            <a href="https://www.linkedin.com/in/anderson-guerrero/"
+                                               style = "color: #000; text-decoration: none; outline: none;">    
+                                                Andersón Guerrero
+                                            </a>
+                                        </h3>
+                                        <span class="testimonial-post">Web Developer Leader</span>
+                                        <p class="testimonial-description">
+                                        Omegasoft significó para mí en su momento un cambio de aire, luego de cuatro años representó
+                                        un lugar de crecimiento profesional que se fue gestando día a día, un lugar donde encontré
+                                        excelentes compañeros; donde los errores te llevan a mejorar y que con constancia y
+                                        perseverancia se pueden alcanzar las metas.
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="testimonial">
+                                    <div class="testimonial-profile">
+                                        <a href="https://www.linkedin.com/in/dubraska-figuera/">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-2.jpeg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <h3 class="testimonial-title">
+                                            <a  href="https://www.linkedin.com/in/dubraska-figuera/" 
+                                                style = "color: #000; text-decoration: none; outline: none;">
+                                                Dubraska Figuera
+                                            </a>
+                                        </h3>
+                                        <span class="testimonial-post">Support Coordinator.</span>
+                                        <p class="testimonial-description">
+                                        Me complace compartir mis experiencias como parte de la familia Omegasoft, donde recibí
+                                        grandes oportunidades y retos durante cinco años de carrera, es una empresa que permite a sus
+                                        empleados un crecimiento continuo y donde se cuenta con un grupo de profesionales que
+                                        trabajan esmeradamente para la satisfacción de los clientes.
                                         </p>
                                     </div>
                                 </div>
