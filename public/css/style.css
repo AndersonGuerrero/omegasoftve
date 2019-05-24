@@ -4278,6 +4278,25 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	color:#2a2a2a;
 }
 
+.sidebar .sidebar-title2 h3{
+	position:relative;
+	display:block;
+	font-size:22px;
+	line-height:1.4em;
+	text-transform:capitalize;
+	font-weight:600;
+	color:#00325d;
+}
+
+.sidebar .sidebar-title h1{
+	position:relative;
+	display:block;
+	font-size:22px;
+	line-height:1.4em;
+	text-transform:capitalize;
+	font-weight:600;
+	color:#00325d;
+}
 
 
 .sidebar-widget{
@@ -4356,7 +4375,7 @@ text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #ac
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	border-bottom:1px solid #e6e6e6;
+	border-bottom:1px solid #0679fc;
 }
 
 .popular-category-list li a:hover{

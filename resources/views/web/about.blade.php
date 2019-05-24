@@ -3,7 +3,7 @@
 @section('content')
     <section class="page-title">
     	<div class="image-layer" style="opacity: 10.0;"></div>
-         <img src="{{ URL::to('/') }}/images/background/QuinesSomos.jpeg" alt="">
+         <img src="{{ URL::to('/') }}/images/background/quienes somos.png" alt="EMPRESA_SOFTWARE ">
         <div class="auto-container">
         </div>
     </section>
@@ -44,17 +44,14 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="main-timeline">
-
-
                             <div class="timeline">
-                                <a href="#" class="timeline-content">
+                                <a href="#" class="timeline-content">
                                   <div class="timeline-icon2">
                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/lanzamiento-2.jpg" alt=""></figure>
                                   </div>
                                   <div class="content">
-                                    <h3 class="title">2017</h3>
-                                    <p class="description">
-                                        Lanzamiento de versión comercial Omega ITSM, intergrando Omega CMDB.
+                                    <h3 class="title">2019</h3>
+                                    <p class="description">Lanzamiento de la versión comercial Suite Omega ITSM, el cual integra soluciones que permiten a las empresas gestionar los servicios IT de manera efectiva, simplificando sus procesos y alineándolos con el negocio.
                                     </p>
                                   </div>
                                 </a>
@@ -67,8 +64,7 @@
                                   </div>
                                   <div class="content">
                                     <h3 class="title">2016</h3>
-                                    <p class="description">
-                                        Lanzamiento versión comercial  Omega ITSM.
+                                    <p class="description">Iniciamos el proceso de desarrollo de nuestro primer software para la gestión de servicios IT basadas en las mejores prácticas ITIL, integrando firmemente toda la funcionalidad necesaria para orquestar las interacciones de personas, procesos y tecnologías para un rendimiento óptimo siendo intuitivo y accesible para los usuarios no técnicos.
                                     </p>
                                   </div>
                                 </a>
@@ -77,12 +73,11 @@
                             <div class="timeline">
                                 <a href="#" class="timeline-content">
                                   <div class="timeline-icon">
-                                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/desarrollamos.jpg" alt=""></figure>
+                                     <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/2013.png" alt=""></figure>
                                   </div>
                                   <div class="content">
-                                    <h3 class="title">2015</h3>
-                                    <p class="description">
-                                        Desarrollamos nuestra primera solución  para la gestión  de procesos ITIL. basadas  en la mejores plácticas.
+                                    <h3 class="title">2013</h3>
+                                    <p class="description">Como parte del proceso de expansión formalizamos alianza con proveedores de servicios, brindando soluciones para integrar los procesos de monitoreo de aplicaciones y servidores.
                                     </p>
                                   </div>
                                 </a>
@@ -91,12 +86,11 @@
                             <div class="timeline">
                                 <a href="#" class="timeline-content">
                                   <div class="timeline-icon3">
-                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/alianza.jpg" alt=""></figure>
+                                        <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/2011.png" alt=""></figure>
                                   </div>
                                   <div class="content">
-                                    <h3 class="title">2010</h3>
-                                    <p class="description">
-                                        Formalizamos alianza con un fabricante de soluciones para la gestión de IT.
+                                    <h3 class="title">2011</h3>
+                                    <p class="description">Incursionamos en el mercado venezolano, formalizando alianza con un fabricante de soluciones  para la gestión de servicios IT, ofreciendo aplicaciones que integran las funcionabilidades de Service Desk, CMDB y Asset Maangement, para adoptar e implementar fácilmente las mejores prácticas ITIL.
                                     </p>
                                   </div>
                                 </a>
@@ -109,8 +103,7 @@
                                   </div>
                                   <div class="content">
                                     <h3 class="title">2010</h3>
-                                    <p class="description">
-                                        Nace Omegasoft como una empresa de servicion IT.
+                                    <p class="description">Nace Omegasoft como una empresa dedicada a ofrecer soluciones informáticas orientadas a la gestión de servicios IT.
                                     </p>
                                   </div>
                                 </a>
@@ -356,7 +349,7 @@
                                                Carlos Villegas
                                             </a>
                                         </h3>
-                                        <span class="testimonial-post">Analista de Soporte Técnico</span>
+                                        <span class="testimonial-post">Technical Support Analyst</span>
                                         <p class="testimonial-description">
                                         Lo que más me gusta de trabajar en OmegaSoft es que cada día me da la oportunidad de crecer
                                         profesional y personalmente, es para mí un privilegio poder estar con un grupo de trabajo que
@@ -414,7 +407,7 @@
                                 <div class="testimonial">
                                     <div class="testimonial-profile">
                                         <a href="https://www.linkedin.com/in/dubraska-figuera/">
-                                            <img src="{{ URL::to('/') }}/images/resource/author-2.jpeg" alt="">
+                                            <img src="{{ URL::to('/') }}/images/resource/author-2.png" alt="">
                                         </a>
                                     </div>
                                     <div class="testimonial-content">

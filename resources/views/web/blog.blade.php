@@ -26,6 +26,21 @@
             
             <div class="row clearfix">
 				<div class="content-side col-lg-9 col-md-8 col-sm-12 col-xs-12">
+					<div class="content-side col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<aside class="sidebar">
+							<div class="sidebar-widget search-box">
+								<form method="get" action="">
+									<div class="form-group">
+										<input type="search" name="search" value="{{$search}}" 
+										placeholder="Buscar" required>
+										<button type="submit">
+											<span class="icon fa fa-search"></span>
+										</button>
+									</div>
+								</form>
+							</div>
+						</aside>
+					</div>
 					<?php
 					if($blogs->count()==0){
 						echo '<h3>No se encontraron resultados.</h3>';
@@ -40,7 +55,7 @@
 									style="width:870px;height: 372px;"
 									src="{{ URL::to('/').'/blogs/'.$item->id.'/'.$item->imagen }}" alt=""></a></figure>
 								<h3><a href="{{ route('blog-name', str_slug($item->title)) }}">{{$item->title}}</a></h3>
-								<div class="post-info">Post: {{ $item->created_at->format('d M Y')}}</div>
+								<div class="post-info">Publicado: {{ $item->created_at->format('d M Y')}}</div>
 								<div class="text">
 								{{ Str::limit($item->content, 170, '...') }}
 								</div>
@@ -54,7 +69,7 @@
                 	<aside class="sidebar">
 						
                         <!-- Search -->
-                        <div class="sidebar-widget search-box">
+                        <!-- <div class="sidebar-widget search-box">
                         	<form method="get" action="">
                                 <div class="form-group">
 									<input type="search" name="search" value="{{$search}}" 
@@ -64,11 +79,11 @@
 									</button>
                                 </div>
                             </form>
-						</div>
+						</div> -->
                         
                         <!-- Popular Category -->
                         <div class="sidebar-widget popular-category">
-                        	<div class="sidebar-title">
+                        	<div class="sidebar-title2">
                             	<h3>Categorias</h3>
                             </div>
                             <ul class="popular-category-list">
@@ -92,21 +107,23 @@
                         <!-- Latest Posts -->
                         <div class="sidebar-widget latest-posts">
                             <div class="sidebar-title">
-                            	<h3>Ultimos Post</h3>
-                            </div>
-							@foreach($lastsBlogs as $item)
-								<article class="post">
-									<figure class="post-thumb">
-										<a href="{{ route('blog-name', str_slug($item->title))}}">
-											<img
-											style="height:72px;width:72px;" 
-											src="{{ URL::to('/').'/blogs/'.$item->id.'/'.$item->imagen }}" alt="">
-										</a>
-									</figure>
-									<h4><a href="{{ route('blog-name', str_slug($item->title))}}">{{$item->title}}</a></h4>
-									<div class="post-info">Post {{ $item->created_at->format('d M, Y')}}</div>
-								</article>
-                            @endforeach
+								<h1>Ultimas Publicaciones</h1>                            
+							</div>
+								<div style = "background: #5aceff21 !important; padding: 20px; ">
+									@foreach($lastsBlogs as $item)
+										<article class="post">
+											<figure class="post-thumb">
+												<a href="{{ route('blog-name', str_slug($item->title))}}">
+													<img
+													style="height:72px;width:72px;" 
+													src="{{ URL::to('/').'/blogs/'.$item->id.'/'.$item->imagen }}" alt="">
+												</a>
+											</figure>
+											<h4><a href="{{ route('blog-name', str_slug($item->title))}}">{{$item->title}}</a></h4>
+											<div class="post-info">Publicado {{ $item->created_at->format('d M, Y')}}</div>
+										</article>
+									@endforeach
+								</div>
 						</div>
                         
                     </aside>
