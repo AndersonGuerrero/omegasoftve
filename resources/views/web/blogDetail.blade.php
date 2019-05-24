@@ -55,7 +55,7 @@
                                         font-weight: 500;
                                         font-family: 'Raleway', sans-serif;
                                     " class="text">
-                                        {!! nl2br(e($blog->content)) !!}
+                                        <?php echo ($blog->content)?>
 								</div>
 							</div>
 						</div>

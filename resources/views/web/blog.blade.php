@@ -56,8 +56,10 @@
 									src="{{ URL::to('/').'/blogs/'.$item->id.'/'.$item->imagen }}" alt=""></a></figure>
 								<h3><a href="{{ route('blog-name', str_slug($item->title)) }}">{{$item->title}}</a></h3>
 								<div class="post-info">Publicado: {{ $item->created_at->format('d M Y')}}</div>
+								
 								<div class="text">
-								{{ Str::limit($item->content, 170, '...') }}
+								<?php echo Str::limit($item->content, 170, '...') ?>
+								
 								</div>
 							</div>
 						</div>
