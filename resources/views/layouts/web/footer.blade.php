@@ -12,11 +12,10 @@
                                 <div class="footer-widget about-widget">
                                     <div class="widget-inner">
                                         <div class="logo"><img src="{{ URL::to('/') }}/images/logo.png" alt=""></div>
-                                        <div class="text">Nuestro   principales  objetivos   son 
-                                                          combinar la facilidad, la accesibilidad
-                                                          y  la  practicidad   al   proporcionar 
-                                                          soluciones  flexibles  y  asequible  para 
-                                                          empresas  de  todos  los tamaños.</div>
+                                        <div class="text">Nuestro principales objetivos son combinar la 
+                                                          facilidad, la accesibilidad y la practicidad 
+                                                          al proporcionar soluciones flexibles y asequible 
+                                                          para empresas.</div>
                                         <div>
                                             <div class="social-links">
                                                     <ul class="clearfix">

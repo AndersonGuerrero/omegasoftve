@@ -4,7 +4,7 @@
     <section class="page-title">
     	<div class="image-layer" 
              style="opacity:10.0;">
-            <img src="{{ URL::to('/') }}/images/background/nuestro-equipo.png" alt="">
+            <img src="{{ URL::to('/') }}/images/background/nuestro-equipo.png" alt="VALORES_EMPRESA">
         </div>
         <div class="auto-container">
         </div>
@@ -54,7 +54,7 @@
                         <div class="inner">
                             <!--Jobs Widget-->
                             <div class="jobs-widget side-widget">
-                                <h3>Oportunidades Actuales</h3>
+                                <h2>Oportunidades Actuales</h2>
                                 <div class="widget-inner">
                                     <ul id="categorys-vacancies-content">
                                         <li class="current"><a data-id="select-Tecnología" class="clearfix categorys-vacancies" href="#">

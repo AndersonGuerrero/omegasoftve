@@ -12,12 +12,12 @@ class BlogWebController extends Controller{
 
     public function index(Request $request){
         $categories = Category::get();
-        $lastsBlogs = Blog::orderBy('created_at','asc')->take(2)->get();
+        $lastsBlogs = Blog::orderBy('created_at','asc')->take(4)->get();
         $search = $request->input('search');
         if($search){
             $blogs = Blog::where('title', 'like', '%'.$search.'%')->paginate(5);
         }else{
-            $blogs = Blog::paginate(1);
+            $blogs = Blog::paginate(5);
         }
         return view('web.blog',
             [
@@ -51,12 +51,12 @@ class BlogWebController extends Controller{
         if(!$catg){
             return redirect('/blog/');
         }
-        $lastsBlogs = Blog::orderBy('created_at','asc')->take(2)->get();
+        $lastsBlogs = Blog::orderBy('created_at','asc')->take(4)->get();
         $search = $request->input('search');
         if($search){
             $blogs = Blog::where('title', 'like', '%'.$search.'%')->where('category_id', $catg->id)->paginate(5);
         }else{
-            $blogs = Blog::where('category_id', $catg->id)->paginate(1);
+            $blogs = Blog::where('category_id', $catg->id)->paginate(5);
         }
         return view('web.blog',
         [

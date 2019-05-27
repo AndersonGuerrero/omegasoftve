@@ -56,7 +56,7 @@
 }
 .main-timeline .description{
     font-size: 15px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     margin: 0;
 }
 .main-timeline .title{
