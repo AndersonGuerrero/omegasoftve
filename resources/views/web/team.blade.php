@@ -4,7 +4,7 @@
     <section class="page-title">
     	<div class="image-layer" 
              style="opacity:10.0;">
-            <img src="{{ URL::to('/') }}/images/background/nuestro-equipo.jpg" alt="">
+            <img src="{{ URL::to('/') }}/images/background/nuestro-equipo.png" alt="">
         </div>
         <div class="auto-container">
         </div>

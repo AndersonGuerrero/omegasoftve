@@ -3,7 +3,7 @@
 @section('content')
     <section class="page-title">
         <div class="" style="opacity: 10.0;">
-        <img src="{{ URL::to('/') }}/images/background/img-contactenos.jpg" alt="">
+        <img src="{{ URL::to('/') }}/images/background/img-contactenos.png" alt="">
         </div>
         <div class="auto-container">
         	

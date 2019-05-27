@@ -47,7 +47,7 @@
                                     style="width:870px;height: 372px;"
                                     src="{{ URL::to('/').'/blogs/'.$blog->id.'/'.$blog->imagen }}" alt=""></a></figure>
 								<h3><a href="{{ route('blog-name', str_slug($blog->title)) }}">{{$blog->title}}</a></h3>
-								<div class="post-info">Publicado: {{ $blog->created_at->format('d M Y')}}</div>
+								<div class="post-info">Publicado: {{ $blog->created_at->format('d-m-Y')}}</div>
 								<div style="
                                         font-size: 15px;
                                         position: relative;
@@ -107,12 +107,11 @@
 												</a>
 											</figure>
 											<h4><a href="{{ route('blog-name', str_slug($item->title))}}">{{$item->title}}</a></h4>
-											<div class="post-info">Publicado {{ $item->created_at->format('d M, Y')}}</div>
+											<div class="post-info">Publicado {{ $item->created_at->format('d-m-Y')}}</div>
 										</article>
 									@endforeach
 								</div>
 						</div>
-                        
                     </aside>
                 </div><!--End Sidebar Side-->
 			</div>

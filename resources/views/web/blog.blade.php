@@ -55,7 +55,7 @@
 									style="width:870px;height: 372px;"
 									src="{{ URL::to('/').'/blogs/'.$item->id.'/'.$item->imagen }}" alt=""></a></figure>
 								<h3><a href="{{ route('blog-name', str_slug($item->title)) }}">{{$item->title}}</a></h3>
-								<div class="post-info">Publicado: {{ $item->created_at->format('d M Y')}}</div>
+								<div class="post-info">Publicado: {{$item->created_at->format('d-m-Y')}}</div>
 								
 								<div class="text">
 								<?php echo Str::limit($item->content, 170, '...') ?>
@@ -122,11 +122,11 @@
 												</a>
 											</figure>
 											<h4><a href="{{ route('blog-name', str_slug($item->title))}}">{{$item->title}}</a></h4>
-											<div class="post-info">Publicado {{ $item->created_at->format('d M, Y')}}</div>
+											<div class="post-info">Publicado {{ $item->created_at->format('d-m-Y')}}</div>
 										</article>
 									@endforeach
 								</div>
-						</div>
+						    </div>
                         
                     </aside>
                 </div><!--End Sidebar Side-->

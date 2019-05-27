@@ -208,7 +208,7 @@
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/mision.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/Mision.jpg" alt="MISION_EMPRESARIAL"></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
                                     <h3>Misión</h3>
@@ -223,7 +223,7 @@
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/vision.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/Vision.jpg" alt="VISION_DE_LA_EMPRESA"></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
                                     <h3>Visión</h3>
@@ -238,7 +238,7 @@
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/valores.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/Valores.jpg" alt="VALORES_EMPRESA"></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
                                     <h3>Valores</h3>

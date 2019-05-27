@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 class BlogController extends Controller
 {
+
     public function index(){
         if (!Auth::check()) {
             return redirect('login/');
