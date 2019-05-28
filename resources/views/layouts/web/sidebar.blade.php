@@ -17,7 +17,7 @@
                                 <div class="" style = "float: left !important; padding-left: 250px; " >
                         
                                     <li style="color: #fff; font-size: 16px;">
-                                        <a href="" >
+                                        <a href="" data-id="1" data-toggle="modal" data-target="#myCotizacion" >
                                             <span  class="fa fa-money" style = "text-decoration:underline">
                                                  Solicitar Cotización
                                             </span> 
@@ -102,33 +102,54 @@
                                           <li class="dropdown"><a href="">Soluciones</a>
                                               <ul>
                                                   <li><a style="text-transform: none " href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
+                                                  <li><a style="text-transform: none " href="{{ route('centalized-asset') }}">Gestión de Activo Centralizada</a></li>
                                               </ul>
                                           </li>
-                                          </li>
-                                          <li class=""><a href="{{ route('web-soporte') }}">Centro de Soporte</a>
-                                          </li>
-                                          <li class="dropdown"><a href="#">Clientes</a>
+                                          
+                                          <li class="dropdown"><a href="">Productos</a>
                                               <ul>
-                                                  <li><a href="{{ route('clients') }}">Nuestros Clientes</a></li>
-                                                  <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
+                                                  <li><a style="text-transform: none " href="{{ route('suite') }}">Suite Omega ITSM</a></li>
+                                                  <li><a style="text-transform: none " href="{{ route('cmdb') }}">Omega CMDB</a></li>
+                                                  <li><a style="text-transform: none " href="{{ route('omegaKB') }}">Omega KnowledgeBase</a></li>
                                               </ul>
                                           </li>
+
+
+                                          <li class="dropdown"><a href="">Soporte</a>
+                                                <ul>
+                                                  <li><a style="text-transform: none" href="{{ route('web-soporte') }}">Centro de Soporte</a></li>
+                                                  <li><a style="text-transform: none" target="_blank" href="{{ route('ticket_tracking') }}">Ticket de Soporte</a></li>
+                                                  <li><a style="text-transform: none" target="_blank" href="{{ route('omega_kwoledgebase')}}">Base de Datos de Conocimiento</a></li>
+                                                  <li><a style="text-transform: none" href="{{ route('manuales') }}">Manuales</a></li>
+                                              </ul>
+                                          </li>
+
+
+                                          <li class=""><a href="{{ route('clients') }}">Clientes</a>
+                                              <!-- <ul> -->
+                                                  <!-- <li><a href="{{ route('clients') }}">Nuestros Clientes</a></li> -->
+                                                  <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
+                                              <!-- </ul> -->
+                                          </li>
+
                                           <li class="dropdown"><a href="#">Partner</a>
                                               <ul>
                                                   <!--<li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
-                                                  <li><a style="text-transform: none" href="{{ route('program-partner') }}">Programa para Partner</a></li>
+                                                  <li><a style="text-transform: none" href="{{ route('program-partner') }}">Programa de Partner</a></li>
                                                   <li><a style="text-transform: none" href="{{ route('portal-partner') }}">Portal de Partner</a></li>
                                               </ul>
                                           </li>
-                                          <li class="dropdown"><a href="#">Comunidad</a>
-                                              <ul>
-                                                  <li><a href="{{ URL::to('/') }}/blog/">blog</a></li>
+
+                                          <li class=""><a href="{{ URL::to('/') }}/blog/">blog</a>
+                                              <!-- <ul> -->
+                                                  <!-- <li><a href="{{ URL::to('/') }}/blog/">blog</a></li> -->
                                                   <!-- <li><a href="{{ route('webcast') }}">Webcast</a></li> -->
                                                   <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
                                                  <!-- <li><a href="faqs.html">FAQs</a></li>
                                                   <li><a href="coming-soon.html">Comming Soon</a></li>-->
-                                              </ul>
+                                              <!-- </ul> -->
                                           </li>
+
                                           <li class="dropdown"><a href="#">Nosotros</a>
                                               <ul>
                                                   <li><a href="{{ route('about') }}">Quines somos</a></li>
@@ -173,32 +194,57 @@
                                   <ul class="navigation clearfix">
                                       <li class="dropdown"><a href="">Soluciones</a>
                                           <ul>
-                                              <li><a style="text-transform: none" 
-                                              href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
+                                          <li><a style="text-transform: none " href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
+                                          <li><a style="text-transform: none " href="{{ route('centalized-asset') }}">Gestión de Activo Centralizada</a></li>
                                           </ul>
                                       </li>
-                                      <li class=""><a href="{{ route('web-soporte') }}">Centro de Soporte</a>
-                                      </li>
-                                      <li class="dropdown"><a href="#">Clientes</a>
-                                          <ul>
-                                              <li><a href="{{ route('clients') }}">Nuestros Clientes</a></li>
-                                              <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown"><a href="#">Partner</a>
-                                          <ul>
-                                             <!-- <li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
-                                              <li><a style="text-transform: none" href="{{ route('program-partner') }}"> Programa para Partner</a></li>
-                                              <li><a style="text-transform: none" href="{{ route('portal-partner') }}">Portal de Partner</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown"><a href="#">Comunidad</a>
-                                          <ul>
-                                              <li><a href="{{ URL::to('/') }}/blog/">Blog</a></li>
-                                              <!-- <li><a href="{{ route('webcast') }}">Webcast</a></li> -->
-                                              <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
-                                          </ul>
-                                      </li>
+
+                                      <li class="dropdown"><a href="">Productos</a>
+                                            <ul>
+                                                <li><a style="text-transform: none " href="{{ route('suite') }}">Suite Omega ITSM</a></li>
+                                                <li><a style="text-transform: none " href="{{ route('cmdb') }}">Omega CMDB</a></li>
+                                                <li><a style="text-transform: none " href="{{ route('omegaKB') }}">Omega KnowledgeBase</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="dropdown"><a href="">Soporte</a>
+                                            <ul>
+                                                <li><a style="text-transform: none" href="{{ route('web-soporte') }}">Centro de Soporte</a></li>
+                                                <li><a style="text-transform: none" target="_blank" href="{{ route('ticket_tracking') }}">Ticket de Soporte</a></li>
+                                                <li><a style="text-transform: none" target="_blank" href="{{ route('omega_kwoledgebase')}}">Base de Datos de Conocimiento</a></li>
+                                                <li><a style="text-transform: none" href="{{ route('manuales') }}">Manuales</a></li>
+                                            </ul>
+                                        </li>
+
+
+
+                                        <li class=""><a href="{{ route('clients') }}">Clientes</a>
+                                            <!-- <ul> -->
+                                                <!-- <li><a href="{{ route('clients') }}">Nuestros Clientes</a></li> -->
+                                                <!--<li><a href="{{ URL::to('/') }}/casos-de-exito/">Casos de Éxito</a></li>-->
+                                            <!-- </ul> -->
+                                        </li>
+
+                                        <li class="dropdown"><a href="#">Partner</a>
+                                              <ul>
+                                                  <!--<li><a href="{{ URL::to('/') }}/partners/">Nuestros Partner</a></li>-->
+                                                  <li><a style="text-transform: none" href="{{ route('program-partner') }}">Programa de Partner</a></li>
+                                                  <li><a style="text-transform: none" href="{{ route('portal-partner') }}">Portal de Partner</a></li>
+                                              </ul>
+                                          </li>
+
+
+                                          <li class=""><a href="{{ URL::to('/') }}/blog/">blog</a>
+                                              <!-- <ul> -->
+                                                  <!-- <li><a href="{{ URL::to('/') }}/blog/">blog</a></li> -->
+                                                  <!-- <li><a href="{{ route('webcast') }}">Webcast</a></li> -->
+                                                  <!--<li><a href="{{ URL::to('/') }}/newsletter/">Newsletter</a></li>-->
+                                                 <!-- <li><a href="faqs.html">FAQs</a></li>
+                                                  <li><a href="coming-soon.html">Comming Soon</a></li>-->
+                                              <!-- </ul> -->
+                                          </li>
+
                                       <li class="dropdown"><a href="#">Nosotros</a>
                                           <ul>
                                               <li><a href="{{ route('about') }}">Quines somos</a></li>
@@ -217,3 +263,13 @@
           
       </header>
       <!--End Main Header -->
+      @include('web.modals.quotation')
+
+@section('javascript')
+<script src="{{ URL::to('/') }}/js/itsm.js"></script>
+<script>
+    function callbackQuotation(data){
+        $('#form_quotation').submit()
+    }
+</script>
+@endsection
