@@ -7,45 +7,68 @@
               <!--Header Top-->
               <div class="header-top" style="background: #062c4c;">
                   <div class="auto-container clearfix">
-                      <div class="top-right clearfix">
+                      <div class="top-right clearfix" style = "float: left !important;">
                           <ul class="info clearfix" style="margin-bottom: 0rem; padding-top: 7px;">
-                              <li style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@omegasoftve.com</a></li>
-                              <li style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</a></li>                                  
+
+            
+                              <li style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@omegasoftve.com</li>
+                              <li style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</li>
+
+                                <div class="" style = "float: left !important; padding-left: 250px; " >
+                        
+                                    <li style="color: #fff; font-size: 16px;">
+                                        <a href="" >
+                                            <span  class="fa fa-money" style = "text-decoration:underline">
+                                                 Solicitar Cotización
+                                            </span> 
+                                        </a> 
+                                    </li>
+
+                                    <li style="color: #fff; font-size: 16px; ">
+                                        <a href=""  style = "padding-left: 0px;">
+                                            <span  class="fa fa-desktop" style = "text-decoration:underline" >
+                                            Solicitar Demostación
+                                            </span> 
+                                        </a>
+                                        
+                                    </li>
+
+
+                                    <li style = "margin-right: -70px;">
+                                        <div style = "text-align: center;">
+                                                <div class="main-footer footer-style-two3 ">
+                                                    <div class="footer-upper2">
+                                                        <div class="social-links2" style ="display: inline-block;">
+                                                            <ul class="clearfix" >
+                                                                <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
+                                                                <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
+                                                                <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://join.skype.com/invite/rbtBS36Igg1J"><span class="fa fa-skype"></span></a></li>
+                                                                <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
+                                                                <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <div>
+                                        </li>
+
                                 
-                              <li style = "margin-right: -70px;">
-                              <div style = "text-align: center;">
-                                    <div class="main-footer footer-style-two3 ">
-                                        <div class="footer-upper2">
-                                            <div class="social-links2" style ="display: inline-block;">
-                                                <ul class="clearfix" >
-                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.facebook.com/Omegasoftve/"><span class="fa fa-facebook-f"></span></a></li>
-                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://twitter.com/Omegasoft01"><span class="fa fa-twitter"></span></a></li>
-                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://join.skype.com/invite/rbtBS36Igg1J"><span class="fa fa-skype"></span></a></li>
-                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.instagram.com/omegasoftve/"><span class="fa fa-instagram"></span></a></li>
-                                                    <li style = "margin-right: 3px;"><a style = "padding-left:0px;" target="_black" href="https://www.linkedin.com/company/omegasoft-c-a"><span class="fa fa-linkedin"></span></a></li>
-                                                </ul>
+                                
+                                    <!-- <div class="top-right clearfix">
+                                        <div class="options-box clearfix">
+                                            <div class="lang-box">
+                                                <div class="dropdown">
+                                                    <button style="color: #fff; margin-top: 3px;" class="lang-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <img style="height: 15px;width:15px;margin-right:5px;margin-top: -5px;" 
+                                                        src="{{ URL::to('/') }}/images/icons/imgpsh_fullsize.png" alt="">Español<span class=""></span></button>
+                                                    <ul class="dropdown-menu search-panel" aria-labelledby="dropdownMenu2">
+                                                        <li><a style="font-size: 15px;" href="{{ URL::to('/') }}/english/">English</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                <div>
-                                </li>
-
-                           
-                          
-                              <!-- <div class="top-right clearfix">
-                                  <div class="options-box clearfix">
-                                      <div class="lang-box">
-                                          <div class="dropdown">
-                                              <button style="color: #fff; margin-top: 3px;" class="lang-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                  <img style="height: 15px;width:15px;margin-right:5px;margin-top: -5px;" 
-                                                  src="{{ URL::to('/') }}/images/icons/imgpsh_fullsize.png" alt="">Español<span class=""></span></button>
-                                              <ul class="dropdown-menu search-panel" aria-labelledby="dropdownMenu2">
-                                                  <li><a style="font-size: 15px;" href="{{ URL::to('/') }}/english/">English</a></li>
-                                              </ul>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div> -->
+                                    </div> -->
+                                </div>
                           </ul>
                       </div>
                       
@@ -82,7 +105,7 @@
                                               </ul>
                                           </li>
                                           </li>
-                                          <li class=""><a href="{{ route('web-soporte') }}">Soporte</a>
+                                          <li class=""><a href="{{ route('web-soporte') }}">Centro de Soporte</a>
                                           </li>
                                           <li class="dropdown"><a href="#">Clientes</a>
                                               <ul>
@@ -154,7 +177,7 @@
                                               href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
                                           </ul>
                                       </li>
-                                      <li class=""><a href="{{ route('web-soporte') }}">Soporte</a>
+                                      <li class=""><a href="{{ route('web-soporte') }}">Centro de Soporte</a>
                                       </li>
                                       <li class="dropdown"><a href="#">Clientes</a>
                                           <ul>
