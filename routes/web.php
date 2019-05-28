@@ -27,7 +27,7 @@ Route::get('/productos-suite/', 'SuiteController@index')->name('suite');
 Route::get('/Activos-centralizados/', 'CentalizedController@index')->name('centalized-asset');
 Route::get('/Omega-Cmdb/', 'CmdbController@index')->name('cmdb');
 Route::get('/Omega-KnowledgeBase/', 'KBController@index')->name('omegaKB');
-Route::get('/Manueales/', 'ManualController@index')->name('manuales');
+Route::get('/Manuales/', 'ManualController@index')->name('manuales');
 Route::get('/contacto/', 'ContactController@contact')->name('contact');
 Route::post('/contacto/', ['as'=>'contact.send', 'uses'=>'ContactController@contactPost']);
 

@@ -11,24 +11,24 @@
                           <ul class="info clearfix" style="margin-bottom: 0rem; padding-top: 7px;">
 
             
-                              <li style="color: #fff; font-size: 14px;"><span  class="fa fa-envelope"></span> info@omegasoftve.com</li>
-                              <li style="color: #fff; font-size: 14px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</li>
+                              <li style="color: #fff; font-size: 15px;"><span  class="fa fa-envelope"></span> info@omegasoftve.com</li>
+                              <li style="color: #fff; font-size: 15px;"><span style="width: 17px;" class="fa fa-phone"></span>(58) 244 386 8448</li>
 
                                 <div class="" style = "float: left !important; padding-left: 250px; " >
                         
-                                    <li style="color: #fff; font-size: 16px;">
-                                        <a href="" data-id="1" data-toggle="modal" data-target="#myCotizacion" >
-                                            <span  class="fa fa-money" style = "text-decoration:underline">
-                                                 Solicitar Cotización
-                                            </span> 
+                                    <li style="color: #fff; font-size: 15px;">
+                                        <a href="" data-id="1" data-toggle="modal" data-target="#myCotizacion" 
+                                             class="fa fa-money"> 
+                                                <span class = "letra" >Solicitar Cotización</span>
                                         </a> 
                                     </li>
 
-                                    <li style="color: #fff; font-size: 16px; ">
-                                        <a href=""  style = "padding-left: 0px;">
-                                            <span  class="fa fa-desktop" style = "text-decoration:underline" >
-                                            Solicitar Demostación
-                                            </span> 
+                                    <li style="color: #fff; font-size: 15px; ">
+                                        <a href="{{ route('demo-guiada') }}"  style = "padding-left: 0px;"
+                                             class="fa fa-desktop">
+                                             <span class = "letra" >
+                                                Solicitar Demostación
+                                            </span>
                                         </a>
                                         
                                     </li>
@@ -101,8 +101,8 @@
                                       <ul class="navigation clearfix">
                                           <li class="dropdown"><a href="">Soluciones</a>
                                               <ul>
-                                                  <li><a style="text-transform: none " href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
-                                                  <li><a style="text-transform: none " href="{{ route('centalized-asset') }}">Gestión de Activo Centralizada</a></li>
+                                                  <li><a style="text-transform: none " href="{{ route('ITSM') }}">Gestión de Servicios (ITSM)</a></li>
+                                                  <li><a style="text-transform: none " href="{{ route('centalized-asset') }}">Gestión de Activos (CMDB)</a></li>
                                               </ul>
                                           </li>
                                           
@@ -119,7 +119,7 @@
                                                 <ul>
                                                   <li><a style="text-transform: none" href="{{ route('web-soporte') }}">Centro de Soporte</a></li>
                                                   <li><a style="text-transform: none" target="_blank" href="{{ route('ticket_tracking') }}">Ticket de Soporte</a></li>
-                                                  <li><a style="text-transform: none" target="_blank" href="{{ route('omega_kwoledgebase')}}">Base de Datos de Conocimiento</a></li>
+                                                  <li><a style="text-transform: none" target="_blank" href="{{ route('omega_kwoledgebase')}}">BD Conocimiento</a></li>
                                                   <li><a style="text-transform: none" href="{{ route('manuales') }}">Manuales</a></li>
                                               </ul>
                                           </li>
@@ -194,8 +194,8 @@
                                   <ul class="navigation clearfix">
                                       <li class="dropdown"><a href="">Soluciones</a>
                                           <ul>
-                                          <li><a style="text-transform: none " href="{{ route('ITSM') }}">Gestión de Servicios IT (ITSM)</a></li>
-                                          <li><a style="text-transform: none " href="{{ route('centalized-asset') }}">Gestión de Activo Centralizada</a></li>
+                                          <li><a style="text-transform: none " href="{{ route('ITSM') }}">Gestión de Servicios (ITSM)</a></li>
+                                          <li><a style="text-transform: none " href="{{ route('centalized-asset') }}">Gestión de Activos (CMDB)</a></li>
                                           </ul>
                                       </li>
 
@@ -212,7 +212,7 @@
                                             <ul>
                                                 <li><a style="text-transform: none" href="{{ route('web-soporte') }}">Centro de Soporte</a></li>
                                                 <li><a style="text-transform: none" target="_blank" href="{{ route('ticket_tracking') }}">Ticket de Soporte</a></li>
-                                                <li><a style="text-transform: none" target="_blank" href="{{ route('omega_kwoledgebase')}}">Base de Datos de Conocimiento</a></li>
+                                                <li><a style="text-transform: none" target="_blank" href="{{ route('omega_kwoledgebase')}}">BD Conocimiento</a></li>
                                                 <li><a style="text-transform: none" href="{{ route('manuales') }}">Manuales</a></li>
                                             </ul>
                                         </li>
