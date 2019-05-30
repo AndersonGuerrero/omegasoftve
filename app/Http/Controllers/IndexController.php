@@ -29,20 +29,22 @@ class IndexController extends Controller{
                 $array = json_decode($result, true);
                 if($array['success']){
                     $this->validate($request, [
-                        'name' => 'required',
+                        'contac' => 'required',
                         'phone' => 'required',
                         'email' => 'required|email',
                         'company' => 'required',
+                        'country' => 'required',
                         'modalidad' => 'required',
                         'message' => 'required'
                     ]);
                     $message = [
                         'title' => 'Solicitud de Cotización',
                         'content' => 
-                        'Name: '. $request->name.'<br>'.
+                        'contac: '. $request->contac.'<br>'.
                         'Telefono: '. $request->phone.'<br>'.
                         'Email: '. $request->email.'<br>'.
                         'Compañia: '. $request->company.'<br>'.
+                        'Pais: '. $request->country.'<br>'.
                         'Modalidad: '. $request->modalidad.'<br>'.
                         'Mensaje: '. $request->message.'<br>'                        
                     ];

@@ -35,6 +35,10 @@ var CaptchaLoad = function() {
     if($('#g-recaptcha-quotation')[0]){
         window.id_captcha_quotation = grecaptcha.render($('#g-recaptcha-quotation')[0], data);
     }
+
+    if($('#g-recaptcha-index')[0]){
+        window.id_captcha_index = grecaptcha.render($('#g-recaptcha-index')[0], data);
+    }
     
     if($('#g-recaptcha-demo')[0]){
         window.id_captcha_demo = grecaptcha.render($('#g-recaptcha-demo')[0], data);
@@ -59,6 +63,8 @@ $('.btn-send').on('click', function (event) {
             grecaptcha.execute(window.id_captcha_partner);
         }else if(idcaptcha === 'g-recaptcha-quotation'){
             grecaptcha.execute(window.id_captcha_quotation);
+        }else if(idcaptcha === 'g-recaptcha-index'){
+            grecaptcha.execute(window.id_captcha_index);
         }else if(idcaptcha === 'g-recaptcha-demo'){
             grecaptcha.execute(window.id_captcha_demo);
         }

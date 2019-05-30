@@ -266,10 +266,9 @@
       @include('web.modals.quotation')
 
 @section('javascript')
-<script src="{{ URL::to('/') }}/js/itsm.js"></script>
 <script>
-    function callbackQuotation(data){
-        $('#form_quotation').submit()
+    function callbackIndex(data){
+        $('#form_index').submit()
     }
 </script>
 @endsection

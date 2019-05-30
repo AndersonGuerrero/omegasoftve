@@ -12,6 +12,9 @@
 */
 
 Route::get('/', 'Web@index')->name('index');
+
+Route::post('/', ['as'=>'index.send', 'uses'=>'IndexController@indexPost']);
+
 Route::get('/soporte/', 'Web@soport')->name('web-soporte');
 Route::get('/nuestros-clientes/', 'Web@clients')->name('clients');
 Route::get('/casos-de-exito/', 'Web@success_stories')->name('success_stories');
@@ -44,7 +47,6 @@ Route::get('/english/', 'Web@english')->name('english');
 
 Route::get('/soluciones/itsm/', 'ITSMController@index')->name('ITSM');
 Route::post('/soluciones/itsm/', ['as'=>'quotation.send', 'uses'=>'ITSMController@quotationSend']);
-
 Route::get('/solicitud/serial/', 'Web@request_serial')->name('request_serial');
 Route::get('/webcast/', 'WebcastController@index')->name('webcast');
 Route::post('/webcast/', ['as'=>'webcast.register', 'uses'=>'WebcastController@register']);

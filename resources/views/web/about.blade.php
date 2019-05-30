@@ -115,89 +115,7 @@
             </div>
     </section>
 
-    <!-- <section class="services-three"  style="padding:0px;">
-            <div class="auto-container">
-                
-                <div class="sec-title-two centered">
-                    <h2>Nuestra historia</h2>
-                </div>
-                
-                <div class="services-outer">
-                   
-                    <div class="service-block-outer clearfix">
-                        
-                        <div class="sec-title centered" style="text-align: initial;">
-                            <div class="service-block-three">
-                                <div class="inner-box">
-                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/nacimiento.jpg" alt=""></figure>
-                                    <h3><a href="service-single.html">2010</a></h3>
-                                    <div class="text" style="font-size: 14px;"> Nace Omegasoft como una empresa de servicion IT.</div>
-                                </div>
-                            </div>
-                        </div>
-         
-                    </div>
-                    
-                    <div class="service-block-outer clearfix">
-                        
-                        <div class="sec-title centered" style="text-align: initial;"> 
-                            <div class="service-block-three">
-                                <div class="inner-box">
-                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/alianza.jpg" alt=""></figure>
-                                    <h3><a href="service-single.html">2010</a></h3>
-                                    <div class="text" style="font-size: 14px;">Formalizamos alianza con un fabricante de soluciones para la gestión de IT.</div>
-                                </div>
-                            </div>   
-                        </div>
-
-                    </div>
-                   
-                    <div class="service-block-outer clearfix">
-                        
-                        <div class="sec-title centered" style="text-align: initial;">
-                            <div class="service-block-three">
-                                <div class="inner-box">
-                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/desarrollamos.jpg" alt=""></figure>
-                                    <h3><a href="service-single.html">2015</a></h3>
-                                    <div class="text" style="font-size: 14px;">Desarrollamos nuestra primera solución  para la gestión  de procesos ITIL. basadas  en la mejores plácticas</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <div class="service-block-outer clearfix">
-                       
-                        <div class="sec-title centered" style="text-align: initial;">
-                            <div class="service-block-three">
-                                <div class="inner-box">
-                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/lanzamiento-1.jpg" alt=""></figure>
-                                    <h3><a href="service-single.html">2016</a></h3>
-                                    <div class="text" style="font-size: 14px;">Lanzamiento versión comercial   Omega ITSM.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                   
-                    <div class="service-block-outer clearfix">
-                        
-                        <div class="sec-title centered" style="text-align: initial;">
-                            <div class="service-block-three">
-                                <div class="inner-box">
-                                    <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/lanzamiento-2.jpg" alt=""></figure>
-                                    <h3><a href="service-single.html">2017</a></h3>
-                                    <div class="text" style="font-size: 14px;">Lanzamiento de versión comercial Omega ITSM, intergrando Omega CMDB.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-    </section> -->
-    
-    <section class="news-section-two" style="margin-top: 30px; padding: 30px 0px 70px; ">
+    <section class="news-section-two" style="margin-top: 30px; padding: 30px 0px 70px; background: #5aceff33 !important;">
             <div class="auto-container">
                 <!--Heading-->
                 <div class="sec-title-two centered" style = "margin-bottom: 30px;">
@@ -207,7 +125,7 @@
                 <div class="row clearfix">
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
-                        <div class="inner-box">
+                        <div class="inner-box"  style = "height: 530px !important;"  >
                             <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/Mision.jpg" alt="MISION_EMPRESARIAL"></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
@@ -222,7 +140,7 @@
                     </div>
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
-                        <div class="inner-box">
+                        <div class="inner-box"  style = "height: 530px !important;">
                             <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/Vision.jpg" alt="VISION_DE_LA_EMPRESA"></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
@@ -237,7 +155,7 @@
                     </div>
                     <!--News Block-->
                     <div class="news-block-two col-md-4 col-sm-12 col-xs-12">
-                        <div class="inner-box">
+                        <div class="inner-box"  style = "height: 530px !important;"  >
                             <figure class="image-box"><img src="{{ URL::to('/') }}/images/resource/Valores.jpg" alt="VALORES_EMPRESA"></figure>
                             <div class="lower-box">
                                 <div class="sec-title centered">
