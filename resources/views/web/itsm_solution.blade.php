@@ -15,10 +15,10 @@
     <section class="careers-page" style="padding: 0px 0px 0px;">
             <div class="">
                 <div class="row clearfix">
-                    <!--Left Side-->
-                    <div class="col-md-12 col-sm-12 col-xs-12" style="background:#00325d">
+                    
+                    <!-- <div class="col-md-12 col-sm-12 col-xs-12" style="background:#00325d">
                         <div class="inner">
-                            <!--Jobs Widget-->
+                          
                             <div class="jobs-widget side-widget">
                                 <div class="widget-inner">
                                     <ul id="categorys-tab">
@@ -46,14 +46,7 @@
                                                 </h2>
                                             </div>
                                         </div>
-                                        <!--<div class="col-md-2 col-ms-2 col-xs-2" style="padding-left:0px; padding-right: 0px;">
-                                            <div class="sec-title centered current">
-                                                <h2>
-                                                    <a data-id="select-Benefcios" style="text-decoration:none;" class="clearfix seccion-categorys" href="">
-                                                        <img style="margin-right: 5px;margin-top:-5px;height: 20px;" src="" alt="">Beneficios</a>
-                                                </h2>
-                                            </div>
-                                        </div>-->
+                                   
                                         <div class="col-md-3 col-ms-3 col-xs-3">
                                             <div class="sec-title centered current">
                                                 <h2 style="padding-top: 5px;">
@@ -66,15 +59,15 @@
                                 </div>
                             </div>                            
                         </div>
-                    </div>
+                    </div> -->
                     
-                    <!--Content Side-->
+               
                     <div class="content-side col-md-12 col-sm-12 col-xs-12" style="margin-bottom: -80px">
                         <div class="inner" style="padding-left:0px;">
                             <div class="career-posts">
-                                <!--Career Block-->
+                            
                                 <div class="career-block select-Información-General">
-                                    <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <!-- <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title-two centered" style="margin-bottom: 0px;">
                                                     <h1 style="font-size:30px;padding-top: 65px">Omega ITSM, Provee todo lo necesario
@@ -88,9 +81,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                    </section>
+                                    </section> -->
                                     <!--About Two Section-->    
-                                    <section style="margin-bottom: 60px">
+                                    <!-- <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
                                                 <div class="col-md-6 col-sm-6 col-xs-6"> 
                                                     <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: end">
@@ -115,7 +108,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                    </section>
+                                    </section> -->
                                     <!--About Two Section-->
                                     <section style="margin-bottom: 60px">
                                         <div class="row" style="display: unset;">
@@ -144,7 +137,7 @@
                                         </div>
                                     </section>
                                     <!--About Two Section-->
-                                    <section style="margin-bottom: 60px">
+                                    <!-- <section style="margin-bottom: 60px">
                                             <div class="row" style="display: unset;">
                                                 <div class="col-md-6 col-sm-6 col-xs-6"> 
                                                     <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: end">
@@ -169,40 +162,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                    </section>
-                                     
-                                    <section>
-                                        <div class="imgback" > 
-                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
-                                                <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
-                                                        <p class="text" style="margin-top: -10px;color: #fff;">
-                                                                Prueba nuestra solución sin limitaciones y de forma gratuita 
-                                                        </p>
-                                                    <a href="{{ URL::to('/') }}/demo/">
-                                                        <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                        
-                                            </div>
-                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
-                                                <div class="sec-title centered" style="margin-bottom: 0px">
-                                                    <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
-                                                    <p class="text" style="margin-top: -10px;color: #fff;">
-                                                            Solicite que uno de nuestros expertos le muestren nuestros productos 
-                                                    </p>
-                                                    <a href="{{ URL::to('/') }}/demo-guiada/">
-                                                        <figure class="icon-box">
-                                                            <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    
+                                    </section> -->
+
                                     <section style="padding-top: 50px;">
                                         <div class="auto-container">
                                             <div class="sec-title-two centered " style="margin-bottom: 30px;">
@@ -320,11 +281,45 @@
                                             </div>
                                         </div>
                                     </section>
+                                     
+                                    <section>
+                                        <div class="imgback" > 
+                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+                                                <div class="sec-title centered" style="margin-bottom: 0px">
+                                                        <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
+                                                        <p class="text" style="margin-top: -10px;color: #fff;">
+                                                                Prueba nuestra solución sin limitaciones y de forma gratuita 
+                                                        </p>
+                                                    <a href="{{ URL::to('/') }}/demo/">
+                                                        <figure class="icon-box">
+                                                                <img src="{{ URL::to('/') }}/images/icons/demo-online.png" alt="">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                        
+                                            </div>
+                                            <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
+                                                <div class="sec-title centered" style="margin-bottom: 0px">
+                                                    <h1 style="font-size: 20px;color: #fff;">Demostración Guiada</h1>
+                                                    <p class="text" style="margin-top: -10px;color: #fff;">
+                                                            Solicite que uno de nuestros expertos le muestren nuestros productos 
+                                                    </p>
+                                                    <a href="{{ URL::to('/') }}/demo-guiada/">
+                                                        <figure class="icon-box">
+                                                            <img src="{{ URL::to('/') }}/images/icons/demo-guiada.png" alt="">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    
+                       
 
                                 </div> 
                                 <!--Career Block-->
                                 <div class="career-block select-ITSM-ITIL">
-                                    <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
+                                    <!-- <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                             <div class="auto-container">
                                                 <div class="sec-title centered" style="margin-bottom: 40px;">
                                                     <h1 style="font-size:30px; padding-top: 65px">
@@ -332,12 +327,12 @@
                                                         basados en las mejores prácticas de ITIL.</h1>
                                                 </div>
                                             </div>
-                                    </section>
+                                    </section> -->
 
-                                    <section class="services-two" style="padding: 0px">
+                                    <!-- <section class="services-two" style="padding: 0px">
                                         <div class="auto-container">     
                                             <div class="row clearfix">
-                                                <!--Service Block-->
+                                            
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/incidentes.png" alt=""></figure>
@@ -349,7 +344,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/requerimientos.png" alt=""></figure>
@@ -360,7 +355,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/catalogo-de-servicio.png" alt=""></figure>
@@ -374,7 +369,7 @@
                                                 </div>
                                             </div>
                                             <div class="row clearfix">
-                                                <!--Service Block-->
+                                                
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/SLA.png" alt=""></figure>
@@ -385,7 +380,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/bd-conocimiento.png" alt=""></figure>
@@ -396,7 +391,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/problemas.png" alt=""></figure>
@@ -410,7 +405,7 @@
                                                 </div>
                                             </div>
                                             <div class="row clearfix">
-                                                <!--Service Block-->
+                                                
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/cambios.png" alt=""></figure>
@@ -421,7 +416,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                                
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proyectos.png" alt=""></figure>
@@ -432,7 +427,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                              
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/CMDB.png" alt=""></figure>
@@ -446,7 +441,7 @@
                                                 </div>
                                             </div>
                                             <div class="row clearfix">
-                                                <!--Service Block-->
+                                                
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/activos.png" alt=""></figure>
@@ -458,7 +453,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                              
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/contratos.png" alt=""></figure>
@@ -470,7 +465,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                              
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/proveedores.png" alt=""></figure>
@@ -484,9 +479,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </section>
+                                    </section> -->
 
-                                    <div class="imgback" > 
+                                    <!-- <div class="imgback" > 
                                             <div class="col-md-6 col-sm-12 col-xs-12" style="padding: 40px">
                                                 <div class="sec-title centered" style="margin-bottom: 0px">
                                                         <h1 style="font-size: 20px;color: #fff;">Demo en Linea</h1>
@@ -515,9 +510,9 @@
                                                 </div>
                                             </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!--Career Block-->
-                                <div class="career-block select-Caractristicas">
+                                <!-- <div class="career-block select-Caractristicas">
 
                                     <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                         <div class="auto-container">
@@ -924,21 +919,21 @@
                                             </div>
                                     </div>
 
-                                </div>
+                                </div> -->
                                 <!--Career Block-->
-                                <div class="career-block select-Benefcios">
+                                <!-- <div class="career-block select-Benefcios">
                                     <section class="services-two" style="padding: 0px; margin-top: -50px;"> 
                                         <div class="auto-container">
                                             <div class="sec-title centered" style="margin-bottom: 85px;">
                                                 <h1 style="font-size:30px;padding-top: 65px;">Todo lo que necesita para el soporte de TI</h1>
                                             </div>
                                         </div>
-                                    </section>
+                                    </section> -->
 
-                                    <section class="services-two" style="padding: 0px">
+                                    <!-- <section class="services-two" style="padding: 0px">
                                         <div class="auto-container">     
                                             <div class="row clearfix">
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/flexibilidad.png" alt=""></figure>
@@ -950,7 +945,7 @@
                                                             con el menor impacto</div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                                
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/toma_de_decisiones.png" alt=""></figure>
@@ -961,7 +956,7 @@
                                                             de los servicios.</div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                              
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/satisfaccion-del-cliente.png" alt=""></figure>
@@ -976,7 +971,7 @@
                                                 </div>
                                             </div>
                                             <div class="row clearfix">
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/reduccion_de_costos.png" alt=""></figure>
@@ -987,7 +982,7 @@
                                                             implementados garantizarán el cumplimiento del soporte.</div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                          
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/prestacion-de-servicio.png" alt=""></figure>
@@ -999,7 +994,7 @@
                                                             en la resolución de inquietudes 24*7.</div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/gobernabilidad-control.png" alt=""></figure>
@@ -1013,7 +1008,7 @@
                                                 </div>
                                             </div>
                                             <div class="row clearfix">
-                                                <!--Service Block-->
+                                              
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/eficiencia.png" alt=""></figure>
@@ -1024,7 +1019,7 @@
                                                             incremente la productividad del usuario.</div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                              
                                                 <div class="service-block-two col-md-4 col-sm-6 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/disponibilidad.png" alt=""></figure>
@@ -1035,7 +1030,7 @@
                                                             nuevas tecnologías, programaciones, mejoras de servicio, etc</div>
                                                     </div>
                                                 </div>
-                                                <!--Service Block-->
+                                               
                                                 <div class="service-block-two col-md-4 col-sm-12 col-xs-12">
                                                     <div class="inner-box">
                                                         <figure class="icon-box"><img src="{{ URL::to('/') }}/images/icons/automatizacion.png" alt=""></figure>
@@ -1049,7 +1044,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </section>
+                                    </section> -->
 
                                     
 
@@ -1330,57 +1325,7 @@
                                             </div>
                                     </div>
 
-                                    <section class="services-two" style="padding: 50px 0px 30px;" >
-                                        <div class="row">
-                                            <div class="sec-title centered" style="margin-bottom: 0px"> 
-                                                     <h1 style="font-size:30px;padding: 15px;">Tipo de Licenciamiento para Omega ITSM</h1> 
-                                                 <div class="col-md-4 col-sm-12 col-xs-12">
-                                                     <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <div class="inner-box">
-                                                            <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/Concurrente.png" style = "width: 20%;" alt="">
-                                                            </figure>
-                                                                <div style="font-size: 15px;" class="text">
-                                                                    <b>Concurrente: </b> Este esquema se administra según la disponibilidad 
-                                                                    de licencias adquiridas y el acceso de especialistas a la aplicación, 
-                                                                    depende de la liberación de cada licencia para un nuevo ingreso.
-                                                                </div>
-                                                        </div>
-                                                     </div>
-                                                 </div>
-                                                 <div class="col-md-4 col-sm-12 col-xs-12">
-                                                     <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <div class="inner-box">
-                                                            <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/nombrado.png" style = "width: 20%;" alt="">
-                                                            </figure>
-                                                                <div style="font-size: 15px;" class="text">
-                                                                <b>Nombrado: </b> Este esquema otorga una licencia personalizada y 
-                                                                    única con los datos básicos del especialista que ingresa a la 
-                                                                    consola en cualquier momento.
-                                                                </div>
-                                                        </div>
-                                                     </div>
-                                                 </div>
-                                                 <div class="col-md-4 col-sm-12 col-xs-12">
-                                                     <div class="sec-title centered" style="margin-bottom: 0px">
-                                                        <div class="inner-box">
-                                                            <figure class="icon-box">
-                                                                <img src="{{ URL::to('/') }}/images/icons/cmdb.png" style = "width: 20%;" alt="">
-                                                            </figure>
-                                                                <div style="font-size: 15px;" class="text">
-                                                                    <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s
-                                                                </div>
-                                                        </div>
-                                                         <!-- <p class="text" style="text-align: justify;padding: 15px;">
-                                                         <img style="margin-right: 0px;margin-top:-5px;height: 30px;" src="{{ URL::to('/') }}/images/icons/cmdb.png" alt="">
-                                                             <b>Activos (CMDB): </b> Una licencia para cada activo de configuración CI´s 
-                                                         </p> -->
-                                                     </div>
-                                                 </div>
-                                             </div>
-                                        </div>
-                                    </section>
+                                  
                                     <!--Call |To Acion Section-->
                                         
                                     

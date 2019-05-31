@@ -4,7 +4,7 @@
     <section class="page-title">
         <div class="image-layer" 
              style="opacity:10.0;">
-            <img src="{{ URL::to('/') }}/images/background/SOPORTE.jpg" alt="">
+            <img src="{{ URL::to('/') }}/images/background/Soporte.png" alt="SOPORTE_TECNICO_CONSULTORIA ">
         </div>
         <div class="auto-container">
         </div>
@@ -56,8 +56,8 @@
                 </div>
                 <div class="sec-title centered" style="margin-bottom: 0px">
                     <div class="text" style="font-size: 20px;margin-bottom: 30px;" >
-                            Nuestro canales están disponibles para facilitarle 
-                            el acceso a nuestro centro de soporte.
+                    Disponemos de personal altamente capacitado para atenderle 
+                    por los diferentes medios de comunicación.
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                    <h1 style="font-size:20px;text-align: initial;" >Soporte Telefónico</h1>
+                                    <h3 style="font-size:20px;text-align: initial;" >Soporte Telefónico</h3>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
@@ -91,7 +91,7 @@
                         </div>
                         <div class="col-md-10 col-ms-10 col-xs-10" style="margin-bottom: -30px;">
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                <h1 style="font-size:20px;text-align: initial;" >Solicitudes por Correo</h1>
+                                <h3 style="font-size:20px;text-align: initial;" >Solicitudes por Correo</h3>
                             </div>
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                 <div class="text" style="text-align:initial; font-size:15px;">
@@ -111,7 +111,7 @@
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                    <h1 style="font-size:20px;text-align: initial;" >Chat Interactivo</h1>
+                                    <h3 style="font-size:20px;text-align: initial;" >Chat Interactivo</h3>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
@@ -128,7 +128,7 @@
                                 </div>
                                 <div class="col-md-10 col-ms-10 col-xs-10">
                                     <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                        <h1 style="font-size:20px;text-align: initial;">Portal Web</h1>
+                                        <h3 style="font-size:20px;text-align: initial;">Portal Web</h3>
                                     </div>
                                     <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                         <div class="text" style="text-align:initial; font-size:15px;">
@@ -148,9 +148,9 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="sec-title-two centered" style="margin-bottom: 10px">
-                            <h1 style="font-size: 30px">
+                            <h2 style="font-size: 30px">
                                     Beneficios
-                            </h1>
+                            </h2>
                         </div>
                         <div class=" soport-media">
                             <div class="sec-title centered" style="text-align: initial; margin-bottom: 0px;">
@@ -188,14 +188,14 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="sec-title-two centered" style="margin-bottom: 30px;">
-                            <h1 style="font-size: 30px">Horarios de Atención</h1>
+                            <h2 style="font-size: 30px">Horarios de Atención</h2>
                         </div>
                             <div class="sec-title centered" style="text-align: center; margin-bottom: 5px;">
                                 <div class="text">
-                                    Lunes – viernes de 8:00 a 17:00 (GMT – 4).
+                                Lunes – Viernes de 8:00 a 17:00 (GMT – 4).
                                 </div>
                                 <div class="text">
-                                    En días dominicales y festivos no se brinda este servicio.
+                                En días dominicales y festivos no se brinda este servicio
                                 </div>
                             </div>
                     </div> 
@@ -208,7 +208,7 @@
             <div class="row">
                 <div class="col-md-12 col-ms-12 col-xs-12">
                         <div class="sec-title-two centered" style="margin-bottom: 0px;">
-                                <h1 style="font-size:30px;margin-top: 30px" >Alcance del Soporte</h1>
+                                <h2 style="font-size:30px;margin-top: 30px" >Alcance del Soporte</h2>
                             </div>
                     <div class="col-md-6 col-ms-6 col-xs-6">
                         <div class="col-md-12 col-ms-12 col-xs-12" style="border: 1px solid #75777952; padding: 25px;background:#fff;margin-top: 30px; margin-bottom: 30px;">
@@ -217,7 +217,7 @@
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                    <h1 style="font-size:20px;text-align: initial;" >Tipo de Soporte</h1>
+                                    <h3 style="font-size:20px;text-align: initial;" >Tipo de Soporte</h3>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
@@ -243,7 +243,7 @@
                             <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                 <div class="text" style="text-align:initial; font-size:15px;">
                                     <ul>
-                                        <li>• Solución de dudas y asesoría en el uso de software.</li>
+                                        <li>• Solución de dudas y asesoría en el uso del software.</li>
                                         <li>• Incidente complejos en la operación de la herramienta</li>
                                         <li>• Mejora a la plataforma y desarrollos de nuevas funcionalidades.</li>
                                     </ul>
@@ -261,7 +261,7 @@
                             </div>
                             <div class="col-md-10 col-ms-10 col-xs-10">
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                    <h1 style="font-size:20px;text-align: initial;" >Tiempo de Respuesta y Solución</h1>
+                                    <h3 style="font-size:20px;text-align: initial;" >Tiempo de Respuesta y Solución</h3>
                                 </div>
                                 <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;"> 
                                     <div class="text" style="text-align:initial; font-size:15px;">
@@ -280,7 +280,7 @@
                                 </div>
                                 <div class="col-md-10 col-ms-10 col-xs-10">
                                     <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
-                                        <h1 style="font-size:20px;text-align: initial;">Niveles de Prioridad</h1>
+                                        <h3 style="font-size:20px;text-align: initial;">Niveles de Prioridad</h3>
                                     </div>
                                         <div class="sec-title centered" style="padding: 0px; margin-bottom: 0px;">
                                                 <div class="text" style="text-align:initial; font-size:15px;">
@@ -304,22 +304,22 @@
             <div class="auto-container">
                 <div class="row">
                     <div class="sec-title centered" style="margin-bottom: -100px;">
-                        <h1 style="font-size:30px;margin-bottom: 25px;" >Limitaciones del servicio</h1>
+                        <h2 style="font-size:30px;margin-bottom: 25px;" >Limitaciones del servicio</h2>
                         <div class="col-md-6 col-ms-12 col-xs-12">
                             <div class="sec-title centered"> 
                                 <div class="text" style="text-align: -webkit-auto">
-                                        • Nuestro servicio de soporte técnico se brindará única 
-                                        y exclusivamente a clientes que tengan el servicio de 
-                                        soporte activo al momento de ser solicitado.
+                                        • Nuestro servicio de soporte técnico se 
+                                        brindará única y exclusivamente a clientes que
+                                        tengan el servicio de soporte activo al momento de ser solicitado..
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-ms-12 col-xs-12">
                                 <div class="sec-title centered"> 
                                     <div class="text" style="text-align: -webkit-auto">
-                                        • El servicio de soporte estándar se brindará a través 
-                                        de comunicación telefónica, chat, vía Internet, correo 
-                                        electrónico ó acceso remoto. No incluye soporte en sitio.
+                                        • El servicio de soporte estándar se brindará a 
+                                        través de comunicación telefónica, chat, vía
+                                        internet, correo electrónico o acceso remoto. No incluye soporte en sitio.
                                     </div>
                                 </div>
                             </div>
