@@ -128,7 +128,7 @@
                                                         </h1>
                                                 </div> -->
                                                 <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                    <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                    <div class="text" style="padding-right: 15px;padding-left:15px;color: #0e0e0e;">
                                                     Nuestra solución para la gestión de servicios IT (Omega ITSM) provee a su
                                                     organización de una plataforma completa para mesas de servicios permitiéndole
                                                     atender y satisfacer las demandas más apremiantes de su negocio.
@@ -136,7 +136,7 @@
                                                 </div>
                                                 
                                                 <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                    <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                    <div class="text" style="padding-right: 15px;padding-left:15px;color: #0e0e0e;">
                                                     Omega ITSM
                                                     incluye los productos Omega Service Desk, Omega CMDB y Omega
                                                     KnowledgeBase, que ayudaran a gestionar los procesos de soporte
@@ -148,7 +148,7 @@
                                                 </div>
 
                                                 <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                    <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                    <div class="text" style="padding-right: 15px;padding-left:15px;color: #0e0e0e;">
                                                             Omega ITSM, ha sido desarrollado para soportar y facilitar la automatización
                                                             de los procesos, basados en las mejores prácticas de ITIL.
                                                     </div>
@@ -345,7 +345,7 @@
                                             </div>
                                         </div>
                                             <div class="col-md-6 col-sm-12 col-xs-12">
-                                                <img style="width: 90%; padding-left: 70px;" src="{{ URL::to('/') }}/images/background/omega-ITSM.png" alt="">
+                                                <img style="width: 80%; padding-left: 90px;" src="{{ URL::to('/') }}/images/background/facil-adopcion.png" alt="">
                                             </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12  size-cap-1">
                                                     <!-- <div class="sec-title-two centered2" style="margin-bottom: 10px; text-align: initial;">
@@ -355,7 +355,7 @@
                                                             </h1>
                                                     </div> -->
                                                     <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                        <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                        <div class="text" style="padding-right: 15px;padding-left:15px;color: #0e0e0e; ">
                                                         Omega ITSM, ha sido desarrollada para soportar ITIL y otros marcos de
                                                         referencias de mejores prácticas ampliamente adoptados por las
                                                         organizaciones. Permitiendo la estandarización de procesos para la
@@ -367,7 +367,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="sec-title centered" style="text-align: justify; margin-bottom: 0px">
-                                                        <div class="text" style="padding-right: 15px;padding-left:15px;">
+                                                        <div class="text" style="padding-right: 15px;padding-left:15px;color: #0e0e0e;">
                                                         Nuestra suite de gestión de servicios viene integra con una potente
                                                         solución de gestión de configuraciones (CMDB), la cual incluye gestión
                                                         de activos, contrato y proveedores, así como sus relaciones,
